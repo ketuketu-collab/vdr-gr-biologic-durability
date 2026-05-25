@@ -1,0 +1,20 @@
+drug,target_gene,disease,induction_remission,maintenance_remission,trial_name,weeks_induction,weeks_maintenance,gr_score,vdr_score,endpoint_note,pmid,vdr_gr_ratio,decline_pct,pct_decline_relative
+infliximab,TNF,UC,38.8,34.7,ACT1,8,54,19.49,36.86,Remission confirmed,16339095,1.7989263055148854,4.099999999999994,10.567010309278336
+adalimumab,TNF,UC,16.5,17.3,ULTRA2,8,52,19.49,36.86,Remission confirmed,22062358,1.7989263055148854,-0.8000000000000007,-4.848484848484853
+golimumab,TNF,UC,17.8,27.8,PURSUIT,6,54,19.49,36.86,Induction corrected: was 51%(response); actual remission 17.8%,23735746,1.7989263055148854,-10.0,-56.179775280898866
+vedolizumab,ITGB7,UC,16.9,41.8,GEMINI1,6,52,17.23,62.27,Induction corrected: was 47.1%(response); actual remission 16.9%,23964932,3.4157981349424027,-24.9,-147.33727810650888
+ustekinumab,IL23A,UC,15.5,43.8,UNIFI,8,44,70.34,211.05,Induction corrected: was 62.5%(WRONG); actual remission 15.5%,31553833,2.958368376787216,-28.299999999999997,-182.5806451612903
+risankizumab,IL23A,UC,20.3,40.2,INSPIRE,12,52,70.34,211.05,Induction corrected: was 71%(response); actual remission 20.3%,39037800,2.958368376787216,-19.900000000000002,-98.0295566502463
+mirikizumab,IL23A,UC,23.7,49.9,LUCENT,12,40,70.34,211.05,Induction corrected: was 63.5%(response); actual remission 23.7%,38344998,2.958368376787216,-26.2,-110.54852320675106
+infliximab,TNF,CD,45.0,35.0,ACCENT1,30,54,19.49,36.86,"Induction: wk30 remission 45%, maintenance wk54 35% (Hanauer Lancet 2002)",12133657,1.7989263055148854,10.0,22.22222222222222
+adalimumab,TNF,CD,40.0,36.0,CHARM,4,56,19.49,36.86,"Week26 remission 40% (induction proxy), Week56 36%",17241859,1.7989263055148854,4.0,10.0
+vedolizumab,ITGB7,CD,14.5,39.0,GEMINI2,6,52,17.23,62.27,Induction corrected: was 31.4%(response); actual remission 14.5%,24236177,3.4157981349424027,-24.5,-168.9655172413793
+ustekinumab,IL23A,CD,34.3,53.1,IM-UNIFI,8,44,70.34,211.05,Induction ~34% (UNIFI-CD data); maintenance 53.1%,26645578,2.958368376787216,-18.800000000000004,-54.810495626822174
+risankizumab,IL23A,CD,45.0,52.0,MOTIVATE,12,52,70.34,211.05,Remission approximately confirmed,35538637,2.958368376787216,-7.0,-15.555555555555555
+infliximab,TNF,RA,40.0,34.0,ATTRACT,30,54,19.49,36.86,DAS28 remission approximate - RA endpoint differs from IBD,10471456,1.7989263055148854,6.0,15.0
+adalimumab,TNF,RA,45.0,41.0,DE019,24,52,19.49,36.86,ACR50 approximate,16052578,1.7989263055148854,4.0,8.88888888888889
+tocilizumab,IL6R,RA,27.0,25.0,OPTION,24,52,82.9,99.59,DAS28 remission approximate,18050272,1.1870083432657925,2.0,7.4074074074074066
+mepolizumab,IL5,Asthma,53.0,48.0,MENSA,32,52,123.29,5.67,Exacerbation reduction % (not IBD-style remission),26292093,0.04561911658218682,5.0,9.433962264150944
+secukinumab,IL17A,Pso,77.1,68.4,ERASURE,12,52,0.0,0.0,PASI75 confirmed; maintenance corrected from 73.0 to 68.4%,25731164,0.0,8.699999999999989,11.28404669260699
+ixekizumab,IL17A,Pso,89.1,76.5,UNCOVER-1,12,60,0.0,0.0,PASI75 confirmed; maintenance corrected,25731165,0.0,12.599999999999994,14.141414141414135
+guselkumab,IL23A,Pso,85.1,80.5,VOYAGE1,16,48,70.34,211.05,IGA 0/1 confirmed,28057360,2.958368376787216,4.599999999999994,5.405405405405399

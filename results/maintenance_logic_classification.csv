@@ -1,0 +1,127 @@
+drug,gene,tier,diseases,approved,lt_status,lt_evidence,disease_axis,lt_score,tier_label,tier_color,lt_color
+ustekinumab,IL23A,1,CD/UC/Ps,True,◎,UNIFI長期・PSUMMIT長期◎,VDR,3,"T1
+VDR回路
+直接標的",#1565C0,#1B5E20
+risankizumab,IL23A,1,CD/UC/Ps,True,◎,SEQUENCE 1年優位・維持承認◎,VDR,3,"T1
+VDR回路
+直接標的",#1565C0,#1B5E20
+mirikizumab,IL23A,1,UC/CD,True,◎,UC/CD維持承認2023-24,VDR,3,"T1
+VDR回路
+直接標的",#1565C0,#1B5E20
+guselkumab,IL23A,1,Ps,True,◎,Ps長期5年◎,VDR,3,"T1
+VDR回路
+直接標的",#1565C0,#1B5E20
+tildrakizumab,IL23A,1,Ps,True,◎,Ps長期◎,VDR,3,"T1
+VDR回路
+直接標的",#1565C0,#1B5E20
+vedolizumab,ITGB7,1,CD/UC,True,◎,最良長期安全性・GEMINI長期,VDR,3,"T1
+VDR回路
+直接標的",#1565C0,#1B5E20
+infliximab,TNF,1,CD/UC/RA/Ps,True,◎,20年以上実績・ACCENT I長期維持,VDR,3,"T1
+VDR回路
+直接標的",#1565C0,#1B5E20
+adalimumab,TNF,1,CD/UC/RA/Ps,True,◎,最多長期実績・10年コホート◎,VDR,3,"T1
+VDR回路
+直接標的",#1565C0,#1B5E20
+certolizumab,TNF,1,CD/RA,True,◎,長期実績あり,VDR,3,"T1
+VDR回路
+直接標的",#1565C0,#1B5E20
+golimumab,TNF,1,UC/RA,True,◎,UC/RA維持承認・長期◎,VDR,3,"T1
+VDR回路
+直接標的",#1565C0,#1B5E20
+etanercept,TNF,1,RA/Ps,True,◎,RA/Ps長期実績◎,VDR,3,"T1
+VDR回路
+直接標的",#1565C0,#1B5E20
+tocilizumab,IL6R,1,RA,True,△,RA長期使用可・感染+脂質注意,VDR,2,"T1
+VDR回路
+直接標的",#1565C0,#F57F17
+sarilumab,IL6R,1,RA,True,△,RA承認・同クラス,VDR,2,"T1
+VDR回路
+直接標的",#1565C0,#F57F17
+abatacept,CD86,1,RA,True,◎,RA長期維持◎・安全性良好,VDR,3,"T1
+VDR回路
+直接標的",#1565C0,#1B5E20
+tezepelumab,TSLP,1,Asthma/CRS,True,◎,TSLP長期◎・NAVIGATOR試験,GR,3,"T1
+VDR回路
+直接標的",#1565C0,#1B5E20
+secukinumab,IL17A,2,Ps/RA,True,◎,Ps長期◎・CD禁忌(腸管バリア破壊),VDR,3,"T2
+VDR回路
+下流標的",#42A5F5,#1B5E20
+ixekizumab,IL17A,2,Ps/RA,True,◎,Ps長期◎・CD禁忌,VDR,3,"T2
+VDR回路
+下流標的",#42A5F5,#1B5E20
+bimekizumab,IL17A/F,2,Ps,True,◎,Ps長期◎(IL17A+F二重阻害),VDR,3,"T2
+VDR回路
+下流標的",#42A5F5,#1B5E20
+fezakinumab,IL22,2,Ps,False,❌,Ps Ph2 limited・中止,VDR,0,"T2
+VDR回路
+下流標的",#42A5F5,#424242
+upadacitinib,JAK1,3,CD/UC/RA/AD,True,⚠️,FDA Black Box(感染/癌/CV/VTE),VDR,1,"T3
+GR回路
+標的",#E53935,#B71C1C
+tofacitinib,JAK1,3,UC/RA,True,⚠️,FDA Black Box・ORAL Surveillance:CV+癌↑,VDR,1,"T3
+GR回路
+標的",#E53935,#B71C1C
+baricitinib,JAK1,3,RA/AD,True,⚠️,FDA Black Box・同クラス,VDR,1,"T3
+GR回路
+標的",#E53935,#B71C1C
+filgotinib,JAK1,3,RA,True,⚠️,FDA Black Box・同クラス,VDR,1,"T3
+GR回路
+標的",#E53935,#B71C1C
+abrocitinib,JAK1,3,AD,True,⚠️,FDA Black Box・同クラス,GR,1,"T3
+GR回路
+標的",#E53935,#B71C1C
+deucravacitinib,TYK2,3,Ps,True,△,TYK2i・JAK非依存・長期安全性蓄積中,VDR,2,"T3
+GR回路
+標的",#E53935,#F57F17
+p38i_various,MAPK14,3,CD/RA/Ps,False,❌,多数Ph3失敗・GR優位標的,VDR,0,"T3
+GR回路
+標的",#E53935,#424242
+andecaliximab,MMP9,3,CD/UC,False,❌,Ph2/3失敗・GR優位,VDR,0,"T3
+GR回路
+標的",#E53935,#424242
+MMPi_various,MMP9,3,RA/Ps,False,❌,Ph3失敗・GR優位,VDR,0,"T3
+GR回路
+標的",#E53935,#424242
+vercirnon,CCR9,3,CD,False,❌,Ph3失敗,VDR,0,"T3
+GR回路
+標的",#E53935,#424242
+fontolizumab,IFNG,3,CD,False,❌,Ph2中止・GR優位,VDR,0,"T3
+GR回路
+標的",#E53935,#424242
+vixarelimab,OSMR,3,CD/UC,False,❌,Ph2失敗・OSMR GR=183(最高値),VDR,0,"T3
+GR回路
+標的",#E53935,#424242
+mongersen,SMAD7,3,CD,False,❌,Ph3失敗,VDR,0,"T3
+GR回路
+標的",#E53935,#424242
+anakinra,IL1B,3,Still/RA,True,△,Still病承認・RA限定的使用,VDR,2,"T3
+GR回路
+標的",#E53935,#F57F17
+canakinumab,IL1B,3,Still/痛風,True,△,Still病/痛風承認・腸管VDR疾患外,VDR,2,"T3
+GR回路
+標的",#E53935,#F57F17
+mepolizumab,IL5,3,Asthma,True,◎,IL5・好酸球性喘息長期◎,GR,3,"T3
+GR回路
+標的",#E53935,#1B5E20
+reslizumab,IL5,3,Asthma,True,◎,IL5・喘息承認,GR,3,"T3
+GR回路
+標的",#E53935,#1B5E20
+benralizumab,IL5RA,3,Asthma,True,◎,IL5Rα・喘息長期◎,GR,3,"T3
+GR回路
+標的",#E53935,#1B5E20
+dupilumab,IL4R,3,AD/Asthma,True,◎,IL4Rα・AD/喘息長期安全性◎,GR,3,"T3
+GR回路
+標的",#E53935,#1B5E20
+golimumab_asth,TNF,1,Asthma,False,❌,TNF→severe asthma Ph3失敗,GR,0,"T1
+VDR回路
+直接標的",#1565C0,#424242
+omalizumab,IGHE,4,Asthma/CRS,True,◎,IgE中和・長期安全性◎,GR,3,"T4
+回路外",#9E9E9E,#1B5E20
+ozanimod,S1PR1,4,UC/MS,True,△,リンパ球移動制御・心電図監視要,VDR,2,"T4
+回路外",#9E9E9E,#F57F17
+etrasimod,S1PR1,4,UC,True,△,S1PR1・同クラス,VDR,2,"T4
+回路外",#9E9E9E,#F57F17
+bertilimumab,CCR3,3,CRS,False,❌,Ph2失敗・CCR3 GR優位（20年失敗予測通り）,GR,0,"T3
+GR回路
+標的",#E53935,#424242

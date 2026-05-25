@@ -1,0 +1,2044 @@
+disease,category,mol_id,max_phase,efo_term
+Asthma,respiratory,CHEMBL1742985,2.0,asthma
+Asthma,respiratory,CHEMBL1201191,3.0,asthma
+Asthma,respiratory,CHEMBL1095777,3.0,asthma
+Asthma,respiratory,CHEMBL1789842,2.0,asthma
+Asthma,respiratory,CHEMBL1743035,3.0,asthma
+Asthma,respiratory,CHEMBL1084172,4.0,asthma
+Asthma,respiratory,CHEMBL1198857,3.0,asthma
+Asthma,respiratory,CHEMBL1922660,2.0,asthma
+Asthma,respiratory,CHEMBL1951575,2.0,asthma
+Asthma,respiratory,CHEMBL1743012,2.0,asthma
+Asthma,respiratory,CHEMBL1743041,1.0,asthma
+Asthma,respiratory,CHEMBL1743068,2.0,asthma
+Asthma,respiratory,CHEMBL2108720,2.0,asthma
+Asthma,respiratory,CHEMBL1742996,2.0,asthma
+Asthma,respiratory,CHEMBL1743071,2.0,asthma
+Asthma,respiratory,CHEMBL2108724,2.0,asthma
+Asthma,respiratory,CHEMBL1922673,2.0,asthma
+Asthma,respiratory,CHEMBL605846,2.0,asthma
+Asthma,respiratory,CHEMBL523299,3.0,asthma
+Asthma,respiratory,CHEMBL1187833,2.0,asthma
+Asthma,respiratory,CHEMBL2108589,2.0,asthma
+Asthma,respiratory,CHEMBL2040682,4.0,asthma
+Asthma,respiratory,CHEMBL1434,2.0,asthma
+Asthma,respiratory,CHEMBL64391,1.0,asthma
+Asthma,respiratory,CHEMBL3301673,2.0,asthma
+Asthma,respiratory,CHEMBL3545181,4.0,asthma
+Asthma,respiratory,CHEMBL279597,2.0,asthma
+Asthma,respiratory,CHEMBL1741,3.0,asthma
+Asthma,respiratory,CHEMBL1642,2.0,asthma
+Asthma,respiratory,CHEMBL1200681,4.0,asthma
+Asthma,respiratory,CHEMBL679,4.0,asthma
+Asthma,respiratory,CHEMBL1082607,4.0,asthma
+Asthma,respiratory,CHEMBL529,3.0,asthma
+Asthma,respiratory,CHEMBL1136,3.0,asthma
+Asthma,respiratory,CHEMBL777,2.0,asthma
+Asthma,respiratory,CHEMBL1200500,4.0,asthma
+Asthma,respiratory,CHEMBL196,1.0,asthma
+Asthma,respiratory,CHEMBL1111,2.0,asthma
+Asthma,respiratory,CHEMBL1370561,4.0,asthma
+Asthma,respiratory,CHEMBL1082,2.0,asthma
+Asthma,respiratory,CHEMBL277474,2.0,asthma
+Asthma,respiratory,CHEMBL1042,3.0,asthma
+Asthma,respiratory,CHEMBL1742420,2.0,asthma
+Asthma,respiratory,CHEMBL25,3.0,asthma
+Asthma,respiratory,CHEMBL1485,2.0,asthma
+Asthma,respiratory,CHEMBL1200538,4.0,asthma
+Asthma,respiratory,CHEMBL1650,4.0,asthma
+Asthma,respiratory,CHEMBL107,3.0,asthma
+Asthma,respiratory,CHEMBL957,2.0,asthma
+Asthma,respiratory,CHEMBL1370,4.0,asthma
+Asthma,respiratory,CHEMBL2021430,4.0,asthma
+Asthma,respiratory,CHEMBL1523964,4.0,asthma
+Asthma,respiratory,CHEMBL74,4.0,asthma
+Asthma,respiratory,CHEMBL384467,4.0,asthma
+Asthma,respiratory,CHEMBL389621,4.0,asthma
+Asthma,respiratory,CHEMBL460026,3.0,asthma
+Asthma,respiratory,CHEMBL1527608,3.0,asthma
+Asthma,respiratory,CHEMBL32800,3.0,asthma
+Asthma,respiratory,CHEMBL494,0.5,asthma
+Asthma,respiratory,CHEMBL3989798,4.0,asthma
+Asthma,respiratory,CHEMBL998,3.0,asthma
+Asthma,respiratory,CHEMBL32,1.0,asthma
+Asthma,respiratory,CHEMBL773,2.0,asthma
+Asthma,respiratory,CHEMBL1009,1.0,asthma
+Asthma,respiratory,CHEMBL521606,2.0,asthma
+Asthma,respiratory,CHEMBL746,3.0,asthma
+Asthma,respiratory,CHEMBL503,1.0,asthma
+Asthma,respiratory,CHEMBL34259,3.0,asthma
+Asthma,respiratory,CHEMBL1201081,4.0,asthma
+Asthma,respiratory,CHEMBL650,4.0,asthma
+Asthma,respiratory,CHEMBL1364144,4.0,asthma
+Asthma,respiratory,CHEMBL1200444,4.0,asthma
+Asthma,respiratory,CHEMBL256087,4.0,asthma
+Asthma,respiratory,CHEMBL1201014,4.0,asthma
+Asthma,respiratory,CHEMBL193240,3.0,asthma
+Asthma,respiratory,CHEMBL361812,2.0,asthma
+Asthma,respiratory,CHEMBL635,4.0,asthma
+Asthma,respiratory,CHEMBL282724,2.0,asthma
+Asthma,respiratory,CHEMBL17157,2.0,asthma
+Asthma,respiratory,CHEMBL93268,2.0,asthma
+Asthma,respiratory,CHEMBL1512,4.0,asthma
+Asthma,respiratory,CHEMBL367149,2.0,asthma
+Asthma,respiratory,CHEMBL464982,1.0,asthma
+Asthma,respiratory,CHEMBL1536,3.0,asthma
+Asthma,respiratory,CHEMBL217899,2.0,asthma
+Asthma,respiratory,CHEMBL51149,2.0,asthma
+Asthma,respiratory,CHEMBL6,1.0,asthma
+Asthma,respiratory,CHEMBL638,1.0,asthma
+Asthma,respiratory,CHEMBL1200748,1.0,asthma
+Asthma,respiratory,CHEMBL603,4.0,asthma
+Asthma,respiratory,CHEMBL3989727,1.0,asthma
+Asthma,respiratory,CHEMBL146,1.0,asthma
+Asthma,respiratory,CHEMBL831,1.0,asthma
+Asthma,respiratory,CHEMBL661,1.0,asthma
+Asthma,respiratory,CHEMBL870,2.0,asthma
+Asthma,respiratory,CHEMBL1473,4.0,asthma
+Asthma,respiratory,CHEMBL278172,2.0,asthma
+Asthma,respiratory,CHEMBL1161,4.0,asthma
+Asthma,respiratory,CHEMBL1441059,4.0,asthma
+Asthma,respiratory,CHEMBL1200764,4.0,asthma
+Asthma,respiratory,CHEMBL1355736,4.0,asthma
+Asthma,respiratory,CHEMBL1568057,4.0,asthma
+Asthma,respiratory,CHEMBL1315867,4.0,asthma
+Asthma,respiratory,CHEMBL1263,3.0,asthma
+Asthma,respiratory,CHEMBL131,4.0,asthma
+Asthma,respiratory,CHEMBL1200495,4.0,asthma
+Asthma,respiratory,CHEMBL1002,3.0,asthma
+Asthma,respiratory,CHEMBL157101,1.0,asthma
+Asthma,respiratory,CHEMBL1504,4.0,asthma
+Asthma,respiratory,CHEMBL3989857,3.0,asthma
+Asthma,respiratory,CHEMBL93,4.0,asthma
+Asthma,respiratory,CHEMBL1200574,2.0,asthma
+Asthma,respiratory,CHEMBL5314358,3.0,asthma
+Asthma,respiratory,CHEMBL1064,3.0,asthma
+Asthma,respiratory,CHEMBL2106049,1.0,asthma
+Asthma,respiratory,CHEMBL2108243,1.0,asthma
+Asthma,respiratory,CHEMBL2109042,3.0,asthma
+Asthma,respiratory,CHEMBL2109070,1.0,asthma
+Asthma,respiratory,CHEMBL1201431,2.0,asthma
+Asthma,respiratory,CHEMBL2108429,4.0,asthma
+Asthma,respiratory,CHEMBL1201599,3.0,asthma
+Asthma,respiratory,CHEMBL2109159,2.0,asthma
+Asthma,respiratory,CHEMBL2108465,0.5,asthma
+Asthma,respiratory,CHEMBL2107884,4.0,asthma
+Asthma,respiratory,CHEMBL2108119,2.0,asthma
+Asthma,respiratory,CHEMBL2106633,1.0,asthma
+Asthma,respiratory,CHEMBL2218893,2.0,asthma
+Asthma,respiratory,CHEMBL249420,2.0,asthma
+Asthma,respiratory,CHEMBL405821,2.0,asthma
+Asthma,respiratory,CHEMBL2107792,2.0,asthma
+Asthma,respiratory,CHEMBL1676,4.0,asthma
+Asthma,respiratory,CHEMBL3989693,3.0,asthma
+Asthma,respiratory,CHEMBL1201580,2.0,asthma
+Asthma,respiratory,CHEMBL1201589,4.0,asthma
+Asthma,respiratory,CHEMBL1201821,2.0,asthma
+Asthma,respiratory,CHEMBL1201833,2.0,asthma
+Asthma,respiratory,CHEMBL1742991,4.0,asthma
+Asthma,respiratory,CHEMBL1743081,3.0,asthma
+Asthma,respiratory,CHEMBL1201570,1.0,asthma
+Asthma,respiratory,CHEMBL1201605,2.0,asthma
+Asthma,respiratory,CHEMBL1201572,2.0,asthma
+Asthma,respiratory,CHEMBL1201562,2.0,asthma
+Asthma,respiratory,CHEMBL1201320,2.0,asthma
+Asthma,respiratory,CHEMBL1201027,3.0,asthma
+Asthma,respiratory,CHEMBL2109465,2.0,asthma
+Asthma,respiratory,CHEMBL2109463,2.0,asthma
+Asthma,respiratory,CHEMBL1743033,1.0,asthma
+Asthma,respiratory,CHEMBL2108675,4.0,asthma
+Asthma,respiratory,CHEMBL1095607,2.0,asthma
+Asthma,respiratory,CHEMBL1363,2.0,asthma
+Asthma,respiratory,CHEMBL1496,1.0,asthma
+Asthma,respiratory,CHEMBL90,1.0,asthma
+Asthma,respiratory,CHEMBL914,3.0,asthma
+Asthma,respiratory,CHEMBL121,2.0,asthma
+Asthma,respiratory,CHEMBL1201198,2.0,asthma
+Asthma,respiratory,CHEMBL978,3.0,asthma
+Asthma,respiratory,CHEMBL595,2.0,asthma
+Asthma,respiratory,CHEMBL27,2.0,asthma
+Asthma,respiratory,CHEMBL1760,3.0,asthma
+Asthma,respiratory,CHEMBL1771,2.0,asthma
+Asthma,respiratory,CHEMBL1201335,3.0,asthma
+Asthma,respiratory,CHEMBL160519,3.0,asthma
+Asthma,respiratory,CHEMBL1201772,2.0,asthma
+Asthma,respiratory,CHEMBL787,4.0,asthma
+Asthma,respiratory,CHEMBL314854,2.0,asthma
+Asthma,respiratory,CHEMBL1256786,3.0,asthma
+Asthma,respiratory,CHEMBL2021423,3.0,asthma
+Asthma,respiratory,CHEMBL1200577,1.0,asthma
+Asthma,respiratory,CHEMBL2109456,2.0,asthma
+Asthma,respiratory,CHEMBL3039530,2.0,asthma
+Asthma,respiratory,CHEMBL2386081,2.0,asthma
+Asthma,respiratory,CHEMBL3039502,2.0,asthma
+Asthma,respiratory,CHEMBL3137332,3.0,asthma
+Asthma,respiratory,CHEMBL3301614,2.0,asthma
+Asthma,respiratory,CHEMBL9960,2.0,asthma
+Asthma,respiratory,CHEMBL5314409,1.0,asthma
+Asthma,respiratory,CHEMBL2109457,2.0,asthma
+Asthma,respiratory,CHEMBL1938400,2.0,asthma
+Asthma,respiratory,CHEMBL1915540,1.0,asthma
+Asthma,respiratory,CHEMBL3916700,1.0,asthma
+Asthma,respiratory,CHEMBL3545031,2.0,asthma
+Asthma,respiratory,CHEMBL3545343,2.0,asthma
+Asthma,respiratory,CHEMBL1914489,2.0,asthma
+Asthma,respiratory,CHEMBL3545103,2.0,asthma
+Asthma,respiratory,CHEMBL3545162,2.0,asthma
+Asthma,respiratory,CHEMBL2442750,2.0,asthma
+Asthma,respiratory,CHEMBL560993,3.0,asthma
+Asthma,respiratory,CHEMBL3716057,2.0,asthma
+Asthma,respiratory,CHEMBL5314402,2.0,asthma
+Asthma,respiratory,CHEMBL5314403,2.0,asthma
+Asthma,respiratory,CHEMBL1908391,3.0,asthma
+Asthma,respiratory,CHEMBL2170582,2.0,asthma
+Asthma,respiratory,CHEMBL3707229,4.0,asthma
+Asthma,respiratory,CHEMBL3707325,2.0,asthma
+Asthma,respiratory,CHEMBL3707249,2.0,asthma
+Asthma,respiratory,CHEMBL269732,2.0,asthma
+Asthma,respiratory,CHEMBL3989910,2.0,asthma
+Asthma,respiratory,CHEMBL3990029,2.0,asthma
+Asthma,respiratory,CHEMBL140,2.0,asthma
+Asthma,respiratory,CHEMBL444814,2.0,asthma
+Asthma,respiratory,CHEMBL1644698,2.0,asthma
+Asthma,respiratory,CHEMBL467058,1.0,asthma
+Asthma,respiratory,CHEMBL1738699,1.0,asthma
+Asthma,respiratory,CHEMBL346919,1.0,asthma
+Asthma,respiratory,CHEMBL267476,1.0,asthma
+Asthma,respiratory,CHEMBL408701,1.0,asthma
+Asthma,respiratory,CHEMBL2151591,2.0,asthma
+Asthma,respiratory,CHEMBL2178575,1.0,asthma
+Asthma,respiratory,CHEMBL570015,2.0,asthma
+Asthma,respiratory,CHEMBL114551,1.0,asthma
+Asthma,respiratory,CHEMBL181886,1.0,asthma
+Asthma,respiratory,CHEMBL7890,2.0,asthma
+Asthma,respiratory,CHEMBL523367,2.0,asthma
+Asthma,respiratory,CHEMBL1240967,2.0,asthma
+Asthma,respiratory,CHEMBL2062774,2.0,asthma
+Asthma,respiratory,CHEMBL4297320,2.0,asthma
+Asthma,respiratory,CHEMBL4072756,2.0,asthma
+Asthma,respiratory,CHEMBL551813,2.0,asthma
+Asthma,respiratory,CHEMBL3113974,2.0,asthma
+Asthma,respiratory,CHEMBL4297388,2.0,asthma
+Asthma,respiratory,CHEMBL4297416,2.0,asthma
+Asthma,respiratory,CHEMBL561371,2.0,asthma
+Asthma,respiratory,CHEMBL4297492,2.0,asthma
+Asthma,respiratory,CHEMBL4297520,2.0,asthma
+Asthma,respiratory,CHEMBL4297527,2.0,asthma
+Asthma,respiratory,CHEMBL4297657,3.0,asthma
+Asthma,respiratory,CHEMBL4297580,2.0,asthma
+Asthma,respiratory,CHEMBL4297812,2.0,asthma
+Asthma,respiratory,CHEMBL4297864,1.0,asthma
+Asthma,respiratory,CHEMBL4297926,2.0,asthma
+Asthma,respiratory,CHEMBL4297970,2.0,asthma
+Asthma,respiratory,CHEMBL4594287,2.0,asthma
+Asthma,respiratory,CHEMBL3666807,2.0,asthma
+Asthma,respiratory,CHEMBL4594477,1.0,asthma
+Asthma,respiratory,CHEMBL4594569,2.0,asthma
+Asthma,respiratory,CHEMBL3702854,2.0,asthma
+Asthma,respiratory,CHEMBL4594594,2.0,asthma
+Asthma,respiratory,CHEMBL4594385,2.0,asthma
+Asthma,respiratory,CHEMBL4650469,3.0,asthma
+Asthma,respiratory,CHEMBL4650490,2.0,asthma
+Asthma,respiratory,CHEMBL2397415,1.0,asthma
+Asthma,respiratory,CHEMBL4802198,2.0,asthma
+Asthma,respiratory,CHEMBL4558527,2.0,asthma
+Asthma,respiratory,CHEMBL3236549,2.0,asthma
+Asthma,respiratory,CHEMBL5095324,2.0,asthma
+Asthma,respiratory,CHEMBL5095371,2.0,asthma
+Asthma,respiratory,CHEMBL2105687,3.0,asthma
+Asthma,respiratory,CHEMBL1149,3.0,asthma
+Asthma,respiratory,CHEMBL857,3.0,asthma
+Asthma,respiratory,CHEMBL2146102,4.0,asthma
+Asthma,respiratory,CHEMBL4297483,1.0,asthma
+Asthma,respiratory,CHEMBL4650222,1.0,asthma
+Asthma,respiratory,CHEMBL5095079,2.0,asthma
+Asthma,respiratory,CHEMBL3597634,2.0,asthma
+Asthma,respiratory,CHEMBL5315002,1.0,asthma
+Asthma,respiratory,CHEMBL2103864,2.0,asthma
+Asthma,respiratory,CHEMBL1487,2.0,asthma
+Asthma,respiratory,CHEMBL1900528,3.0,asthma
+Asthma,respiratory,CHEMBL3833369,3.0,asthma
+Asthma,respiratory,CHEMBL5314499,1.0,asthma
+Asthma,respiratory,CHEMBL5314717,2.0,asthma
+Asthma,respiratory,CHEMBL5314733,2.0,asthma
+Asthma,respiratory,CHEMBL6068013,1.0,asthma
+Asthma,respiratory,CHEMBL1201396,3.0,asthma
+Asthma,respiratory,CHEMBL6068104,1.0,asthma
+Asthma,respiratory,CHEMBL6068152,2.0,asthma
+Asthma,respiratory,CHEMBL6068528,2.0,asthma
+Asthma,respiratory,CHEMBL3961833,1.0,asthma
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL551466,4.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL714,4.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1441059,4.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1951071,4.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1370,4.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1473,4.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1201027,4.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1789842,4.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL2134724,4.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL503,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1201139,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL2105743,4.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL193240,4.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1082607,4.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1064,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1355736,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL3545181,4.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL523299,4.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1084172,4.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL957,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1676,4.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL494,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1201589,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL635,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1237119,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1201834,1.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL160,1.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1200699,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL2010601,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL3084748,1.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL131,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1161,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL25,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL831,1.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL93,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL3989798,4.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1201014,4.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1198857,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL2107811,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1187833,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL3039531,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1914489,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL2218893,1.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL771,0.5,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1742420,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1234886,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL332750,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL3545103,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1042,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1237026,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL3039530,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1088751,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL3039518,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL5315124,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1742991,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL4594244,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL3989857,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1938400,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL2108429,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL3,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL8,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL689,1.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1094785,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1088752,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL5314358,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1743035,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL529,4.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1200500,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL605846,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1263,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1215923,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL3137353,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL32,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1451,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL70,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1900528,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL3545222,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL105060,1.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL3545168,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL3833374,1.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL3707249,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL511115,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL5314409,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL9960,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL3545221,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL3707293,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1201335,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL2103838,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL2178570,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL4650318,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1095777,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1697744,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1231840,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1928262,1.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL2040682,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL64391,1.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL532,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL177,0.5,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL30,1.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL32800,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1796997,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL106,1.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL142438,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1201774,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL217899,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1503,1.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL967,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1200574,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL2106049,1.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1201599,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL2106633,1.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL2108597,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1218,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1201572,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1201581,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1363,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1496,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL790,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL27,1.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1940832,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1194325,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1621597,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1256786,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL2178579,1.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL3039524,1.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL3544968,1.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL3545087,1.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL3916700,1.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1096896,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL3833319,4.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL2308782,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL398435,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1431,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL2356097,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1200335,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL3989727,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL600,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1315867,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL157101,1.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1232510,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1201451,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1201562,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL2109604,1.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL2109607,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL2108675,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1349,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1236802,1.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1760,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1200689,1.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL3137332,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL5314397,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL3707229,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL2216859,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL3989954,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL165,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL346919,1.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL50,1.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL570015,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1893913,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL485629,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1240967,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1627201,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL3113734,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL4297352,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL4072756,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1921904,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL3113974,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1084173,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1910856,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL4297483,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL3695568,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL4297510,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL4297520,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL4297590,1.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL3617964,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1232993,0.5,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL4297701,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL4297364,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1946170,2.0,colon adenocarcinoma
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1159650,2.0,colon adenocarcinoma
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1201138,3.0,colon adenocarcinoma
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL185,3.0,colon adenocarcinoma
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL650,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL414804,3.0,colon adenocarcinoma
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1773,3.0,colon adenocarcinoma
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1201583,3.0,colon adenocarcinoma
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL502835,1.0,colon adenocarcinoma
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL3334567,2.0,colon adenocarcinoma
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL4297436,1.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL4297600,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL4297879,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL3818875,1.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL2108738,2.0,colon adenocarcinoma
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1200681,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL556578,1.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL3989910,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL4297480,1.0,colon adenocarcinoma
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL4594287,4.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL4594594,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL4594385,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL2207138,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL4650490,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL2105717,2.0,colon adenocarcinoma
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1002,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL481,1.0,colon adenocarcinoma
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL3707243,4.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL3666807,1.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL4208954,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1737,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL443,1.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL22,1.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1201577,2.0,colon adenocarcinoma
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL3301612,2.0,colon adenocarcinoma
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL3545162,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL5095217,1.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL5095218,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL470670,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL35,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL4650222,1.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL80386,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1201574,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL2103864,2.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1751,1.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL688,2.0,colon adenocarcinoma
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL526,2.0,colon adenocarcinoma
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1200694,2.0,colon adenocarcinoma
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1083385,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL655,1.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1771,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1201766,2.0,colon adenocarcinoma
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL2021423,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL65375,1.0,colon adenocarcinoma
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL4074884,0.5,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL5314499,1.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL6068013,1.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL1201396,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL6068503,3.0,chronic obstructive pulmonary disease
+"Pulmonary Disease, Chronic Obstructive",respiratory,CHEMBL6068544,1.0,chronic obstructive pulmonary disease
+"Rhinitis, Allergic",respiratory,CHEMBL1200681,4.0,allergic rhinitis
+"Rhinitis, Allergic",respiratory,CHEMBL787,4.0,allergic rhinitis
+"Rhinitis, Allergic",respiratory,CHEMBL1161,4.0,allergic rhinitis
+"Rhinitis, Allergic",respiratory,CHEMBL1200500,4.0,allergic rhinitis
+"Rhinitis, Allergic",respiratory,CHEMBL1201014,4.0,allergic rhinitis
+"Rhinitis, Allergic",respiratory,CHEMBL3188034,4.0,allergic rhinitis
+"Rhinitis, Allergic",respiratory,CHEMBL1200795,4.0,allergic rhinitis
+"Rhinitis, Allergic",respiratory,CHEMBL1200809,4.0,allergic rhinitis
+"Rhinitis, Allergic",respiratory,CHEMBL384467,4.0,allergic rhinitis
+"Rhinitis, Allergic",respiratory,CHEMBL635,4.0,allergic rhinitis
+"Rhinitis, Allergic",respiratory,CHEMBL1620,4.0,allergic rhinitis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1201823,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1201580,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL118,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1201831,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1201610,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL932,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1201572,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1201581,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL34259,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1200806,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL131,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL635,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1201576,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1201182,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1237022,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL2103743,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1201570,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL514800,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1542,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1789843,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL139,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1201833,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL154,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1201836,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL960,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1237023,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1034,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL256907,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1201607,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1201834,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL503,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1200878,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL4303669,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1743068,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL2021430,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1366,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1650,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL527,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL384467,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL622,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL599,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL3301607,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL2108730,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL3137308,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1088751,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1743088,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL2108739,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL2105759,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL2108063,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1743050,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL245019,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1751,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1743075,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL415324,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL3039513,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1743039,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1743053,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1743071,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL2103830,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1743034,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL514201,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1743054,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL2107867,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1908391,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1743056,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1743026,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1743017,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL2107960,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1743083,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL5314357,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL3301600,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL460026,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL3137316,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1742986,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1230065,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL69308,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1622,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL2108589,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL2109337,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1742996,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL221959,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL2108041,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1789941,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL32,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL5314366,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1743044,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL2108172,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL3545108,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1951914,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL5095028,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL3545225,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL2109458,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL2109433,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL3639728,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL5095034,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1823817,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL3813873,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL3545241,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL3674570,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL3833374,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL3545398,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL4444976,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL3301609,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL3039502,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1200490,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1742988,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL416146,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL41286,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL464982,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1201835,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1088752,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL2103838,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL374478,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL730,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1434,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL2218860,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL160,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1098659,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1431,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL428647,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL112,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL4297165,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1742420,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL58510,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL113,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1646,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1201138,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL998,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1448,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL404108,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL19299,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL416,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL650,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1168,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL421,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL76,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL103667,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1200796,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1503,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL563,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1200574,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1064,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL2108459,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL2108875,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL206815,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL2104969,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1201575,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1742990,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1743057,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL2109467,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1679,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL376180,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1535,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1464,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1496,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL941,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1144,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL121,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL595,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL655,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL787,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1201519,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL2109664,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL2364648,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL2364653,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL3187723,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL3301614,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1088750,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL363648,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1090090,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL3622820,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL5315119,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL3707325,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL3707348,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL2109430,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL269732,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL521,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1690,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1200804,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1364144,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1201081,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL90593,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL582,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL902,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL3989516,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1200659,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL2030434,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL91397,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1456,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL3989727,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL80830,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL2107455,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL2107333,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL2107772,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1201587,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL2109250,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL2109598,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL2109530,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL3301580,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL4071161,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL3989873,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL3833343,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL2109513,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL3989969,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL3990000,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL48449,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL4072833,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL114551,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL485629,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL486386,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL3900554,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL4297284,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL4081711,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL4297344,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL301829,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL364804,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1852164,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL3334824,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL3806158,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL4085457,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL4297481,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL6067994,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL4297494,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL4297498,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL4065122,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL4297527,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL4163691,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL4297674,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL4297682,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL4297572,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL4297693,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL4297700,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL4297713,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL4297822,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL4297845,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL4297863,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL4297920,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL4297942,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL4298036,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL4298076,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL6067997,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL93645,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1430,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL3305901,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL197194,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL4298204,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL4298210,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL4297535,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL4594331,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL4594357,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1159650,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1485,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1697771,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL490,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL4650406,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL2103736,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL898,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1562610,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1070,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1071,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL15770,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL571,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1551,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL6,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL3989777,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1200613,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1504,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL4594348,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL4650518,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL494480,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL4071864,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL4802141,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL4802147,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1508,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1401,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1272,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1393,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1200879,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1550,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL914,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL4297565,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL4594310,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL3704901,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL4207852,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL5095338,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL5095360,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL5095366,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL231884,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL449317,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL799,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL389621,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1149,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL865,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL8,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL62381,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL3244648,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL3622821,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL4298167,4.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL4649457,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL3236549,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL5095399,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL5095416,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL5314585,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL5314945,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL5314988,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL2108726,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL723,0.5,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL74415,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL465,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1487,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL190461,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL3833369,3.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL4297732,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL1568,1.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL5095287,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL5095111,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL5314652,2.0,rheumatoid arthritis
+"Arthritis, Rheumatoid",autoimmune,CHEMBL5416250,1.0,rheumatoid arthritis
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL1742986,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL1201835,3.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL3989516,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL1742994,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL1743066,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL1743069,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL221959,1.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL3989409,3.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL3989801,3.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL1743071,1.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL1743075,3.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL2103743,0.5,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL1743048,3.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL2105759,3.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL2107877,3.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL1358,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL413,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL1542,3.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL112,3.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL4297165,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL1042,3.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL5483015,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL25,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL803,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL1650,4.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL58510,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL2021430,4.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL1531,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL384467,4.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL460026,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL1096882,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL1622,3.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL32,1.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL866,3.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL43185,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL34259,3.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL1201081,0.5,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL975,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL650,3.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL90593,3.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL717,3.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL1168,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL635,4.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL1690,3.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL1456,3.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL1620,3.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL599,1.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL76,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL807,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL846,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL1200796,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL600,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL1140,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL131,4.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL66092,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL960,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL1064,1.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL1201438,3.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL2109070,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL2108404,3.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL1201599,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL2107910,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL2108835,3.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL307261,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL5314379,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL2107743,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL2108041,3.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL1201589,1.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL1201823,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL1789843,4.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL1201649,3.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL1201567,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL1201576,3.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL2109615,1.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL2109250,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL1743007,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL2109249,1.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL2109449,1.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL1535,3.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL657,3.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL1496,1.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL584,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL1237,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL1144,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL838,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL595,1.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL1771,1.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL2364653,4.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL3301607,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL3301606,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL3545159,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL3545193,1.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL3707374,1.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL3622821,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL3833343,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL2109478,3.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL3833308,3.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL3989912,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL456341,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL3989977,3.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL297453,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL140,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL4072833,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL4081711,1.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL4297477,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL4297505,3.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL4065122,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL67776,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL4297808,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL4297821,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL4297833,1.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL4297837,1.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL4297845,1.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL4298134,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL3986824,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL4298204,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL4435170,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL4594330,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL4594532,1.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL4594579,1.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL4594348,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL4650321,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL4650329,1.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL4650450,1.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL4650474,1.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL4650245,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL4802159,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL5095293,3.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL5095304,1.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL5095338,1.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL5095458,1.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL902,1.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL1487,3.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL3137354,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL3833369,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL4298039,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL4594476,1.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL1568,1.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL4650374,1.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL5314624,2.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL6068475,1.0,systemic lupus erythematosus
+"Lupus Erythematosus, Systemic",autoimmune,CHEMBL6068160,2.0,systemic lupus erythematosus
+"Spondylitis, Ankylosing",autoimmune,CHEMBL1201580,4.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL118,4.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL1201572,4.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL1201581,4.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL1201835,3.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL1201823,2.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL514800,3.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL139,3.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL6,4.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL1743068,4.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL421,2.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL1201833,4.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL1201831,4.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL154,4.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL1237022,3.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL599,3.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL1200806,4.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL650,2.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL2021430,4.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL635,4.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL131,4.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL384467,4.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL1743034,3.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL468,2.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL2108730,2.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL5314366,4.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL1742996,3.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL221959,3.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL416146,3.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL34259,3.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL606,3.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL1697771,3.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL1503,3.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL1201576,2.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL425,2.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL3301607,3.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL1088750,2.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL3622821,3.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL582,4.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL1743044,2.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL4297700,3.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL4298102,2.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL3990029,2.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL4297686,2.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL5095240,2.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL5095302,3.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL2103743,2.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL5095399,3.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL5314585,2.0,ankylosing spondylitis
+"Spondylitis, Ankylosing",autoimmune,CHEMBL5314874,2.0,ankylosing spondylitis
+Multiple Sclerosis,autoimmune,CHEMBL1742986,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1201835,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1742995,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL3833333,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1476022,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1201836,4.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1201574,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL284348,4.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1743068,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL973,4.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL374478,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1434,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1626,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1642,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL33864,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL529,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1431,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL701,4.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL20,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL112,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1200380,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1569,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1042,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL25,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1619,4.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1201288,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL74415,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL384467,4.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL612,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1222250,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL52440,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1738,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL460026,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL135,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL465,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL17962,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1096882,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL467,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1200328,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL559180,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1200826,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1201119,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL998,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL19019,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1149,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL8659,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1201265,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL34259,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1201081,4.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL975,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL650,4.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1417019,4.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1534,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1152,4.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1294,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1068,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1201014,4.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL239243,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL635,4.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL17157,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL63,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL857,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL940,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL220492,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1536,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1456,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1200748,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL807,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL146,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1200796,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL744,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1200795,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL928,4.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL600,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL880,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL154,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1200927,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1256391,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1373,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL386630,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1140,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1790041,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL3188993,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL131,4.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL521,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1502,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL66092,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL157101,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1504,4.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL796,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1200574,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1064,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL2106049,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL2109042,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL2109092,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1201599,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL2108466,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL2109196,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL2108869,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL2108875,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL2108813,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL2108510,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL2107312,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL2107333,4.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL2104967,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL2107762,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1201718,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL2108041,4.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL544665,4.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1201192,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1201821,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1201823,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1789843,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1201587,4.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1201570,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1201610,4.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1201605,4.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1201567,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1201507,4.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1201562,4.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1201563,4.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1201716,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1201607,4.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1201576,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL2109334,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL2109433,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL2108354,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL2108677,4.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL2108679,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1175,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL90,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL660,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1000,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL58,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL595,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL709,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL502,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1201222,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL314854,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1201625,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL354077,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL3544922,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL3092650,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL3545042,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1908391,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL2336071,4.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL3707228,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL3707246,4.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL3707247,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1096146,4.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL45,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL3833331,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL269732,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL3989944,4.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL297453,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL140,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL283800,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL408701,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL4072833,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL4297363,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL4297542,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL4065122,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL197194,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL4297672,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL4297743,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL4297884,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL4298065,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL4298150,4.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL589586,4.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL4594547,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL4594357,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL4650323,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL4650400,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL4483575,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL262777,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1447,4.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL2106643,4.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1201561,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1588,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL3137693,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL5095050,4.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL4649457,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL5083772,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL5095416,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL5095482,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL5314622,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1774461,0.5,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1486,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL118,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1172,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL885,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL457,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL420,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1703,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1440,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL571,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL2109219,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1201867,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL657,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1487,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL742,0.5,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL190461,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL3833369,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL449158,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1248,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL207456,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL1568,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL4650485,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL5095122,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL5314988,3.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL5314474,2.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL6068475,1.0,multiple sclerosis
+Multiple Sclerosis,autoimmune,CHEMBL6068609,1.0,multiple sclerosis
+Dermatomyositis,autoimmune,CHEMBL1201572,2.0,dermatomyositis
+Dermatomyositis,autoimmune,CHEMBL131,4.0,dermatomyositis
+Dermatomyositis,autoimmune,CHEMBL635,4.0,dermatomyositis
+Dermatomyositis,autoimmune,CHEMBL1650,4.0,dermatomyositis
+Dermatomyositis,autoimmune,CHEMBL1201823,3.0,dermatomyositis
+Dermatomyositis,autoimmune,CHEMBL1201599,3.0,dermatomyositis
+Dermatomyositis,autoimmune,CHEMBL1743069,1.0,dermatomyositis
+Dermatomyositis,autoimmune,CHEMBL221959,1.0,dermatomyositis
+Dermatomyositis,autoimmune,CHEMBL160,3.0,juvenile dermatomyositis
+Dermatomyositis,autoimmune,CHEMBL1515,2.0,dermatomyositis
+Dermatomyositis,autoimmune,CHEMBL34259,3.0,dermatomyositis
+Dermatomyositis,autoimmune,CHEMBL650,3.0,juvenile dermatomyositis
+Dermatomyositis,autoimmune,CHEMBL1201828,2.0,dermatomyositis
+Dermatomyositis,autoimmune,CHEMBL1237022,2.0,dermatomyositis
+Dermatomyositis,autoimmune,CHEMBL1201570,2.0,dermatomyositis
+Dermatomyositis,autoimmune,CHEMBL1201610,2.0,dermatomyositis
+Dermatomyositis,autoimmune,CHEMBL1201581,2.0,dermatomyositis
+Dermatomyositis,autoimmune,CHEMBL1201576,2.0,juvenile dermatomyositis
+Dermatomyositis,autoimmune,CHEMBL2336071,2.0,dermatomyositis
+Dermatomyositis,autoimmune,CHEMBL1201835,3.0,dermatomyositis
+Dermatomyositis,autoimmune,CHEMBL514800,2.0,dermatomyositis
+Dermatomyositis,autoimmune,CHEMBL456341,3.0,dermatomyositis
+Dermatomyositis,autoimmune,CHEMBL4297468,2.0,dermatomyositis
+Dermatomyositis,autoimmune,CHEMBL4297808,2.0,dermatomyositis
+Dermatomyositis,autoimmune,CHEMBL2096650,2.0,dermatomyositis
+Dermatomyositis,autoimmune,CHEMBL4297995,2.0,dermatomyositis
+Dermatomyositis,autoimmune,CHEMBL2105759,3.0,dermatomyositis
+Dermatomyositis,autoimmune,CHEMBL1201438,3.0,dermatomyositis
+Dermatomyositis,autoimmune,CHEMBL3989986,2.0,dermatomyositis
+Dermatomyositis,autoimmune,CHEMBL4297477,3.0,dermatomyositis
+Dermatomyositis,autoimmune,CHEMBL4802159,2.0,dermatomyositis
+Dermatomyositis,autoimmune,CHEMBL5314983,2.0,dermatomyositis
+Dermatomyositis,autoimmune,CHEMBL1743033,1.0,dermatomyositis
+Dermatomyositis,autoimmune,CHEMBL5314673,2.0,dermatomyositis
+"Dermatitis, Atopic",skin,CHEMBL514800,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL632,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL160,3.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL1200686,4.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL1201835,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL1161,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL1201109,4.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL1497,3.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL1159650,1.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL34259,3.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL1201156,1.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL131,4.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL1650,4.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL635,4.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL384467,4.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL2021430,4.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL24171,3.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL45,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL1201196,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL1201589,1.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL1473,4.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL1743035,4.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL2109457,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL2103876,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL3137332,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL296306,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL985,3.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL560993,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL1200384,1.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL1042,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL1743017,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL1743068,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL2108675,4.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL484785,4.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL2107951,3.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL1451,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL193240,3.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL3707398,3.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL4297182,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL105060,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL1915540,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL1743081,4.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL3655081,4.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL1334078,1.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL2105759,3.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL134,1.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL1200666,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL113,1.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL1091,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL1200908,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL998,1.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL19019,1.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL13,1.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL1683,4.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL1503,1.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL2109159,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL2108076,3.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL2108816,1.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL1789941,3.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL1464,1.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL914,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL655,1.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL1615933,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL3544984,3.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL3707229,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL3622821,3.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL269732,3.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL6067487,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL30,3.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL389621,4.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL1501,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL650,4.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL1200420,1.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL657,0.5,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL2109452,1.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL3989954,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL3989967,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL3989968,3.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL259571,3.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL1773943,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL2019090,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL599552,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL3235620,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL465183,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL4297477,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL4297507,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL4297709,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL4297794,3.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL982,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL1504,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL2109653,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL3358920,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL4584965,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL4297580,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL4297952,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL4297218,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL4594275,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL4594441,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL4594546,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL4594567,3.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL4594569,3.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL4594594,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL1742991,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL6067485,1.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL4594385,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL412272,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL4650487,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL4650490,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL1795071,1.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL2134724,4.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL1628234,4.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL1200750,4.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL989,4.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL4650312,1.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL2103743,1.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL3833359,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL2109173,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL2104251,3.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL4297878,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL3702854,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL5095324,3.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL3989887,4.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL1201519,0.5,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL4650239,1.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL5095240,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL5095301,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL5095399,3.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL5095458,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL5095069,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL4114766,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL5314640,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL5314979,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL1200574,0.5,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL5856622,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL5817577,1.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL6068427,1.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL6068473,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL6068474,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL6068104,2.0,atopic eczema
+"Dermatitis, Atopic",skin,CHEMBL6068152,2.0,atopic eczema
+Psoriasis,skin,CHEMBL1131,4.0,psoriasis
+Psoriasis,skin,CHEMBL1201580,4.0,psoriasis
+Psoriasis,skin,CHEMBL1201571,3.0,psoriasis
+Psoriasis,skin,CHEMBL1200666,4.0,psoriasis
+Psoriasis,skin,CHEMBL846,4.0,psoriasis
+Psoriasis,skin,CHEMBL1159650,4.0,psoriasis
+Psoriasis,skin,CHEMBL1201605,1.0,psoriasis
+Psoriasis,skin,CHEMBL1200810,2.0,psoriasis
+Psoriasis,skin,CHEMBL1201575,4.0,psoriasis
+Psoriasis,skin,CHEMBL1201572,4.0,psoriasis
+Psoriasis,skin,CHEMBL1201581,4.0,psoriasis
+Psoriasis,skin,CHEMBL1657,4.0,psoriasis
+Psoriasis,skin,CHEMBL1201835,4.0,psoriasis
+Psoriasis,skin,CHEMBL514800,4.0,psoriasis
+Psoriasis,skin,CHEMBL160,4.0,psoriasis
+Psoriasis,skin,CHEMBL464,4.0,psoriasis
+Psoriasis,skin,CHEMBL1200908,4.0,psoriasis
+Psoriasis,skin,CHEMBL34259,4.0,psoriasis
+Psoriasis,skin,CHEMBL1161,2.0,psoriasis
+Psoriasis,skin,CHEMBL1201156,2.0,psoriasis
+Psoriasis,skin,CHEMBL1743068,4.0,psoriasis
+Psoriasis,skin,CHEMBL632,3.0,psoriasis
+Psoriasis,skin,CHEMBL1200854,2.0,psoriasis
+Psoriasis,skin,CHEMBL705,2.0,psoriasis
+Psoriasis,skin,CHEMBL1766,4.0,psoriasis
+Psoriasis,skin,CHEMBL1200384,4.0,psoriasis
+Psoriasis,skin,CHEMBL193240,4.0,psoriasis
+Psoriasis,skin,CHEMBL2107333,4.0,psoriasis
+Psoriasis,skin,CHEMBL384467,4.0,psoriasis
+Psoriasis,skin,CHEMBL635,4.0,psoriasis
+Psoriasis,skin,CHEMBL2021430,4.0,psoriasis
+Psoriasis,skin,CHEMBL131,4.0,psoriasis
+Psoriasis,skin,CHEMBL3989862,3.0,psoriasis
+Psoriasis,skin,CHEMBL1742995,3.0,psoriasis
+Psoriasis,skin,CHEMBL1201831,3.0,psoriasis
+Psoriasis,skin,CHEMBL1743034,4.0,psoriasis
+Psoriasis,skin,CHEMBL1201823,2.0,psoriasis
+Psoriasis,skin,CHEMBL1230065,2.0,psoriasis
+Psoriasis,skin,CHEMBL5314379,3.0,psoriasis
+Psoriasis,skin,CHEMBL2108742,2.0,psoriasis
+Psoriasis,skin,CHEMBL1096146,2.0,psoriasis
+Psoriasis,skin,CHEMBL3301614,2.0,psoriasis
+Psoriasis,skin,CHEMBL1534,2.0,psoriasis
+Psoriasis,skin,CHEMBL3137328,2.0,psoriasis
+Psoriasis,skin,CHEMBL3137308,2.0,psoriasis
+Psoriasis,skin,CHEMBL3301606,2.0,psoriasis
+Psoriasis,skin,CHEMBL1743078,1.0,psoriasis
+Psoriasis,skin,CHEMBL2109653,2.0,psoriasis
+Psoriasis,skin,CHEMBL1743044,2.0,psoriasis
+Psoriasis,skin,CHEMBL1140,2.0,psoriasis
+Psoriasis,skin,CHEMBL1097999,2.0,psoriasis
+Psoriasis,skin,CHEMBL2108681,4.0,psoriasis
+Psoriasis,skin,CHEMBL4303288,1.0,psoriasis
+Psoriasis,skin,CHEMBL1908391,2.0,psoriasis
+Psoriasis,skin,CHEMBL1200951,2.0,psoriasis
+Psoriasis,skin,CHEMBL1743017,1.0,psoriasis
+Psoriasis,skin,CHEMBL1201718,2.0,psoriasis
+Psoriasis,skin,CHEMBL2105759,2.0,psoriasis
+Psoriasis,skin,CHEMBL603469,2.0,psoriasis
+Psoriasis,skin,CHEMBL5314357,2.0,psoriasis
+Psoriasis,skin,CHEMBL503160,4.0,psoriasis
+Psoriasis,skin,CHEMBL2105611,4.0,psoriasis
+Psoriasis,skin,CHEMBL1742996,4.0,psoriasis
+Psoriasis,skin,CHEMBL484785,2.0,psoriasis
+Psoriasis,skin,CHEMBL2364648,4.0,psoriasis
+Psoriasis,skin,CHEMBL1789941,2.0,psoriasis
+Psoriasis,skin,CHEMBL459505,2.0,psoriasis
+Psoriasis,skin,CHEMBL424,4.0,psoriasis
+Psoriasis,skin,CHEMBL902,1.0,psoriasis
+Psoriasis,skin,CHEMBL1497,1.0,psoriasis
+Psoriasis,skin,CHEMBL4297182,2.0,psoriasis
+Psoriasis,skin,CHEMBL2109467,2.0,psoriasis
+Psoriasis,skin,CHEMBL1915540,2.0,psoriasis
+Psoriasis,skin,CHEMBL553,2.0,psoriasis
+Psoriasis,skin,CHEMBL2108866,1.0,psoriasis
+Psoriasis,skin,CHEMBL1422,2.0,psoriasis
+Psoriasis,skin,CHEMBL2104955,2.0,psoriasis
+Psoriasis,skin,CHEMBL2108508,1.0,psoriasis
+Psoriasis,skin,CHEMBL1743069,1.0,psoriasis
+Psoriasis,skin,CHEMBL565612,2.0,psoriasis
+Psoriasis,skin,CHEMBL445,2.0,psoriasis
+Psoriasis,skin,CHEMBL3707374,2.0,psoriasis
+Psoriasis,skin,CHEMBL3655081,2.0,psoriasis
+Psoriasis,skin,CHEMBL1215923,2.0,psoriasis
+Psoriasis,skin,CHEMBL2108200,2.0,psoriasis
+Psoriasis,skin,CHEMBL221959,3.0,psoriasis
+Psoriasis,skin,CHEMBL2105705,2.0,psoriasis
+Psoriasis,skin,CHEMBL2103876,1.0,psoriasis
+Psoriasis,skin,CHEMBL1431,3.0,psoriasis
+Psoriasis,skin,CHEMBL428647,2.0,psoriasis
+Psoriasis,skin,CHEMBL1042,2.0,psoriasis
+Psoriasis,skin,CHEMBL113,1.0,psoriasis
+Psoriasis,skin,CHEMBL52440,1.0,psoriasis
+Psoriasis,skin,CHEMBL13,1.0,psoriasis
+Psoriasis,skin,CHEMBL1200386,1.0,psoriasis
+Psoriasis,skin,CHEMBL468,2.0,psoriasis
+Psoriasis,skin,CHEMBL1456,2.0,psoriasis
+Psoriasis,skin,CHEMBL103667,2.0,psoriasis
+Psoriasis,skin,CHEMBL1023,2.0,psoriasis
+Psoriasis,skin,CHEMBL1503,1.0,psoriasis
+Psoriasis,skin,CHEMBL1200574,2.0,psoriasis
+Psoriasis,skin,CHEMBL2108232,4.0,psoriasis
+Psoriasis,skin,CHEMBL2107910,2.0,psoriasis
+Psoriasis,skin,CHEMBL2108078,1.0,psoriasis
+Psoriasis,skin,CHEMBL1201564,0.5,psoriasis
+Psoriasis,skin,CHEMBL2109450,1.0,psoriasis
+Psoriasis,skin,CHEMBL428880,2.0,psoriasis
+Psoriasis,skin,CHEMBL2110563,3.0,psoriasis
+Psoriasis,skin,CHEMBL376180,2.0,psoriasis
+Psoriasis,skin,CHEMBL1464,1.0,psoriasis
+Psoriasis,skin,CHEMBL595,2.0,psoriasis
+Psoriasis,skin,CHEMBL655,1.0,psoriasis
+Psoriasis,skin,CHEMBL477772,1.0,psoriasis
+Psoriasis,skin,CHEMBL3622820,2.0,psoriasis
+Psoriasis,skin,CHEMBL269732,3.0,psoriasis
+Psoriasis,skin,CHEMBL582,4.0,psoriasis
+Psoriasis,skin,CHEMBL1201574,1.0,psoriasis vulgaris
+Psoriasis,skin,CHEMBL3989515,2.0,psoriasis
+Psoriasis,skin,CHEMBL389621,4.0,psoriasis vulgaris
+Psoriasis,skin,CHEMBL1683,1.0,psoriasis vulgaris
+Psoriasis,skin,CHEMBL1451,2.0,psoriasis
+Psoriasis,skin,CHEMBL157101,2.0,psoriasis vulgaris
+Psoriasis,skin,CHEMBL2108555,2.0,psoriasis
+Psoriasis,skin,CHEMBL1201719,1.0,psoriasis vulgaris
+Psoriasis,skin,CHEMBL1201549,2.0,psoriasis vulgaris
+Psoriasis,skin,CHEMBL1743083,2.0,psoriasis vulgaris
+Psoriasis,skin,CHEMBL2109250,1.0,psoriasis vulgaris
+Psoriasis,skin,CHEMBL2109249,1.0,psoriasis
+Psoriasis,skin,CHEMBL2107819,2.0,psoriasis
+Psoriasis,skin,CHEMBL1208422,2.0,psoriasis
+Psoriasis,skin,CHEMBL3301580,1.0,psoriasis
+Psoriasis,skin,CHEMBL3989873,3.0,psoriasis
+Psoriasis,skin,CHEMBL3989961,2.0,psoriasis
+Psoriasis,skin,CHEMBL259571,4.0,psoriasis
+Psoriasis,skin,CHEMBL3990014,3.0,psoriasis
+Psoriasis,skin,CHEMBL3990028,2.0,psoriasis
+Psoriasis,skin,CHEMBL3990029,4.0,psoriasis
+Psoriasis,skin,CHEMBL2087361,2.0,psoriasis
+Psoriasis,skin,CHEMBL599552,2.0,psoriasis
+Psoriasis,skin,CHEMBL1276127,2.0,psoriasis
+Psoriasis,skin,CHEMBL485629,1.0,psoriasis
+Psoriasis,skin,CHEMBL256705,1.0,psoriasis
+Psoriasis,skin,CHEMBL4297333,2.0,psoriasis
+Psoriasis,skin,CHEMBL4297418,2.0,psoriasis
+Psoriasis,skin,CHEMBL4297436,2.0,psoriasis
+Psoriasis,skin,CHEMBL4297477,2.0,psoriasis
+Psoriasis,skin,CHEMBL1232993,1.0,psoriasis
+Psoriasis,skin,CHEMBL4297686,2.0,psoriasis
+Psoriasis,skin,CHEMBL4297700,4.0,psoriasis
+Psoriasis,skin,CHEMBL4297709,2.0,psoriasis
+Psoriasis,skin,CHEMBL4297738,1.0,psoriasis
+Psoriasis,skin,CHEMBL4297861,2.0,psoriasis
+Psoriasis,skin,CHEMBL4297911,4.0,psoriasis
+Psoriasis,skin,CHEMBL4297926,1.0,psoriasis
+Psoriasis,skin,CHEMBL4297577,2.0,psoriasis
+Psoriasis,skin,CHEMBL4298023,2.0,psoriasis
+Psoriasis,skin,CHEMBL4298102,3.0,psoriasis
+Psoriasis,skin,CHEMBL46469,4.0,psoriasis
+Psoriasis,skin,CHEMBL19019,1.0,psoriasis
+Psoriasis,skin,CHEMBL1501,0.5,psoriasis
+Psoriasis,skin,CHEMBL416,4.0,psoriasis
+Psoriasis,skin,CHEMBL1475,4.0,psoriasis
+Psoriasis,skin,CHEMBL24171,4.0,psoriasis
+Psoriasis,skin,CHEMBL4584965,2.0,psoriasis
+Psoriasis,skin,CHEMBL1230329,2.0,psoriasis
+Psoriasis,skin,CHEMBL4297507,2.0,psoriasis
+Psoriasis,skin,CHEMBL4297648,1.0,psoriasis
+Psoriasis,skin,CHEMBL4297771,2.0,psoriasis
+Psoriasis,skin,CHEMBL4297995,2.0,psoriasis
+Psoriasis,skin,CHEMBL4435170,4.0,psoriasis
+Psoriasis,skin,CHEMBL2419346,1.0,psoriasis vulgaris
+Psoriasis,skin,CHEMBL4594434,2.0,psoriasis
+Psoriasis,skin,CHEMBL4594467,1.0,psoriasis
+Psoriasis,skin,CHEMBL2178422,2.0,psoriasis
+Psoriasis,skin,CHEMBL2005186,2.0,psoriasis
+Psoriasis,skin,CHEMBL4650437,3.0,psoriasis
+Psoriasis,skin,CHEMBL4459585,2.0,psoriasis
+Psoriasis,skin,CHEMBL4650506,1.0,psoriasis
+Psoriasis,skin,CHEMBL1795071,2.0,psoriasis
+Psoriasis,skin,CHEMBL3988900,4.0,psoriasis
+Psoriasis,skin,CHEMBL989,4.0,psoriasis
+Psoriasis,skin,CHEMBL2108314,1.0,psoriasis
+Psoriasis,skin,CHEMBL4225088,1.0,psoriasis
+Psoriasis,skin,CHEMBL4071864,2.0,psoriasis
+Psoriasis,skin,CHEMBL4802194,1.0,psoriasis vulgaris
+Psoriasis,skin,CHEMBL985,2.0,psoriasis vulgaris
+Psoriasis,skin,CHEMBL1504,2.0,psoriasis vulgaris
+Psoriasis,skin,CHEMBL2109070,1.0,psoriasis vulgaris
+Psoriasis,skin,CHEMBL286494,2.0,psoriasis vulgaris
+Psoriasis,skin,CHEMBL4650441,2.0,pustulosis palmaris et plantaris
+Psoriasis,skin,CHEMBL4802158,2.0,psoriasis
+Psoriasis,skin,CHEMBL4789639,1.0,psoriasis
+Psoriasis,skin,CHEMBL5095174,2.0,psoriasis
+Psoriasis,skin,CHEMBL5095240,3.0,psoriasis
+Psoriasis,skin,CHEMBL3989727,3.0,psoriasis vulgaris
+Psoriasis,skin,CHEMBL600,3.0,psoriasis vulgaris
+Psoriasis,skin,CHEMBL3989857,1.0,psoriasis
+Psoriasis,skin,CHEMBL1201519,1.0,psoriasis
+Psoriasis,skin,CHEMBL3244648,4.0,psoriasis
+Psoriasis,skin,CHEMBL5095217,2.0,pustulosis palmaris et plantaris
+Psoriasis,skin,CHEMBL5314423,3.0,psoriasis
+Psoriasis,skin,CHEMBL5095302,3.0,psoriasis
+Psoriasis,skin,CHEMBL5095338,1.0,psoriasis
+Psoriasis,skin,CHEMBL5095360,1.0,psoriasis
+Psoriasis,skin,CHEMBL5095458,1.0,psoriasis
+Psoriasis,skin,CHEMBL5314608,2.0,psoriasis
+Psoriasis,skin,CHEMBL5314628,1.0,psoriasis
+Psoriasis,skin,CHEMBL2103864,2.0,psoriasis
+Psoriasis,skin,CHEMBL1487,3.0,psoriasis
+Psoriasis,skin,CHEMBL1568,2.0,psoriasis
+Psoriasis,skin,CHEMBL1201362,2.0,psoriasis
+Psoriasis,skin,CHEMBL5314624,1.0,psoriasis
+Psoriasis,skin,CHEMBL5314888,1.0,psoriasis
+Psoriasis,skin,CHEMBL6056273,1.0,psoriasis
+Psoriasis,skin,CHEMBL5416250,1.0,psoriasis
+Psoriasis,skin,CHEMBL6068046,2.0,psoriasis
+Psoriasis,skin,CHEMBL5595819,1.0,psoriasis
+Crohn Disease,GI,CHEMBL1201581,4.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1200751,3.0,Crohn's disease
+Crohn Disease,GI,CHEMBL704,3.0,Crohn's disease
+Crohn Disease,GI,CHEMBL34259,3.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1201670,3.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1743087,4.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1201823,3.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1201580,4.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1370,4.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1201716,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1201835,4.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1542,3.0,Crohn's disease
+Crohn Disease,GI,CHEMBL384467,4.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1201607,4.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1042,3.0,Crohn's disease
+Crohn Disease,GI,CHEMBL19019,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL2104987,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1201831,4.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1169,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL635,4.0,Crohn's disease
+Crohn Disease,GI,CHEMBL131,4.0,Crohn's disease
+Crohn Disease,GI,CHEMBL2021430,4.0,Crohn's disease
+Crohn Disease,GI,CHEMBL137,3.0,Crohn's disease
+Crohn Disease,GI,CHEMBL468,3.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1200796,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL66092,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL3039505,3.0,Crohn's disease
+Crohn Disease,GI,CHEMBL25202,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1401,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL2108046,3.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1741,3.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1743015,3.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1743068,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL2108922,1.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1617,3.0,Crohn's disease
+Crohn Disease,GI,CHEMBL2107779,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL2178578,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1237023,1.0,Crohn's disease
+Crohn Disease,GI,CHEMBL8,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL3137351,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1742995,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL3301607,3.0,Crohn's disease
+Crohn Disease,GI,CHEMBL2107867,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL930,1.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1743050,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1201507,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1201621,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL2108751,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL2109070,3.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1536,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL3833374,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL2109511,3.0,Crohn's disease
+Crohn Disease,GI,CHEMBL2108589,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL3707374,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1743020,1.0,Crohn's disease
+Crohn Disease,GI,CHEMBL2109465,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1742996,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL221959,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL262777,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL671,1.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1293,3.0,Crohn's disease
+Crohn Disease,GI,CHEMBL74415,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL113,1.0,Crohn's disease
+Crohn Disease,GI,CHEMBL52440,1.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1200699,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1096882,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL106,3.0,Crohn's disease
+Crohn Disease,GI,CHEMBL866,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL852,1.0,Crohn's disease
+Crohn Disease,GI,CHEMBL416,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL975,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL650,4.0,Crohn's disease
+Crohn Disease,GI,CHEMBL90593,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1456,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL6966,1.0,Crohn's disease
+Crohn Disease,GI,CHEMBL846,1.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1503,1.0,Crohn's disease
+Crohn Disease,GI,CHEMBL628,0.5,Crohn's disease
+Crohn Disease,GI,CHEMBL1201438,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL2108811,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL2107614,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL450940,1.0,Crohn's disease
+Crohn Disease,GI,CHEMBL332750,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL98,1.0,Crohn's disease
+Crohn Disease,GI,CHEMBL848,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1201587,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1201567,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1201562,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1201576,1.0,Crohn's disease
+Crohn Disease,GI,CHEMBL2108326,3.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1535,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1464,1.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1496,1.0,Crohn's disease
+Crohn Disease,GI,CHEMBL894,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL643,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL595,1.0,Crohn's disease
+Crohn Disease,GI,CHEMBL655,1.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1201479,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1201519,1.0,Crohn's disease
+Crohn Disease,GI,CHEMBL2109664,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL3707383,3.0,Crohn's disease
+Crohn Disease,GI,CHEMBL3622821,3.0,Crohn's disease
+Crohn Disease,GI,CHEMBL3707247,3.0,Crohn's disease
+Crohn Disease,GI,CHEMBL190461,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL3833372,3.0,Crohn's disease
+Crohn Disease,GI,CHEMBL269732,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL444633,3.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1292,3.0,Crohn's disease
+Crohn Disease,GI,CHEMBL389621,4.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1200574,3.0,Crohn's disease
+Crohn Disease,GI,CHEMBL2109606,1.0,Crohn's disease
+Crohn Disease,GI,CHEMBL3989751,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL2364648,3.0,Crohn's disease
+Crohn Disease,GI,CHEMBL3137327,3.0,Crohn's disease
+Crohn Disease,GI,CHEMBL4175981,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL3990014,4.0,Crohn's disease
+Crohn Disease,GI,CHEMBL3990029,3.0,Crohn's disease
+Crohn Disease,GI,CHEMBL140,3.0,Crohn's disease
+Crohn Disease,GI,CHEMBL186141,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1213492,1.0,Crohn's disease
+Crohn Disease,GI,CHEMBL4297252,1.0,Crohn's disease
+Crohn Disease,GI,CHEMBL4243974,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL4297331,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL4297344,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL4085457,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL4297477,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL4297643,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL4297761,1.0,Crohn's disease
+Crohn Disease,GI,CHEMBL4297942,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL6067997,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL529,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL112,1.0,Crohn's disease
+Crohn Disease,GI,CHEMBL657,1.0,Crohn's disease
+Crohn Disease,GI,CHEMBL601,1.0,Crohn's disease
+Crohn Disease,GI,CHEMBL3358920,3.0,Crohn's disease
+Crohn Disease,GI,CHEMBL4297911,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL4298180,3.0,Crohn's disease
+Crohn Disease,GI,CHEMBL4594564,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1404,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL361497,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL253896,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL4650343,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL4594305,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL4802198,1.0,Crohn's disease
+Crohn Disease,GI,CHEMBL64391,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL822,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1201833,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL2107830,1.0,Crohn's disease
+Crohn Disease,GI,CHEMBL4297912,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL5095370,3.0,Crohn's disease
+Crohn Disease,GI,CHEMBL5095399,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL4788758,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL454801,0.5,Crohn's disease
+Crohn Disease,GI,CHEMBL2108390,3.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1487,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL1568,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL5314423,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL5314652,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL5314733,1.0,Crohn's disease
+Crohn Disease,GI,CHEMBL6068046,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL6068160,2.0,Crohn's disease
+Crohn Disease,GI,CHEMBL6068608,2.0,Crohn's disease
+"Colitis, Ulcerative",GI,CHEMBL1201580,4.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL1370,4.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL1201581,4.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL704,4.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL34259,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL1201833,4.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL1201562,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL1169,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL514800,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL1201831,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL1743087,4.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL1201823,3.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL1201439,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL1201576,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL1542,3.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL131,4.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL2021430,4.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL384467,4.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL635,4.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL3137351,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL2178578,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL1743015,3.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL45,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL1697771,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL2108811,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL1743081,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL1234886,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL2106406,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL12089,1.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL2178579,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL2109103,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL1742985,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL221959,3.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL1536,1.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL1743086,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL3301607,3.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL262777,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL3833374,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL121,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL3358920,3.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL3301606,1.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL565612,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL1201835,4.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL2107951,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL2109511,3.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL190461,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL1200760,4.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL1467,3.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL1042,3.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL25,3.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL74415,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL389621,4.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL1200699,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL19019,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL1200751,3.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL137,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL822,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL468,3.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL1503,1.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL1200574,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL303960,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL332750,3.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL1201605,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL1201608,1.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL2108326,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL1178725,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL2109664,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL3707383,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL3622821,3.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL3707247,3.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL269732,3.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL650,4.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL582,4.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL2103855,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL1200582,1.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL1200538,4.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL1200762,4.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL1201314,3.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL2364648,3.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL3622820,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL2109342,1.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL3990014,4.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL140,3.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL283800,0.5,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL503481,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL186141,3.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL4297252,1.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL4297284,1.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL4297344,3.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL3716365,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL429844,1.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL4297436,1.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL4085457,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL4297477,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL3353541,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL3681949,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL197194,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL4297564,3.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL4297967,1.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL2103737,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL1201013,4.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL161,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL3137308,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL2348780,1.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL3833372,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL3990029,3.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL4074884,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL4297333,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL4297911,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL4298212,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL4435170,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL4594567,1.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL1431,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL1082,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL113,1.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL52440,1.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL2108046,1.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL1464,1.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL655,1.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL1201519,1.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL4649457,1.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL4650343,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL421,4.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL1550,4.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL1496,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL3707374,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL4650498,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL4459585,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL4071864,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL4802154,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL2109070,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL2109081,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL2107830,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL14227,1.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL1535,1.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL4297912,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL4298204,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL4110551,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL412272,1.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL4802198,1.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL5095268,1.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL5095338,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL5095376,1.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL231884,3.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL2108675,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL3707246,4.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL3989933,4.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL4650250,1.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL5095240,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL4861471,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL5095370,3.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL5095399,3.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL5095448,1.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL5095458,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL5314628,1.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL5314977,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL6,1.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL4594341,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL4594518,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL4650437,1.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL2137148,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL5314423,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL5095287,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL4788758,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL6067963,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL5314488,2.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL5314733,1.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL6068520,1.0,ulcerative colitis
+"Colitis, Ulcerative",GI,CHEMBL6068601,2.0,ulcerative colitis
+Nephrotic Syndrome,renal,CHEMBL1072,4.0,nephrotic syndrome
+Nephrotic Syndrome,renal,CHEMBL842,4.0,nephrotic syndrome
+Nephrotic Syndrome,renal,CHEMBL131,4.0,nephrotic syndrome
+Nephrotic Syndrome,renal,CHEMBL1456,3.0,nephrotic syndrome
+Nephrotic Syndrome,renal,CHEMBL1201576,3.0,nephrotic syndrome
+Nephrotic Syndrome,renal,CHEMBL1650,4.0,nephrotic syndrome
+Nephrotic Syndrome,renal,CHEMBL585,4.0,nephrotic syndrome
+Nephrotic Syndrome,renal,CHEMBL435,4.0,nephrotic syndrome
+Nephrotic Syndrome,renal,CHEMBL384467,4.0,nephrotic syndrome
+Nephrotic Syndrome,renal,CHEMBL2021430,4.0,nephrotic syndrome
+Nephrotic Syndrome,renal,CHEMBL635,4.0,nephrotic syndrome
+Nephrotic Syndrome,renal,CHEMBL1200796,4.0,nephrotic syndrome
+Nephrotic Syndrome,renal,CHEMBL1201836,2.0,nephrotic syndrome
+Nephrotic Syndrome,renal,CHEMBL245019,3.0,nephrotic syndrome
+Nephrotic Syndrome,renal,CHEMBL1201610,3.0,nephrotic syndrome
+Nephrotic Syndrome,renal,CHEMBL1201823,2.0,nephrotic syndrome
+Nephrotic Syndrome,renal,CHEMBL1201438,2.0,nephrotic syndrome
+Nephrotic Syndrome,renal,CHEMBL14060,3.0,nephrotic syndrome
+Nephrotic Syndrome,renal,CHEMBL1770,3.0,nephrotic syndrome
+Nephrotic Syndrome,renal,CHEMBL866,3.0,nephrotic syndrome
+Nephrotic Syndrome,renal,CHEMBL1256391,2.0,nephrotic syndrome
+Nephrotic Syndrome,renal,CHEMBL628,3.0,nephrotic syndrome
+Nephrotic Syndrome,renal,CHEMBL269732,3.0,nephrotic syndrome
+Nephrotic Syndrome,renal,CHEMBL35,4.0,nephrotic syndrome
+Nephrotic Syndrome,renal,CHEMBL1393,4.0,nephrotic syndrome
+Nephrotic Syndrome,renal,CHEMBL231779,1.0,nephrotic syndrome
+Nephrotic Syndrome,renal,CHEMBL1201476,2.0,nephrotic syndrome
+Nephrotic Syndrome,renal,CHEMBL1200538,4.0,nephrotic syndrome
+Nephrotic Syndrome,renal,CHEMBL456,4.0,nephrotic syndrome
+Nephrotic Syndrome,renal,CHEMBL1364144,4.0,nephrotic syndrome
+Nephrotic Syndrome,renal,CHEMBL1201014,4.0,nephrotic syndrome
+Nephrotic Syndrome,renal,CHEMBL1055,4.0,nephrotic syndrome
+Nephrotic Syndrome,renal,CHEMBL1201625,4.0,nephrotic syndrome
+Nephrotic Syndrome,renal,CHEMBL1789843,2.0,nephrotic syndrome
+Nephrotic Syndrome,renal,CHEMBL1743048,2.0,nephrotic syndrome
+Nephrotic Syndrome,renal,CHEMBL1743007,2.0,nephrotic syndrome
+Nephrotic Syndrome,renal,CHEMBL2109540,2.0,nephrotic syndrome
+Nephrotic Syndrome,renal,CHEMBL1200574,2.0,nephrotic syndrome
+Nephrotic Syndrome,renal,CHEMBL1487,2.0,nephrotic syndrome
+Nephrotic Syndrome,renal,CHEMBL5095293,3.0,nephrotic syndrome
+Uveitis,eye,CHEMBL989,4.0,uveitis
+Uveitis,eye,CHEMBL1201610,2.0,uveitis
+Uveitis,eye,CHEMBL635,3.0,uveitis
+Uveitis,eye,CHEMBL1504,3.0,uveitis
+Uveitis,eye,CHEMBL34259,3.0,uveitis
+Uveitis,eye,CHEMBL514800,1.0,uveitis
+Uveitis,eye,CHEMBL1908360,2.0,uveitis
+Uveitis,eye,CHEMBL1456,3.0,uveitis
+Uveitis,eye,CHEMBL1064,2.0,uveitis
+Uveitis,eye,CHEMBL1201835,2.0,uveitis
+Uveitis,eye,CHEMBL1743068,3.0,uveitis
+Uveitis,eye,CHEMBL1201823,2.0,uveitis
+Uveitis,eye,CHEMBL1743026,3.0,uveitis
+Uveitis,eye,CHEMBL1201439,2.0,uveitis
+Uveitis,eye,CHEMBL1201580,4.0,uveitis
+Uveitis,eye,CHEMBL1201570,2.0,uveitis
+Uveitis,eye,CHEMBL1237022,2.0,uveitis
+Uveitis,eye,CHEMBL5314379,3.0,uveitis
+Uveitis,eye,CHEMBL314854,2.0,uveitis
+Uveitis,eye,CHEMBL1201583,3.0,uveitis
+Uveitis,eye,CHEMBL2095222,1.0,uveitis
+Uveitis,eye,CHEMBL2108730,2.0,uveitis
+Uveitis,eye,CHEMBL1201138,2.0,uveitis
+Uveitis,eye,CHEMBL1622,2.0,uveitis
+Uveitis,eye,CHEMBL1152,3.0,uveitis
+Uveitis,eye,CHEMBL1201749,3.0,uveitis
+Uveitis,eye,CHEMBL960,2.0,uveitis
+Uveitis,eye,CHEMBL1201564,1.0,uveitis
+Uveitis,eye,CHEMBL1201605,2.0,uveitis
+Uveitis,eye,CHEMBL3301607,2.0,uveitis
+Uveitis,eye,CHEMBL2105759,3.0,uveitis
+Uveitis,eye,CHEMBL160,1.0,uveitis
+Uveitis,eye,CHEMBL4297903,1.0,uveitis
+Uveitis,eye,CHEMBL4298036,0.5,uveitis
+Uveitis,eye,CHEMBL131,2.0,uveitis
+Uveitis,eye,CHEMBL4297686,2.0,uveitis
+Uveitis,eye,CHEMBL1364144,4.0,uveitis
+Uveitis,eye,CHEMBL1201014,4.0,uveitis
+Uveitis,eye,CHEMBL384467,4.0,uveitis
+Uveitis,eye,CHEMBL5095490,1.0,uveitis
+Uveitis,eye,CHEMBL4580266,1.0,uveitis

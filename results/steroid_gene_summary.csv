@@ -1,0 +1,242 @@
+gene,max_phase,n_trials,diseases,categories,VDR_score,GR_score,VDR_dominant,VDR_repro,GR_repro,approved,failed
+ABL1,2.0,2,"Asthma; Multiple Sclerosis; Pulmonary Disease, Chronic Obstructive",autoimmune; respiratory,34.44,83.06,False,0.2,0.1891891891891892,0,1
+ACE,2.0,2,"Arthritis, Rheumatoid; Lupus Erythematosus, Systemic",autoimmune,4.76,40.31,False,0.1,0.2702702702702703,0,1
+ACVR2B,2.0,1,"Pulmonary Disease, Chronic Obstructive",respiratory,5.09,39.09,False,0.2,0.2702702702702703,0,1
+ADAM17,2.0,1,"Arthritis, Rheumatoid",autoimmune,18.4,195.86,False,0.4,0.4864864864864865,0,1
+ADH5,2.0,2,"Asthma; Pulmonary Disease, Chronic Obstructive",respiratory,48.36,80.42,False,0.1,0.3783783783783784,0,1
+ADORA1,4.0,4,"Arthritis, Rheumatoid; Asthma; Colitis, Ulcerative; Crohn Disease; Dermatitis, Atopic; Psoriasis; Pulmonary Disease, Chronic Obstructive",GI; autoimmune; respiratory; skin,0.0,198.31,False,0.0,0.2432432432432432,1,0
+ADORA2A,4.0,5,"Arthritis, Rheumatoid; Asthma; Colitis, Ulcerative; Crohn Disease; Dermatitis, Atopic; Nephrotic Syndrome; Psoriasis; Pulmonary Disease, Chronic Obstructive",GI; autoimmune; renal; respiratory; skin,2.81,2.2,True,0.1,0.1081081081081081,1,0
+ADORA3,4.0,4,"Arthritis, Rheumatoid; Asthma; Colitis, Ulcerative; Crohn Disease; Dermatitis, Atopic; Psoriasis; Pulmonary Disease, Chronic Obstructive",GI; autoimmune; respiratory; skin,43.73,24.52,True,0.4,0.2162162162162162,1,0
+ADRA1A,4.0,5,"Arthritis, Rheumatoid; Asthma; Multiple Sclerosis",autoimmune; respiratory,7.35,0.0,True,0.1,0.054054054054054,1,0
+ADRB1,4.0,6,"Arthritis, Rheumatoid; Asthma; Pulmonary Disease, Chronic Obstructive",autoimmune; respiratory,3.23,169.87,False,0.1,0.3783783783783784,1,0
+ADRB2,4.0,32,"Arthritis, Rheumatoid; Asthma; Multiple Sclerosis; Pulmonary Disease, Chronic Obstructive",autoimmune; respiratory,14.51,48.38,False,0.6,0.2972972972972973,1,0
+AHR,4.0,1,"Dermatitis, Atopic; Psoriasis",skin,0.0,67.78,False,0.0,0.3513513513513513,1,0
+ALOX5,4.0,7,"Arthritis, Rheumatoid; Asthma; Colitis, Ulcerative; Crohn Disease; Pulmonary Disease, Chronic Obstructive; Spondylitis, Ankylosing",GI; autoimmune; respiratory,3.77,14.06,False,0.1,0.1081081081081081,1,0
+BRAF,2.0,2,"Pulmonary Disease, Chronic Obstructive",respiratory,15.34,42.78,False,0.4,0.3243243243243243,0,1
+BTK,3.0,15,"Arthritis, Rheumatoid; Asthma; Colitis, Ulcerative; Crohn Disease; Dermatitis, Atopic; Lupus Erythematosus, Systemic; Multiple Sclerosis",GI; autoimmune; respiratory; skin,209.73,65.13,True,0.4,0.2432432432432432,0,1
+CA1,2.0,1,Multiple Sclerosis,autoimmune,0.0,2.45,False,0.0,0.054054054054054,0,1
+CA12,2.0,1,Multiple Sclerosis,autoimmune,20.55,19.07,True,0.3,0.3243243243243243,0,1
+CA2,2.0,2,Multiple Sclerosis,autoimmune,12.79,21.88,False,0.2,0.2972972972972973,0,1
+CA4,2.0,2,Multiple Sclerosis,autoimmune,19.63,10.22,True,0.2,0.2432432432432432,0,1
+CACNA1B,2.0,1,Multiple Sclerosis,autoimmune,0.0,0.0,False,0.0,0.081081081081081,0,1
+CALCRL,2.0,2,Asthma; Psoriasis,respiratory; skin,6.77,0.0,True,0.2,0.081081081081081,0,1
+CASP1,2.0,1,Psoriasis,skin,0.0,0.0,False,0.0,0.054054054054054,0,1
+CCL11,2.0,1,"Colitis, Ulcerative",GI,0.0,0.0,False,0.0,0.0,0,1
+CCR1,2.0,3,"Arthritis, Rheumatoid; Pulmonary Disease, Chronic Obstructive",autoimmune; respiratory,68.06,18.84,True,0.2,0.054054054054054,0,1
+CCR2,2.0,3,"Arthritis, Rheumatoid; Multiple Sclerosis; Pulmonary Disease, Chronic Obstructive",autoimmune; respiratory,7.74,6.95,True,0.1,0.2162162162162162,0,1
+CCR5,2.0,3,"Arthritis, Rheumatoid; Colitis, Ulcerative",GI; autoimmune,19.46,0.0,True,0.1,0.0,0,1
+CCR9,2.0,1,"Colitis, Ulcerative; Crohn Disease",GI,0.0,12.27,False,0.0,0.1081081081081081,0,1
+CD14,2.0,1,"Colitis, Ulcerative; Psoriasis",GI; skin,207.55,155.41,True,0.5,0.3243243243243243,0,1
+CD19,2.0,3,"Arthritis, Rheumatoid; Lupus Erythematosus, Systemic; Multiple Sclerosis",autoimmune,83.95,15.34,True,0.1,0.2702702702702703,0,1
+CD2,3.0,2,Psoriasis,skin,0.0,12.29,False,0.0,0.054054054054054,0,1
+CD28,2.0,2,"Arthritis, Rheumatoid; Lupus Erythematosus, Systemic; Psoriasis",autoimmune; skin,0.0,54.88,False,0.0,0.1081081081081081,0,1
+CD3E,2.0,5,"Arthritis, Rheumatoid; Colitis, Ulcerative; Crohn Disease; Psoriasis",GI; autoimmune; skin,0.0,14.1,False,0.0,0.027027027027027,0,1
+CD4,2.0,2,"Arthritis, Rheumatoid; Psoriasis",autoimmune; skin,0.0,0.0,False,0.0,0.027027027027027,0,1
+CD40,2.0,2,"Arthritis, Rheumatoid; Psoriasis",autoimmune; skin,4.92,18.96,False,0.3,0.1351351351351351,0,1
+CD40LG,3.0,3,"Arthritis, Rheumatoid; Colitis, Ulcerative; Lupus Erythematosus, Systemic",GI; autoimmune,0.0,0.0,False,0.0,0.0,0,1
+CD52,4.0,1,"Arthritis, Rheumatoid; Crohn Disease; Multiple Sclerosis",GI; autoimmune,9.65,0.0,True,0.2,0.1891891891891892,1,0
+CD80,4.0,2,"Arthritis, Rheumatoid; Colitis, Ulcerative; Crohn Disease; Dermatomyositis; Lupus Erythematosus, Systemic; Multiple Sclerosis; Nephrotic Syndrome; Psoriasis; Spondylitis, Ankylosing; Uveitis",GI; autoimmune; eye; renal; skin,11.29,0.0,True,0.0,0.2972972972972973,1,0
+CD86,4.0,2,"Arthritis, Rheumatoid; Colitis, Ulcerative; Crohn Disease; Dermatomyositis; Lupus Erythematosus, Systemic; Multiple Sclerosis; Nephrotic Syndrome; Psoriasis; Spondylitis, Ankylosing; Uveitis",GI; autoimmune; eye; renal; skin,26.86,18.65,True,0.1,0.027027027027027,1,0
+CFTR,2.0,2,"Pulmonary Disease, Chronic Obstructive",respiratory,0.0,0.0,False,0.1,0.1621621621621621,0,1
+CHRM1,4.0,4,"Asthma; Pulmonary Disease, Chronic Obstructive",respiratory,0.0,43.55,False,0.0,0.2432432432432432,1,0
+CHRM2,4.0,5,"Asthma; Pulmonary Disease, Chronic Obstructive",respiratory,0.0,3.5,False,0.0,0.081081081081081,1,0
+CHRM3,4.0,16,"Asthma; Dermatitis, Atopic; Pulmonary Disease, Chronic Obstructive",respiratory; skin,11.74,0.0,True,0.2,0.054054054054054,1,0
+CHRNA7,2.0,2,"Asthma; Pulmonary Disease, Chronic Obstructive",respiratory,0.0,0.0,False,0.0,0.0,0,1
+CNR1,2.0,2,"Arthritis, Rheumatoid; Colitis, Ulcerative; Crohn Disease; Multiple Sclerosis",GI; autoimmune,22.58,49.88,False,0.1,0.081081081081081,0,1
+CNR2,2.0,2,"Crohn Disease; Dermatitis, Atopic",GI; skin,39.16,29.54,True,0.2,0.2162162162162162,0,1
+CSF1,1.0,1,"Arthritis, Rheumatoid",autoimmune,6.09,118.48,False,0.2,0.1891891891891892,0,1
+CSF1R,2.0,4,"Arthritis, Rheumatoid",autoimmune,7.53,84.26,False,0.2,0.1351351351351351,0,1
+CSF2,3.0,5,"Arthritis, Rheumatoid; Asthma; Multiple Sclerosis; Psoriasis; Spondylitis, Ankylosing",autoimmune; respiratory; skin,20.08,203.2,False,0.2,0.1351351351351351,0,1
+CSF3R,2.0,1,"Crohn Disease; Lupus Erythematosus, Systemic; Multiple Sclerosis",GI; autoimmune,137.23,31.13,True,0.3,0.3243243243243243,0,1
+CX3CL1,2.0,1,"Arthritis, Rheumatoid; Crohn Disease",GI; autoimmune,10.89,25.81,False,0.1,0.1891891891891892,0,1
+CXCL10,2.0,1,"Arthritis, Rheumatoid; Colitis, Ulcerative; Crohn Disease",GI; autoimmune,5.29,21.93,False,0.1,0.081081081081081,0,1
+CXCR1,2.0,2,"Asthma; Psoriasis; Pulmonary Disease, Chronic Obstructive",respiratory; skin,4.96,0.0,True,0.1,0.054054054054054,0,1
+CXCR2,2.0,4,"Asthma; Colitis, Ulcerative; Psoriasis; Pulmonary Disease, Chronic Obstructive",GI; respiratory; skin,69.42,8.12,True,0.1,0.054054054054054,0,1
+CYP26A1,2.0,1,Psoriasis,skin,5.39,9.63,False,0.2,0.2702702702702703,0,1
+CYSLTR1,4.0,2,"Asthma; Pulmonary Disease, Chronic Obstructive; Rhinitis, Allergic",respiratory,14.82,0.0,True,0.1,0.027027027027027,1,0
+DDR2,2.0,1,"Pulmonary Disease, Chronic Obstructive",respiratory,0.0,0.0,False,0.0,0.081081081081081,0,1
+DHFR,4.0,2,"Arthritis, Rheumatoid; Asthma; Colitis, Ulcerative; Crohn Disease; Dermatitis, Atopic; Dermatomyositis; Lupus Erythematosus, Systemic; Multiple Sclerosis; Psoriasis; Spondylitis, Ankylosing; Uveitis",GI; autoimmune; eye; respiratory; skin,33.89,42.56,False,0.6,0.3513513513513513,1,0
+DHODH,4.0,3,"Arthritis, Rheumatoid; Colitis, Ulcerative; Lupus Erythematosus, Systemic; Multiple Sclerosis; Uveitis",GI; autoimmune; eye,19.91,36.24,False,0.2,0.2432432432432432,1,0
+DRD2,2.0,4,"Asthma; Multiple Sclerosis; Psoriasis; Pulmonary Disease, Chronic Obstructive",autoimmune; respiratory; skin,0.0,3.32,False,0.1,0.081081081081081,0,1
+EDNRA,2.0,3,"Asthma; Pulmonary Disease, Chronic Obstructive",respiratory,0.0,3.7,False,0.0,0.1621621621621621,0,1
+EGFR,2.0,2,"Psoriasis; Pulmonary Disease, Chronic Obstructive",respiratory; skin,11.86,370.19,False,0.2,0.4864864864864865,0,1
+ELANE,3.0,2,"Pulmonary Disease, Chronic Obstructive",respiratory,64.17,29.71,True,0.2,0.3783783783783784,0,1
+EPHA2,2.0,1,"Pulmonary Disease, Chronic Obstructive",respiratory,21.18,53.58,False,0.4,0.4324324324324324,0,1
+EPHX2,1.0,1,"Pulmonary Disease, Chronic Obstructive",respiratory,12.61,0.0,True,0.3,0.2162162162162162,0,1
+ESR1,3.0,3,"Lupus Erythematosus, Systemic; Multiple Sclerosis",autoimmune,0.0,18.72,False,0.0,0.054054054054054,0,1
+ESR2,3.0,2,"Crohn Disease; Lupus Erythematosus, Systemic",GI; autoimmune,16.18,87.2,False,0.2,0.3783783783783784,0,1
+F10,1.0,1,Nephrotic Syndrome,renal,0.0,0.0,False,0.0,0.054054054054054,0,1
+FAAH,3.0,1,"Arthritis, Rheumatoid; Crohn Disease; Lupus Erythematosus, Systemic; Multiple Sclerosis",GI; autoimmune,9.36,119.53,False,0.1,0.2162162162162162,0,1
+FCGRT,2.0,1,"Arthritis, Rheumatoid",autoimmune,8.46,0.0,True,0.2,0.1891891891891892,0,1
+FDPS,3.0,1,"Arthritis, Rheumatoid",autoimmune,31.62,28.96,True,0.4,0.4324324324324324,0,1
+FFAR2,2.0,1,"Colitis, Ulcerative",GI,142.07,0.0,True,0.1,0.081081081081081,0,1
+FGFR1,2.0,1,"Pulmonary Disease, Chronic Obstructive",respiratory,7.25,63.29,False,0.4,0.3243243243243243,0,1
+FGFR2,2.0,2,"Asthma; Multiple Sclerosis; Pulmonary Disease, Chronic Obstructive",autoimmune; respiratory,5.13,13.28,False,0.1,0.081081081081081,0,1
+FGFR3,3.0,1,"Arthritis, Rheumatoid; Asthma; Multiple Sclerosis; Psoriasis",autoimmune; respiratory; skin,21.59,21.82,False,0.1,0.1081081081081081,0,1
+FKBP1A,4.0,5,"Arthritis, Rheumatoid; Dermatitis, Atopic; Lupus Erythematosus, Systemic; Uveitis",autoimmune; eye; skin,10.99,52.01,False,0.2,0.3243243243243243,1,0
+FLT1,2.0,1,"Pulmonary Disease, Chronic Obstructive",respiratory,3.67,190.86,False,0.1,0.2972972972972973,0,1
+FLT3,2.0,2,"Arthritis, Rheumatoid; Psoriasis",autoimmune; skin,8.72,45.79,False,0.1,0.1351351351351351,0,1
+FLT4,2.0,1,"Pulmonary Disease, Chronic Obstructive",respiratory,0.0,0.0,False,0.0,0.081081081081081,0,1
+FN1,1.0,1,Uveitis,eye,18.98,27.15,False,0.2,0.2972972972972973,0,1
+FRK,2.0,1,"Pulmonary Disease, Chronic Obstructive",respiratory,12.26,21.27,False,0.2,0.2972972972972973,0,1
+GHR,2.0,1,Crohn Disease,GI,57.7,0.0,True,0.3,0.2162162162162162,0,1
+GLP2R,2.0,1,Crohn Disease,GI,0.0,9.98,False,0.0,0.1351351351351351,0,1
+GMPS,3.0,1,"Arthritis, Rheumatoid; Nephrotic Syndrome",autoimmune; renal,14.64,30.96,False,0.2,0.2702702702702703,0,1
+GNRHR,2.0,1,"Arthritis, Rheumatoid",autoimmune,0.0,0.0,False,0.0,0.027027027027027,0,1
+GPR84,2.0,1,"Colitis, Ulcerative",GI,25.04,84.67,False,0.3,0.4594594594594595,0,1
+GRIA1,2.0,2,Multiple Sclerosis,autoimmune,0.0,0.0,False,0.0,0.027027027027027,0,1
+GRIA2,2.0,2,Multiple Sclerosis,autoimmune,0.0,0.0,False,0.0,0.027027027027027,0,1
+HCRTR1,1.0,1,"Pulmonary Disease, Chronic Obstructive",respiratory,0.0,3.87,False,0.0,0.081081081081081,0,1
+HCRTR2,1.0,1,"Pulmonary Disease, Chronic Obstructive",respiratory,0.0,0.0,False,0.0,0.0,0,1
+HDAC1,1.0,1,Crohn Disease,GI,53.58,41.17,True,0.3,0.3243243243243243,0,1
+HDAC2,1.0,1,Crohn Disease,GI,0.0,20.68,False,0.0,0.1081081081081081,0,1
+HDAC3,1.0,1,Crohn Disease,GI,4.83,49.5,False,0.1,0.1621621621621621,0,1
+HDAC6,1.0,1,Crohn Disease,GI,0.0,15.02,False,0.0,0.2162162162162162,0,1
+HMGCR,3.0,2,"Arthritis, Rheumatoid; Asthma; Lupus Erythematosus, Systemic; Multiple Sclerosis; Pulmonary Disease, Chronic Obstructive; Uveitis",autoimmune; eye; respiratory,23.51,34.51,False,0.3,0.3783783783783784,0,1
+HRH1,4.0,10,"Arthritis, Rheumatoid; Asthma; Dermatitis, Atopic; Lupus Erythematosus, Systemic; Multiple Sclerosis; Rhinitis, Allergic",autoimmune; respiratory; skin,140.89,65.51,True,0.4,0.4324324324324324,1,0
+HRH2,4.0,3,"Arthritis, Rheumatoid; Dermatitis, Atopic; Lupus Erythematosus, Systemic; Multiple Sclerosis; Psoriasis; Pulmonary Disease, Chronic Obstructive",autoimmune; respiratory; skin,26.08,45.03,False,0.1,0.081081081081081,1,0
+HRH4,2.0,2,"Arthritis, Rheumatoid; Asthma; Dermatitis, Atopic; Psoriasis",autoimmune; respiratory; skin,6.54,0.0,True,0.1,0.0,0,1
+HTR2A,1.0,2,"Asthma; Multiple Sclerosis; Pulmonary Disease, Chronic Obstructive",autoimmune; respiratory,7.67,0.0,True,0.2,0.081081081081081,0,1
+HTR2C,1.0,2,"Asthma; Multiple Sclerosis; Pulmonary Disease, Chronic Obstructive",autoimmune; respiratory,0.0,0.0,False,0.0,0.0,0,1
+ICOSLG,1.0,1,"Lupus Erythematosus, Systemic; Psoriasis",autoimmune; skin,0.0,0.0,False,0.0,0.0,0,1
+IFNAR1,4.0,6,"Arthritis, Rheumatoid; Asthma; Colitis, Ulcerative; Crohn Disease; Lupus Erythematosus, Systemic; Multiple Sclerosis; Psoriasis; Pulmonary Disease, Chronic Obstructive",GI; autoimmune; respiratory; skin,18.05,43.92,False,0.3,0.2432432432432432,1,0
+IFNG,3.0,3,"Arthritis, Rheumatoid; Lupus Erythematosus, Systemic; Psoriasis",autoimmune; skin,0.0,2.58,False,0.0,0.1351351351351351,0,1
+IGF1R,2.0,1,Crohn Disease; Multiple Sclerosis,GI; autoimmune,13.29,64.15,False,0.2,0.2972972972972973,0,1
+IGHE,4.0,4,"Asthma; Dermatitis, Atopic; Lupus Erythematosus, Systemic; Pulmonary Disease, Chronic Obstructive",autoimmune; respiratory; skin,3.22,11.14,False,0.1,0.054054054054054,1,0
+IKBKB,2.0,1,"Pulmonary Disease, Chronic Obstructive",respiratory,17.32,72.67,False,0.2,0.3783783783783784,0,1
+IL13,4.0,5,"Asthma; Colitis, Ulcerative; Crohn Disease; Dermatitis, Atopic; Pulmonary Disease, Chronic Obstructive",GI; respiratory; skin,3.31,99.09,False,0.2,0.1621621621621621,1,0
+IL15,2.0,1,"Arthritis, Rheumatoid; Psoriasis",autoimmune; skin,31.5,27.81,True,0.5,0.2972972972972973,0,1
+IL17A,4.0,9,"Arthritis, Rheumatoid; Asthma; Crohn Disease; Dermatitis, Atopic; Multiple Sclerosis; Psoriasis; Spondylitis, Ankylosing; Uveitis",GI; autoimmune; eye; respiratory; skin,0.0,0.0,False,0.0,0.0,1,0
+IL17F,4.0,2,"Arthritis, Rheumatoid; Psoriasis; Spondylitis, Ankylosing",autoimmune; skin,0.0,0.0,False,0.0,0.027027027027027,1,0
+IL17RA,4.0,1,"Arthritis, Rheumatoid; Asthma; Crohn Disease; Psoriasis; Spondylitis, Ankylosing",GI; autoimmune; respiratory; skin,28.82,33.51,False,0.3,0.3243243243243243,1,0
+IL18,1.0,2,"Crohn Disease; Pulmonary Disease, Chronic Obstructive",GI; respiratory,10.77,91.56,False,0.1,0.2972972972972973,0,1
+IL1A,2.0,2,"Colitis, Ulcerative; Dermatitis, Atopic; Psoriasis",GI; skin,75.78,18.7,True,0.1,0.054054054054054,0,1
+IL1B,3.0,3,"Arthritis, Rheumatoid; Colitis, Ulcerative; Pulmonary Disease, Chronic Obstructive; Uveitis",GI; autoimmune; eye; respiratory,10.2,45.09,False,0.3,0.2702702702702703,0,1
+IL1R1,4.0,3,"Arthritis, Rheumatoid; Asthma; Dermatomyositis; Multiple Sclerosis; Pulmonary Disease, Chronic Obstructive; Uveitis",autoimmune; eye; respiratory,5.72,333.19,False,0.2,0.6486486486486487,1,0
+IL20,2.0,1,"Arthritis, Rheumatoid; Psoriasis",autoimmune; skin,0.0,30.05,False,0.0,0.1621621621621621,0,1
+IL22,2.0,1,"Arthritis, Rheumatoid; Dermatitis, Atopic; Psoriasis",autoimmune; skin,0.0,0.0,False,0.0,0.0,0,1
+IL31RA,3.0,1,"Dermatitis, Atopic",skin,6.13,59.84,False,0.2,0.2162162162162162,0,1
+IL33,3.0,3,"Asthma; Dermatitis, Atopic; Pulmonary Disease, Chronic Obstructive",respiratory; skin,0.0,3.73,False,0.0,0.054054054054054,0,1
+IL4R,4.0,1,"Asthma; Colitis, Ulcerative; Dermatitis, Atopic; Pulmonary Disease, Chronic Obstructive",GI; respiratory; skin,24.75,50.92,False,0.5,0.2162162162162162,1,0
+IL5,4.0,3,"Asthma; Pulmonary Disease, Chronic Obstructive",respiratory,6.02,123.29,False,0.3,0.4054054054054054,1,0
+IL5RA,4.0,1,"Asthma; Dermatitis, Atopic; Pulmonary Disease, Chronic Obstructive",respiratory; skin,20.35,61.24,False,0.2,0.3783783783783784,1,0
+IL6,3.0,6,"Arthritis, Rheumatoid; Asthma; Crohn Disease; Lupus Erythematosus, Systemic",GI; autoimmune; respiratory,3.51,56.98,False,0.2,0.1891891891891892,0,1
+IL6R,4.0,4,"Arthritis, Rheumatoid; Dermatomyositis; Lupus Erythematosus, Systemic; Spondylitis, Ankylosing; Uveitis",autoimmune; eye,99.59,82.9,True,0.5,0.3783783783783784,1,0
+IMPDH1,4.0,4,"Arthritis, Rheumatoid; Crohn Disease; Lupus Erythematosus, Systemic; Multiple Sclerosis; Nephrotic Syndrome; Psoriasis; Uveitis",GI; autoimmune; eye; renal; skin,22.26,39.69,False,0.2,0.3513513513513513,1,0
+INPP5D,2.0,1,"Dermatitis, Atopic; Pulmonary Disease, Chronic Obstructive",respiratory; skin,179.9,33.08,True,0.4,0.1891891891891892,0,1
+IRAK4,2.0,1,"Arthritis, Rheumatoid; Lupus Erythematosus, Systemic",autoimmune,51.38,19.32,True,0.4,0.2702702702702703,0,1
+ITGA2,2.0,1,"Colitis, Ulcerative",GI,19.37,107.8,False,0.4,0.3513513513513513,0,1
+ITGB7,4.0,5,"Arthritis, Rheumatoid; Colitis, Ulcerative; Crohn Disease; Multiple Sclerosis",GI; autoimmune,62.27,17.23,True,0.2,0.1621621621621621,1,0
+ITK,2.0,1,"Arthritis, Rheumatoid; Colitis, Ulcerative; Crohn Disease",GI; autoimmune,54.67,56.32,False,0.2,0.1621621621621621,0,1
+JAK1,4.0,15,"Arthritis, Rheumatoid; Colitis, Ulcerative; Crohn Disease; Dermatitis, Atopic; Dermatomyositis; Lupus Erythematosus, Systemic; Psoriasis; Spondylitis, Ankylosing; Uveitis",GI; autoimmune; eye; skin,12.81,85.48,False,0.2,0.2972972972972973,1,0
+JAK2,4.0,12,"Arthritis, Rheumatoid; Colitis, Ulcerative; Crohn Disease; Dermatitis, Atopic; Dermatomyositis; Lupus Erythematosus, Systemic; Psoriasis; Spondylitis, Ankylosing; Uveitis",GI; autoimmune; eye; skin,21.27,62.01,False,0.2,0.2432432432432432,1,0
+JAK3,4.0,11,"Arthritis, Rheumatoid; Colitis, Ulcerative; Crohn Disease; Dermatitis, Atopic; Lupus Erythematosus, Systemic; Psoriasis; Spondylitis, Ankylosing; Uveitis",GI; autoimmune; eye; skin,10.18,31.66,False,0.1,0.2162162162162162,1,0
+KDR,2.0,1,"Pulmonary Disease, Chronic Obstructive",respiratory,7.48,97.78,False,0.2,0.3243243243243243,0,1
+KEAP1,4.0,3,"Arthritis, Rheumatoid; Multiple Sclerosis; Psoriasis",autoimmune; skin,17.93,41.8,False,0.6,0.4594594594594595,1,0
+KIT,3.0,4,"Arthritis, Rheumatoid; Asthma; Multiple Sclerosis; Psoriasis; Pulmonary Disease, Chronic Obstructive",autoimmune; respiratory; skin,21.29,137.44,False,0.3,0.3513513513513513,0,1
+LGALS3,2.0,1,Psoriasis,skin,2.41,34.77,False,0.3,0.1891891891891892,0,1
+LTA,2.0,2,"Arthritis, Rheumatoid",autoimmune,27.76,19.49,True,0.1,0.1081081081081081,0,1
+LTB4R,2.0,2,"Arthritis, Rheumatoid; Asthma; Pulmonary Disease, Chronic Obstructive",autoimmune; respiratory,157.15,54.63,True,0.4,0.1621621621621621,0,1
+MADCAM1,3.0,1,"Colitis, Ulcerative; Crohn Disease",GI,277.19,109.23,True,0.5,0.4594594594594595,0,1
+MAP2K1,2.0,2,"Arthritis, Rheumatoid; Psoriasis",autoimmune; skin,31.2,348.07,False,0.5,0.7567567567567568,0,1
+MAP2K2,2.0,1,"Arthritis, Rheumatoid",autoimmune,11.07,47.1,False,0.3,0.3513513513513513,0,1
+MAP3K1,2.0,1,Psoriasis,skin,13.84,101.77,False,0.2,0.3513513513513513,0,1
+MAP3K8,2.0,1,"Colitis, Ulcerative",GI,21.09,12.13,True,0.3,0.5675675675675675,0,1
+MAPK11,2.0,2,"Arthritis, Rheumatoid; Pulmonary Disease, Chronic Obstructive",autoimmune; respiratory,4.16,27.38,False,0.4,0.4054054054054054,0,1
+MAPK14,2.0,15,"Arthritis, Rheumatoid; Asthma; Crohn Disease; Psoriasis; Pulmonary Disease, Chronic Obstructive; Spondylitis, Ankylosing",GI; autoimmune; respiratory; skin,34.95,69.51,False,0.5,0.5405405405405406,0,1
+MAPKAPK5,2.0,1,"Arthritis, Rheumatoid",autoimmune,12.14,67.51,False,0.3,0.5135135135135135,0,1
+MARCKS,2.0,1,"Pulmonary Disease, Chronic Obstructive",respiratory,12.36,34.9,False,0.4,0.2702702702702703,0,1
+MC2R,4.0,1,"Arthritis, Rheumatoid; Dermatomyositis; Multiple Sclerosis; Nephrotic Syndrome; Uveitis",autoimmune; eye; renal,0.0,111.82,False,0.0,0.1081081081081081,1,0
+MET,2.0,1,"Pulmonary Disease, Chronic Obstructive",respiratory,22.4,124.2,False,0.1,0.2972972972972973,0,1
+MIF,3.0,1,"Arthritis, Rheumatoid",autoimmune,25.0,20.4,True,0.2,0.2972972972972973,0,1
+MMP1,3.0,1,"Colitis, Ulcerative; Crohn Disease; Pulmonary Disease, Chronic Obstructive",GI; respiratory,0.0,0.0,False,0.0,0.054054054054054,0,1
+MMP12,2.0,1,"Pulmonary Disease, Chronic Obstructive",respiratory,0.0,0.0,False,0.0,0.027027027027027,0,1
+MMP13,3.0,2,"Arthritis, Rheumatoid; Colitis, Ulcerative; Crohn Disease; Pulmonary Disease, Chronic Obstructive",GI; autoimmune; respiratory,0.0,13.01,False,0.1,0.1621621621621621,0,1
+MMP7,3.0,1,"Colitis, Ulcerative; Crohn Disease; Pulmonary Disease, Chronic Obstructive",GI; respiratory,6.07,39.99,False,0.1,0.1891891891891892,0,1
+MMP8,3.0,1,"Colitis, Ulcerative; Crohn Disease; Pulmonary Disease, Chronic Obstructive",GI; respiratory,3.93,56.14,False,0.2,0.1621621621621621,0,1
+MMP9,2.0,2,"Arthritis, Rheumatoid; Colitis, Ulcerative; Crohn Disease; Pulmonary Disease, Chronic Obstructive",GI; autoimmune; respiratory,11.54,71.71,False,0.2,0.2162162162162162,0,1
+MS4A1,4.0,7,"Arthritis, Rheumatoid; Colitis, Ulcerative; Crohn Disease; Dermatomyositis; Lupus Erythematosus, Systemic; Multiple Sclerosis; Nephrotic Syndrome; Spondylitis, Ankylosing",GI; autoimmune; renal,0.0,8.92,False,0.0,0.1351351351351351,1,0
+NOS2,2.0,1,"Arthritis, Rheumatoid; Asthma",autoimmune; respiratory,4.35,0.0,True,0.2,0.1621621621621621,0,1
+NPR1,2.0,1,Asthma,respiratory,3.93,2.99,True,0.1,0.1351351351351351,0,1
+NR1H4,2.0,1,"Arthritis, Rheumatoid",autoimmune,2.4,0.0,True,0.2,0.1621621621621621,0,1
+NR3C1,4.0,43,"Arthritis, Rheumatoid; Asthma; Colitis, Ulcerative; Crohn Disease; Dermatitis, Atopic; Dermatomyositis; Lupus Erythematosus, Systemic; Multiple Sclerosis; Nephrotic Syndrome; Psoriasis; Pulmonary Disease, Chronic Obstructive; Rhinitis, Allergic; Spondylitis, Ankylosing; Uveitis",GI; autoimmune; eye; renal; respiratory; skin,56.91,9.43,True,0.2,0.1891891891891892,1,0
+NR3C2,4.0,2,"Arthritis, Rheumatoid; Colitis, Ulcerative; Nephrotic Syndrome",GI; autoimmune; renal,19.75,18.02,True,0.2,0.2162162162162162,1,0
+NTRK1,2.0,3,"Dermatitis, Atopic; Psoriasis; Pulmonary Disease, Chronic Obstructive",respiratory; skin,10.46,79.17,False,0.4,0.2432432432432432,0,1
+NTRK2,2.0,1,Psoriasis,skin,4.45,0.0,True,0.1,0.1081081081081081,0,1
+NTRK3,2.0,1,Psoriasis,skin,0.0,10.04,False,0.0,0.081081081081081,0,1
+OPRD1,3.0,2,"Arthritis, Rheumatoid; Colitis, Ulcerative; Crohn Disease; Dermatitis, Atopic; Multiple Sclerosis; Psoriasis",GI; autoimmune; skin,0.0,24.67,False,0.0,0.081081081081081,0,1
+OSMR,2.0,1,"Colitis, Ulcerative",GI,39.93,182.9,False,0.4,0.4054054054054054,0,1
+P2RX7,2.0,2,"Arthritis, Rheumatoid",autoimmune,9.05,13.8,False,0.2,0.2972972972972973,0,1
+P2RY12,3.0,2,"Pulmonary Disease, Chronic Obstructive",respiratory,0.0,96.27,False,0.0,0.054054054054054,0,1
+PDCD1,2.0,1,"Pulmonary Disease, Chronic Obstructive",respiratory,0.0,76.52,False,0.0,0.2432432432432432,0,1
+PDE3A,4.0,6,"Arthritis, Rheumatoid; Asthma; Crohn Disease; Nephrotic Syndrome; Pulmonary Disease, Chronic Obstructive",GI; autoimmune; renal; respiratory,11.67,0.0,True,0.1,0.1081081081081081,1,0
+PDE5A,3.0,4,"Arthritis, Rheumatoid; Crohn Disease; Nephrotic Syndrome; Pulmonary Disease, Chronic Obstructive",GI; autoimmune; renal; respiratory,22.77,7.56,True,0.3,0.2432432432432432,0,1
+PDGFRA,3.0,2,"Arthritis, Rheumatoid; Asthma; Multiple Sclerosis; Psoriasis; Pulmonary Disease, Chronic Obstructive",autoimmune; respiratory; skin,4.42,134.3,False,0.2,0.2702702702702703,0,1
+PDGFRB,3.0,3,"Arthritis, Rheumatoid; Asthma; Multiple Sclerosis; Psoriasis; Pulmonary Disease, Chronic Obstructive",autoimmune; respiratory; skin,0.0,30.47,False,0.0,0.2162162162162162,0,1
+PGR,3.0,4,"Lupus Erythematosus, Systemic; Multiple Sclerosis; Pulmonary Disease, Chronic Obstructive",autoimmune; respiratory,6.14,0.0,True,0.1,0.1621621621621621,0,1
+PIK3CD,2.0,3,"Asthma; Psoriasis; Pulmonary Disease, Chronic Obstructive",respiratory; skin,13.67,23.02,False,0.3,0.3243243243243243,0,1
+PIKFYVE,2.0,2,"Arthritis, Rheumatoid; Crohn Disease",GI; autoimmune,32.2,33.04,False,0.4,0.4594594594594595,0,1
+PLA2G4A,1.0,1,"Arthritis, Rheumatoid",autoimmune,4.45,0.0,True,0.1,0.054054054054054,0,1
+PPARA,1.0,1,Multiple Sclerosis,autoimmune,16.37,15.95,True,0.3,0.3513513513513513,0,1
+PPARG,4.0,4,"Arthritis, Rheumatoid; Asthma; Colitis, Ulcerative; Crohn Disease",GI; autoimmune; respiratory,11.09,12.78,False,0.1,0.1621621621621621,1,0
+PPAT,4.0,2,"Arthritis, Rheumatoid; Colitis, Ulcerative; Crohn Disease; Lupus Erythematosus, Systemic",GI; autoimmune,6.72,17.2,False,0.3,0.2432432432432432,1,0
+PPIA,4.0,1,"Arthritis, Rheumatoid; Dermatitis, Atopic; Dermatomyositis; Psoriasis; Pulmonary Disease, Chronic Obstructive; Uveitis",autoimmune; eye; respiratory; skin,17.44,7.85,True,0.5,0.4324324324324324,1,0
+PPP3CA,3.0,1,"Lupus Erythematosus, Systemic; Psoriasis; Uveitis",autoimmune; eye; skin,141.59,11.37,True,0.6,0.2972972972972973,0,1
+PTAFR,3.0,1,"Arthritis, Rheumatoid",autoimmune,9.03,11.99,False,0.2,0.1081081081081081,0,1
+PTGDR2,3.0,11,"Asthma; Dermatitis, Atopic; Pulmonary Disease, Chronic Obstructive",respiratory; skin,5.28,3.67,True,0.2,0.1081081081081081,0,1
+PTGER3,3.0,1,"Spondylitis, Ankylosing",autoimmune,0.0,0.0,False,0.0,0.081081081081081,0,1
+PTGER4,2.0,2,"Arthritis, Rheumatoid; Colitis, Ulcerative",GI; autoimmune,14.13,27.15,False,0.4,0.3783783783783784,0,1
+PTGIR,2.0,2,"Asthma; Pulmonary Disease, Chronic Obstructive",respiratory,2.74,12.14,False,0.2,0.1081081081081081,0,1
+PTGS2,4.0,33,"Arthritis, Rheumatoid; Asthma; Colitis, Ulcerative; Crohn Disease; Lupus Erythematosus, Systemic; Multiple Sclerosis; Pulmonary Disease, Chronic Obstructive; Spondylitis, Ankylosing",GI; autoimmune; respiratory,6.62,3.24,True,0.2,0.1891891891891892,1,0
+PTH1R,2.0,2,Psoriasis,skin,47.2,234.52,False,0.3,0.3783783783783784,0,1
+RAF1,2.0,1,"Pulmonary Disease, Chronic Obstructive",respiratory,19.66,40.61,False,0.4,0.4054054054054054,0,1
+RARA,4.0,5,Crohn Disease; Psoriasis,GI; skin,34.13,242.19,False,0.4,0.3243243243243243,1,0
+RARB,4.0,5,Crohn Disease; Psoriasis,GI; skin,0.0,89.36,False,0.0,0.1351351351351351,1,0
+REN,2.0,1,"Colitis, Ulcerative",GI,216.9,21.99,True,0.2,0.081081081081081,0,1
+RET,2.0,2,"Psoriasis; Pulmonary Disease, Chronic Obstructive",respiratory; skin,3.91,27.19,False,0.1,0.0,0,1
+RIPK1,2.0,1,"Arthritis, Rheumatoid; Colitis, Ulcerative; Psoriasis",GI; autoimmune; skin,18.79,171.22,False,0.5,0.3783783783783784,0,1
+ROCK2,2.0,1,Psoriasis,skin,10.49,58.06,False,0.5,0.4324324324324324,0,1
+S1PR1,4.0,11,"Colitis, Ulcerative; Crohn Disease; Dermatitis, Atopic; Dermatomyositis; Lupus Erythematosus, Systemic; Multiple Sclerosis; Psoriasis",GI; autoimmune; skin,6.26,29.35,False,0.4,0.2702702702702703,1,0
+S1PR4,4.0,4,"Colitis, Ulcerative; Crohn Disease; Lupus Erythematosus, Systemic; Multiple Sclerosis; Psoriasis",GI; autoimmune; skin,0.0,27.15,False,0.1,0.2432432432432432,1,0
+S1PR5,4.0,5,"Colitis, Ulcerative; Crohn Disease; Lupus Erythematosus, Systemic; Multiple Sclerosis; Psoriasis",GI; autoimmune; skin,5.07,15.94,False,0.1,0.2162162162162162,1,0
+SCN4A,2.0,5,Crohn Disease; Multiple Sclerosis,GI; autoimmune,0.0,5.51,False,0.0,0.1081081081081081,0,1
+SCN5A,2.0,5,Crohn Disease; Multiple Sclerosis,GI; autoimmune,0.0,18.58,False,0.0,0.1081081081081081,0,1
+SELPLG,2.0,1,Psoriasis,skin,7.43,127.73,False,0.3,0.5135135135135135,0,1
+SERPINC1,2.0,1,Nephrotic Syndrome,renal,0.0,0.0,False,0.0,0.0,0,1
+SIGLEC8,2.0,1,"Dermatitis, Atopic",skin,15.57,0.0,True,0.1,0.027027027027027,0,1
+SIRT1,2.0,1,"Colitis, Ulcerative; Psoriasis; Pulmonary Disease, Chronic Obstructive",GI; respiratory; skin,41.02,239.18,False,0.5,0.4594594594594595,0,1
+SLC12A1,4.0,3,"Nephrotic Syndrome; Pulmonary Disease, Chronic Obstructive",renal; respiratory,2.43,8.67,False,0.2,0.1351351351351351,1,0
+SLC12A3,4.0,3,Nephrotic Syndrome,renal,7.35,40.15,False,0.2,0.4324324324324324,1,0
+SLC29A1,2.0,1,"Arthritis, Rheumatoid",autoimmune,34.57,42.62,False,0.3,0.3513513513513513,0,1
+SLC5A2,2.0,1,"Colitis, Ulcerative; Crohn Disease",GI,25.13,17.87,True,0.2,0.1081081081081081,0,1
+SLC6A2,4.0,5,"Dermatitis, Atopic; Multiple Sclerosis; Psoriasis",autoimmune; skin,0.0,0.0,False,0.0,0.027027027027027,1,0
+SLC6A3,3.0,4,Multiple Sclerosis,autoimmune,0.0,7.65,False,0.0,0.1081081081081081,0,1
+SLC6A4,3.0,2,"Dermatitis, Atopic; Multiple Sclerosis; Psoriasis",autoimmune; skin,4.7,0.0,True,0.1,0.1081081081081081,0,1
+SNAP25,3.0,1,"Multiple Sclerosis; Psoriasis; Pulmonary Disease, Chronic Obstructive",autoimmune; respiratory; skin,0.0,131.76,False,0.0,0.2702702702702703,0,1
+SPP1,1.0,1,"Arthritis, Rheumatoid",autoimmune,137.09,6.6,True,0.6,0.2162162162162162,0,1
+SYK,3.0,7,"Arthritis, Rheumatoid; Asthma; Dermatitis, Atopic; Lupus Erythematosus, Systemic",autoimmune; respiratory; skin,55.92,6.88,True,0.4,0.2432432432432432,0,1
+TACR1,3.0,2,"Dermatitis, Atopic; Pulmonary Disease, Chronic Obstructive",respiratory; skin,0.0,0.0,False,0.0,0.1891891891891892,0,1
+TEK,2.0,1,"Pulmonary Disease, Chronic Obstructive",respiratory,0.0,0.0,False,0.0,0.054054054054054,0,1
+TLR2,2.0,1,"Colitis, Ulcerative; Psoriasis",GI; skin,11.37,12.71,False,0.2,0.1081081081081081,0,1
+TLR7,4.0,5,"Arthritis, Rheumatoid; Asthma; Dermatomyositis; Lupus Erythematosus, Systemic; Psoriasis",autoimmune; respiratory; skin,0.0,3.51,False,0.1,0.027027027027027,1,0
+TLR8,2.0,3,"Dermatomyositis; Lupus Erythematosus, Systemic; Psoriasis",autoimmune; skin,0.0,0.0,False,0.0,0.054054054054054,0,1
+TLR9,4.0,3,"Arthritis, Rheumatoid; Colitis, Ulcerative; Dermatomyositis; Lupus Erythematosus, Systemic; Psoriasis",GI; autoimmune; skin,9.84,44.51,False,0.1,0.1621621621621621,1,0
+TNF,4.0,10,"Arthritis, Rheumatoid; Asthma; Colitis, Ulcerative; Crohn Disease; Dermatomyositis; Psoriasis; Pulmonary Disease, Chronic Obstructive; Spondylitis, Ankylosing; Uveitis",GI; autoimmune; eye; respiratory; skin,36.86,19.49,True,0.1,0.1081081081081081,1,0
+TNFRSF13C,2.0,1,"Arthritis, Rheumatoid; Multiple Sclerosis",autoimmune,0.0,104.09,False,0.1,0.2162162162162162,0,1
+TNFRSF4,3.0,2,"Colitis, Ulcerative; Dermatitis, Atopic",GI; skin,0.0,193.04,False,0.0,0.4054054054054054,0,1
+TNFSF11,3.0,1,"Arthritis, Rheumatoid; Crohn Disease",GI; autoimmune,0.0,0.0,False,0.0,0.1081081081081081,0,1
+TNFSF12,1.0,1,"Arthritis, Rheumatoid",autoimmune,11.51,11.96,False,0.2,0.2162162162162162,0,1
+TNFSF13,2.0,1,"Arthritis, Rheumatoid; Lupus Erythematosus, Systemic; Multiple Sclerosis",autoimmune,15.47,48.73,False,0.5,0.5405405405405406,0,1
+TNFSF13B,4.0,6,"Arthritis, Rheumatoid; Lupus Erythematosus, Systemic; Multiple Sclerosis; Nephrotic Syndrome",autoimmune; renal,0.0,0.0,False,0.0,0.0,1,0
+TNFSF14,2.0,2,"Arthritis, Rheumatoid; Asthma; Colitis, Ulcerative; Crohn Disease",GI; autoimmune; respiratory,35.06,90.67,False,0.2,0.4054054054054054,0,1
+TNFSF4,3.0,2,"Asthma; Dermatitis, Atopic",respiratory; skin,3.38,22.64,False,0.5,0.5405405405405406,0,1
+TOP2A,4.0,2,Multiple Sclerosis,autoimmune,7.79,94.71,False,0.1,0.2702702702702703,1,0
+TRAF3IP2,3.0,1,"Arthritis, Rheumatoid",autoimmune,7.8,151.92,False,0.3,0.4594594594594595,0,1
+TRPV1,3.0,3,"Arthritis, Rheumatoid; Crohn Disease; Dermatitis, Atopic; Lupus Erythematosus, Systemic; Multiple Sclerosis; Pulmonary Disease, Chronic Obstructive",GI; autoimmune; respiratory; skin,0.0,0.0,False,0.0,0.027027027027027,0,1
+TSLP,4.0,1,"Asthma; Dermatitis, Atopic; Pulmonary Disease, Chronic Obstructive",respiratory; skin,23.96,3.11,True,0.2,0.1351351351351351,1,0
+TYK2,4.0,11,"Arthritis, Rheumatoid; Colitis, Ulcerative; Crohn Disease; Dermatitis, Atopic; Dermatomyositis; Lupus Erythematosus, Systemic; Psoriasis; Spondylitis, Ankylosing; Uveitis",GI; autoimmune; eye; skin,20.2,73.07,False,0.3,0.3783783783783784,1,0
+TYMS,3.0,2,"Pulmonary Disease, Chronic Obstructive",respiratory,10.85,10.02,True,0.4,0.4054054054054054,0,1
+VDR,4.0,8,"Asthma; Colitis, Ulcerative; Crohn Disease; Dermatitis, Atopic; Lupus Erythematosus, Systemic; Multiple Sclerosis; Psoriasis; Pulmonary Disease, Chronic Obstructive",GI; autoimmune; respiratory; skin,30.94,15.24,True,0.4,0.1621621621621621,1,0
+VEGFA,3.0,1,"Pulmonary Disease, Chronic Obstructive; Uveitis",eye; respiratory,110.38,11.56,True,0.4,0.4324324324324324,0,1
+VKORC1,1.0,1,"Arthritis, Rheumatoid",autoimmune,120.19,48.52,True,0.4,0.2972972972972973,0,1
+XDH,3.0,1,"Colitis, Ulcerative",GI,0.0,8.12,False,0.0,0.1621621621621621,0,1

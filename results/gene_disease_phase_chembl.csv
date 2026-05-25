@@ -1,0 +1,1114 @@
+gene,disease,category,phase,mol_id,VDR_score,GR_score,VDR_dominant
+IL13,Asthma,respiratory,2.0,CHEMBL1742985,3.31,99.09,False
+ADRB2,Asthma,respiratory,2.0,CHEMBL1789842,14.51,48.38,False
+IL13,Asthma,respiratory,3.0,CHEMBL1743035,3.31,99.09,False
+ADRB2,Asthma,respiratory,4.0,CHEMBL1084172,14.51,48.38,False
+PTGDR2,Asthma,respiratory,2.0,CHEMBL1951575,5.28,3.67,True
+IL17A,Asthma,respiratory,2.0,CHEMBL1743068,0.0,0.0,False
+TNFSF4,Asthma,respiratory,2.0,CHEMBL2108720,3.38,22.64,False
+IL17RA,Asthma,respiratory,2.0,CHEMBL1742996,28.82,33.51,False
+IL6,Asthma,respiratory,2.0,CHEMBL1743071,3.51,56.98,False
+CHRM3,Asthma,respiratory,3.0,CHEMBL523299,11.74,0.0,True
+IL6,Asthma,respiratory,2.0,CHEMBL2108589,3.51,56.98,False
+NR3C1,Asthma,respiratory,4.0,CHEMBL2040682,56.91,9.43,True
+CHRM3,Asthma,respiratory,4.0,CHEMBL3545181,11.74,0.0,True
+PDGFRB,Asthma,respiratory,2.0,CHEMBL1642,0.0,30.47,False
+KIT,Asthma,respiratory,2.0,CHEMBL1642,21.29,137.44,False
+ABL1,Asthma,respiratory,2.0,CHEMBL1642,34.44,83.06,False
+CYSLTR1,Asthma,respiratory,4.0,CHEMBL1200681,14.82,0.0,True
+ADRB2,Asthma,respiratory,4.0,CHEMBL1082607,14.51,48.38,False
+NR3C1,Asthma,respiratory,4.0,CHEMBL1200500,56.91,9.43,True
+VDR,Asthma,respiratory,3.0,CHEMBL1042,30.94,15.24,True
+LTB4R,Asthma,respiratory,2.0,CHEMBL1742420,157.15,54.63,True
+NR3C1,Asthma,respiratory,4.0,CHEMBL1200538,56.91,9.43,True
+NR3C1,Asthma,respiratory,4.0,CHEMBL1650,56.91,9.43,True
+NR3C1,Asthma,respiratory,4.0,CHEMBL1370,56.91,9.43,True
+NR3C1,Asthma,respiratory,4.0,CHEMBL2021430,56.91,9.43,True
+NR3C1,Asthma,respiratory,4.0,CHEMBL384467,56.91,9.43,True
+NR3C1,Asthma,respiratory,4.0,CHEMBL389621,56.91,9.43,True
+ADRB2,Asthma,respiratory,3.0,CHEMBL32800,14.51,48.38,False
+PTGIR,Asthma,respiratory,0.5,CHEMBL494,2.74,12.14,False
+ADRB2,Asthma,respiratory,4.0,CHEMBL3989798,14.51,48.38,False
+HRH1,Asthma,respiratory,3.0,CHEMBL998,140.89,65.51,True
+ADRB2,Asthma,respiratory,2.0,CHEMBL521606,14.51,48.38,False
+ADRB1,Asthma,respiratory,2.0,CHEMBL521606,3.23,169.87,False
+HMGCR,Asthma,respiratory,1.0,CHEMBL503,23.51,34.51,False
+DHFR,Asthma,respiratory,3.0,CHEMBL34259,33.89,42.56,False
+NR3C1,Asthma,respiratory,4.0,CHEMBL1201081,56.91,9.43,True
+NR3C1,Asthma,respiratory,4.0,CHEMBL650,56.91,9.43,True
+NR3C1,Asthma,respiratory,4.0,CHEMBL1364144,56.91,9.43,True
+ADRB2,Asthma,respiratory,4.0,CHEMBL1200444,14.51,48.38,False
+NR3C1,Asthma,respiratory,4.0,CHEMBL1201014,56.91,9.43,True
+PTGDR2,Asthma,respiratory,2.0,CHEMBL361812,5.28,3.67,True
+NR3C1,Asthma,respiratory,4.0,CHEMBL635,56.91,9.43,True
+HRH1,Asthma,respiratory,2.0,CHEMBL17157,140.89,65.51,True
+NR3C1,Asthma,respiratory,4.0,CHEMBL1512,56.91,9.43,True
+VDR,Asthma,respiratory,3.0,CHEMBL1536,30.94,15.24,True
+CYSLTR1,Asthma,respiratory,4.0,CHEMBL603,14.82,0.0,True
+HTR2A,Asthma,respiratory,1.0,CHEMBL831,7.67,0.0,True
+HTR2C,Asthma,respiratory,1.0,CHEMBL831,0.0,0.0,False
+NR3C1,Asthma,respiratory,4.0,CHEMBL1473,56.91,9.43,True
+NR3C1,Asthma,respiratory,4.0,CHEMBL1161,56.91,9.43,True
+ADRB2,Asthma,respiratory,4.0,CHEMBL1441059,14.51,48.38,False
+CHRM3,Asthma,respiratory,4.0,CHEMBL1200764,11.74,0.0,True
+ADRB2,Asthma,respiratory,4.0,CHEMBL1568057,14.51,48.38,False
+ADRB2,Asthma,respiratory,4.0,CHEMBL1315867,14.51,48.38,False
+NR3C1,Asthma,respiratory,4.0,CHEMBL131,56.91,9.43,True
+NR3C1,Asthma,respiratory,4.0,CHEMBL1200495,56.91,9.43,True
+NR3C1,Asthma,respiratory,4.0,CHEMBL1504,56.91,9.43,True
+ALOX5,Asthma,respiratory,4.0,CHEMBL93,3.77,14.06,False
+HMGCR,Asthma,respiratory,3.0,CHEMBL1064,23.51,34.51,False
+IL5,Asthma,respiratory,4.0,CHEMBL2108429,6.02,123.29,False
+IL5,Asthma,respiratory,4.0,CHEMBL2107884,6.02,123.29,False
+ADRB2,Asthma,respiratory,2.0,CHEMBL2218893,14.51,48.38,False
+NR3C1,Asthma,respiratory,4.0,CHEMBL1676,56.91,9.43,True
+ADRB2,Asthma,respiratory,3.0,CHEMBL3989693,14.51,48.38,False
+TNF,Asthma,respiratory,2.0,CHEMBL1201580,36.86,19.49,True
+IGHE,Asthma,respiratory,4.0,CHEMBL1201589,3.22,11.14,False
+FGFR2,Asthma,respiratory,2.0,CHEMBL1201821,5.13,13.28,False
+TNF,Asthma,respiratory,2.0,CHEMBL1201833,36.86,19.49,True
+IL5RA,Asthma,respiratory,4.0,CHEMBL1742991,20.35,61.24,False
+IL13,Asthma,respiratory,3.0,CHEMBL1743081,3.31,99.09,False
+IL1R1,Asthma,respiratory,1.0,CHEMBL1201570,5.72,333.19,False
+TNF,Asthma,respiratory,2.0,CHEMBL1201572,36.86,19.49,True
+CHRM3,Asthma,respiratory,3.0,CHEMBL1201027,11.74,0.0,True
+CHRM1,Asthma,respiratory,3.0,CHEMBL1201027,0.0,43.55,False
+IL13,Asthma,respiratory,2.0,CHEMBL2109465,3.31,99.09,False
+IL4R,Asthma,respiratory,4.0,CHEMBL2108675,24.75,50.92,False
+ADRB2,Asthma,respiratory,2.0,CHEMBL1095607,14.51,48.38,False
+PPARG,Asthma,respiratory,2.0,CHEMBL121,11.09,12.78,False
+ADRB2,Asthma,respiratory,3.0,CHEMBL160519,14.51,48.38,False
+IGHE,Asthma,respiratory,2.0,CHEMBL2109456,3.22,11.14,False
+ADRB2,Asthma,respiratory,2.0,CHEMBL3039530,14.51,48.38,False
+PTGDR2,Asthma,respiratory,2.0,CHEMBL2386081,5.28,3.67,True
+PTGDR2,Asthma,respiratory,3.0,CHEMBL3137332,5.28,3.67,True
+MAPK14,Asthma,respiratory,2.0,CHEMBL9960,34.95,69.51,False
+PIK3CD,Asthma,respiratory,1.0,CHEMBL5314409,13.67,23.02,False
+IGHE,Asthma,respiratory,2.0,CHEMBL2109457,3.22,11.14,False
+MAPK14,Asthma,respiratory,2.0,CHEMBL1938400,34.95,69.51,False
+HRH4,Asthma,respiratory,1.0,CHEMBL1915540,6.54,0.0,True
+CHRM3,Asthma,respiratory,1.0,CHEMBL3916700,11.74,0.0,True
+ADRB2,Asthma,respiratory,1.0,CHEMBL3916700,14.51,48.38,False
+PTGDR2,Asthma,respiratory,2.0,CHEMBL3545031,5.28,3.67,True
+PTGDR2,Asthma,respiratory,2.0,CHEMBL3545343,5.28,3.67,True
+PTGDR2,Asthma,respiratory,2.0,CHEMBL1914489,5.28,3.67,True
+ADRB2,Asthma,respiratory,2.0,CHEMBL3545103,14.51,48.38,False
+ADORA1,Asthma,respiratory,2.0,CHEMBL3545162,0.0,198.31,False
+PTGDR2,Asthma,respiratory,2.0,CHEMBL2442750,5.28,3.67,True
+PTGDR2,Asthma,respiratory,3.0,CHEMBL560993,5.28,3.67,True
+CHRNA7,Asthma,respiratory,2.0,CHEMBL5314402,0.0,0.0,False
+PTGDR2,Asthma,respiratory,2.0,CHEMBL5314403,5.28,3.67,True
+KIT,Asthma,respiratory,3.0,CHEMBL1908391,21.29,137.44,False
+FGFR3,Asthma,respiratory,3.0,CHEMBL1908391,21.59,21.82,False
+SYK,Asthma,respiratory,2.0,CHEMBL2170582,55.92,6.88,True
+TSLP,Asthma,respiratory,4.0,CHEMBL3707229,23.96,3.11,True
+CSF2,Asthma,respiratory,2.0,CHEMBL3707325,20.08,203.2,False
+CHRM3,Asthma,respiratory,2.0,CHEMBL3707249,11.74,0.0,True
+CHRM2,Asthma,respiratory,2.0,CHEMBL3707249,0.0,3.5,False
+CHRNA7,Asthma,respiratory,2.0,CHEMBL3707249,0.0,0.0,False
+CHRM1,Asthma,respiratory,2.0,CHEMBL3707249,0.0,43.55,False
+ADH5,Asthma,respiratory,2.0,CHEMBL3989910,48.36,80.42,False
+ADH5,Asthma,respiratory,1.0,CHEMBL1738699,48.36,80.42,False
+NOS2,Asthma,respiratory,1.0,CHEMBL114551,4.35,0.0,True
+ADRB2,Asthma,respiratory,2.0,CHEMBL1240967,14.51,48.38,False
+NPR1,Asthma,respiratory,2.0,CHEMBL4297320,3.93,2.99,True
+NR3C1,Asthma,respiratory,2.0,CHEMBL4072756,56.91,9.43,True
+PTGDR2,Asthma,respiratory,2.0,CHEMBL551813,5.28,3.67,True
+ALOX5,Asthma,respiratory,2.0,CHEMBL4297416,3.77,14.06,False
+TLR7,Asthma,respiratory,2.0,CHEMBL4297492,0.0,3.51,False
+IL33,Asthma,respiratory,2.0,CHEMBL4297580,0.0,3.73,False
+IL13,Asthma,respiratory,1.0,CHEMBL4297864,3.31,99.09,False
+IL17A,Asthma,respiratory,2.0,CHEMBL4297926,0.0,0.0,False
+NR3C1,Asthma,respiratory,2.0,CHEMBL3666807,56.91,9.43,True
+TNFSF4,Asthma,respiratory,2.0,CHEMBL4594569,3.38,22.64,False
+BTK,Asthma,respiratory,2.0,CHEMBL3702854,209.73,65.13,True
+IL33,Asthma,respiratory,2.0,CHEMBL4594594,0.0,3.73,False
+IL5,Asthma,respiratory,3.0,CHEMBL4650469,6.02,123.29,False
+TNFSF14,Asthma,respiratory,2.0,CHEMBL4802198,35.06,90.67,False
+CHRM3,Asthma,respiratory,1.0,CHEMBL4297483,11.74,0.0,True
+ADRB2,Asthma,respiratory,1.0,CHEMBL4297483,14.51,48.38,False
+CXCR2,Asthma,respiratory,2.0,CHEMBL2103864,69.42,8.12,True
+CXCR1,Asthma,respiratory,2.0,CHEMBL2103864,4.96,0.0,True
+CHRM3,"Pulmonary Disease, Chronic Obstructive",respiratory,4.0,CHEMBL551466,11.74,0.0,True
+ADRB2,"Pulmonary Disease, Chronic Obstructive",respiratory,4.0,CHEMBL714,14.51,48.38,False
+ADRB2,"Pulmonary Disease, Chronic Obstructive",respiratory,4.0,CHEMBL1441059,14.51,48.38,False
+ADRB2,"Pulmonary Disease, Chronic Obstructive",respiratory,4.0,CHEMBL1951071,14.51,48.38,False
+NR3C1,"Pulmonary Disease, Chronic Obstructive",respiratory,4.0,CHEMBL1370,56.91,9.43,True
+NR3C1,"Pulmonary Disease, Chronic Obstructive",respiratory,4.0,CHEMBL1473,56.91,9.43,True
+CHRM3,"Pulmonary Disease, Chronic Obstructive",respiratory,4.0,CHEMBL1201027,11.74,0.0,True
+CHRM1,"Pulmonary Disease, Chronic Obstructive",respiratory,4.0,CHEMBL1201027,0.0,43.55,False
+ADRB2,"Pulmonary Disease, Chronic Obstructive",respiratory,4.0,CHEMBL1789842,14.51,48.38,False
+CHRM3,"Pulmonary Disease, Chronic Obstructive",respiratory,4.0,CHEMBL2134724,11.74,0.0,True
+HMGCR,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL503,23.51,34.51,False
+PGR,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL1201139,6.14,0.0,True
+ADRB2,"Pulmonary Disease, Chronic Obstructive",respiratory,4.0,CHEMBL2105743,14.51,48.38,False
+ADRB2,"Pulmonary Disease, Chronic Obstructive",respiratory,4.0,CHEMBL1082607,14.51,48.38,False
+HMGCR,"Pulmonary Disease, Chronic Obstructive",respiratory,3.0,CHEMBL1064,23.51,34.51,False
+CHRM3,"Pulmonary Disease, Chronic Obstructive",respiratory,4.0,CHEMBL3545181,11.74,0.0,True
+CHRM3,"Pulmonary Disease, Chronic Obstructive",respiratory,4.0,CHEMBL523299,11.74,0.0,True
+ADRB2,"Pulmonary Disease, Chronic Obstructive",respiratory,4.0,CHEMBL1084172,14.51,48.38,False
+NR3C1,"Pulmonary Disease, Chronic Obstructive",respiratory,4.0,CHEMBL1676,56.91,9.43,True
+PTGIR,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL494,2.74,12.14,False
+IGHE,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL1201589,3.22,11.14,False
+NR3C1,"Pulmonary Disease, Chronic Obstructive",respiratory,3.0,CHEMBL635,56.91,9.43,True
+PTGIR,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL1237119,2.74,12.14,False
+IL1B,"Pulmonary Disease, Chronic Obstructive",respiratory,1.0,CHEMBL1201834,10.2,45.09,False
+PPIA,"Pulmonary Disease, Chronic Obstructive",respiratory,1.0,CHEMBL160,17.44,7.85,True
+MMP13,"Pulmonary Disease, Chronic Obstructive",respiratory,3.0,CHEMBL1200699,0.0,13.01,False
+MMP8,"Pulmonary Disease, Chronic Obstructive",respiratory,3.0,CHEMBL1200699,3.93,56.14,False
+MMP7,"Pulmonary Disease, Chronic Obstructive",respiratory,3.0,CHEMBL1200699,6.07,39.99,False
+MMP1,"Pulmonary Disease, Chronic Obstructive",respiratory,3.0,CHEMBL1200699,0.0,0.0,False
+CFTR,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL2010601,0.0,0.0,False
+CHRM3,"Pulmonary Disease, Chronic Obstructive",respiratory,1.0,CHEMBL3084748,11.74,0.0,True
+CHRM2,"Pulmonary Disease, Chronic Obstructive",respiratory,1.0,CHEMBL3084748,0.0,3.5,False
+NR3C1,"Pulmonary Disease, Chronic Obstructive",respiratory,3.0,CHEMBL131,56.91,9.43,True
+NR3C1,"Pulmonary Disease, Chronic Obstructive",respiratory,3.0,CHEMBL1161,56.91,9.43,True
+HTR2A,"Pulmonary Disease, Chronic Obstructive",respiratory,1.0,CHEMBL831,7.67,0.0,True
+HTR2C,"Pulmonary Disease, Chronic Obstructive",respiratory,1.0,CHEMBL831,0.0,0.0,False
+ALOX5,"Pulmonary Disease, Chronic Obstructive",respiratory,3.0,CHEMBL93,3.77,14.06,False
+ADRB2,"Pulmonary Disease, Chronic Obstructive",respiratory,4.0,CHEMBL3989798,14.51,48.38,False
+NR3C1,"Pulmonary Disease, Chronic Obstructive",respiratory,4.0,CHEMBL1201014,56.91,9.43,True
+CXCR2,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL3039531,69.42,8.12,True
+PTGDR2,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL1914489,5.28,3.67,True
+ADRB2,"Pulmonary Disease, Chronic Obstructive",respiratory,1.0,CHEMBL2218893,14.51,48.38,False
+LTB4R,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL1742420,157.15,54.63,True
+ADRB2,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL3545103,14.51,48.38,False
+VDR,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL1042,30.94,15.24,True
+ADRB2,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL3039530,14.51,48.38,False
+MAPK14,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL1088751,34.95,69.51,False
+CHRM3,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL3039518,11.74,0.0,True
+ADRB2,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL3039518,14.51,48.38,False
+CHRM2,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL3039518,0.0,3.5,False
+IL5RA,"Pulmonary Disease, Chronic Obstructive",respiratory,3.0,CHEMBL1742991,20.35,61.24,False
+MAPK14,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL1938400,34.95,69.51,False
+IL5,"Pulmonary Disease, Chronic Obstructive",respiratory,3.0,CHEMBL2108429,6.02,123.29,False
+ADRB2,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL1094785,14.51,48.38,False
+MAPK14,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL1088752,34.95,69.51,False
+MAPK11,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL1088752,4.16,27.38,False
+IL13,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL1743035,3.31,99.09,False
+NR3C1,"Pulmonary Disease, Chronic Obstructive",respiratory,3.0,CHEMBL1200500,56.91,9.43,True
+ACVR2B,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL3137353,5.09,39.09,False
+NR3C1,"Pulmonary Disease, Chronic Obstructive",respiratory,3.0,CHEMBL1451,56.91,9.43,True
+CHRM3,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL3545222,11.74,0.0,True
+TACR1,"Pulmonary Disease, Chronic Obstructive",respiratory,1.0,CHEMBL105060,0.0,0.0,False
+IKBKB,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL3545168,17.32,72.67,False
+MMP9,"Pulmonary Disease, Chronic Obstructive",respiratory,1.0,CHEMBL3833374,11.54,71.71,False
+CHRM3,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL3707249,11.74,0.0,True
+CHRM2,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL3707249,0.0,3.5,False
+CHRNA7,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL3707249,0.0,0.0,False
+CHRM1,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL3707249,0.0,43.55,False
+PIK3CD,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL5314409,13.67,23.02,False
+MAPK14,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL9960,34.95,69.51,False
+CCR2,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL3545221,7.74,6.95,True
+TRPV1,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL3707293,0.0,0.0,False
+MAPK14,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL2103838,34.95,69.51,False
+CCR1,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL2178570,68.06,18.84,True
+CFTR,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL4650318,0.0,0.0,False
+PDE5A,"Pulmonary Disease, Chronic Obstructive",respiratory,1.0,CHEMBL1928262,22.77,7.56,True
+NR3C1,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL2040682,56.91,9.43,True
+HRH2,"Pulmonary Disease, Chronic Obstructive",respiratory,1.0,CHEMBL30,26.08,45.03,False
+ADRB2,"Pulmonary Disease, Chronic Obstructive",respiratory,3.0,CHEMBL32800,14.51,48.38,False
+TNF,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL1201572,36.86,19.49,True
+TNF,"Pulmonary Disease, Chronic Obstructive",respiratory,3.0,CHEMBL1201581,36.86,19.49,True
+ADRB2,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL1940832,14.51,48.38,False
+CXCR2,"Pulmonary Disease, Chronic Obstructive",respiratory,1.0,CHEMBL2178579,69.42,8.12,True
+MAPK14,"Pulmonary Disease, Chronic Obstructive",respiratory,1.0,CHEMBL3544968,34.95,69.51,False
+ADRB2,"Pulmonary Disease, Chronic Obstructive",respiratory,1.0,CHEMBL3545087,14.51,48.38,False
+CHRM3,"Pulmonary Disease, Chronic Obstructive",respiratory,1.0,CHEMBL3916700,11.74,0.0,True
+ADRB2,"Pulmonary Disease, Chronic Obstructive",respiratory,1.0,CHEMBL3916700,14.51,48.38,False
+ADORA2A,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL1096896,2.81,2.2,True
+CHRM3,"Pulmonary Disease, Chronic Obstructive",respiratory,4.0,CHEMBL3833319,11.74,0.0,True
+P2RY12,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL398435,0.0,96.27,False
+ADRB1,"Pulmonary Disease, Chronic Obstructive",respiratory,3.0,CHEMBL2356097,3.23,169.87,False
+ADRB2,"Pulmonary Disease, Chronic Obstructive",respiratory,3.0,CHEMBL1315867,14.51,48.38,False
+IL18,"Pulmonary Disease, Chronic Obstructive",respiratory,1.0,CHEMBL2109604,10.77,91.56,False
+IL1R1,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL2109607,5.72,333.19,False
+IL4R,"Pulmonary Disease, Chronic Obstructive",respiratory,3.0,CHEMBL2108675,24.75,50.92,False
+PTGDR2,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL3137332,5.28,3.67,True
+MAPK14,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL5314397,34.95,69.51,False
+TSLP,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL3707229,23.96,3.11,True
+PIK3CD,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL2216859,13.67,23.02,False
+INPP5D,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL3989954,179.9,33.08,True
+ADRB2,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL1240967,14.51,48.38,False
+MMP9,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL4297352,11.54,71.71,False
+MMP12,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL4297352,0.0,0.0,False
+NR3C1,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL4072756,56.91,9.43,True
+CHRM3,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL1921904,11.74,0.0,True
+ADRB2,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL1084173,14.51,48.38,False
+CHRM3,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL4297483,11.74,0.0,True
+ADRB2,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL4297483,14.51,48.38,False
+ELANE,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL3617964,64.17,29.71,True
+MARCKS,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL4297701,12.36,34.9,False
+ABL1,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL1946170,34.44,83.06,False
+NTRK1,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL1946170,10.46,79.17,False
+EPHA2,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL1946170,21.18,53.58,False
+FGFR1,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL1946170,7.25,63.29,False
+KIT,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL1946170,21.29,137.44,False
+TEK,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL1946170,0.0,0.0,False
+BRAF,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL1946170,15.34,42.78,False
+RAF1,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL1946170,19.66,40.61,False
+MAPK11,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL1946170,4.16,27.38,False
+FGFR2,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL1946170,5.13,13.28,False
+RET,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL1946170,3.91,27.19,False
+FRK,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL1946170,12.26,21.27,False
+DDR2,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL1946170,0.0,0.0,False
+NR3C1,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL1159650,56.91,9.43,True
+TYMS,"Pulmonary Disease, Chronic Obstructive",respiratory,3.0,CHEMBL185,10.85,10.02,True
+NR3C1,"Pulmonary Disease, Chronic Obstructive",respiratory,3.0,CHEMBL650,56.91,9.43,True
+TYMS,"Pulmonary Disease, Chronic Obstructive",respiratory,3.0,CHEMBL1773,10.85,10.02,True
+VEGFA,"Pulmonary Disease, Chronic Obstructive",respiratory,3.0,CHEMBL1201583,110.38,11.56,True
+MET,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL3334567,22.4,124.2,False
+SIRT1,"Pulmonary Disease, Chronic Obstructive",respiratory,1.0,CHEMBL4297436,41.02,239.18,False
+ELANE,"Pulmonary Disease, Chronic Obstructive",respiratory,3.0,CHEMBL4297879,64.17,29.71,True
+EPHX2,"Pulmonary Disease, Chronic Obstructive",respiratory,1.0,CHEMBL3818875,12.61,0.0,True
+PDCD1,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL2108738,0.0,76.52,False
+CYSLTR1,"Pulmonary Disease, Chronic Obstructive",respiratory,3.0,CHEMBL1200681,14.82,0.0,True
+ADH5,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL3989910,48.36,80.42,False
+IL33,"Pulmonary Disease, Chronic Obstructive",respiratory,3.0,CHEMBL4594594,0.0,3.73,False
+NR3C1,"Pulmonary Disease, Chronic Obstructive",respiratory,1.0,CHEMBL3666807,56.91,9.43,True
+PDE5A,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL1737,22.77,7.56,True
+EGFR,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL1201577,11.86,370.19,False
+BRAF,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL3301612,15.34,42.78,False
+ADORA1,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL3545162,0.0,198.31,False
+SLC12A1,"Pulmonary Disease, Chronic Obstructive",respiratory,3.0,CHEMBL35,2.43,8.67,False
+SNAP25,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL1201574,0.0,131.76,False
+CXCR2,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL2103864,69.42,8.12,True
+CXCR1,"Pulmonary Disease, Chronic Obstructive",respiratory,2.0,CHEMBL2103864,4.96,0.0,True
+P2RY12,"Pulmonary Disease, Chronic Obstructive",respiratory,3.0,CHEMBL1083385,0.0,96.27,False
+CYSLTR1,"Rhinitis, Allergic",respiratory,4.0,CHEMBL1200681,14.82,0.0,True
+NR3C1,"Rhinitis, Allergic",respiratory,4.0,CHEMBL1161,56.91,9.43,True
+NR3C1,"Rhinitis, Allergic",respiratory,4.0,CHEMBL1200500,56.91,9.43,True
+NR3C1,"Rhinitis, Allergic",respiratory,4.0,CHEMBL1201014,56.91,9.43,True
+HRH1,"Rhinitis, Allergic",respiratory,4.0,CHEMBL3188034,140.89,65.51,True
+HRH1,"Rhinitis, Allergic",respiratory,4.0,CHEMBL1200795,140.89,65.51,True
+HRH1,"Rhinitis, Allergic",respiratory,4.0,CHEMBL1200809,140.89,65.51,True
+NR3C1,"Rhinitis, Allergic",respiratory,4.0,CHEMBL384467,56.91,9.43,True
+NR3C1,"Rhinitis, Allergic",respiratory,4.0,CHEMBL635,56.91,9.43,True
+HRH1,"Rhinitis, Allergic",respiratory,4.0,CHEMBL1620,140.89,65.51,True
+CD86,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL1201823,26.86,18.65,True
+CD80,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL1201823,11.29,0.0,True
+TNF,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL1201580,36.86,19.49,True
+PTGS2,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL118,6.62,3.24,True
+TNF,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL1201831,36.86,19.49,True
+MC2R,"Arthritis, Rheumatoid",autoimmune,3.0,CHEMBL1201610,0.0,111.82,False
+SLC29A1,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL932,34.57,42.62,False
+TNF,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL1201572,36.86,19.49,True
+TNF,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL1201581,36.86,19.49,True
+DHFR,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL34259,33.89,42.56,False
+NR3C1,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL131,56.91,9.43,True
+NR3C1,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL635,56.91,9.43,True
+MS4A1,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL1201576,0.0,8.92,False
+FKBP1A,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL1201182,10.99,52.01,False
+IL6R,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL1237022,99.59,82.9,True
+IL1R1,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL1201570,5.72,333.19,False
+PPAT,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL1542,6.72,17.2,False
+TNFSF13B,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL1789843,0.0,0.0,False
+TNF,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL1201833,36.86,19.49,True
+MS4A1,"Arthritis, Rheumatoid",autoimmune,3.0,CHEMBL1201836,0.0,8.92,False
+DHODH,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL960,19.91,36.24,False
+TNFSF11,"Arthritis, Rheumatoid",autoimmune,3.0,CHEMBL1237023,0.0,0.0,False
+CCR5,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL256907,19.46,0.0,True
+IL1B,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL1201834,10.2,45.09,False
+HMGCR,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL503,23.51,34.51,False
+NR3C1,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL1200878,56.91,9.43,True
+FDPS,"Arthritis, Rheumatoid",autoimmune,3.0,CHEMBL4303669,31.62,28.96,True
+IL17A,"Arthritis, Rheumatoid",autoimmune,3.0,CHEMBL1743068,0.0,0.0,False
+NR3C1,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL2021430,56.91,9.43,True
+NR3C1,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL1650,56.91,9.43,True
+NR3C1,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL384467,56.91,9.43,True
+PTGS2,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL622,6.62,3.24,True
+PTGS2,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL599,6.62,3.24,True
+JAK3,"Arthritis, Rheumatoid",autoimmune,3.0,CHEMBL3301607,10.18,31.66,False
+JAK2,"Arthritis, Rheumatoid",autoimmune,3.0,CHEMBL3301607,21.27,62.01,False
+JAK1,"Arthritis, Rheumatoid",autoimmune,3.0,CHEMBL3301607,12.81,85.48,False
+TYK2,"Arthritis, Rheumatoid",autoimmune,3.0,CHEMBL3301607,20.2,73.07,False
+IL6R,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL2108730,99.59,82.9,True
+MAPK14,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL1088751,34.95,69.51,False
+MS4A1,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL1743088,0.0,8.92,False
+TNF,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL2108739,36.86,19.49,True
+JAK1,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL2105759,12.81,85.48,False
+JAK2,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL2105759,21.27,62.01,False
+CD4,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL2108063,0.0,0.0,False
+IL6,"Arthritis, Rheumatoid",autoimmune,3.0,CHEMBL1743050,3.51,56.98,False
+GMPS,"Arthritis, Rheumatoid",autoimmune,3.0,CHEMBL245019,14.64,30.96,False
+TNFSF13B,"Arthritis, Rheumatoid",autoimmune,3.0,CHEMBL1743075,0.0,0.0,False
+JAK3,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL3039513,10.18,31.66,False
+CD3E,"Arthritis, Rheumatoid",autoimmune,1.0,CHEMBL1743053,0.0,14.1,False
+IL6,"Arthritis, Rheumatoid",autoimmune,3.0,CHEMBL1743071,3.51,56.98,False
+SYK,"Arthritis, Rheumatoid",autoimmune,3.0,CHEMBL2103830,55.92,6.88,True
+IL17A,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL1743034,0.0,0.0,False
+MAPK14,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL514201,34.95,69.51,False
+TNF,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL1743054,36.86,19.49,True
+KIT,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL1908391,21.29,137.44,False
+FGFR3,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL1908391,21.59,21.82,False
+LTA,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL1743056,27.76,19.49,True
+IL1B,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL1743026,10.2,45.09,False
+IL22,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL1743017,0.0,0.0,False
+CD4,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL1743083,0.0,0.0,False
+BTK,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL3301600,209.73,65.13,True
+NR3C1,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL3137316,56.91,9.43,True
+TNFSF13B,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL1742986,0.0,0.0,False
+TNFSF13,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL1742986,15.47,48.73,False
+MAPK14,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL1230065,34.95,69.51,False
+IL6,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL2108589,3.51,56.98,False
+CD19,"Arthritis, Rheumatoid",autoimmune,1.0,CHEMBL2109337,83.95,15.34,True
+IL17RA,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL1742996,28.82,33.51,False
+MS4A1,"Arthritis, Rheumatoid",autoimmune,3.0,CHEMBL2108041,0.0,8.92,False
+CSF2,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL1743044,20.08,203.2,False
+P2RX7,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL3545108,9.05,13.8,False
+CCR5,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL1951914,19.46,0.0,True
+MAPKAPK5,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL5095028,12.14,67.51,False
+JAK1,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL3545225,12.81,85.48,False
+IL1R1,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL2109458,5.72,333.19,False
+CSF2,"Arthritis, Rheumatoid",autoimmune,3.0,CHEMBL2109433,20.08,203.2,False
+CSF1R,"Arthritis, Rheumatoid",autoimmune,1.0,CHEMBL3639728,7.53,84.26,False
+SYK,"Arthritis, Rheumatoid",autoimmune,1.0,CHEMBL5095034,55.92,6.88,True
+P2RX7,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL1823817,9.05,13.8,False
+CSF1R,"Arthritis, Rheumatoid",autoimmune,1.0,CHEMBL3813873,7.53,84.26,False
+KIT,"Arthritis, Rheumatoid",autoimmune,1.0,CHEMBL3813873,21.29,137.44,False
+FLT3,"Arthritis, Rheumatoid",autoimmune,1.0,CHEMBL3813873,8.72,45.79,False
+JAK2,"Arthritis, Rheumatoid",autoimmune,1.0,CHEMBL3545241,21.27,62.01,False
+CSF1R,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL3674570,7.53,84.26,False
+MMP9,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL3833374,11.54,71.71,False
+MAPK14,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL3545398,34.95,69.51,False
+CCR1,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL4444976,68.06,18.84,True
+HRH4,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL3301609,6.54,0.0,True
+TNFSF14,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL1742988,35.06,90.67,False
+PTGS2,"Arthritis, Rheumatoid",autoimmune,3.0,CHEMBL416146,6.62,3.24,True
+MAPK14,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL1088752,34.95,69.51,False
+MAPK11,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL1088752,4.16,27.38,False
+MAPK14,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL2103838,34.95,69.51,False
+PPIA,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL160,17.44,7.85,True
+FAAH,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL112,9.36,119.53,False
+TRPV1,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL112,0.0,0.0,False
+LTB4R,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL1742420,157.15,54.63,True
+HRH1,"Arthritis, Rheumatoid",autoimmune,1.0,CHEMBL998,140.89,65.51,True
+PTGS2,"Arthritis, Rheumatoid",autoimmune,3.0,CHEMBL404108,6.62,3.24,True
+NR3C1,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL650,56.91,9.43,True
+ACE,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL1168,4.76,40.31,False
+ALOX5,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL421,3.77,14.06,False
+MAPK14,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL103667,34.95,69.51,False
+HMGCR,"Arthritis, Rheumatoid",autoimmune,1.0,CHEMBL1064,23.51,34.51,False
+IFNG,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL2108459,0.0,2.58,False
+MMP13,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL206815,0.0,13.01,False
+ADAM17,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL206815,18.4,195.86,False
+PLA2G4A,"Arthritis, Rheumatoid",autoimmune,1.0,CHEMBL2104969,4.45,0.0,True
+CD86,"Arthritis, Rheumatoid",autoimmune,1.0,CHEMBL1742990,26.86,18.65,True
+CD80,"Arthritis, Rheumatoid",autoimmune,1.0,CHEMBL1742990,11.29,0.0,True
+TNF,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL1743057,36.86,19.49,True
+IL15,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL2109467,31.5,27.81,True
+PPARG,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL121,11.09,12.78,False
+CXCL10,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL2109664,5.29,21.93,False
+IFNAR1,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL2364653,18.05,43.92,False
+MAP2K2,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL3187723,11.07,47.1,False
+MAP2K1,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL3187723,31.2,348.07,False
+MAPK14,"Arthritis, Rheumatoid",autoimmune,1.0,CHEMBL1088750,34.95,69.51,False
+MAPK14,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL363648,34.95,69.51,False
+MAPK14,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL1090090,34.95,69.51,False
+JAK1,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL3622820,12.81,85.48,False
+JAK3,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL5315119,10.18,31.66,False
+JAK2,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL5315119,21.27,62.01,False
+JAK1,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL5315119,12.81,85.48,False
+TYK2,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL5315119,20.2,73.07,False
+CSF2,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL3707325,20.08,203.2,False
+BTK,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL3707348,209.73,65.13,True
+CSF2,"Arthritis, Rheumatoid",autoimmune,1.0,CHEMBL2109430,20.08,203.2,False
+TLR9,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL1690,9.84,44.51,False
+TLR7,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL1690,0.0,3.51,False
+NR3C1,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL1364144,56.91,9.43,True
+NR3C1,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL1201081,56.91,9.43,True
+HRH2,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL902,26.08,45.03,False
+SYK,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL3989516,55.92,6.88,True
+ACE,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL1200659,4.76,40.31,False
+HRH1,"Arthritis, Rheumatoid",autoimmune,3.0,CHEMBL91397,140.89,65.51,True
+PTAFR,"Arthritis, Rheumatoid",autoimmune,3.0,CHEMBL91397,9.03,11.99,False
+PTGS2,"Arthritis, Rheumatoid",autoimmune,3.0,CHEMBL2107455,6.62,3.24,True
+MIF,"Arthritis, Rheumatoid",autoimmune,3.0,CHEMBL2107455,25.0,20.4,True
+TRAF3IP2,"Arthritis, Rheumatoid",autoimmune,3.0,CHEMBL2107455,7.8,151.92,False
+KEAP1,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL2107333,17.93,41.8,False
+CD52,"Arthritis, Rheumatoid",autoimmune,1.0,CHEMBL1201587,9.65,0.0,True
+CD28,"Arthritis, Rheumatoid",autoimmune,1.0,CHEMBL2109250,0.0,54.88,False
+TNFSF12,"Arthritis, Rheumatoid",autoimmune,1.0,CHEMBL2109598,11.51,11.96,False
+SPP1,"Arthritis, Rheumatoid",autoimmune,1.0,CHEMBL2109530,137.09,6.6,True
+IL20,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL3301580,0.0,30.05,False
+BTK,"Arthritis, Rheumatoid",autoimmune,1.0,CHEMBL4071161,209.73,65.13,True
+ADORA3,"Arthritis, Rheumatoid",autoimmune,3.0,CHEMBL3989873,43.73,24.52,True
+IL6R,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL3833343,99.59,82.9,True
+CSF1,"Arthritis, Rheumatoid",autoimmune,1.0,CHEMBL2109513,6.09,118.48,False
+GNRHR,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL3989969,0.0,0.0,False
+TNFSF13B,"Arthritis, Rheumatoid",autoimmune,1.0,CHEMBL3990000,0.0,0.0,False
+IL17A,"Arthritis, Rheumatoid",autoimmune,1.0,CHEMBL3990000,0.0,0.0,False
+BTK,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL4072833,209.73,65.13,True
+NOS2,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL114551,4.35,0.0,True
+BTK,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL3900554,209.73,65.13,True
+IRAK4,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL4081711,51.38,19.32,True
+PTGS2,"Arthritis, Rheumatoid",autoimmune,3.0,CHEMBL364804,6.62,3.24,True
+CCR1,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL3334824,68.06,18.84,True
+JAK3,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL4085457,10.18,31.66,False
+PTGER4,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL6067994,14.13,27.15,False
+BTK,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL4065122,209.73,65.13,True
+BTK,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL4163691,209.73,65.13,True
+BTK,"Arthritis, Rheumatoid",autoimmune,1.0,CHEMBL4297674,209.73,65.13,True
+TNF,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL4297572,36.86,19.49,True
+NR3C1,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL4297572,56.91,9.43,True
+IL17A,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL4297700,0.0,0.0,False
+IL17F,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL4297700,0.0,0.0,False
+CSF1R,"Arthritis, Rheumatoid",autoimmune,1.0,CHEMBL4297713,7.53,84.26,False
+MS4A1,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL4297845,0.0,8.92,False
+TNF,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL4297863,36.86,19.49,True
+IL17A,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL4297863,0.0,0.0,False
+CX3CL1,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL4297942,10.89,25.81,False
+PIKFYVE,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL6067997,32.2,33.04,False
+PTGS2,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL93645,6.62,3.24,True
+CCR2,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL3305901,7.74,6.95,True
+DHODH,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL197194,19.91,36.24,False
+CD40,"Arthritis, Rheumatoid",autoimmune,1.0,CHEMBL4298210,4.92,18.96,False
+CD40LG,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL4594331,0.0,0.0,False
+TNFRSF13C,"Arthritis, Rheumatoid",autoimmune,1.0,CHEMBL4594357,0.0,104.09,False
+NR3C1,"Arthritis, Rheumatoid",autoimmune,3.0,CHEMBL1159650,56.91,9.43,True
+IL6R,"Arthritis, Rheumatoid",autoimmune,3.0,CHEMBL4650406,99.59,82.9,True
+ALOX5,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL1562610,3.77,14.06,False
+PTGS2,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL1070,6.62,3.24,True
+NR1H4,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL1551,2.4,0.0,True
+NR3C1,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL1504,56.91,9.43,True
+BTK,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL4594348,209.73,65.13,True
+CSF2,"Arthritis, Rheumatoid",autoimmune,1.0,CHEMBL4650518,20.08,203.2,False
+OPRD1,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL494480,0.0,24.67,False
+RIPK1,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL4071864,18.79,171.22,False
+NR3C2,"Arthritis, Rheumatoid",autoimmune,3.0,CHEMBL1393,19.75,18.02,True
+VKORC1,"Arthritis, Rheumatoid",autoimmune,1.0,CHEMBL1200879,120.19,48.52,True
+FCGRT,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL4594310,8.46,0.0,True
+PDE3A,"Arthritis, Rheumatoid",autoimmune,3.0,CHEMBL799,11.67,0.0,True
+NR3C1,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL389621,56.91,9.43,True
+PTGS2,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL865,6.62,3.24,True
+DHFR,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL3244648,33.89,42.56,False
+JAK1,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL4298167,12.81,85.48,False
+JAK2,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL4298167,21.27,62.01,False
+JAK3,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL4298167,10.18,31.66,False
+TYK2,"Arthritis, Rheumatoid",autoimmune,4.0,CHEMBL4298167,20.2,73.07,False
+CNR1,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL465,22.58,49.88,False
+CNR1,"Arthritis, Rheumatoid",autoimmune,2.0,CHEMBL190461,22.58,49.88,False
+IL6,"Arthritis, Rheumatoid",autoimmune,1.0,CHEMBL4297732,3.51,56.98,False
+TNFSF13B,"Lupus Erythematosus, Systemic",autoimmune,2.0,CHEMBL1742986,0.0,0.0,False
+TNFSF13,"Lupus Erythematosus, Systemic",autoimmune,2.0,CHEMBL1742986,15.47,48.73,False
+SYK,"Lupus Erythematosus, Systemic",autoimmune,2.0,CHEMBL3989516,55.92,6.88,True
+IL6,"Lupus Erythematosus, Systemic",autoimmune,1.0,CHEMBL1743071,3.51,56.98,False
+TNFSF13B,"Lupus Erythematosus, Systemic",autoimmune,3.0,CHEMBL1743075,0.0,0.0,False
+MS4A1,"Lupus Erythematosus, Systemic",autoimmune,3.0,CHEMBL1743048,0.0,8.92,False
+JAK1,"Lupus Erythematosus, Systemic",autoimmune,3.0,CHEMBL2105759,12.81,85.48,False
+JAK2,"Lupus Erythematosus, Systemic",autoimmune,3.0,CHEMBL2105759,21.27,62.01,False
+TNFSF13B,"Lupus Erythematosus, Systemic",autoimmune,3.0,CHEMBL2107877,0.0,0.0,False
+ESR1,"Lupus Erythematosus, Systemic",autoimmune,2.0,CHEMBL1358,0.0,18.72,False
+FKBP1A,"Lupus Erythematosus, Systemic",autoimmune,2.0,CHEMBL413,10.99,52.01,False
+PPAT,"Lupus Erythematosus, Systemic",autoimmune,3.0,CHEMBL1542,6.72,17.2,False
+FAAH,"Lupus Erythematosus, Systemic",autoimmune,3.0,CHEMBL112,9.36,119.53,False
+TRPV1,"Lupus Erythematosus, Systemic",autoimmune,3.0,CHEMBL112,0.0,0.0,False
+VDR,"Lupus Erythematosus, Systemic",autoimmune,3.0,CHEMBL1042,30.94,15.24,True
+NR3C1,"Lupus Erythematosus, Systemic",autoimmune,4.0,CHEMBL1650,56.91,9.43,True
+NR3C1,"Lupus Erythematosus, Systemic",autoimmune,4.0,CHEMBL2021430,56.91,9.43,True
+PGR,"Lupus Erythematosus, Systemic",autoimmune,2.0,CHEMBL1531,6.14,0.0,True
+NR3C1,"Lupus Erythematosus, Systemic",autoimmune,4.0,CHEMBL384467,56.91,9.43,True
+DHFR,"Lupus Erythematosus, Systemic",autoimmune,3.0,CHEMBL34259,33.89,42.56,False
+NR3C1,"Lupus Erythematosus, Systemic",autoimmune,0.5,CHEMBL1201081,56.91,9.43,True
+NR3C1,"Lupus Erythematosus, Systemic",autoimmune,3.0,CHEMBL650,56.91,9.43,True
+PGR,"Lupus Erythematosus, Systemic",autoimmune,3.0,CHEMBL717,6.14,0.0,True
+ACE,"Lupus Erythematosus, Systemic",autoimmune,2.0,CHEMBL1168,4.76,40.31,False
+NR3C1,"Lupus Erythematosus, Systemic",autoimmune,4.0,CHEMBL635,56.91,9.43,True
+TLR9,"Lupus Erythematosus, Systemic",autoimmune,3.0,CHEMBL1690,9.84,44.51,False
+TLR7,"Lupus Erythematosus, Systemic",autoimmune,3.0,CHEMBL1690,0.0,3.51,False
+HRH1,"Lupus Erythematosus, Systemic",autoimmune,3.0,CHEMBL1620,140.89,65.51,True
+PTGS2,"Lupus Erythematosus, Systemic",autoimmune,1.0,CHEMBL599,6.62,3.24,True
+VDR,"Lupus Erythematosus, Systemic",autoimmune,2.0,CHEMBL846,30.94,15.24,True
+NR3C1,"Lupus Erythematosus, Systemic",autoimmune,4.0,CHEMBL131,56.91,9.43,True
+DHODH,"Lupus Erythematosus, Systemic",autoimmune,2.0,CHEMBL960,19.91,36.24,False
+HMGCR,"Lupus Erythematosus, Systemic",autoimmune,1.0,CHEMBL1064,23.51,34.51,False
+PPP3CA,"Lupus Erythematosus, Systemic",autoimmune,2.0,CHEMBL5314379,141.59,11.37,True
+MS4A1,"Lupus Erythematosus, Systemic",autoimmune,3.0,CHEMBL2108041,0.0,8.92,False
+IGHE,"Lupus Erythematosus, Systemic",autoimmune,1.0,CHEMBL1201589,3.22,11.14,False
+CD86,"Lupus Erythematosus, Systemic",autoimmune,2.0,CHEMBL1201823,26.86,18.65,True
+CD80,"Lupus Erythematosus, Systemic",autoimmune,2.0,CHEMBL1201823,11.29,0.0,True
+TNFSF13B,"Lupus Erythematosus, Systemic",autoimmune,4.0,CHEMBL1789843,0.0,0.0,False
+CSF3R,"Lupus Erythematosus, Systemic",autoimmune,2.0,CHEMBL1201567,137.23,31.13,True
+MS4A1,"Lupus Erythematosus, Systemic",autoimmune,3.0,CHEMBL1201576,0.0,8.92,False
+IL6,"Lupus Erythematosus, Systemic",autoimmune,1.0,CHEMBL2109615,3.51,56.98,False
+CD28,"Lupus Erythematosus, Systemic",autoimmune,2.0,CHEMBL2109250,0.0,54.88,False
+ICOSLG,"Lupus Erythematosus, Systemic",autoimmune,1.0,CHEMBL2109249,0.0,0.0,False
+IFNAR1,"Lupus Erythematosus, Systemic",autoimmune,4.0,CHEMBL2364653,18.05,43.92,False
+JAK3,"Lupus Erythematosus, Systemic",autoimmune,2.0,CHEMBL3301607,10.18,31.66,False
+JAK2,"Lupus Erythematosus, Systemic",autoimmune,2.0,CHEMBL3301607,21.27,62.01,False
+JAK1,"Lupus Erythematosus, Systemic",autoimmune,2.0,CHEMBL3301607,12.81,85.48,False
+TYK2,"Lupus Erythematosus, Systemic",autoimmune,2.0,CHEMBL3301607,20.2,73.07,False
+JAK1,"Lupus Erythematosus, Systemic",autoimmune,2.0,CHEMBL3301606,12.81,85.48,False
+JAK3,"Lupus Erythematosus, Systemic",autoimmune,2.0,CHEMBL3545159,10.18,31.66,False
+SYK,"Lupus Erythematosus, Systemic",autoimmune,2.0,CHEMBL3545159,55.92,6.88,True
+BTK,"Lupus Erythematosus, Systemic",autoimmune,1.0,CHEMBL3545193,209.73,65.13,True
+IL6R,"Lupus Erythematosus, Systemic",autoimmune,2.0,CHEMBL3833343,99.59,82.9,True
+CD40LG,"Lupus Erythematosus, Systemic",autoimmune,3.0,CHEMBL2109478,0.0,0.0,False
+IFNG,"Lupus Erythematosus, Systemic",autoimmune,3.0,CHEMBL3989977,0.0,2.58,False
+BTK,"Lupus Erythematosus, Systemic",autoimmune,2.0,CHEMBL4072833,209.73,65.13,True
+IRAK4,"Lupus Erythematosus, Systemic",autoimmune,1.0,CHEMBL4081711,51.38,19.32,True
+JAK1,"Lupus Erythematosus, Systemic",autoimmune,2.0,CHEMBL4297477,12.81,85.48,False
+TYK2,"Lupus Erythematosus, Systemic",autoimmune,2.0,CHEMBL4297477,20.2,73.07,False
+S1PR1,"Lupus Erythematosus, Systemic",autoimmune,3.0,CHEMBL4297505,6.26,29.35,False
+BTK,"Lupus Erythematosus, Systemic",autoimmune,2.0,CHEMBL4065122,209.73,65.13,True
+MS4A1,"Lupus Erythematosus, Systemic",autoimmune,1.0,CHEMBL4297845,0.0,8.92,False
+CD19,"Lupus Erythematosus, Systemic",autoimmune,2.0,CHEMBL4298134,83.95,15.34,True
+SYK,"Lupus Erythematosus, Systemic",autoimmune,2.0,CHEMBL3986824,55.92,6.88,True
+TYK2,"Lupus Erythematosus, Systemic",autoimmune,2.0,CHEMBL4435170,20.2,73.07,False
+BTK,"Lupus Erythematosus, Systemic",autoimmune,2.0,CHEMBL4594348,209.73,65.13,True
+BTK,"Lupus Erythematosus, Systemic",autoimmune,2.0,CHEMBL4650321,209.73,65.13,True
+TLR8,"Lupus Erythematosus, Systemic",autoimmune,1.0,CHEMBL4650329,0.0,0.0,False
+TLR7,"Lupus Erythematosus, Systemic",autoimmune,1.0,CHEMBL4650329,0.0,3.51,False
+TNFSF13B,"Lupus Erythematosus, Systemic",autoimmune,2.0,CHEMBL4650245,0.0,0.0,False
+TLR8,"Lupus Erythematosus, Systemic",autoimmune,2.0,CHEMBL4802159,0.0,0.0,False
+TLR7,"Lupus Erythematosus, Systemic",autoimmune,2.0,CHEMBL4802159,0.0,3.51,False
+HRH2,"Lupus Erythematosus, Systemic",autoimmune,1.0,CHEMBL902,26.08,45.03,False
+CD28,"Lupus Erythematosus, Systemic",autoimmune,2.0,CHEMBL3137354,0.0,54.88,False
+IL6,"Lupus Erythematosus, Systemic",autoimmune,2.0,CHEMBL6068160,3.51,56.98,False
+TNF,"Spondylitis, Ankylosing",autoimmune,4.0,CHEMBL1201580,36.86,19.49,True
+PTGS2,"Spondylitis, Ankylosing",autoimmune,4.0,CHEMBL118,6.62,3.24,True
+TNF,"Spondylitis, Ankylosing",autoimmune,4.0,CHEMBL1201572,36.86,19.49,True
+TNF,"Spondylitis, Ankylosing",autoimmune,4.0,CHEMBL1201581,36.86,19.49,True
+CD86,"Spondylitis, Ankylosing",autoimmune,2.0,CHEMBL1201823,26.86,18.65,True
+CD80,"Spondylitis, Ankylosing",autoimmune,2.0,CHEMBL1201823,11.29,0.0,True
+IL17A,"Spondylitis, Ankylosing",autoimmune,4.0,CHEMBL1743068,0.0,0.0,False
+ALOX5,"Spondylitis, Ankylosing",autoimmune,2.0,CHEMBL421,3.77,14.06,False
+TNF,"Spondylitis, Ankylosing",autoimmune,4.0,CHEMBL1201833,36.86,19.49,True
+TNF,"Spondylitis, Ankylosing",autoimmune,4.0,CHEMBL1201831,36.86,19.49,True
+IL6R,"Spondylitis, Ankylosing",autoimmune,3.0,CHEMBL1237022,99.59,82.9,True
+PTGS2,"Spondylitis, Ankylosing",autoimmune,3.0,CHEMBL599,6.62,3.24,True
+NR3C1,"Spondylitis, Ankylosing",autoimmune,2.0,CHEMBL650,56.91,9.43,True
+NR3C1,"Spondylitis, Ankylosing",autoimmune,4.0,CHEMBL2021430,56.91,9.43,True
+NR3C1,"Spondylitis, Ankylosing",autoimmune,4.0,CHEMBL635,56.91,9.43,True
+NR3C1,"Spondylitis, Ankylosing",autoimmune,4.0,CHEMBL131,56.91,9.43,True
+NR3C1,"Spondylitis, Ankylosing",autoimmune,4.0,CHEMBL384467,56.91,9.43,True
+IL17A,"Spondylitis, Ankylosing",autoimmune,3.0,CHEMBL1743034,0.0,0.0,False
+IL6R,"Spondylitis, Ankylosing",autoimmune,2.0,CHEMBL2108730,99.59,82.9,True
+IL17RA,"Spondylitis, Ankylosing",autoimmune,3.0,CHEMBL1742996,28.82,33.51,False
+PTGS2,"Spondylitis, Ankylosing",autoimmune,3.0,CHEMBL416146,6.62,3.24,True
+DHFR,"Spondylitis, Ankylosing",autoimmune,3.0,CHEMBL34259,33.89,42.56,False
+PTGER3,"Spondylitis, Ankylosing",autoimmune,3.0,CHEMBL606,0.0,0.0,False
+MS4A1,"Spondylitis, Ankylosing",autoimmune,2.0,CHEMBL1201576,0.0,8.92,False
+JAK3,"Spondylitis, Ankylosing",autoimmune,3.0,CHEMBL3301607,10.18,31.66,False
+JAK2,"Spondylitis, Ankylosing",autoimmune,3.0,CHEMBL3301607,21.27,62.01,False
+JAK1,"Spondylitis, Ankylosing",autoimmune,3.0,CHEMBL3301607,12.81,85.48,False
+TYK2,"Spondylitis, Ankylosing",autoimmune,3.0,CHEMBL3301607,20.2,73.07,False
+MAPK14,"Spondylitis, Ankylosing",autoimmune,2.0,CHEMBL1088750,34.95,69.51,False
+CSF2,"Spondylitis, Ankylosing",autoimmune,2.0,CHEMBL1743044,20.08,203.2,False
+IL17A,"Spondylitis, Ankylosing",autoimmune,3.0,CHEMBL4297700,0.0,0.0,False
+IL17F,"Spondylitis, Ankylosing",autoimmune,3.0,CHEMBL4297700,0.0,0.0,False
+IL17A,"Spondylitis, Ankylosing",autoimmune,2.0,CHEMBL4298102,0.0,0.0,False
+IL17A,"Spondylitis, Ankylosing",autoimmune,2.0,CHEMBL4297686,0.0,0.0,False
+TNFSF13B,Multiple Sclerosis,autoimmune,2.0,CHEMBL1742986,0.0,0.0,False
+TNFSF13,Multiple Sclerosis,autoimmune,2.0,CHEMBL1742986,15.47,48.73,False
+PGR,Multiple Sclerosis,autoimmune,3.0,CHEMBL1476022,6.14,0.0,True
+MS4A1,Multiple Sclerosis,autoimmune,4.0,CHEMBL1201836,0.0,8.92,False
+SNAP25,Multiple Sclerosis,autoimmune,3.0,CHEMBL1201574,0.0,131.76,False
+IL17A,Multiple Sclerosis,autoimmune,2.0,CHEMBL1743068,0.0,0.0,False
+DHODH,Multiple Sclerosis,autoimmune,4.0,CHEMBL973,19.91,36.24,False
+PDGFRB,Multiple Sclerosis,autoimmune,2.0,CHEMBL1642,0.0,30.47,False
+KIT,Multiple Sclerosis,autoimmune,2.0,CHEMBL1642,21.29,137.44,False
+ABL1,Multiple Sclerosis,autoimmune,2.0,CHEMBL1642,34.44,83.06,False
+CA4,Multiple Sclerosis,autoimmune,2.0,CHEMBL20,19.63,10.22,True
+CA1,Multiple Sclerosis,autoimmune,2.0,CHEMBL20,0.0,2.45,False
+CA12,Multiple Sclerosis,autoimmune,2.0,CHEMBL20,20.55,19.07,True
+CA2,Multiple Sclerosis,autoimmune,2.0,CHEMBL20,12.79,21.88,False
+FAAH,Multiple Sclerosis,autoimmune,3.0,CHEMBL112,9.36,119.53,False
+TRPV1,Multiple Sclerosis,autoimmune,3.0,CHEMBL112,0.0,0.0,False
+VDR,Multiple Sclerosis,autoimmune,2.0,CHEMBL1042,30.94,15.24,True
+NR3C1,Multiple Sclerosis,autoimmune,4.0,CHEMBL384467,56.91,9.43,True
+SLC6A2,Multiple Sclerosis,autoimmune,2.0,CHEMBL612,0.0,0.0,False
+SLC6A3,Multiple Sclerosis,autoimmune,2.0,CHEMBL612,0.0,7.65,False
+ESR1,Multiple Sclerosis,autoimmune,3.0,CHEMBL135,0.0,18.72,False
+CNR1,Multiple Sclerosis,autoimmune,2.0,CHEMBL465,22.58,49.88,False
+SLC6A4,Multiple Sclerosis,autoimmune,3.0,CHEMBL1200328,4.7,0.0,True
+SLC6A2,Multiple Sclerosis,autoimmune,3.0,CHEMBL1200328,0.0,0.0,False
+ADRB2,Multiple Sclerosis,autoimmune,1.0,CHEMBL559180,14.51,48.38,False
+HRH1,Multiple Sclerosis,autoimmune,1.0,CHEMBL998,140.89,65.51,True
+DHFR,Multiple Sclerosis,autoimmune,3.0,CHEMBL34259,33.89,42.56,False
+NR3C1,Multiple Sclerosis,autoimmune,4.0,CHEMBL1201081,56.91,9.43,True
+NR3C1,Multiple Sclerosis,autoimmune,4.0,CHEMBL650,56.91,9.43,True
+TOP2A,Multiple Sclerosis,autoimmune,4.0,CHEMBL1417019,7.79,94.71,False
+NR3C1,Multiple Sclerosis,autoimmune,4.0,CHEMBL1152,56.91,9.43,True
+NR3C1,Multiple Sclerosis,autoimmune,4.0,CHEMBL1201014,56.91,9.43,True
+NR3C1,Multiple Sclerosis,autoimmune,4.0,CHEMBL635,56.91,9.43,True
+HRH1,Multiple Sclerosis,autoimmune,3.0,CHEMBL17157,140.89,65.51,True
+CA4,Multiple Sclerosis,autoimmune,2.0,CHEMBL220492,19.63,10.22,True
+CA2,Multiple Sclerosis,autoimmune,2.0,CHEMBL220492,12.79,21.88,False
+VDR,Multiple Sclerosis,autoimmune,3.0,CHEMBL1536,30.94,15.24,True
+HRH1,Multiple Sclerosis,autoimmune,1.0,CHEMBL1200795,140.89,65.51,True
+HRH1,Multiple Sclerosis,autoimmune,3.0,CHEMBL1200927,140.89,65.51,True
+SLC6A3,Multiple Sclerosis,autoimmune,3.0,CHEMBL1373,0.0,7.65,False
+HRH2,Multiple Sclerosis,autoimmune,3.0,CHEMBL1790041,26.08,45.03,False
+HTR2A,Multiple Sclerosis,autoimmune,1.0,CHEMBL3188993,7.67,0.0,True
+HTR2C,Multiple Sclerosis,autoimmune,1.0,CHEMBL3188993,0.0,0.0,False
+DRD2,Multiple Sclerosis,autoimmune,1.0,CHEMBL3188993,0.0,3.32,False
+NR3C1,Multiple Sclerosis,autoimmune,4.0,CHEMBL131,56.91,9.43,True
+NR3C1,Multiple Sclerosis,autoimmune,4.0,CHEMBL1504,56.91,9.43,True
+SLC6A2,Multiple Sclerosis,autoimmune,3.0,CHEMBL796,0.0,0.0,False
+SLC6A3,Multiple Sclerosis,autoimmune,3.0,CHEMBL796,0.0,7.65,False
+HMGCR,Multiple Sclerosis,autoimmune,3.0,CHEMBL1064,23.51,34.51,False
+KEAP1,Multiple Sclerosis,autoimmune,4.0,CHEMBL2107333,17.93,41.8,False
+MS4A1,Multiple Sclerosis,autoimmune,4.0,CHEMBL2108041,0.0,8.92,False
+SLC6A3,Multiple Sclerosis,autoimmune,2.0,CHEMBL1201192,0.0,7.65,False
+FGFR2,Multiple Sclerosis,autoimmune,1.0,CHEMBL1201821,5.13,13.28,False
+CD86,Multiple Sclerosis,autoimmune,2.0,CHEMBL1201823,26.86,18.65,True
+CD80,Multiple Sclerosis,autoimmune,2.0,CHEMBL1201823,11.29,0.0,True
+TNFSF13B,Multiple Sclerosis,autoimmune,2.0,CHEMBL1789843,0.0,0.0,False
+CD52,Multiple Sclerosis,autoimmune,4.0,CHEMBL1201587,9.65,0.0,True
+IL1R1,Multiple Sclerosis,autoimmune,1.0,CHEMBL1201570,5.72,333.19,False
+MC2R,Multiple Sclerosis,autoimmune,4.0,CHEMBL1201610,0.0,111.82,False
+CSF3R,Multiple Sclerosis,autoimmune,1.0,CHEMBL1201567,137.23,31.13,True
+IGF1R,Multiple Sclerosis,autoimmune,2.0,CHEMBL1201716,13.29,64.15,False
+MS4A1,Multiple Sclerosis,autoimmune,3.0,CHEMBL1201576,0.0,8.92,False
+CD19,Multiple Sclerosis,autoimmune,1.0,CHEMBL2109334,83.95,15.34,True
+CSF2,Multiple Sclerosis,autoimmune,1.0,CHEMBL2109433,20.08,203.2,False
+MS4A1,Multiple Sclerosis,autoimmune,3.0,CHEMBL2108354,0.0,8.92,False
+KIT,Multiple Sclerosis,autoimmune,3.0,CHEMBL1908391,21.29,137.44,False
+FGFR3,Multiple Sclerosis,autoimmune,3.0,CHEMBL1908391,21.59,21.82,False
+S1PR1,Multiple Sclerosis,autoimmune,4.0,CHEMBL2336071,6.26,29.35,False
+CCR2,Multiple Sclerosis,autoimmune,2.0,CHEMBL3707228,7.74,6.95,True
+S1PR1,Multiple Sclerosis,autoimmune,4.0,CHEMBL3707246,6.26,29.35,False
+S1PR5,Multiple Sclerosis,autoimmune,3.0,CHEMBL3707247,5.07,15.94,False
+S1PR1,Multiple Sclerosis,autoimmune,4.0,CHEMBL1096146,6.26,29.35,False
+KEAP1,Multiple Sclerosis,autoimmune,4.0,CHEMBL3989944,17.93,41.8,False
+BTK,Multiple Sclerosis,autoimmune,3.0,CHEMBL4072833,209.73,65.13,True
+BTK,Multiple Sclerosis,autoimmune,3.0,CHEMBL4065122,209.73,65.13,True
+DHODH,Multiple Sclerosis,autoimmune,3.0,CHEMBL197194,19.91,36.24,False
+S1PR1,Multiple Sclerosis,autoimmune,4.0,CHEMBL4298150,6.26,29.35,False
+KEAP1,Multiple Sclerosis,autoimmune,4.0,CHEMBL589586,17.93,41.8,False
+TNFRSF13C,Multiple Sclerosis,autoimmune,2.0,CHEMBL4594357,0.0,104.09,False
+BTK,Multiple Sclerosis,autoimmune,3.0,CHEMBL4650323,209.73,65.13,True
+PTGS2,Multiple Sclerosis,autoimmune,2.0,CHEMBL118,6.62,3.24,True
+HRH1,Multiple Sclerosis,autoimmune,3.0,CHEMBL1172,140.89,65.51,True
+PPARA,Multiple Sclerosis,autoimmune,1.0,CHEMBL457,16.37,15.95,True
+CNR1,Multiple Sclerosis,autoimmune,2.0,CHEMBL190461,22.58,49.88,False
+BTK,Multiple Sclerosis,autoimmune,2.0,CHEMBL4650485,209.73,65.13,True
+TNF,Dermatomyositis,autoimmune,2.0,CHEMBL1201572,36.86,19.49,True
+NR3C1,Dermatomyositis,autoimmune,4.0,CHEMBL131,56.91,9.43,True
+NR3C1,Dermatomyositis,autoimmune,4.0,CHEMBL635,56.91,9.43,True
+NR3C1,Dermatomyositis,autoimmune,4.0,CHEMBL1650,56.91,9.43,True
+CD86,Dermatomyositis,autoimmune,3.0,CHEMBL1201823,26.86,18.65,True
+CD80,Dermatomyositis,autoimmune,3.0,CHEMBL1201823,11.29,0.0,True
+PPIA,Dermatomyositis,autoimmune,3.0,CHEMBL160,17.44,7.85,True
+DHFR,Dermatomyositis,autoimmune,3.0,CHEMBL34259,33.89,42.56,False
+NR3C1,Dermatomyositis,autoimmune,3.0,CHEMBL650,56.91,9.43,True
+IL6R,Dermatomyositis,autoimmune,2.0,CHEMBL1237022,99.59,82.9,True
+IL1R1,Dermatomyositis,autoimmune,2.0,CHEMBL1201570,5.72,333.19,False
+MC2R,Dermatomyositis,autoimmune,2.0,CHEMBL1201610,0.0,111.82,False
+TNF,Dermatomyositis,autoimmune,2.0,CHEMBL1201581,36.86,19.49,True
+MS4A1,Dermatomyositis,autoimmune,2.0,CHEMBL1201576,0.0,8.92,False
+S1PR1,Dermatomyositis,autoimmune,2.0,CHEMBL2336071,6.26,29.35,False
+TLR8,Dermatomyositis,autoimmune,2.0,CHEMBL4297995,0.0,0.0,False
+TLR9,Dermatomyositis,autoimmune,2.0,CHEMBL4297995,9.84,44.51,False
+TLR7,Dermatomyositis,autoimmune,2.0,CHEMBL4297995,0.0,3.51,False
+JAK1,Dermatomyositis,autoimmune,3.0,CHEMBL2105759,12.81,85.48,False
+JAK2,Dermatomyositis,autoimmune,3.0,CHEMBL2105759,21.27,62.01,False
+JAK1,Dermatomyositis,autoimmune,3.0,CHEMBL4297477,12.81,85.48,False
+TYK2,Dermatomyositis,autoimmune,3.0,CHEMBL4297477,20.2,73.07,False
+TLR8,Dermatomyositis,autoimmune,2.0,CHEMBL4802159,0.0,0.0,False
+TLR7,Dermatomyositis,autoimmune,2.0,CHEMBL4802159,0.0,3.51,False
+NR3C1,"Dermatitis, Atopic",skin,2.0,CHEMBL632,56.91,9.43,True
+PPIA,"Dermatitis, Atopic",skin,3.0,CHEMBL160,17.44,7.85,True
+FKBP1A,"Dermatitis, Atopic",skin,4.0,CHEMBL1200686,10.99,52.01,False
+NR3C1,"Dermatitis, Atopic",skin,2.0,CHEMBL1161,56.91,9.43,True
+NR3C1,"Dermatitis, Atopic",skin,4.0,CHEMBL1201109,56.91,9.43,True
+NR3C1,"Dermatitis, Atopic",skin,3.0,CHEMBL1497,56.91,9.43,True
+NR3C1,"Dermatitis, Atopic",skin,1.0,CHEMBL1159650,56.91,9.43,True
+DHFR,"Dermatitis, Atopic",skin,3.0,CHEMBL34259,33.89,42.56,False
+SLC6A4,"Dermatitis, Atopic",skin,1.0,CHEMBL1201156,4.7,0.0,True
+SLC6A2,"Dermatitis, Atopic",skin,1.0,CHEMBL1201156,0.0,0.0,False
+NR3C1,"Dermatitis, Atopic",skin,4.0,CHEMBL131,56.91,9.43,True
+NR3C1,"Dermatitis, Atopic",skin,4.0,CHEMBL1650,56.91,9.43,True
+NR3C1,"Dermatitis, Atopic",skin,4.0,CHEMBL635,56.91,9.43,True
+NR3C1,"Dermatitis, Atopic",skin,4.0,CHEMBL384467,56.91,9.43,True
+NR3C1,"Dermatitis, Atopic",skin,4.0,CHEMBL2021430,56.91,9.43,True
+IGHE,"Dermatitis, Atopic",skin,1.0,CHEMBL1201589,3.22,11.14,False
+NR3C1,"Dermatitis, Atopic",skin,4.0,CHEMBL1473,56.91,9.43,True
+IL13,"Dermatitis, Atopic",skin,4.0,CHEMBL1743035,3.31,99.09,False
+IGHE,"Dermatitis, Atopic",skin,2.0,CHEMBL2109457,3.22,11.14,False
+NR3C1,"Dermatitis, Atopic",skin,2.0,CHEMBL2103876,56.91,9.43,True
+PTGDR2,"Dermatitis, Atopic",skin,2.0,CHEMBL3137332,5.28,3.67,True
+PTGDR2,"Dermatitis, Atopic",skin,2.0,CHEMBL560993,5.28,3.67,True
+NR3C1,"Dermatitis, Atopic",skin,1.0,CHEMBL1200384,56.91,9.43,True
+VDR,"Dermatitis, Atopic",skin,2.0,CHEMBL1042,30.94,15.24,True
+IL22,"Dermatitis, Atopic",skin,2.0,CHEMBL1743017,0.0,0.0,False
+IL17A,"Dermatitis, Atopic",skin,2.0,CHEMBL1743068,0.0,0.0,False
+IL4R,"Dermatitis, Atopic",skin,4.0,CHEMBL2108675,24.75,50.92,False
+NR3C1,"Dermatitis, Atopic",skin,2.0,CHEMBL1451,56.91,9.43,True
+TRPV1,"Dermatitis, Atopic",skin,3.0,CHEMBL3707398,0.0,0.0,False
+NTRK1,"Dermatitis, Atopic",skin,2.0,CHEMBL4297182,10.46,79.17,False
+TACR1,"Dermatitis, Atopic",skin,2.0,CHEMBL105060,0.0,0.0,False
+HRH4,"Dermatitis, Atopic",skin,2.0,CHEMBL1915540,6.54,0.0,True
+IL13,"Dermatitis, Atopic",skin,4.0,CHEMBL1743081,3.31,99.09,False
+JAK1,"Dermatitis, Atopic",skin,4.0,CHEMBL3655081,12.81,85.48,False
+JAK1,"Dermatitis, Atopic",skin,3.0,CHEMBL2105759,12.81,85.48,False
+JAK2,"Dermatitis, Atopic",skin,3.0,CHEMBL2105759,21.27,62.01,False
+VDR,"Dermatitis, Atopic",skin,2.0,CHEMBL1200666,30.94,15.24,True
+NR3C1,"Dermatitis, Atopic",skin,2.0,CHEMBL1091,56.91,9.43,True
+NR3C1,"Dermatitis, Atopic",skin,2.0,CHEMBL1200908,56.91,9.43,True
+HRH1,"Dermatitis, Atopic",skin,1.0,CHEMBL998,140.89,65.51,True
+NR3C1,"Dermatitis, Atopic",skin,4.0,CHEMBL1683,56.91,9.43,True
+TACR1,"Dermatitis, Atopic",skin,3.0,CHEMBL3544984,0.0,0.0,False
+TSLP,"Dermatitis, Atopic",skin,2.0,CHEMBL3707229,23.96,3.11,True
+HRH2,"Dermatitis, Atopic",skin,3.0,CHEMBL30,26.08,45.03,False
+NR3C1,"Dermatitis, Atopic",skin,4.0,CHEMBL389621,56.91,9.43,True
+NR3C1,"Dermatitis, Atopic",skin,2.0,CHEMBL1501,56.91,9.43,True
+NR3C1,"Dermatitis, Atopic",skin,4.0,CHEMBL650,56.91,9.43,True
+IGHE,"Dermatitis, Atopic",skin,1.0,CHEMBL2109452,3.22,11.14,False
+INPP5D,"Dermatitis, Atopic",skin,2.0,CHEMBL3989954,179.9,33.08,True
+AHR,"Dermatitis, Atopic",skin,3.0,CHEMBL259571,0.0,67.78,False
+CNR2,"Dermatitis, Atopic",skin,2.0,CHEMBL2019090,39.16,29.54,True
+JAK1,"Dermatitis, Atopic",skin,2.0,CHEMBL4297477,12.81,85.48,False
+TYK2,"Dermatitis, Atopic",skin,2.0,CHEMBL4297477,20.2,73.07,False
+IL31RA,"Dermatitis, Atopic",skin,3.0,CHEMBL4297794,6.13,59.84,False
+NR3C1,"Dermatitis, Atopic",skin,2.0,CHEMBL1504,56.91,9.43,True
+IL1A,"Dermatitis, Atopic",skin,2.0,CHEMBL2109653,75.78,18.7,True
+S1PR1,"Dermatitis, Atopic",skin,2.0,CHEMBL3358920,6.26,29.35,False
+IL33,"Dermatitis, Atopic",skin,2.0,CHEMBL4297580,0.0,3.73,False
+SYK,"Dermatitis, Atopic",skin,2.0,CHEMBL4594275,55.92,6.88,True
+TNFRSF4,"Dermatitis, Atopic",skin,2.0,CHEMBL4594546,0.0,193.04,False
+TNFRSF4,"Dermatitis, Atopic",skin,3.0,CHEMBL4594567,0.0,193.04,False
+TNFSF4,"Dermatitis, Atopic",skin,3.0,CHEMBL4594569,3.38,22.64,False
+IL33,"Dermatitis, Atopic",skin,2.0,CHEMBL4594594,0.0,3.73,False
+IL5RA,"Dermatitis, Atopic",skin,2.0,CHEMBL1742991,20.35,61.24,False
+IL33,"Dermatitis, Atopic",skin,2.0,CHEMBL4650487,0.0,3.73,False
+JAK1,"Dermatitis, Atopic",skin,1.0,CHEMBL1795071,12.81,85.48,False
+JAK2,"Dermatitis, Atopic",skin,1.0,CHEMBL1795071,21.27,62.01,False
+CHRM3,"Dermatitis, Atopic",skin,4.0,CHEMBL2134724,11.74,0.0,True
+SLC6A2,"Dermatitis, Atopic",skin,4.0,CHEMBL1628234,0.0,0.0,False
+HRH1,"Dermatitis, Atopic",skin,4.0,CHEMBL1200750,140.89,65.51,True
+NR3C1,"Dermatitis, Atopic",skin,4.0,CHEMBL989,56.91,9.43,True
+SIGLEC8,"Dermatitis, Atopic",skin,2.0,CHEMBL4297878,15.57,0.0,True
+BTK,"Dermatitis, Atopic",skin,2.0,CHEMBL3702854,209.73,65.13,True
+FKBP1A,"Dermatitis, Atopic",skin,4.0,CHEMBL3989887,10.99,52.01,False
+TNF,Psoriasis,skin,4.0,CHEMBL1201580,36.86,19.49,True
+CD2,Psoriasis,skin,3.0,CHEMBL1201571,0.0,12.29,False
+VDR,Psoriasis,skin,4.0,CHEMBL1200666,30.94,15.24,True
+VDR,Psoriasis,skin,4.0,CHEMBL846,30.94,15.24,True
+NR3C1,Psoriasis,skin,4.0,CHEMBL1159650,56.91,9.43,True
+VDR,Psoriasis,skin,2.0,CHEMBL1200810,30.94,15.24,True
+TNF,Psoriasis,skin,4.0,CHEMBL1201572,36.86,19.49,True
+TNF,Psoriasis,skin,4.0,CHEMBL1201581,36.86,19.49,True
+PPIA,Psoriasis,skin,4.0,CHEMBL160,17.44,7.85,True
+NR3C1,Psoriasis,skin,4.0,CHEMBL1200908,56.91,9.43,True
+DHFR,Psoriasis,skin,4.0,CHEMBL34259,33.89,42.56,False
+NR3C1,Psoriasis,skin,2.0,CHEMBL1161,56.91,9.43,True
+SLC6A4,Psoriasis,skin,2.0,CHEMBL1201156,4.7,0.0,True
+SLC6A2,Psoriasis,skin,2.0,CHEMBL1201156,0.0,0.0,False
+IL17A,Psoriasis,skin,4.0,CHEMBL1743068,0.0,0.0,False
+NR3C1,Psoriasis,skin,3.0,CHEMBL632,56.91,9.43,True
+DRD2,Psoriasis,skin,2.0,CHEMBL1200854,0.0,3.32,False
+NR3C1,Psoriasis,skin,4.0,CHEMBL1766,56.91,9.43,True
+NR3C1,Psoriasis,skin,4.0,CHEMBL1200384,56.91,9.43,True
+KEAP1,Psoriasis,skin,4.0,CHEMBL2107333,17.93,41.8,False
+NR3C1,Psoriasis,skin,4.0,CHEMBL384467,56.91,9.43,True
+NR3C1,Psoriasis,skin,4.0,CHEMBL635,56.91,9.43,True
+NR3C1,Psoriasis,skin,4.0,CHEMBL2021430,56.91,9.43,True
+NR3C1,Psoriasis,skin,4.0,CHEMBL131,56.91,9.43,True
+VDR,Psoriasis,skin,3.0,CHEMBL3989862,30.94,15.24,True
+TNF,Psoriasis,skin,3.0,CHEMBL1201831,36.86,19.49,True
+IL17A,Psoriasis,skin,4.0,CHEMBL1743034,0.0,0.0,False
+CD86,Psoriasis,skin,2.0,CHEMBL1201823,26.86,18.65,True
+CD80,Psoriasis,skin,2.0,CHEMBL1201823,11.29,0.0,True
+MAPK14,Psoriasis,skin,2.0,CHEMBL1230065,34.95,69.51,False
+PPP3CA,Psoriasis,skin,3.0,CHEMBL5314379,141.59,11.37,True
+CD2,Psoriasis,skin,2.0,CHEMBL2108742,0.0,12.29,False
+S1PR1,Psoriasis,skin,2.0,CHEMBL1096146,6.26,29.35,False
+JAK1,Psoriasis,skin,2.0,CHEMBL3301606,12.81,85.48,False
+CD3E,Psoriasis,skin,1.0,CHEMBL1743078,0.0,14.1,False
+IL1A,Psoriasis,skin,2.0,CHEMBL2109653,75.78,18.7,True
+CSF2,Psoriasis,skin,2.0,CHEMBL1743044,20.08,203.2,False
+MAP3K1,Psoriasis,skin,2.0,CHEMBL1097999,13.84,101.77,False
+MAP2K1,Psoriasis,skin,2.0,CHEMBL1097999,31.2,348.07,False
+KIT,Psoriasis,skin,2.0,CHEMBL1908391,21.29,137.44,False
+FGFR3,Psoriasis,skin,2.0,CHEMBL1908391,21.59,21.82,False
+DRD2,Psoriasis,skin,2.0,CHEMBL1200951,0.0,3.32,False
+IL22,Psoriasis,skin,1.0,CHEMBL1743017,0.0,0.0,False
+JAK1,Psoriasis,skin,2.0,CHEMBL2105759,12.81,85.48,False
+JAK2,Psoriasis,skin,2.0,CHEMBL2105759,21.27,62.01,False
+FLT3,Psoriasis,skin,2.0,CHEMBL603469,8.72,45.79,False
+NTRK1,Psoriasis,skin,2.0,CHEMBL603469,10.46,79.17,False
+JAK2,Psoriasis,skin,2.0,CHEMBL603469,21.27,62.01,False
+NTRK2,Psoriasis,skin,2.0,CHEMBL603469,4.45,0.0,True
+RET,Psoriasis,skin,2.0,CHEMBL603469,3.91,27.19,False
+NTRK3,Psoriasis,skin,2.0,CHEMBL603469,0.0,10.04,False
+IL17RA,Psoriasis,skin,4.0,CHEMBL1742996,28.82,33.51,False
+CYP26A1,Psoriasis,skin,2.0,CHEMBL459505,5.39,9.63,False
+HRH2,Psoriasis,skin,1.0,CHEMBL902,26.08,45.03,False
+NR3C1,Psoriasis,skin,1.0,CHEMBL1497,56.91,9.43,True
+NTRK1,Psoriasis,skin,2.0,CHEMBL4297182,10.46,79.17,False
+IL15,Psoriasis,skin,2.0,CHEMBL2109467,31.5,27.81,True
+HRH4,Psoriasis,skin,2.0,CHEMBL1915540,6.54,0.0,True
+VDR,Psoriasis,skin,2.0,CHEMBL2104955,30.94,15.24,True
+JAK1,Psoriasis,skin,2.0,CHEMBL3655081,12.81,85.48,False
+VDR,Psoriasis,skin,2.0,CHEMBL2105705,30.94,15.24,True
+NR3C1,Psoriasis,skin,1.0,CHEMBL2103876,56.91,9.43,True
+VDR,Psoriasis,skin,2.0,CHEMBL1042,30.94,15.24,True
+NR3C1,Psoriasis,skin,1.0,CHEMBL1200386,56.91,9.43,True
+MAPK14,Psoriasis,skin,2.0,CHEMBL103667,34.95,69.51,False
+PTH1R,Psoriasis,skin,1.0,CHEMBL2108078,47.2,234.52,False
+IFNG,Psoriasis,skin,1.0,CHEMBL2109450,0.0,2.58,False
+JAK1,Psoriasis,skin,2.0,CHEMBL3622820,12.81,85.48,False
+SNAP25,Psoriasis,skin,1.0,CHEMBL1201574,0.0,131.76,False
+NR3C1,Psoriasis,skin,4.0,CHEMBL389621,56.91,9.43,True
+NR3C1,Psoriasis,skin,1.0,CHEMBL1683,56.91,9.43,True
+NR3C1,Psoriasis,skin,2.0,CHEMBL1451,56.91,9.43,True
+PTH1R,Psoriasis,skin,2.0,CHEMBL1201549,47.2,234.52,False
+CD4,Psoriasis,skin,2.0,CHEMBL1743083,0.0,0.0,False
+CD28,Psoriasis,skin,1.0,CHEMBL2109250,0.0,54.88,False
+ICOSLG,Psoriasis,skin,1.0,CHEMBL2109249,0.0,0.0,False
+CASP1,Psoriasis,skin,2.0,CHEMBL2107819,0.0,0.0,False
+IL20,Psoriasis,skin,1.0,CHEMBL3301580,0.0,30.05,False
+ADORA3,Psoriasis,skin,3.0,CHEMBL3989873,43.73,24.52,True
+AHR,Psoriasis,skin,4.0,CHEMBL259571,0.0,67.78,False
+CD40,Psoriasis,skin,2.0,CHEMBL3990028,4.92,18.96,False
+EGFR,Psoriasis,skin,2.0,CHEMBL2087361,11.86,370.19,False
+CD14,Psoriasis,skin,2.0,CHEMBL4297333,207.55,155.41,True
+TLR2,Psoriasis,skin,2.0,CHEMBL4297333,11.37,12.71,False
+SIRT1,Psoriasis,skin,2.0,CHEMBL4297436,41.02,239.18,False
+JAK1,Psoriasis,skin,2.0,CHEMBL4297477,12.81,85.48,False
+TYK2,Psoriasis,skin,2.0,CHEMBL4297477,20.2,73.07,False
+IL17A,Psoriasis,skin,2.0,CHEMBL4297686,0.0,0.0,False
+IL17A,Psoriasis,skin,4.0,CHEMBL4297700,0.0,0.0,False
+IL17F,Psoriasis,skin,4.0,CHEMBL4297700,0.0,0.0,False
+SELPLG,Psoriasis,skin,2.0,CHEMBL4297861,7.43,127.73,False
+IL17A,Psoriasis,skin,1.0,CHEMBL4297926,0.0,0.0,False
+LGALS3,Psoriasis,skin,2.0,CHEMBL4297577,2.41,34.77,False
+IL17A,Psoriasis,skin,2.0,CHEMBL4298023,0.0,0.0,False
+IL17F,Psoriasis,skin,2.0,CHEMBL4298023,0.0,0.0,False
+IL17A,Psoriasis,skin,3.0,CHEMBL4298102,0.0,0.0,False
+NR3C1,Psoriasis,skin,0.5,CHEMBL1501,56.91,9.43,True
+PIK3CD,Psoriasis,skin,1.0,CHEMBL4297648,13.67,23.02,False
+TLR8,Psoriasis,skin,2.0,CHEMBL4297995,0.0,0.0,False
+TLR9,Psoriasis,skin,2.0,CHEMBL4297995,9.84,44.51,False
+TLR7,Psoriasis,skin,2.0,CHEMBL4297995,0.0,3.51,False
+TYK2,Psoriasis,skin,4.0,CHEMBL4435170,20.2,73.07,False
+CALCRL,Psoriasis,skin,2.0,CHEMBL2178422,6.77,0.0,True
+ROCK2,Psoriasis,skin,2.0,CHEMBL2005186,10.49,58.06,False
+TYK2,Psoriasis,skin,2.0,CHEMBL4459585,20.2,73.07,False
+JAK1,Psoriasis,skin,2.0,CHEMBL1795071,12.81,85.48,False
+JAK2,Psoriasis,skin,2.0,CHEMBL1795071,21.27,62.01,False
+NR3C1,Psoriasis,skin,4.0,CHEMBL989,56.91,9.43,True
+RIPK1,Psoriasis,skin,2.0,CHEMBL4071864,18.79,171.22,False
+NR3C1,Psoriasis,skin,2.0,CHEMBL1504,56.91,9.43,True
+DHFR,Psoriasis,skin,4.0,CHEMBL3244648,33.89,42.56,False
+CXCR2,Psoriasis,skin,2.0,CHEMBL2103864,69.42,8.12,True
+CXCR1,Psoriasis,skin,2.0,CHEMBL2103864,4.96,0.0,True
+TNF,Crohn Disease,GI,4.0,CHEMBL1201581,36.86,19.49,True
+PPAT,Crohn Disease,GI,3.0,CHEMBL1200751,6.72,17.2,False
+ALOX5,Crohn Disease,GI,3.0,CHEMBL704,3.77,14.06,False
+PPARG,Crohn Disease,GI,3.0,CHEMBL704,11.09,12.78,False
+DHFR,Crohn Disease,GI,3.0,CHEMBL34259,33.89,42.56,False
+CD86,Crohn Disease,GI,3.0,CHEMBL1201823,26.86,18.65,True
+CD80,Crohn Disease,GI,3.0,CHEMBL1201823,11.29,0.0,True
+TNF,Crohn Disease,GI,4.0,CHEMBL1201580,36.86,19.49,True
+NR3C1,Crohn Disease,GI,4.0,CHEMBL1370,56.91,9.43,True
+IGF1R,Crohn Disease,GI,2.0,CHEMBL1201716,13.29,64.15,False
+PPAT,Crohn Disease,GI,3.0,CHEMBL1542,6.72,17.2,False
+NR3C1,Crohn Disease,GI,4.0,CHEMBL384467,56.91,9.43,True
+VDR,Crohn Disease,GI,3.0,CHEMBL1042,30.94,15.24,True
+GLP2R,Crohn Disease,GI,2.0,CHEMBL2104987,0.0,9.98,False
+TNF,Crohn Disease,GI,4.0,CHEMBL1201831,36.86,19.49,True
+NR3C1,Crohn Disease,GI,4.0,CHEMBL635,56.91,9.43,True
+NR3C1,Crohn Disease,GI,4.0,CHEMBL131,56.91,9.43,True
+NR3C1,Crohn Disease,GI,4.0,CHEMBL2021430,56.91,9.43,True
+RARA,Crohn Disease,GI,2.0,CHEMBL25202,34.13,242.19,False
+RARB,Crohn Disease,GI,2.0,CHEMBL25202,0.0,89.36,False
+ITGB7,Crohn Disease,GI,3.0,CHEMBL1743015,62.27,17.23,True
+IL17A,Crohn Disease,GI,2.0,CHEMBL1743068,0.0,0.0,False
+MAPK14,Crohn Disease,GI,2.0,CHEMBL2107779,34.95,69.51,False
+CCR9,Crohn Disease,GI,2.0,CHEMBL2178578,0.0,12.27,False
+TNFSF11,Crohn Disease,GI,1.0,CHEMBL1237023,0.0,0.0,False
+JAK3,Crohn Disease,GI,3.0,CHEMBL3301607,10.18,31.66,False
+JAK2,Crohn Disease,GI,3.0,CHEMBL3301607,21.27,62.01,False
+JAK1,Crohn Disease,GI,3.0,CHEMBL3301607,12.81,85.48,False
+TYK2,Crohn Disease,GI,3.0,CHEMBL3301607,20.2,73.07,False
+IL6,Crohn Disease,GI,2.0,CHEMBL1743050,3.51,56.98,False
+GHR,Crohn Disease,GI,2.0,CHEMBL1201621,57.7,0.0,True
+VDR,Crohn Disease,GI,2.0,CHEMBL1536,30.94,15.24,True
+MMP9,Crohn Disease,GI,2.0,CHEMBL3833374,11.54,71.71,False
+MADCAM1,Crohn Disease,GI,3.0,CHEMBL2109511,277.19,109.23,True
+IL6,Crohn Disease,GI,2.0,CHEMBL2108589,3.51,56.98,False
+IL13,Crohn Disease,GI,2.0,CHEMBL2109465,3.31,99.09,False
+IL17RA,Crohn Disease,GI,2.0,CHEMBL1742996,28.82,33.51,False
+MMP13,Crohn Disease,GI,2.0,CHEMBL1200699,0.0,13.01,False
+MMP8,Crohn Disease,GI,2.0,CHEMBL1200699,3.93,56.14,False
+MMP7,Crohn Disease,GI,2.0,CHEMBL1200699,6.07,39.99,False
+MMP1,Crohn Disease,GI,2.0,CHEMBL1200699,0.0,0.0,False
+NR3C1,Crohn Disease,GI,4.0,CHEMBL650,56.91,9.43,True
+VDR,Crohn Disease,GI,1.0,CHEMBL846,30.94,15.24,True
+CD3E,Crohn Disease,GI,2.0,CHEMBL2108811,0.0,14.1,False
+ESR2,Crohn Disease,GI,1.0,CHEMBL450940,16.18,87.2,False
+HDAC1,Crohn Disease,GI,1.0,CHEMBL98,53.58,41.17,True
+HDAC2,Crohn Disease,GI,1.0,CHEMBL98,0.0,20.68,False
+HDAC3,Crohn Disease,GI,1.0,CHEMBL98,4.83,49.5,False
+HDAC6,Crohn Disease,GI,1.0,CHEMBL98,0.0,15.02,False
+CD52,Crohn Disease,GI,2.0,CHEMBL1201587,9.65,0.0,True
+CSF3R,Crohn Disease,GI,2.0,CHEMBL1201567,137.23,31.13,True
+MS4A1,Crohn Disease,GI,1.0,CHEMBL1201576,0.0,8.92,False
+CXCL10,Crohn Disease,GI,2.0,CHEMBL2109664,5.29,21.93,False
+S1PR5,Crohn Disease,GI,3.0,CHEMBL3707247,5.07,15.94,False
+CNR1,Crohn Disease,GI,2.0,CHEMBL190461,22.58,49.88,False
+NR3C1,Crohn Disease,GI,4.0,CHEMBL389621,56.91,9.43,True
+IL18,Crohn Disease,GI,1.0,CHEMBL2109606,10.77,91.56,False
+CNR2,Crohn Disease,GI,2.0,CHEMBL4175981,39.16,29.54,True
+JAK3,Crohn Disease,GI,2.0,CHEMBL4085457,10.18,31.66,False
+JAK1,Crohn Disease,GI,2.0,CHEMBL4297477,12.81,85.48,False
+TYK2,Crohn Disease,GI,2.0,CHEMBL4297477,20.2,73.07,False
+PIKFYVE,Crohn Disease,GI,2.0,CHEMBL4297643,32.2,33.04,False
+CX3CL1,Crohn Disease,GI,2.0,CHEMBL4297942,10.89,25.81,False
+PIKFYVE,Crohn Disease,GI,2.0,CHEMBL6067997,32.2,33.04,False
+FAAH,Crohn Disease,GI,1.0,CHEMBL112,9.36,119.53,False
+TRPV1,Crohn Disease,GI,1.0,CHEMBL112,0.0,0.0,False
+S1PR1,Crohn Disease,GI,3.0,CHEMBL3358920,6.26,29.35,False
+SCN4A,Crohn Disease,GI,2.0,CHEMBL1404,0.0,5.51,False
+SCN5A,Crohn Disease,GI,2.0,CHEMBL1404,0.0,18.58,False
+TNFSF14,Crohn Disease,GI,1.0,CHEMBL4802198,35.06,90.67,False
+TNF,Crohn Disease,GI,2.0,CHEMBL1201833,36.86,19.49,True
+SLC5A2,Crohn Disease,GI,1.0,CHEMBL2107830,25.13,17.87,True
+IL6,Crohn Disease,GI,2.0,CHEMBL6068160,3.51,56.98,False
+TNF,"Colitis, Ulcerative",GI,4.0,CHEMBL1201580,36.86,19.49,True
+NR3C1,"Colitis, Ulcerative",GI,4.0,CHEMBL1370,56.91,9.43,True
+TNF,"Colitis, Ulcerative",GI,4.0,CHEMBL1201581,36.86,19.49,True
+ALOX5,"Colitis, Ulcerative",GI,4.0,CHEMBL704,3.77,14.06,False
+PPARG,"Colitis, Ulcerative",GI,4.0,CHEMBL704,11.09,12.78,False
+DHFR,"Colitis, Ulcerative",GI,2.0,CHEMBL34259,33.89,42.56,False
+TNF,"Colitis, Ulcerative",GI,4.0,CHEMBL1201833,36.86,19.49,True
+TNF,"Colitis, Ulcerative",GI,2.0,CHEMBL1201831,36.86,19.49,True
+CD86,"Colitis, Ulcerative",GI,3.0,CHEMBL1201823,26.86,18.65,True
+CD80,"Colitis, Ulcerative",GI,3.0,CHEMBL1201823,11.29,0.0,True
+MS4A1,"Colitis, Ulcerative",GI,2.0,CHEMBL1201576,0.0,8.92,False
+PPAT,"Colitis, Ulcerative",GI,3.0,CHEMBL1542,6.72,17.2,False
+NR3C1,"Colitis, Ulcerative",GI,4.0,CHEMBL131,56.91,9.43,True
+NR3C1,"Colitis, Ulcerative",GI,4.0,CHEMBL2021430,56.91,9.43,True
+NR3C1,"Colitis, Ulcerative",GI,4.0,CHEMBL384467,56.91,9.43,True
+NR3C1,"Colitis, Ulcerative",GI,4.0,CHEMBL635,56.91,9.43,True
+CCR9,"Colitis, Ulcerative",GI,2.0,CHEMBL2178578,0.0,12.27,False
+ITGB7,"Colitis, Ulcerative",GI,3.0,CHEMBL1743015,62.27,17.23,True
+CD3E,"Colitis, Ulcerative",GI,2.0,CHEMBL2108811,0.0,14.1,False
+IL13,"Colitis, Ulcerative",GI,2.0,CHEMBL1743081,3.31,99.09,False
+CXCR2,"Colitis, Ulcerative",GI,2.0,CHEMBL2178579,69.42,8.12,True
+CCL11,"Colitis, Ulcerative",GI,2.0,CHEMBL2109103,0.0,0.0,False
+IL13,"Colitis, Ulcerative",GI,2.0,CHEMBL1742985,3.31,99.09,False
+VDR,"Colitis, Ulcerative",GI,1.0,CHEMBL1536,30.94,15.24,True
+ITGA2,"Colitis, Ulcerative",GI,2.0,CHEMBL1743086,19.37,107.8,False
+JAK3,"Colitis, Ulcerative",GI,3.0,CHEMBL3301607,10.18,31.66,False
+JAK2,"Colitis, Ulcerative",GI,3.0,CHEMBL3301607,21.27,62.01,False
+JAK1,"Colitis, Ulcerative",GI,3.0,CHEMBL3301607,12.81,85.48,False
+TYK2,"Colitis, Ulcerative",GI,3.0,CHEMBL3301607,20.2,73.07,False
+MMP9,"Colitis, Ulcerative",GI,2.0,CHEMBL3833374,11.54,71.71,False
+PPARG,"Colitis, Ulcerative",GI,2.0,CHEMBL121,11.09,12.78,False
+S1PR1,"Colitis, Ulcerative",GI,3.0,CHEMBL3358920,6.26,29.35,False
+JAK1,"Colitis, Ulcerative",GI,1.0,CHEMBL3301606,12.81,85.48,False
+MADCAM1,"Colitis, Ulcerative",GI,3.0,CHEMBL2109511,277.19,109.23,True
+CNR1,"Colitis, Ulcerative",GI,2.0,CHEMBL190461,22.58,49.88,False
+ALOX5,"Colitis, Ulcerative",GI,4.0,CHEMBL1200760,3.77,14.06,False
+PPARG,"Colitis, Ulcerative",GI,4.0,CHEMBL1200760,11.09,12.78,False
+XDH,"Colitis, Ulcerative",GI,3.0,CHEMBL1467,0.0,8.12,False
+VDR,"Colitis, Ulcerative",GI,3.0,CHEMBL1042,30.94,15.24,True
+NR3C1,"Colitis, Ulcerative",GI,4.0,CHEMBL389621,56.91,9.43,True
+MMP13,"Colitis, Ulcerative",GI,2.0,CHEMBL1200699,0.0,13.01,False
+MMP8,"Colitis, Ulcerative",GI,2.0,CHEMBL1200699,3.93,56.14,False
+MMP7,"Colitis, Ulcerative",GI,2.0,CHEMBL1200699,6.07,39.99,False
+MMP1,"Colitis, Ulcerative",GI,2.0,CHEMBL1200699,0.0,0.0,False
+PPAT,"Colitis, Ulcerative",GI,3.0,CHEMBL1200751,6.72,17.2,False
+PTGER4,"Colitis, Ulcerative",GI,2.0,CHEMBL303960,14.13,27.15,False
+CXCL10,"Colitis, Ulcerative",GI,2.0,CHEMBL2109664,5.29,21.93,False
+S1PR5,"Colitis, Ulcerative",GI,3.0,CHEMBL3707247,5.07,15.94,False
+NR3C1,"Colitis, Ulcerative",GI,4.0,CHEMBL650,56.91,9.43,True
+NR3C1,"Colitis, Ulcerative",GI,4.0,CHEMBL1200538,56.91,9.43,True
+NR3C1,"Colitis, Ulcerative",GI,4.0,CHEMBL1200762,56.91,9.43,True
+JAK1,"Colitis, Ulcerative",GI,2.0,CHEMBL3622820,12.81,85.48,False
+CCR5,"Colitis, Ulcerative",GI,1.0,CHEMBL2109342,19.46,0.0,True
+GPR84,"Colitis, Ulcerative",GI,2.0,CHEMBL3716365,25.04,84.67,False
+SIRT1,"Colitis, Ulcerative",GI,1.0,CHEMBL4297436,41.02,239.18,False
+JAK3,"Colitis, Ulcerative",GI,2.0,CHEMBL4085457,10.18,31.66,False
+JAK1,"Colitis, Ulcerative",GI,2.0,CHEMBL4297477,12.81,85.48,False
+TYK2,"Colitis, Ulcerative",GI,2.0,CHEMBL4297477,20.2,73.07,False
+FFAR2,"Colitis, Ulcerative",GI,2.0,CHEMBL3353541,142.07,0.0,True
+DHODH,"Colitis, Ulcerative",GI,2.0,CHEMBL197194,19.91,36.24,False
+TLR9,"Colitis, Ulcerative",GI,3.0,CHEMBL4297564,9.84,44.51,False
+ALOX5,"Colitis, Ulcerative",GI,4.0,CHEMBL1201013,3.77,14.06,False
+PPARG,"Colitis, Ulcerative",GI,4.0,CHEMBL1201013,11.09,12.78,False
+NR3C2,"Colitis, Ulcerative",GI,1.0,CHEMBL2348780,19.75,18.02,True
+NR3C1,"Colitis, Ulcerative",GI,1.0,CHEMBL2348780,56.91,9.43,True
+CD14,"Colitis, Ulcerative",GI,2.0,CHEMBL4297333,207.55,155.41,True
+TLR2,"Colitis, Ulcerative",GI,2.0,CHEMBL4297333,11.37,12.71,False
+CD40LG,"Colitis, Ulcerative",GI,2.0,CHEMBL4298212,0.0,0.0,False
+TYK2,"Colitis, Ulcerative",GI,2.0,CHEMBL4435170,20.2,73.07,False
+TNFRSF4,"Colitis, Ulcerative",GI,1.0,CHEMBL4594567,0.0,193.04,False
+ALOX5,"Colitis, Ulcerative",GI,4.0,CHEMBL421,3.77,14.06,False
+TYK2,"Colitis, Ulcerative",GI,2.0,CHEMBL4459585,20.2,73.07,False
+RIPK1,"Colitis, Ulcerative",GI,2.0,CHEMBL4071864,18.79,171.22,False
+MAP3K8,"Colitis, Ulcerative",GI,2.0,CHEMBL4802154,21.09,12.13,True
+SLC5A2,"Colitis, Ulcerative",GI,2.0,CHEMBL2107830,25.13,17.87,True
+REN,"Colitis, Ulcerative",GI,2.0,CHEMBL4110551,216.9,21.99,True
+TNFSF14,"Colitis, Ulcerative",GI,1.0,CHEMBL4802198,35.06,90.67,False
+IL4R,"Colitis, Ulcerative",GI,2.0,CHEMBL2108675,24.75,50.92,False
+S1PR1,"Colitis, Ulcerative",GI,4.0,CHEMBL3707246,6.26,29.35,False
+S1PR1,"Colitis, Ulcerative",GI,4.0,CHEMBL3989933,6.26,29.35,False
+S1PR5,"Colitis, Ulcerative",GI,4.0,CHEMBL3989933,5.07,15.94,False
+S1PR4,"Colitis, Ulcerative",GI,4.0,CHEMBL3989933,0.0,27.15,False
+OSMR,"Colitis, Ulcerative",GI,2.0,CHEMBL4594341,39.93,182.9,False
+IL1B,"Colitis, Ulcerative",GI,2.0,CHEMBL4594518,10.2,45.09,False
+IL1A,"Colitis, Ulcerative",GI,2.0,CHEMBL4594518,75.78,18.7,True
+S1PR1,"Colitis, Ulcerative",GI,2.0,CHEMBL2137148,6.26,29.35,False
+SLC12A1,Nephrotic Syndrome,renal,4.0,CHEMBL1072,2.43,8.67,False
+SLC12A3,Nephrotic Syndrome,renal,4.0,CHEMBL842,7.35,40.15,False
+NR3C1,Nephrotic Syndrome,renal,4.0,CHEMBL131,56.91,9.43,True
+MS4A1,Nephrotic Syndrome,renal,3.0,CHEMBL1201576,0.0,8.92,False
+NR3C1,Nephrotic Syndrome,renal,4.0,CHEMBL1650,56.91,9.43,True
+SLC12A3,Nephrotic Syndrome,renal,4.0,CHEMBL435,7.35,40.15,False
+NR3C1,Nephrotic Syndrome,renal,4.0,CHEMBL384467,56.91,9.43,True
+NR3C1,Nephrotic Syndrome,renal,4.0,CHEMBL2021430,56.91,9.43,True
+NR3C1,Nephrotic Syndrome,renal,4.0,CHEMBL635,56.91,9.43,True
+MS4A1,Nephrotic Syndrome,renal,2.0,CHEMBL1201836,0.0,8.92,False
+GMPS,Nephrotic Syndrome,renal,3.0,CHEMBL245019,14.64,30.96,False
+MC2R,Nephrotic Syndrome,renal,3.0,CHEMBL1201610,0.0,111.82,False
+CD86,Nephrotic Syndrome,renal,2.0,CHEMBL1201823,26.86,18.65,True
+CD80,Nephrotic Syndrome,renal,2.0,CHEMBL1201823,11.29,0.0,True
+SLC12A1,Nephrotic Syndrome,renal,4.0,CHEMBL35,2.43,8.67,False
+NR3C2,Nephrotic Syndrome,renal,4.0,CHEMBL1393,19.75,18.02,True
+F10,Nephrotic Syndrome,renal,1.0,CHEMBL231779,0.0,0.0,False
+SERPINC1,Nephrotic Syndrome,renal,2.0,CHEMBL1201476,0.0,0.0,False
+NR3C1,Nephrotic Syndrome,renal,4.0,CHEMBL1200538,56.91,9.43,True
+SLC12A1,Nephrotic Syndrome,renal,4.0,CHEMBL456,2.43,8.67,False
+NR3C1,Nephrotic Syndrome,renal,4.0,CHEMBL1364144,56.91,9.43,True
+NR3C1,Nephrotic Syndrome,renal,4.0,CHEMBL1201014,56.91,9.43,True
+SLC12A3,Nephrotic Syndrome,renal,4.0,CHEMBL1055,7.35,40.15,False
+TNFSF13B,Nephrotic Syndrome,renal,2.0,CHEMBL1789843,0.0,0.0,False
+MS4A1,Nephrotic Syndrome,renal,2.0,CHEMBL1743048,0.0,8.92,False
+NR3C1,Uveitis,eye,4.0,CHEMBL989,56.91,9.43,True
+MC2R,Uveitis,eye,2.0,CHEMBL1201610,0.0,111.82,False
+NR3C1,Uveitis,eye,3.0,CHEMBL635,56.91,9.43,True
+NR3C1,Uveitis,eye,3.0,CHEMBL1504,56.91,9.43,True
+DHFR,Uveitis,eye,3.0,CHEMBL34259,33.89,42.56,False
+FKBP1A,Uveitis,eye,2.0,CHEMBL1908360,10.99,52.01,False
+HMGCR,Uveitis,eye,2.0,CHEMBL1064,23.51,34.51,False
+IL17A,Uveitis,eye,3.0,CHEMBL1743068,0.0,0.0,False
+CD86,Uveitis,eye,2.0,CHEMBL1201823,26.86,18.65,True
+CD80,Uveitis,eye,2.0,CHEMBL1201823,11.29,0.0,True
+IL1B,Uveitis,eye,3.0,CHEMBL1743026,10.2,45.09,False
+TNF,Uveitis,eye,4.0,CHEMBL1201580,36.86,19.49,True
+IL1R1,Uveitis,eye,2.0,CHEMBL1201570,5.72,333.19,False
+IL6R,Uveitis,eye,2.0,CHEMBL1237022,99.59,82.9,True
+PPP3CA,Uveitis,eye,3.0,CHEMBL5314379,141.59,11.37,True
+VEGFA,Uveitis,eye,3.0,CHEMBL1201583,110.38,11.56,True
+FN1,Uveitis,eye,1.0,CHEMBL2095222,18.98,27.15,False
+IL6R,Uveitis,eye,2.0,CHEMBL2108730,99.59,82.9,True
+NR3C1,Uveitis,eye,3.0,CHEMBL1152,56.91,9.43,True
+NR3C1,Uveitis,eye,3.0,CHEMBL1201749,56.91,9.43,True
+DHODH,Uveitis,eye,2.0,CHEMBL960,19.91,36.24,False
+JAK3,Uveitis,eye,2.0,CHEMBL3301607,10.18,31.66,False
+JAK2,Uveitis,eye,2.0,CHEMBL3301607,21.27,62.01,False
+JAK1,Uveitis,eye,2.0,CHEMBL3301607,12.81,85.48,False
+TYK2,Uveitis,eye,2.0,CHEMBL3301607,20.2,73.07,False
+JAK1,Uveitis,eye,3.0,CHEMBL2105759,12.81,85.48,False
+JAK2,Uveitis,eye,3.0,CHEMBL2105759,21.27,62.01,False
+PPIA,Uveitis,eye,1.0,CHEMBL160,17.44,7.85,True
+NR3C1,Uveitis,eye,2.0,CHEMBL131,56.91,9.43,True
+IL17A,Uveitis,eye,2.0,CHEMBL4297686,0.0,0.0,False
+NR3C1,Uveitis,eye,4.0,CHEMBL1364144,56.91,9.43,True
+NR3C1,Uveitis,eye,4.0,CHEMBL1201014,56.91,9.43,True
+NR3C1,Uveitis,eye,4.0,CHEMBL384467,56.91,9.43,True

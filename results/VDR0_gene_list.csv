@@ -1,0 +1,36 @@
+Gene,Group,Category,GR,Drug,Biological_note
+CLEC4E,GR only,CLR (Dectin-2),14.97,—,真菌/βグルカン認識CLR
+CLEC7A,GR only,CLR (Dectin-1),11.23,—,真菌/βグルカン認識CLR
+TRAF6,GR only,NF-κB adaptor,7.04,—,TLR→NF-κB要衝
+RIGI,Neither_antiviral,RLR,0.0,—,dsRNA sensor
+IFIH1,Neither_antiviral,RLR,0.0,—,dsRNA sensor (MDA5)
+CGAS,Neither_antiviral,cGAS-STING,0.0,—,dsDNA sensor
+TLR3,Neither_antiviral,TLR (viral),0.0,—,dsRNA recognition
+TLR8,Neither_antiviral,TLR (viral),0.0,—,ssRNA recognition
+IFNB1,Neither_antiviral,IFN (antiviral),0.0,IFN-β,抗ウイルスエフェクター
+IL4,Neither_Th2_ligand,Th2 cytokine,0.0,dupilumab(ligand),受容体IL4Rは VDR=24
+IL31,Neither_Th2_ligand,Th2 cytokine,0.0,nemolizumab,痒み誘発
+IL25,Neither_Th2_ligand,Th2 alarm,0.0,—,"IL-17E, type2 alarm"
+IL9,Neither_Th2_ligand,mast cell,0.0,—,
+IL5RA,Neither_Th2_ligand,Th2 receptor,0.0,benralizumab,リガンドIL5はVDR=14
+IL9R,Neither_Th2_ligand,Th2 receptor,0.0,—,
+IL17RB,Neither_Th2_ligand,Th2 receptor,0.0,—,IL-25 receptor
+IL2RG,Neither_Th2_ligand,共通γ鎖,0.0,—,γc chain
+CRLF2,Neither_Th2_ligand,TSLP receptor,0.0,—,TSLPはVDR=24
+IL31RA,Neither_Th2_ligand,IL-31 receptor,0.0,nemolizumab(R),
+IL1RL1,Neither_Th2_ligand,IL-33 receptor,0.0,cendakimab(ST2),IL-33はVDR=4.47
+CTLA4,Neither_checkpoint,Checkpoint,0.0,abatacept,LAG3/PD-1はVDR only
+TIGIT,Neither_checkpoint,Checkpoint,0.0,tiragolumab,
+MS4A1,Neither_CNS_MS,MS-B-cell(CD20),0.0,ocrelizumab,CD19はVDR=84
+TNFRSF13B,Neither_CNS_MS,MS-B-cell,0.0,atacicept→WORSE,MSを悪化させた薬
+BTK,Neither_CNS_MS,MS-kinase,0.0,evobrutinib,
+TEC,Neither_CNS_MS,MS-kinase,0.0,BTKi off-target,
+ITGB1,Neither_CNS_MS,MS-migration,0.0,natalizumab pair,ITGA4はVDR=69
+PLP1,Neither_CNS_MS,Myelin-Ag,0.0,—,MBPはVDR=23 GR=24
+MOG,Neither_CNS_MS,MOGAD-Ag,0.0,—,MOGAD autoantigen
+C5,Neither_CNS_MS,Complement,0.0,eculizumab(NMOSD),C5はVDR非支配
+NLRP1,Neither_innate_other,NLR,0.0,—,NLRP3はVDR=10
+CLEC6A,Neither_innate_other,CLR,0.0,—,
+IRAK4,Neither_innate_other,Adaptor,0.0,—,IRAK1はVDR=46
+IL6,Neither_innate_other,Effector,0.0,—,IL6RはVDR=48-99
+SIGIRR,Neither_innate_other,NegReg,0.0,—,TLR negative reg

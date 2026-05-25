@@ -1,0 +1,27 @@
+Gene,Drug,VDR_THP1,VDR_LS180,GR_THP1,Max_VDR,Pattern_THP1,Pattern_LS180
+IL23A,risankizumab/mirikizumab,211.05,0.0,0.0,211.05,VDR only,Neither
+CD274,ICI-irAE,186.2,0.0,39.76,186.2,Both,Neither
+TNF,infliximab/adalimumab,155.61,0.0,0.0,155.61,VDR only,Neither
+TYK2,deucravacitinib,79.1,0.0,0.0,79.1,VDR only,Neither
+ITGB7,vedolizumab,62.27,0.0,0.0,62.27,VDR only,Neither
+CIITA,(MHC-II),57.04,0.0,0.0,57.04,VDR only,Neither
+NLRC4,(inflammasome),49.05,0.0,0.0,49.05,VDR only,Neither
+IL10,(anti-inflam),48.06,0.0,0.0,48.06,VDR only,Neither
+IL17RA,(receptor),46.03,0.0,38.58,46.03,Both,Neither
+LAG3,ICI-irAE,45.93,0.0,0.0,45.93,VDR only,Neither
+NOD2,(innate),40.57,0.0,0.0,40.57,VDR only,Neither
+IL10RA,(receptor),29.29,0.0,0.0,29.29,VDR only,Neither
+PDCD1,ICI-irAE,26.08,0.0,0.0,26.08,VDR only,Neither
+DUSP1,(MKP-1/GRctrl),13.69,0.0,127.44,13.69,Both,Neither
+TLR10,(innate brake),13.17,0.0,0.0,13.17,VDR only,Neither
+MADCAM1,ontamalimab,13.12,0.0,0.0,13.12,VDR only,Neither
+STAT3,(JAK-STAT),11.07,0.0,0.0,11.07,VDR only,Neither
+IL1B,anakinra,7.58,0.0,24.1,7.58,Both,Neither
+S1PR1,ozanimod,6.26,0.0,0.0,6.26,VDR only,Neither
+TNFAIP3,(A20/NegReg),5.71,0.0,126.47,5.71,Both,Neither
+JAK1,filgotinib/upadacitinib,5.19,0.0,0.0,5.19,VDR only,Neither
+IL17A,secukinumab,4.48,0.0,0.0,4.48,VDR only,Neither
+JAK3,tofacitinib,3.88,0.0,0.0,3.88,VDR only,Neither
+IL23R,(receptor),2.6,0.0,0.0,2.6,Neither,Neither
+IL12B,ustekinumab(p40),0.0,0.0,0.0,0.0,Neither,Neither
+ITGA4,vedolizumab,0.0,0.0,0.0,0.0,Neither,Neither

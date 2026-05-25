@@ -1,0 +1,31 @@
+# Large data files
+*.bed
+*.bed.gz
+*.bam
+*.bam.bai
+*.bigwig
+*.bw
+*.fastq
+*.fastq.gz
+*.fq.gz
+
+# Binary/intermediate files
+*.pkl
+*.h5
+*.hdf5
+
+# System files
+.DS_Store
+__pycache__/
+*.pyc
+
+# Sensitive / raw data directories
+data/raw/
+logs/*.log
+
+# Explicitly INCLUDE tracked outputs (override above exclusions if needed)
+!results/*.csv
+!scripts/*.py
+!manuscript/*.md
+!results/figures/*.pdf
+!results/figures/*.png

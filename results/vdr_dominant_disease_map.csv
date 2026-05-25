@@ -1,0 +1,406 @@
+gene,disease_id,disease,therapeutic_areas,score,status
+CNR2,HP_0001744,Splenomegaly,phenotype,0.2664100123217065,other
+CNR2,EFO_0005772,neurodegenerative disease,nervous system disease,0.21452478304957343,other
+CNR2,EFO_0000616,neoplasm,cancer or benign tumor,0.1108161474567775,other
+CNR2,HP_0012531,Pain,phenotype,0.10570753802013064,other
+CNR2,MONDO_0004975,Alzheimer disease,psychiatric disorder; nervous system disease; phenotype,0.10172564483732971,other
+CD52,EFO_0000095,chronic lymphocytic leukemia,"hematologic disease; immune system disease; genetic, familial or congenital disease; cancer or benign tumor",0.5770414699711784,approved
+CD52,MONDO_0005301,multiple sclerosis,nervous system disease; immune system disease,0.5588457680955596,approved
+CD52,EFO_0003929,relapsing-remitting multiple sclerosis,nervous system disease; immune system disease,0.3768780931397307,approved
+CD52,EFO_0020092,neuroinflammatory disorder,nervous system disease; immune system disease,0.3593064710804086,approved
+CD52,EFO_0000565,leukemia,hematologic disease; cancer or benign tumor,0.332584079767381,approved
+HDAC1,EFO_0000616,neoplasm,cancer or benign tumor,0.5764179124027979,other
+HDAC1,EFO_0001378,multiple myeloma,"immune system disease; hematologic disease; cancer or benign tumor; genetic, familial or congenital disease",0.5655447252469439,other
+HDAC1,EFO_0002913,Cutaneous T-cell lymphoma,"integumentary system disease; cancer or benign tumor; hematologic disease; genetic, familial or congenital disease",0.5639331511254982,other
+HDAC1,MONDO_0010679,Duchenne muscular dystrophy,"nervous system disease; genetic, familial or congenital disease; musculoskeletal or connective tissue disease; phenotype",0.5175685962126962,other
+HDAC1,EFO_0000211,unspecified peripheral T-cell lymphoma,"hematologic disease; genetic, familial or congenital disease; cancer or benign tumor",0.516515909750067,other
+CSF3R,MONDO_0014865,autosomal recessive severe congenital neutropenia due to CSF3R deficiency,"genetic, familial or congenital disease; hematologic disease; immune system disease",0.7829162450144729,other
+CSF3R,MONDO_0018542,severe congenital neutropenia,"genetic, familial or congenital disease; hematologic disease; immune system disease",0.6994560531546791,other
+CSF3R,EFO_0000616,neoplasm,cancer or benign tumor,0.6412299444970341,other
+CSF3R,EFO_0000198,myelodysplastic syndrome,"hematologic disease; cancer or benign tumor; genetic, familial or congenital disease",0.615273551723945,other
+CSF3R,MONDO_0008092,hereditary neutrophilia,"hematologic disease; immune system disease; genetic, familial or congenital disease",0.6095571995562912,other
+ADORA3,MONDO_0005277,migraine disorder,nervous system disease; cardiovascular disease,0.6052134617149065,other
+ADORA3,MONDO_0004979,asthma,phenotype; respiratory or thoracic disease,0.604527791234959,other
+ADORA3,EFO_0009493,paroxysmal tachycardia,cardiovascular disease,0.5868213846274001,other
+ADORA3,HP_0012531,Pain,phenotype,0.5712205431287553,other
+ADORA3,HP_0002104,Apnea,phenotype,0.5707776709920809,other
+SV2A,EFO_0000474,epilepsy,nervous system disease,0.6232726849721774,other
+SV2A,HP_0001250,Seizure,phenotype,0.6075441108199912,other
+SV2A,HP_0002069,Bilateral tonic-clonic seizure,phenotype,0.6034589576720745,other
+SV2A,EFO_0005542,botulism,infectious disease,0.5783838386125503,other
+SV2A,EFO_0005772,neurodegenerative disease,nervous system disease,0.5474872881312912,other
+NPR1,EFO_0000373,congestive heart failure,cardiovascular disease; phenotype,0.5762567850893211,other
+NPR1,EFO_0000319,cardiovascular disease,cardiovascular disease,0.44044048362658833,other
+NPR1,EFO_0000537,hypertension,cardiovascular disease; phenotype,0.41028972693937377,other
+NPR1,EFO_0003144,heart failure,cardiovascular disease,0.39280265361118527,other
+NPR1,EFO_0000318,cardiomyopathy,cardiovascular disease; musculoskeletal or connective tissue disease,0.3300964068758861,other
+IL6R,EFO_0000685,rheumatoid arthritis,immune system disease; musculoskeletal or connective tissue disease; phenotype,0.7269057706798291,approved
+IL6R,HP_0000964,Eczematoid dermatitis,phenotype,0.6094085560296126,approved
+IL6R,EFO_0002609,juvenile idiopathic arthritis,immune system disease; musculoskeletal or connective tissue disease; phenotype,0.5973660920123812,approved
+IL6R,EFO_0004256,neuromyelitis optica,nervous system disease; disorder of visual system; immune system disease,0.5818119868116388,approved
+IL6R,MONDO_0030069,"hyper-IgE recurrent infection syndrome 5, autosomal recessive","immune system disease; hematologic disease; genetic, familial or congenital disease",0.5733078978832341,approved
+FDPS,MONDO_0014713,"porokeratosis 9, multiple types","integumentary system disease; genetic, familial or congenital disease",0.6367552913005174,other
+FDPS,EFO_0003882,osteoporosis,"musculoskeletal or connective tissue disease; genetic, familial or congenital disease; phenotype",0.6099299236745758,other
+FDPS,EFO_0003854,postmenopausal osteoporosis,"musculoskeletal or connective tissue disease; genetic, familial or congenital disease; phenotype",0.6069689869625869,other
+FDPS,EFO_0001378,multiple myeloma,"immune system disease; hematologic disease; cancer or benign tumor; genetic, familial or congenital disease",0.599319854706105,other
+FDPS,EFO_0004261,osteitis deformans,"genetic, familial or congenital disease; musculoskeletal or connective tissue disease; phenotype",0.5958359911176503,other
+PTGS2,EFO_0000685,rheumatoid arthritis,immune system disease; musculoskeletal or connective tissue disease; phenotype,0.6335569514731725,other
+PTGS2,MONDO_0005277,migraine disorder,nervous system disease; cardiovascular disease,0.6304948260850599,other
+PTGS2,EFO_0004274,gout,nutritional or metabolic disease; musculoskeletal or connective tissue disease; phenotype,0.6300652858912187,other
+PTGS2,EFO_0000729,ulcerative colitis,"gastrointestinal disease; immune system disease; genetic, familial or congenital disease",0.6258582170908077,other
+PTGS2,MONDO_0005178,osteoarthritis,musculoskeletal or connective tissue disease; phenotype,0.6200854438677849,other
+PLA2G4A,MONDO_0018794,cytosolic phospholipase-A2 alpha deficiency associated bleeding disorder,"gastrointestinal disease; genetic, familial or congenital disease; hematologic disease",0.6698706100372573,other
+PLA2G4A,EFO_0010263,"gastrointestinal ulceration, recurrent, with dysfunctional platelets","gastrointestinal disease; genetic, familial or congenital disease",0.6364986386236531,other
+PLA2G4A,EFO_0003086,kidney disease,urinary system disease,0.3145637153033335,other
+PLA2G4A,MONDO_0005090,schizophrenia,psychiatric disorder; nervous system disease,0.30265371841796274,other
+PLA2G4A,EFO_0003884,chronic kidney disease,urinary system disease,0.27279648969138126,other
+REN,MONDO_0013128,familial juvenile hyperuricemic nephropathy type 2,"urinary system disease; genetic, familial or congenital disease",0.7657976389758877,other
+REN,MONDO_0017609,renal tubular dysgenesis,urinary system disease,0.7544833739485151,other
+REN,MONDO_0009970,renal tubular dysgenesis of genetic origin,"genetic, familial or congenital disease; urinary system disease",0.7434983396220176,other
+REN,Orphanet_217330,Hyperuricemia - anemia - renal failure,"urinary system disease; genetic, familial or congenital disease",0.6779071739984591,other
+REN,EFO_0000537,hypertension,cardiovascular disease; phenotype,0.6607259490895575,other
+CHRM3,MONDO_0007032,prune belly syndrome,"genetic, familial or congenital disease; urinary system disease",0.6981312195390874,other
+CHRM3,EFO_0000341,chronic obstructive pulmonary disease,respiratory or thoracic disease,0.6746736110711269,other
+CHRM3,EFO_0010282,gastrointestinal disease,gastrointestinal disease,0.6485577424720804,other
+CHRM3,HP_0000975,Hyperhidrosis,phenotype,0.6319480034883002,other
+CHRM3,EFO_1000781,overactive bladder,urinary system disease,0.6085404275275301,other
+NLRP3,MONDO_0011776,CINCA syndrome,"immune system disease; musculoskeletal or connective tissue disease; genetic, familial or congenital disease",0.8398437117731131,ongoing
+NLRP3,MONDO_0008633,Muckle-Wells syndrome,"immune system disease; genetic, familial or congenital disease; musculoskeletal or connective tissue disease",0.8021041958927959,ongoing
+NLRP3,MONDO_0007349,familial cold autoinflammatory syndrome 1,"immune system disease; musculoskeletal or connective tissue disease; genetic, familial or congenital disease",0.7969129567366136,ongoing
+NLRP3,MONDO_0007849,keratitis fugax hereditaria,"genetic, familial or congenital disease",0.68662155617852,ongoing
+NLRP3,Orphanet_47045,Familial cold urticaria,"genetic, familial or congenital disease; immune system disease; integumentary system disease",0.6850528636267981,ongoing
+IL1A,EFO_0001065,endometriosis,reproductive system or breast disease,0.4571941703394777,other
+IL1A,EFO_0000616,neoplasm,cancer or benign tumor,0.39938692675912046,other
+IL1A,MONDO_0005575,colorectal cancer,gastrointestinal disease; cancer or benign tumor,0.36670549161045995,other
+IL1A,EFO_1000710,hidradenitis suppurativa,integumentary system disease,0.3061270371991788,other
+IL1A,EFO_1000418,Ovarian Endometriosis,endocrine system disease; reproductive system or breast disease,0.2950101526535793,other
+CALCRL,MONDO_0005277,migraine disorder,nervous system disease; cardiovascular disease,0.6072308579836021,other
+CALCRL,EFO_0000537,hypertension,cardiovascular disease; phenotype,0.45162776972100244,other
+CALCRL,EFO_0001073,obesity,nutritional or metabolic disease; phenotype,0.44435078451500076,other
+CALCRL,MONDO_0001134,essential hypertension,cardiovascular disease; phenotype,0.42245655297887125,other
+CALCRL,MONDO_0032907,lymphatic malformation 8,"cardiovascular disease; genetic, familial or congenital disease; hematologic disease; integumentary system disease; immune system disease; phenotype",0.41483763456888256,other
+CXCR2,MONDO_0030374,WHIM syndrome 2,"genetic, familial or congenital disease; immune system disease",0.4956521666475962,other
+CXCR2,EFO_0000729,ulcerative colitis,"gastrointestinal disease; immune system disease; genetic, familial or congenital disease",0.41815085286119347,other
+CXCR2,MONDO_0005147,type 1 diabetes mellitus,endocrine system disease; gastrointestinal disease; immune system disease; nutritional or metabolic disease; phenotype,0.3006123174265209,other
+CXCR2,EFO_0000676,psoriasis,"immune system disease; integumentary system disease; genetic, familial or congenital disease",0.2850610515722565,other
+CXCR2,EFO_0003767,inflammatory bowel disease,"immune system disease; gastrointestinal disease; genetic, familial or congenital disease",0.2811753455203569,other
+CXCR1,MONDO_0005147,type 1 diabetes mellitus,endocrine system disease; gastrointestinal disease; immune system disease; nutritional or metabolic disease; phenotype,0.30742013204059176,other
+CXCR1,EFO_0007541,viral pneumonia,infectious disease; respiratory or thoracic disease; phenotype,0.25907547813397597,other
+CXCR1,EFO_0003106,pneumonia,infectious disease; respiratory or thoracic disease; phenotype,0.22202475520727602,other
+CXCR1,EFO_0000342,chronic pancreatitis,endocrine system disease; phenotype,0.18571387697906264,other
+CXCR1,EFO_0000180,HIV-1 infection,infectious disease; reproductive system or breast disease,0.16774711214025717,other
+INPP5D,MONDO_0004975,Alzheimer disease,psychiatric disorder; nervous system disease; phenotype,0.4756442906728803,other
+INPP5D,EFO_0005854,allergic rhinitis,respiratory or thoracic disease; immune system disease,0.46336097372531676,other
+INPP5D,EFO_0000274,atopic eczema,integumentary system disease; immune system disease,0.43978059800288993,other
+INPP5D,EFO_0000684,respiratory system disease,respiratory or thoracic disease,0.42361821793240867,other
+INPP5D,HP_0000964,Eczematoid dermatitis,phenotype,0.421403465866269,other
+HRH1,EFO_0005854,allergic rhinitis,respiratory or thoracic disease; immune system disease,0.6152528861024328,other
+HRH1,EFO_0003956,seasonal allergic rhinitis,respiratory or thoracic disease; immune system disease,0.6097506401159691,other
+HRH1,MONDO_0005271,allergic disease,immune system disease,0.6085456007088639,other
+HRH1,EFO_0007141,allergic conjunctivitis,disorder of visual system; immune system disease; phenotype,0.6076068177708008,other
+HRH1,HP_0001742,Nasal congestion,phenotype,0.6055460512632671,other
+CCR1,MONDO_0100096,COVID-19,infectious disease,0.45626385660598684,other
+CCR1,HP_0000924,Abnormality of the skeletal system,phenotype,0.4495176329551797,other
+CCR1,MONDO_0007915,systemic lupus erythematosus,immune system disease; urinary system disease; musculoskeletal or connective tissue disease; phenotype,0.4236921378368359,other
+CCR1,EFO_0001060,celiac disease,"gastrointestinal disease; genetic, familial or congenital disease; immune system disease",0.4019587664404766,other
+CCR1,EFO_0003780,Behcet's syndrome,immune system disease; urinary system disease; nervous system disease; integumentary system disease; cardiovascular disease,0.394920157923023,other
+CCR2,MONDO_0009060,cystic disease of lung,"genetic, familial or congenital disease",0.6204270479984059,failed
+CCR2,EFO_0000180,HIV-1 infection,infectious disease; reproductive system or breast disease,0.3967448052234313,failed
+CCR2,MONDO_0100096,COVID-19,infectious disease,0.37201406589676406,failed
+CCR2,EFO_0001060,celiac disease,"gastrointestinal disease; genetic, familial or congenital disease; immune system disease",0.3482201743994541,failed
+CCR2,EFO_0000685,rheumatoid arthritis,immune system disease; musculoskeletal or connective tissue disease; phenotype,0.26862328774219696,failed
+CCR5,EFO_0000764,HIV infection,infectious disease; reproductive system or breast disease,0.7442590579227027,other
+CCR5,EFO_0000180,HIV-1 infection,infectious disease; reproductive system or breast disease,0.67792770178648,other
+CCR5,EFO_0000765,AIDS,"immune system disease; infectious disease; genetic, familial or congenital disease; reproductive system or breast disease",0.39637864764515324,other
+CCR5,MONDO_0100096,COVID-19,infectious disease,0.39149761751776285,other
+CCR5,EFO_0000763,viral disease,infectious disease,0.37777716543494294,other
+CD80,EFO_0000685,rheumatoid arthritis,immune system disease; musculoskeletal or connective tissue disease; phenotype,0.618273953289983,other
+CD80,EFO_0010134,kidney transplant,medical procedure,0.5380886184871825,other
+CD80,EFO_0002609,juvenile idiopathic arthritis,immune system disease; musculoskeletal or connective tissue disease; phenotype,0.5309420402569959,other
+CD80,EFO_0003778,psoriatic arthritis,immune system disease; musculoskeletal or connective tissue disease; phenotype,0.5099130126730609,other
+CD80,EFO_0000540,immune system disease,immune system disease,0.463188037906006,other
+CD86,EFO_0000685,rheumatoid arthritis,immune system disease; musculoskeletal or connective tissue disease; phenotype,0.615301066307767,approved
+CD86,EFO_0010134,kidney transplant,medical procedure,0.5379038285598401,approved
+CD86,EFO_0002609,juvenile idiopathic arthritis,immune system disease; musculoskeletal or connective tissue disease; phenotype,0.5329544417302413,approved
+CD86,MONDO_0005301,multiple sclerosis,nervous system disease; immune system disease,0.5229823002515067,approved
+CD86,EFO_0003778,psoriatic arthritis,immune system disease; musculoskeletal or connective tissue disease; phenotype,0.5116065408526336,approved
+PIK3CB,MONDO_0004992,cancer,cancer or benign tumor,0.5780020369592046,other
+PIK3CB,EFO_0005772,neurodegenerative disease,nervous system disease,0.5380197145332933,other
+PIK3CB,MONDO_0004975,Alzheimer disease,psychiatric disorder; nervous system disease; phenotype,0.48687824014181796,other
+PIK3CB,MONDO_0005180,Parkinson disease,"nervous system disease; genetic, familial or congenital disease",0.4848696898989132,other
+PIK3CB,MONDO_0005301,multiple sclerosis,nervous system disease; immune system disease,0.4641370066916689,other
+SPP1,EFO_0003882,osteoporosis,"musculoskeletal or connective tissue disease; genetic, familial or congenital disease; phenotype",0.5729473764531288,other
+SPP1,EFO_0004260,bone disease,musculoskeletal or connective tissue disease,0.5016948625779489,other
+SPP1,EFO_0004214,Abdominal Aortic Aneurysm,cardiovascular disease,0.45156738793105944,other
+SPP1,EFO_0004274,gout,nutritional or metabolic disease; musculoskeletal or connective tissue disease; phenotype,0.4451168710172555,other
+SPP1,EFO_0009659,aneurysm,cardiovascular disease,0.3644760964357798,other
+PPP3CA,MONDO_0020630,developmental and epileptic encephalopathy 91,"nervous system disease; genetic, familial or congenital disease",0.7846168061843352,other
+PPP3CA,MONDO_0032642,"arthrogryposis, cleft palate, craniosynostosis, and impaired intellectual development","genetic, familial or congenital disease",0.7163983947248315,other
+PPP3CA,EFO_0005761,lupus nephritis,immune system disease; urinary system disease; phenotype,0.5620209179610918,other
+PPP3CA,EFO_1000643,infantile epileptic encephalopathy,nervous system disease,0.5030392466541774,other
+PPP3CA,MONDO_0005148,type 2 diabetes mellitus,endocrine system disease; nutritional or metabolic disease; phenotype,0.4482727574704897,other
+PDE5A,EFO_0001645,coronary artery disease,cardiovascular disease,0.6614560318797083,other
+PDE5A,EFO_0004234,erectile dysfunction,reproductive system or breast disease,0.6124296894742537,other
+PDE5A,EFO_0001361,pulmonary arterial hypertension,respiratory or thoracic disease; cardiovascular disease; phenotype,0.6090859265638557,other
+PDE5A,EFO_0000284,benign prostatic hyperplasia,cancer or benign tumor; reproductive system or breast disease,0.6051500086740509,other
+PDE5A,MONDO_0005149,pulmonary hypertension,cardiovascular disease; phenotype,0.5876457300784068,other
+IL15,EFO_0009681,post term pregnancy,pregnancy or perinatal disease,0.30246427259274417,other
+IL15,EFO_0005670,smoking initiation,biological_process,0.25586476742098463,other
+IL15,EFO_0000274,atopic eczema,integumentary system disease; immune system disease,0.24334497625295384,other
+IL15,EFO_0000538,hypertrophic cardiomyopathy,cardiovascular disease; musculoskeletal or connective tissue disease,0.23432422754028207,other
+IL15,EFO_0007442,placenta praevia,pregnancy or perinatal disease; reproductive system or breast disease,0.2333954078038903,other
+NR3C2,MONDO_0008329,autosomal dominant pseudohypoaldosteronism type 1,"genetic, familial or congenital disease; urinary system disease",0.7770463208251472,other
+NR3C2,EFO_0000537,hypertension,cardiovascular disease; phenotype,0.7417700346809301,other
+NR3C2,Orphanet_171871,Renal pseudohypoaldosteronism type 1,"urinary system disease; genetic, familial or congenital disease",0.7317082723946461,other
+NR3C2,MONDO_0011517,pseudohyperaldosteronism type 2,"genetic, familial or congenital disease; pregnancy or perinatal disease",0.6760799996747106,other
+NR3C2,EFO_0000612,myocardial infarction,cardiovascular disease,0.6018848669729151,other
+GHR,MONDO_0009877,Laron syndrome,"endocrine system disease; genetic, familial or congenital disease",0.8304020079647765,other
+GHR,MONDO_0011420,short stature due to partial GHR deficiency,endocrine system disease; reproductive system or breast disease; nervous system disease,0.7820922710772238,other
+GHR,MONDO_0019499,Turner syndrome,"genetic, familial or congenital disease; endocrine system disease; reproductive system or breast disease; phenotype",0.6004081779045601,other
+GHR,EFO_1001109,pituitary dwarfism,reproductive system or breast disease; endocrine system disease; nervous system disease,0.5978455869046508,other
+GHR,EFO_1001485,acromegaly,"endocrine system disease; genetic, familial or congenital disease; phenotype; reproductive system or breast disease; nervous system disease",0.5875093889353835,other
+TSLP,MONDO_0004979,asthma,phenotype; respiratory or thoracic disease,0.7162691222652415,approved
+TSLP,EFO_1002029,chronic rhinosinusitis with nasal polyps,respiratory or thoracic disease; musculoskeletal or connective tissue disease,0.5615061591146803,approved
+TSLP,EFO_0007486,sinusitis,respiratory or thoracic disease; musculoskeletal or connective tissue disease,0.54763706906843,approved
+TSLP,EFO_1000391,Nasal Cavity Polyp,cancer or benign tumor; respiratory or thoracic disease,0.5200220602214115,approved
+TSLP,EFO_0005854,allergic rhinitis,respiratory or thoracic disease; immune system disease,0.5058299134514114,approved
+CD14,EFO_0005547,dengue disease,infectious disease,0.39219972762611355,other
+CD14,MONDO_0003778,inborn error of immunity,immune system disease,0.3695798546847018,other
+CD14,HP_0003418,Back pain,phenotype,0.18343312611861584,other
+CD14,EFO_0004274,gout,nutritional or metabolic disease; musculoskeletal or connective tissue disease; phenotype,0.13799697366408098,other
+CD14,HP_0100806,Sepsis,phenotype,0.13219447461935138,other
+FGF1,MONDO_0004992,cancer,cancer or benign tumor,0.6088477966360052,other
+FGF1,EFO_0005541,bone development disease,musculoskeletal or connective tissue disease,0.5958182061931233,other
+FGF1,EFO_0009118,female reproductive endometrioid cancer,reproductive system or breast disease; cancer or benign tumor,0.5030392466541774,other
+FGF1,HP_0000924,Abnormality of the skeletal system,phenotype,0.47042060576299166,other
+FGF1,EFO_0001075,ovarian carcinoma,cancer or benign tumor; endocrine system disease; reproductive system or breast disease,0.46934524445542636,other
+NR3C1,MONDO_0014421,glucocorticoid resistance,"endocrine system disease; nutritional or metabolic disease; genetic, familial or congenital disease",0.8081730501624982,other
+NR3C1,EFO_0000341,chronic obstructive pulmonary disease,respiratory or thoracic disease,0.7036305106972573,other
+NR3C1,MONDO_0005301,multiple sclerosis,nervous system disease; immune system disease,0.6840851692676138,other
+NR3C1,MONDO_0004979,asthma,phenotype; respiratory or thoracic disease,0.6289620939159495,other
+NR3C1,EFO_0000685,rheumatoid arthritis,immune system disease; musculoskeletal or connective tissue disease; phenotype,0.6259309001962273,other
+LTA,EFO_0003778,psoriatic arthritis,immune system disease; musculoskeletal or connective tissue disease; phenotype,0.3761185917904896,other
+LTA,EFO_0005772,neurodegenerative disease,nervous system disease,0.37079833893338304,other
+LTA,EFO_0000685,rheumatoid arthritis,immune system disease; musculoskeletal or connective tissue disease; phenotype,0.13131244542418516,other
+LTA,EFO_1001951,colorectal carcinoma,gastrointestinal disease; cancer or benign tumor,0.10785962935461475,other
+LTA,EFO_0000616,neoplasm,cancer or benign tumor,0.09965859533460629,other
+TNF,EFO_0003778,psoriatic arthritis,immune system disease; musculoskeletal or connective tissue disease; phenotype,0.708549577891046,approved
+TNF,EFO_0000685,rheumatoid arthritis,immune system disease; musculoskeletal or connective tissue disease; phenotype,0.6424639366506499,approved
+TNF,EFO_0000676,psoriasis,"immune system disease; integumentary system disease; genetic, familial or congenital disease",0.6409581552308364,approved
+TNF,EFO_0000729,ulcerative colitis,"gastrointestinal disease; immune system disease; genetic, familial or congenital disease",0.6391839908373439,approved
+TNF,EFO_0003898,ankylosing spondylitis,immune system disease; musculoskeletal or connective tissue disease; phenotype,0.629752138248425,approved
+VEGFA,EFO_0003770,diabetic retinopathy,nutritional or metabolic disease; nervous system disease; disorder of visual system; cardiovascular disease,0.7167382971353324,approved
+VEGFA,EFO_0009321,diabetic macular edema,nutritional or metabolic disease; nervous system disease; disorder of visual system; cardiovascular disease,0.6293757082787665,approved
+VEGFA,EFO_0003060,non-small cell lung carcinoma,respiratory or thoracic disease; cancer or benign tumor,0.6263195243545013,approved
+VEGFA,EFO_0004683,wet macular degeneration,"nervous system disease; genetic, familial or congenital disease; disorder of visual system; phenotype",0.6242922292445254,approved
+VEGFA,MONDO_0003005,macular retinal edema,nervous system disease; disorder of visual system; phenotype,0.6218398014068734,approved
+PPIA,EFO_0000764,HIV infection,infectious disease; reproductive system or breast disease,0.6219943433906236,other
+PPIA,EFO_0000676,psoriasis,"immune system disease; integumentary system disease; genetic, familial or congenital disease",0.5687552158451904,other
+PPIA,MONDO_0013730,graft versus host disease,"immune system disease; injury, poisoning or other complication",0.5063933459670232,other
+PPIA,EFO_0009449,keratitis,disorder of visual system; phenotype,0.4912742879467144,other
+PPIA,EFO_0003966,eye disease,disorder of visual system,0.4684578649734713,other
+LOXL2,EFO_0005772,neurodegenerative disease,nervous system disease,0.29388387076279526,other
+LOXL2,EFO_0000701,skin disease,integumentary system disease,0.24224106235792697,other
+LOXL2,EFO_0002496,actinic keratosis,cancer or benign tumor; integumentary system disease,0.1839015548984529,other
+LOXL2,MONDO_0004390,ocular hypotension,disorder of visual system,0.15645361538657213,other
+LOXL2,EFO_0000616,neoplasm,cancer or benign tumor,0.12803145429112556,other
+ADRA1A,EFO_0000537,hypertension,cardiovascular disease; phenotype,0.628538403041411,other
+ADRA1A,EFO_0000284,benign prostatic hyperplasia,cancer or benign tumor; reproductive system or breast disease,0.6185760789251907,other
+ADRA1A,EFO_0000612,myocardial infarction,cardiovascular disease,0.6092189801331681,other
+ADRA1A,HP_0001742,Nasal congestion,phenotype,0.6059709736708522,other
+ADRA1A,EFO_0007214,common cold,gastrointestinal disease; infectious disease; respiratory or thoracic disease,0.6046024706852098,other
+EPHX2,MONDO_0004975,Alzheimer disease,psychiatric disorder; nervous system disease; phenotype,0.35342545399065184,other
+EPHX2,EFO_0005772,neurodegenerative disease,nervous system disease,0.3376358463795835,other
+EPHX2,EFO_0005670,smoking initiation,biological_process,0.31329623083105046,other
+EPHX2,EFO_0001071,lung carcinoma,respiratory or thoracic disease; cancer or benign tumor,0.28013084740234545,other
+EPHX2,EFO_0004335,short-term memory,biological_process,0.2777512482723197,other
+CD274,EFO_0003060,non-small cell lung carcinoma,respiratory or thoracic disease; cancer or benign tumor,0.6769230776549127,approved
+CD274,EFO_1001471,Merkel cell skin cancer,integumentary system disease; cancer or benign tumor,0.6338336652200773,approved
+CD274,EFO_0000702,small cell lung carcinoma,"endocrine system disease; genetic, familial or congenital disease; respiratory or thoracic disease; cancer or benign tumor",0.6136922176480127,approved
+CD274,EFO_0000616,neoplasm,cancer or benign tumor,0.5954832027663227,approved
+CD274,EFO_0000181,head and neck squamous cell carcinoma,cancer or benign tumor,0.585395676356973,approved
+NTRK2,MONDO_0013483,"obesity, hyperphagia, and developmental delay","genetic, familial or congenital disease",0.7308931512739741,other
+NTRK2,EFO_0000616,neoplasm,cancer or benign tumor,0.6545909802330924,other
+NTRK2,EFO_0003060,non-small cell lung carcinoma,respiratory or thoracic disease; cancer or benign tumor,0.652726554630967,other
+NTRK2,MONDO_0100062,genetic developmental and epileptic encephalopathy,"nervous system disease; genetic, familial or congenital disease",0.6239735253259627,other
+NTRK2,MONDO_0004992,cancer,cancer or benign tumor,0.575700498279296,other
+SYK,MONDO_0030308,immunodeficiency 82 with systemic inflammation,"immune system disease; genetic, familial or congenital disease",0.608506293550361,other
+SYK,EFO_0005046,cutaneous Leishmaniasis,infectious disease; integumentary system disease,0.5733173026615971,other
+SYK,HP_0002721,Immunodeficiency,phenotype,0.5686966591617616,other
+SYK,HP_0004313,Decreased circulating immunoglobulin concentration,phenotype,0.5636092783941703,other
+SYK,EFO_0007160,autoimmune thrombocytopenic purpura,immune system disease; hematologic disease; phenotype,0.5473089825099361,other
+MAP3K8,EFO_0003767,inflammatory bowel disease,"immune system disease; gastrointestinal disease; genetic, familial or congenital disease",0.464394891370329,other
+MAP3K8,EFO_0000729,ulcerative colitis,"gastrointestinal disease; immune system disease; genetic, familial or congenital disease",0.43890763541308714,other
+MAP3K8,EFO_0000384,Crohn's disease,"immune system disease; gastrointestinal disease; genetic, familial or congenital disease",0.41839984535886654,other
+MAP3K8,EFO_0005772,neurodegenerative disease,nervous system disease,0.332232835590138,other
+MAP3K8,EFO_0000676,psoriasis,"immune system disease; integumentary system disease; genetic, familial or congenital disease",0.29494774645239524,other
+PTGDR2,MONDO_0004979,asthma,phenotype; respiratory or thoracic disease,0.4325152174760155,other
+PTGDR2,EFO_0003956,seasonal allergic rhinitis,respiratory or thoracic disease; immune system disease,0.2884878749026335,other
+PTGDR2,EFO_1000391,Nasal Cavity Polyp,cancer or benign tumor; respiratory or thoracic disease,0.2782194719491608,other
+PTGDR2,EFO_0005772,neurodegenerative disease,nervous system disease,0.19014373082501865,other
+PTGDR2,MONDO_0100096,COVID-19,infectious disease,0.18965941539968773,other
+PGR,EFO_0001065,endometriosis,reproductive system or breast disease,0.669096724339783,other
+PGR,EFO_0009520,contraception,medical procedure,0.6023041114847074,other
+PGR,EFO_0000545,infertility,reproductive system or breast disease; phenotype,0.6014296711797176,other
+PGR,EFO_0003894,acne,"integumentary system disease; genetic, familial or congenital disease",0.5972356038743883,other
+PGR,MONDO_0007254,breast cancer,integumentary system disease; reproductive system or breast disease; cancer or benign tumor,0.5818574168327572,other
+CHEK1,EFO_0005772,neurodegenerative disease,nervous system disease,0.5409763400244827,other
+CHEK1,MONDO_0957961,oocyte/zygote/embryo maturation arrest 21,"genetic, familial or congenital disease; reproductive system or breast disease; phenotype",0.4782548109547383,other
+CHEK1,EFO_0004192,alopecia areata,"integumentary system disease; genetic, familial or congenital disease; phenotype",0.28021156500366357,other
+CHEK1,Orphanet_399764,Male infertility due to gonadal dysgenesis or sperm disorder,"genetic, familial or congenital disease; reproductive system or breast disease",0.26609749537298527,other
+CHEK1,Orphanet_140162,Inherited cancer-predisposing syndrome,"genetic, familial or congenital disease",0.1478319418738807,other
+LAG3,EFO_0000756,melanoma,cancer or benign tumor,0.5672649687930189,approved
+LAG3,MONDO_0005575,colorectal cancer,gastrointestinal disease; cancer or benign tumor,0.3450850894917363,approved
+LAG3,EFO_0003060,non-small cell lung carcinoma,respiratory or thoracic disease; cancer or benign tumor,0.3039880946181609,approved
+LAG3,EFO_0000389,cutaneous melanoma,integumentary system disease; cancer or benign tumor,0.21123400511791499,approved
+LAG3,EFO_0003779,Hashimoto's thyroiditis,immune system disease; endocrine system disease,0.16379853768108002,approved
+PDE3A,Orphanet_1276,Brachydactyly - arterial hypertension,"urinary system disease; genetic, familial or congenital disease; musculoskeletal or connective tissue disease",0.7468849549430213,other
+PDE3A,MONDO_0007211,brachydactyly-arterial hypertension syndrome,"genetic, familial or congenital disease; musculoskeletal or connective tissue disease; phenotype",0.6983526433097782,other
+PDE3A,EFO_0001645,coronary artery disease,cardiovascular disease,0.6746993132196417,other
+PDE3A,EFO_0000319,cardiovascular disease,cardiovascular disease,0.6704423358604813,other
+PDE3A,EFO_0000712,stroke,nervous system disease; cardiovascular disease; phenotype,0.6522627134943858,other
+IRAK4,MONDO_0011888,immunodeficiency 67,"immune system disease; genetic, familial or congenital disease",0.7593923638641371,other
+IRAK4,Orphanet_70592,Immunodeficiency due to interleukin-1 receptor-associated kinase-4 deficiency,immune system disease,0.7370157450244116,other
+IRAK4,MONDO_0003778,inborn error of immunity,immune system disease,0.46387722202389775,other
+IRAK4,EFO_0020092,neuroinflammatory disorder,nervous system disease; immune system disease,0.3708733841760982,other
+IRAK4,MONDO_0010386,immunodeficiency 33,"immune system disease; genetic, familial or congenital disease",0.34186875718044285,other
+VDR,Orphanet_93160,Hypocalcemic vitamin D-resistant rickets,"endocrine system disease; genetic, familial or congenital disease; nutritional or metabolic disease; musculoskeletal or connective tissue disease",0.8226576498848421,other
+VDR,EFO_0000676,psoriasis,"immune system disease; integumentary system disease; genetic, familial or congenital disease",0.6262231295215288,other
+VDR,EFO_0003884,chronic kidney disease,urinary system disease,0.6189293012254093,other
+VDR,EFO_0003882,osteoporosis,"musculoskeletal or connective tissue disease; genetic, familial or congenital disease; phenotype",0.6132533632309574,other
+VDR,EFO_0003762,vitamin D deficiency,phenotype,0.6030406958531787,other
+ITGB7,EFO_0000384,Crohn's disease,"immune system disease; gastrointestinal disease; genetic, familial or congenital disease",0.6093930126308875,approved
+ITGB7,EFO_0000729,ulcerative colitis,"gastrointestinal disease; immune system disease; genetic, familial or congenital disease",0.6071560347671664,approved
+ITGB7,MONDO_0005301,multiple sclerosis,nervous system disease; immune system disease,0.5844185135438853,approved
+ITGB7,EFO_0003929,relapsing-remitting multiple sclerosis,nervous system disease; immune system disease,0.5796562918114014,approved
+ITGB7,MP_0001845,inflammation,phenotype,0.3695798546847018,approved
+ERBB3,MONDO_8000011,"visceral neuropathy, familial, 1, autosomal recessive","genetic, familial or congenital disease; gastrointestinal disease",0.7335342096528644,other
+ERBB3,MONDO_0011868,lethal congenital contracture syndrome 2,"genetic, familial or congenital disease",0.6861231032316232,other
+ERBB3,MONDO_0004992,cancer,cancer or benign tumor,0.6674696507997295,other
+ERBB3,MONDO_0004986,urinary bladder carcinoma,urinary system disease; cancer or benign tumor,0.5971027464109067,other
+ERBB3,Orphanet_137776,Lethal congenital contracture syndrome type 2,"genetic, familial or congenital disease",0.5962554988913189,other
+NR1H4,MONDO_0015762,progressive familial intrahepatic cholestasis,"endocrine system disease; nutritional or metabolic disease; gastrointestinal disease; genetic, familial or congenital disease; phenotype",0.7398543723093186,other
+NR1H4,EFO_1001486,primary biliary cirrhosis,"gastrointestinal disease; genetic, familial or congenital disease; endocrine system disease; cancer or benign tumor",0.6048307362510553,other
+NR1H4,EFO_0004267,biliary liver cirrhosis,endocrine system disease; gastrointestinal disease; cancer or benign tumor,0.5355669962756855,other
+NR1H4,MONDO_0008892,progressive familial intrahepatic cholestasis type 1,"endocrine system disease; nutritional or metabolic disease; gastrointestinal disease; genetic, familial or congenital disease; phenotype",0.4715828451534007,other
+NR1H4,EFO_0003900,ciliopathy,"genetic, familial or congenital disease",0.4619748183558772,other
+ALDH2,MONDO_0007079,alcohol dependence,psychiatric disorder; nervous system disease,0.6529557768338666,other
+ALDH2,EFO_0004274,gout,nutritional or metabolic disease; musculoskeletal or connective tissue disease; phenotype,0.5117902099524827,other
+ALDH2,MONDO_0030894,"AMED syndrome, digenic","genetic, familial or congenital disease; immune system disease; hematologic disease; musculoskeletal or connective tissue disease",0.5018607360599177,other
+ALDH2,EFO_0004329,alcohol drinking,biological_process,0.4781079692187372,other
+ALDH2,EFO_0001067,parasitic infection,infectious disease,0.46303222738455846,other
+HTR2A,MONDO_0002009,major depressive disorder,psychiatric disorder; nervous system disease,0.703395899986692,other
+HTR2A,MONDO_0005090,schizophrenia,psychiatric disorder; nervous system disease,0.6249890944771281,other
+HTR2A,EFO_0003758,autism,psychiatric disorder; nervous system disease; phenotype,0.6249351799201067,other
+HTR2A,MONDO_0004985,bipolar disorder,psychiatric disorder; nervous system disease,0.6136427697851987,other
+HTR2A,EFO_0005407,psychosis,psychiatric disorder; nervous system disease,0.6100169086668253,other
+LTB4R,MONDO_0019737,thrombotic microangiopathy,hematologic disease,0.3233823728491141,other
+LTB4R,EFO_0007187,bullous pemphigoid,immune system disease; integumentary system disease,0.3233823728491141,other
+LTB4R,EFO_0000685,rheumatoid arthritis,immune system disease; musculoskeletal or connective tissue disease; phenotype,0.11077172848979128,other
+LTB4R,EFO_0000341,chronic obstructive pulmonary disease,respiratory or thoracic disease,0.10392762289812266,other
+LTB4R,MONDO_0004979,asthma,phenotype; respiratory or thoracic disease,0.09168516567336654,other
+PGF,EFO_0009321,diabetic macular edema,nutritional or metabolic disease; nervous system disease; disorder of visual system; cardiovascular disease,0.6027726296926691,other
+PGF,EFO_0004683,wet macular degeneration,"nervous system disease; genetic, familial or congenital disease; disorder of visual system; phenotype",0.5971973882567081,other
+PGF,MONDO_0003005,macular retinal edema,nervous system disease; disorder of visual system; phenotype,0.5949584845670048,other
+PGF,EFO_1001157,retinal vein occlusion,cardiovascular disease; nervous system disease; disorder of visual system,0.5945792995311403,other
+PGF,MONDO_0810000,choroidal neovascularization,disorder of visual system,0.5799726426240689,other
+CA12,MONDO_0007747,isolated hyperchlorhidrosis,"integumentary system disease; genetic, familial or congenital disease",0.6794515382695604,other
+CA12,MONDO_0005041,glaucoma,disorder of visual system,0.6054394990823443,other
+CA12,EFO_1000782,altitude sickness,"respiratory or thoracic disease; injury, poisoning or other complication",0.5976533636089492,other
+CA12,MONDO_0001744,angle-closure glaucoma,disorder of visual system,0.5928576076731663,other
+CA12,HP_0001250,Seizure,phenotype,0.5889858301017256,other
+CD19,MONDO_0013283,"immunodeficiency, common variable, 3","immune system disease; hematologic disease; genetic, familial or congenital disease",0.6821072538733047,approved
+CD19,EFO_0000403,diffuse large B-cell lymphoma,"hematologic disease; immune system disease; genetic, familial or congenital disease; cancer or benign tumor",0.6105596894237274,approved
+CD19,EFO_0004256,neuromyelitis optica,nervous system disease; disorder of visual system; immune system disease,0.5747631173989952,approved
+CD19,EFO_0000094,B-cell acute lymphoblastic leukemia,"hematologic disease; immune system disease; genetic, familial or congenital disease; cancer or benign tumor",0.557991233355269,approved
+CD19,EFO_0000220,acute lymphoblastic leukemia,"hematologic disease; genetic, familial or congenital disease; cancer or benign tumor",0.5516503390442318,approved
+VKORC1,Orphanet_98434,Hereditary combined deficiency of vitamin K-dependent clotting factors,"nutritional or metabolic disease; genetic, familial or congenital disease; hematologic disease",0.7140130770318778,other
+VKORC1,MONDO_0011837,"vitamin K-dependent clotting factors, combined deficiency of, type 2","hematologic disease; genetic, familial or congenital disease",0.7130059504243252,other
+VKORC1,EFO_0000275,atrial fibrillation,cardiovascular disease,0.6112255987855229,other
+VKORC1,MONDO_0000831,thrombotic disease,cardiovascular disease,0.5977171168231276,other
+VKORC1,EFO_0005801,cholesterol embolism,cardiovascular disease,0.5662148805846708,other
+SLC5A2,MONDO_0009297,familial renal glucosuria,"genetic, familial or congenital disease; urinary system disease; nutritional or metabolic disease",0.7268968868988683,other
+SLC5A2,MONDO_0005148,type 2 diabetes mellitus,endocrine system disease; nutritional or metabolic disease; phenotype,0.6351936842498059,other
+SLC5A2,EFO_0000400,diabetes mellitus,endocrine system disease; nutritional or metabolic disease; phenotype,0.6338060086460615,other
+SLC5A2,EFO_0003144,heart failure,cardiovascular disease,0.6299196192875296,other
+SLC5A2,EFO_0003884,chronic kidney disease,urinary system disease,0.6265175228513467,other
+TP53,MONDO_0018875,Li-Fraumeni syndrome,"nervous system disease; genetic, familial or congenital disease; cancer or benign tumor",0.876069213988417,other
+TP53,EFO_0000182,hepatocellular carcinoma,gastrointestinal disease; endocrine system disease; cancer or benign tumor,0.7963791200376996,other
+TP53,EFO_0000181,head and neck squamous cell carcinoma,cancer or benign tumor,0.7771299331035201,other
+TP53,Orphanet_227535,Hereditary breast cancer,"reproductive system or breast disease; genetic, familial or congenital disease; integumentary system disease; cancer or benign tumor",0.7431566565221103,other
+TP53,MONDO_0016419,hereditary breast carcinoma,"genetic, familial or congenital disease; integumentary system disease; reproductive system or breast disease; cancer or benign tumor",0.7426121638298758,other
+NOS2,EFO_0000676,psoriasis,"immune system disease; integumentary system disease; genetic, familial or congenital disease",0.5191271913901949,other
+NOS2,EFO_1001494,psoriasis vulgaris,"immune system disease; integumentary system disease; genetic, familial or congenital disease",0.4632304927414094,other
+NOS2,EFO_0003778,psoriatic arthritis,immune system disease; musculoskeletal or connective tissue disease; phenotype,0.42619148899505016,other
+NOS2,MONDO_0005148,type 2 diabetes mellitus,endocrine system disease; nutritional or metabolic disease; phenotype,0.3940279178819834,other
+NOS2,EFO_1000826,atrophic gastritis,gastrointestinal disease,0.3128927467574282,other
+SLC6A4,EFO_0004242,obsessive-compulsive disorder,"nervous system disease; psychiatric disorder; genetic, familial or congenital disease",0.6923630266066987,other
+SLC6A4,MONDO_0002009,major depressive disorder,psychiatric disorder; nervous system disease,0.6409519599007372,other
+SLC6A4,MONDO_0002050,depressive disorder,psychiatric disorder; nervous system disease,0.6328065727683403,other
+SLC6A4,EFO_0005687,fibromyalgia,nervous system disease; musculoskeletal or connective tissue disease,0.6085906126772733,other
+SLC6A4,EFO_0004262,panic disorder,psychiatric disorder; nervous system disease,0.6044582546445675,other
+CA4,MONDO_0019200,retinitis pigmentosa,"nervous system disease; genetic, familial or congenital disease; disorder of visual system",0.6934860226390277,other
+CA4,EFO_0000474,epilepsy,nervous system disease,0.6053553828390881,other
+CA4,EFO_1000782,altitude sickness,"respiratory or thoracic disease; injury, poisoning or other complication",0.5976533636089492,other
+CA4,MONDO_0005041,glaucoma,disorder of visual system,0.5974270165488643,other
+CA4,HP_0001250,Seizure,phenotype,0.5954821029091955,other
+TYMS,MONDO_0031057,"dyskeratosis congenita, digenic","genetic, familial or congenital disease; cancer or benign tumor; integumentary system disease",0.6624847221561712,other
+TYMS,EFO_0003060,non-small cell lung carcinoma,respiratory or thoracic disease; cancer or benign tumor,0.6316896423084922,other
+TYMS,EFO_0000616,neoplasm,cancer or benign tumor,0.6176177679393767,other
+TYMS,MONDO_0005575,colorectal cancer,gastrointestinal disease; cancer or benign tumor,0.6173797570763966,other
+TYMS,MONDO_0007254,breast cancer,integumentary system disease; reproductive system or breast disease; cancer or benign tumor,0.6127698549964249,other
+HRH4,EFO_0005772,neurodegenerative disease,nervous system disease,0.2903173025319367,other
+HRH4,EFO_0001073,obesity,nutritional or metabolic disease; phenotype,0.26694391629441616,other
+HRH4,HP_0000924,Abnormality of the skeletal system,phenotype,0.26209385467085605,other
+HRH4,MONDO_0003916,overnutrition,nutritional or metabolic disease,0.22120567750291492,other
+HRH4,EFO_0004593,gestational diabetes,pregnancy or perinatal disease; endocrine system disease; nutritional or metabolic disease; phenotype,0.20688872057253657,other
+MADCAM1,EFO_0000729,ulcerative colitis,"gastrointestinal disease; immune system disease; genetic, familial or congenital disease",0.4029849153518034,other
+MADCAM1,EFO_0000384,Crohn's disease,"immune system disease; gastrointestinal disease; genetic, familial or congenital disease",0.3841024312696667,other
+MADCAM1,MONDO_0005147,type 1 diabetes mellitus,endocrine system disease; gastrointestinal disease; immune system disease; nutritional or metabolic disease; phenotype,0.19952468632658277,other
+MADCAM1,EFO_1001754,Abruptio Placentae,pregnancy or perinatal disease; reproductive system or breast disease,0.12678446940649696,other
+MADCAM1,EFO_0003767,inflammatory bowel disease,"immune system disease; gastrointestinal disease; genetic, familial or congenital disease",0.08659771485106539,other
+ELANE,MONDO_0008090,cyclic hematopoiesis,"hematologic disease; genetic, familial or congenital disease; immune system disease",0.8291093803980005,other
+ELANE,MONDO_0042490,"neutropenia, severe congenital, 1, autosomal dominant","genetic, familial or congenital disease; hematologic disease; immune system disease",0.828873128989402,other
+ELANE,Orphanet_2686,Cyclic neutropenia,immune system disease,0.8278617541683604,other
+ELANE,MONDO_0001475,neutropenia,hematologic disease; immune system disease,0.5883406791348558,other
+ELANE,HP_0001875,Decreased total neutrophil count,phenotype,0.5861947139582353,other
+FFAR2,MONDO_0005147,type 1 diabetes mellitus,endocrine system disease; gastrointestinal disease; immune system disease; nutritional or metabolic disease; phenotype,0.09182737097469269,other
+FFAR2,EFO_0000729,ulcerative colitis,"gastrointestinal disease; immune system disease; genetic, familial or congenital disease",0.08866009612646915,other
+FFAR2,HP_0100806,Sepsis,phenotype,0.08611193483503804,other
+FFAR2,MONDO_0004975,Alzheimer disease,psychiatric disorder; nervous system disease; phenotype,0.08296320328868784,other
+FFAR2,EFO_0000616,neoplasm,cancer or benign tumor,0.0826683194446861,other
+FCGRT,EFO_0004991,Myasthenia gravis,immune system disease; nervous system disease; phenotype,0.5932721106551206,other
+FCGRT,EFO_1000868,chronic inflammatory demyelinating polyradiculoneuropathy,nervous system disease; phenotype,0.4334237479707765,other
+FCGRT,EFO_0007160,autoimmune thrombocytopenic purpura,immune system disease; hematologic disease; phenotype,0.39830707370790674,other
+FCGRT,EFO_1001466,Graves ophthalmopathy,disorder of visual system; immune system disease; endocrine system disease; phenotype,0.3806980486464665,other
+FCGRT,EFO_0000540,immune system disease,immune system disease,0.37004182950305764,other
+SIGLEC8,MONDO_0004627,duodenitis,gastrointestinal disease,0.354801793550851,approved
+SIGLEC8,EFO_0004232,eosinophilic esophagitis,gastrointestinal disease; phenotype,0.18610331311696762,approved
+SIGLEC8,EFO_0005531,urticaria,integumentary system disease,0.09239496367117545,approved
+SIGLEC8,EFO_0000274,atopic eczema,integumentary system disease; immune system disease,0.07631823999239092,approved
+SIGLEC8,MONDO_0011988,neutrophil immunodeficiency syndrome,"hematologic disease; immune system disease; genetic, familial or congenital disease; phenotype",0.07619068361198934,approved
+MIF,EFO_0000685,rheumatoid arthritis,immune system disease; musculoskeletal or connective tissue disease; phenotype,0.6976629981150114,other
+MIF,EFO_0002609,juvenile idiopathic arthritis,immune system disease; musculoskeletal or connective tissue disease; phenotype,0.4406543042848557,other
+MIF,EFO_1001999,systemic juvenile idiopathic arthritis,immune system disease; musculoskeletal or connective tissue disease; phenotype,0.41795035199797914,other
+MIF,MONDO_0009061,cystic fibrosis,"respiratory or thoracic disease; genetic, familial or congenital disease",0.38300746349733084,other
+MIF,MONDO_0013730,graft versus host disease,"immune system disease; injury, poisoning or other complication",0.2631094422478595,other
+ADORA2A,MONDO_0005277,migraine disorder,nervous system disease; cardiovascular disease,0.6090172565654923,other
+ADORA2A,MONDO_0004979,asthma,phenotype; respiratory or thoracic disease,0.6079618027530665,other
+ADORA2A,MONDO_0005180,Parkinson disease,"nervous system disease; genetic, familial or congenital disease",0.6059823423491659,other
+ADORA2A,EFO_0009493,paroxysmal tachycardia,cardiovascular disease,0.5868213846274001,other
+ADORA2A,HP_0002104,Apnea,phenotype,0.5731799400475315,other
+PPARA,MONDO_0005148,type 2 diabetes mellitus,endocrine system disease; nutritional or metabolic disease; phenotype,0.6178173993845495,other
+PPARA,EFO_0000319,cardiovascular disease,cardiovascular disease,0.5814784141911424,other
+PPARA,MONDO_0002525,inherited lipid metabolism disorder,"genetic, familial or congenital disease; nutritional or metabolic disease",0.5688683889420109,other
+PPARA,HP_0003124,Hypercholesterolemia,phenotype,0.568831495179749,other
+PPARA,MONDO_0001336,familial hyperlipidemia,"nutritional or metabolic disease; genetic, familial or congenital disease; phenotype",0.5528292118154212,other
+CYSLTR1,MONDO_0004979,asthma,phenotype; respiratory or thoracic disease,0.6212400926080355,other
+CYSLTR1,EFO_0005854,allergic rhinitis,respiratory or thoracic disease; immune system disease,0.5968753205589059,other
+CYSLTR1,EFO_0003956,seasonal allergic rhinitis,respiratory or thoracic disease; immune system disease,0.5799266215175184,other
+CYSLTR1,HP_0006536,Airway obstruction,phenotype,0.5434158457784811,other
+CYSLTR1,EFO_1001417,"Rhinitis, Allergic, Perennial",respiratory or thoracic disease; immune system disease,0.4967050585891646,other
+BTK,Orphanet_47,X-linked agammaglobulinemia,immune system disease,0.8454716106068291,ongoing
+BTK,MONDO_0010615,isolated growth hormone deficiency type III,"nervous system disease; endocrine system disease; genetic, familial or congenital disease; reproductive system or breast disease; phenotype",0.7282575397168882,ongoing
+BTK,Orphanet_631,Non-acquired isolated growth hormone deficiency,"endocrine system disease; genetic, familial or congenital disease",0.7281097077750144,ongoing
+BTK,EFO_0000095,chronic lymphocytic leukemia,"hematologic disease; immune system disease; genetic, familial or congenital disease; cancer or benign tumor",0.7197806731553859,ongoing
+BTK,EFO_1001469,Mantle cell lymphoma,"hematologic disease; immune system disease; genetic, familial or congenital disease; cancer or benign tumor",0.6909216668355049,ongoing

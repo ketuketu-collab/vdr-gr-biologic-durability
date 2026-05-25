@@ -1,0 +1,16 @@
+disease,gene,drug,phase,vdr_score,gr_score,ratio,vdr_class,prediction
+AD/Asthma,TSLP,tezepelumab,approved_recent,23.96,3.11,5.829683698296838,VDR,approved_recent
+AD/Asthma,IL33,itepekimab,approved_recent,0.0,3.73,0.0,GR,approved_recent
+AD,TNFSF4,amlitelimab,phase3,3.38,22.64,0.1429780033840947,GR,predicted_failure
+AD,IL31RA,nemolizumab,phase3,6.13,59.84,0.1007560815253122,GR,predicted_failure
+AD,IL36R,spesolimab,phase3_AD,0.0,12.0,0.0,GR,predicted_failure
+IBD,TNFSF15,tulisokibart,phase3,12.4,286.0,0.04320557491289199,GR,predicted_failure
+IBD,IL36R,spesolimab,phase2_CD,0.0,12.0,0.0,GR,predicted_failure
+RA,CSF2RA,mavrilimumab,phase3,13.0,25.0,0.5,GR,predicted_failure
+RA,CSF2,otilimab,phase3,20.08,203.2,0.0983349657198824,GR,predicted_failure
+RA,TNFRSF13C,ianalumab,phase3,0.0,104.09,0.0,GR,predicted_failure
+SLE,IFNAR1,anifrolumab,approved_recent,18.05,43.92,0.4018254674977738,GR,approved_recent
+SLE,CD40LG,dapirolizumab,phase3,0.0,0.0,0.0,GR,predicted_failure
+SLE,CD40,iscalimab,phase3,4.92,18.96,0.2464929859719438,GR,predicted_failure
+SLE,TNFRSF13B,telitacicept,phase3,0.0,22.0,0.0,GR,predicted_failure
+Psoriasis/RA,IL17F,bimekizumab,approved_recent,0.0,0.0,0.0,GR,approved_recent

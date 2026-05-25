@@ -1,0 +1,21 @@
+Gene,VDR,GR,Pattern,Drug
+IL13,68.49,0.0,VDR only,dupilumab/tralokinumab/lebrikizumab
+TSLP,23.96,0.0,VDR only,tezepelumab
+IL4R,23.59,0.0,VDR only,dupilumab (anti-IL-4Rα)
+IL5,14.22,0.0,VDR only,mepolizumab
+GATA3,8.65,0.0,VDR only,Th2 master TF
+STAT6,7.0,0.0,VDR only,IL-4/IL-13 downstream
+IL33,4.47,0.0,VDR only,itepekimab/astegolimab
+IGHE,3.22,0.0,VDR only,omalizumab (IgE)
+FCER1A,2.89,0.0,Neither,omalizumab (IgE receptor)
+IL17RB,0.0,0.0,Neither,IL-25 receptor
+IL9,0.0,0.0,Neither,IL-9 (mast cell)
+IL2RG,0.0,0.0,Neither,common γ-chain
+CRLF2,0.0,0.0,Neither,TSLP receptor
+IL31,0.0,0.0,Neither,nemolizumab
+IL25,0.0,0.0,Neither,IL-25/IL-17E (type 2 alarm)
+IL31RA,0.0,0.0,Neither,nemolizumab (receptor)
+IL5RA,0.0,0.0,Neither,benralizumab
+IL1RL1,0.0,0.0,Neither,ST2/IL-33R (cendakimab target)
+IL4,0.0,0.0,Neither,dupilumab (ligand)
+IL9R,0.0,0.0,Neither,IL-9 receptor

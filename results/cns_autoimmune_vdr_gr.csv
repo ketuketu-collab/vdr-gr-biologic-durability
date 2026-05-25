@@ -1,0 +1,44 @@
+Gene,Category,VDR_score,VDR_n,GR_score,GR_n,Pattern,Drug
+C1QA,Complement,179.26,4,36.75,2,Both,ANX005-class
+CFB,Complement,19.15,2,0.0,0,VDR only,iptacopan
+C3,Complement,3.71,2,0.0,0,VDR only,pegcetacoplan-class
+IFNAR2,IFN-axis,48.37,3,7.03,2,Both,IFN-β class
+IFNAR1,IFN-axis,16.93,3,13.74,1,Both,IFN-β class target
+IFNB1,IFN-axis,3.39,1,0.0,0,VDR only,interferon-β (drug itself)
+MOG,MOGAD-Ag,0.0,0,0.0,0,Neither,MOGAD autoantigen
+CD19,MS-B-cell,83.95,5,0.0,0,VDR only,inebilizumab (NMOSD)
+TNFSF13B,MS-B-cell,16.66,1,6.36,1,Both,belimumab (NMOSD trial)
+CXCR5,MS-B-cell,8.97,2,0.0,0,VDR only,Tfh migration
+TNFRSF17,MS-B-cell,7.27,1,0.0,0,VDR only,anti-BCMA CAR-T
+MS4A1,MS-B-cell,0.0,0,0.0,0,Neither,ocrelizumab/ofatumumab (anti-CD20)
+TNFRSF13B,MS-B-cell,0.0,0,0.0,0,Neither,atacicept — WORSENED MS
+S1PR1,MS-S1P,24.52,3,4.7,1,Both,fingolimod/ozanimod
+S1PR5,MS-S1P,11.47,4,0.0,0,VDR only,siponimod
+CD52,MS-broad-immune,127.22,4,0.0,0,VDR only,alemtuzumab
+BTK,MS-kinase,0.0,0,0.0,0,Neither,evobrutinib/tolebrutinib (trial)
+TEC,MS-kinase,0.0,0,0.0,0,Neither,BTKi off-target
+DHODH,MS-metabolic,67.12,1,10.93,1,Both,teriflunomide
+KEAP1,MS-metabolic,17.93,4,0.0,0,VDR only,DMF target
+NFE2L2,MS-metabolic,5.5,1,13.92,1,Both,DMF/diroximel (Nrf2 axis)
+ITGAL,MS-migration,134.46,9,0.0,0,VDR only,efalizumab (withdrawn-PML)
+ITGB2,MS-migration,75.04,2,0.0,0,VDR only,LFA-1 β
+ITGA4,MS-migration,68.54,4,0.0,0,VDR only,natalizumab (anti-VLA-4)
+CXCR3,MS-migration,10.9,2,0.0,0,VDR only,Th1 migration
+CCR7,MS-migration,7.34,3,0.0,0,VDR only,lymph node homing
+ITGB1,MS-migration,0.0,0,0.0,0,Neither,natalizumab pair
+TREM2,Microglia,33.24,3,0.0,0,VDR only,microglia receptor
+CSF1R,Microglia,29.46,3,13.41,3,Both,microglia depletion
+MBP,Myelin-Ag,22.62,4,24.05,3,Both,myelin autoantigen
+PLP1,Myelin-Ag,0.0,0,0.0,0,Neither,myelin autoantigen
+IL6R,NMOSD,99.59,11,8.54,1,Both,satralizumab (NMOSD)
+C5,NMOSD,0.0,0,0.0,0,Neither,eculizumab/ravulizumab (NMOSD)
+AQP4,NMOSD-Ag,23.44,3,33.4,1,Both,NMOSD autoantigen
+CD40LG,T-costim,7.63,1,0.0,0,VDR only,FAILED (thrombosis)
+CTLA4,T-costim,5.02,2,0.0,0,VDR only,abatacept (small trial)
+IL23A,Th17-failed,211.05,7,0.0,0,VDR only,guselkumab — FAILED MS
+IL17RA,Th17-failed,46.03,4,38.58,4,Both,brodalumab
+RORC,Th17-failed,9.36,2,0.0,0,VDR only,RORγt inhibitors
+IL12B,Th17-failed,5.73,1,0.0,0,VDR only,ustekinumab — FAILED MS
+IL17A,Th17-failed,4.48,1,0.0,0,VDR only,secukinumab — FAILED MS
+CAMP,VDR-ctrl,15.54,2,10.25,1,Both,VDR positive ctrl
+CYP24A1,VDR-ctrl,0.0,0,0.0,0,Neither,VDR positive ctrl

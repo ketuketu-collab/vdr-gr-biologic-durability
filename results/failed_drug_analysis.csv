@@ -1,0 +1,93 @@
+disease,gene,drug,status,note,vdr_class,vdr_score,gr_score,vdr_gr_ratio,label,predicted_class,correct
+Crohn's Disease,IL23A,ustekinumab,approved,anti-IL23,VDR,211.05,70.34,2.958,1,approved,Y
+Crohn's Disease,IL23A,risankizumab,approved,anti-IL23,VDR,211.05,70.34,2.958,1,approved,Y
+Crohn's Disease,IL23A,mirikizumab,approved,anti-IL23,VDR,211.05,70.34,2.958,1,approved,Y
+Crohn's Disease,ITGB7,vedolizumab,approved,anti-α4β7,VDR,62.27,17.23,3.416,1,approved,Y
+Crohn's Disease,TNF,infliximab,approved,anti-TNF,VDR,36.86,19.49,1.799,1,approved,Y
+Crohn's Disease,TNF,adalimumab,approved,anti-TNF,VDR,36.86,19.49,1.799,1,approved,Y
+Crohn's Disease,TNF,certolizumab,approved,anti-TNF,VDR,36.86,19.49,1.799,1,approved,Y
+Crohn's Disease,JAK1,upadacitinib,approved,JAK1i,GR,0.0,85.48,0.0,1,failed,N
+Crohn's Disease,S1PR1,ozanimod,approved,S1PR1,GR,6.26,29.35,0.206,1,failed,N
+Crohn's Disease,SMAD7,mongersen,failed,Ph3失敗,GR,30.12,45.04,0.654,0,failed,Y
+Crohn's Disease,MMP9,andecaliximab,failed,Ph2/3失敗,GR,11.54,71.71,0.159,0,failed,Y
+Crohn's Disease,CCR9,vercirnon,failed,Ph3失敗,GR,0.0,12.27,0.0,0,failed,Y
+Crohn's Disease,IFNG,fontolizumab,failed,Ph2中止,GR,0.0,2.58,0.0,0,failed,Y
+Crohn's Disease,IL6R,tocilizumab,failed,CD適応なし,VDR,99.59,82.9,1.187,0,approved,N
+Crohn's Disease,IL1B,canakinumab,failed,CD適応なし,GR,7.58,45.09,0.164,0,failed,Y
+Crohn's Disease,OSMR,vixarelimab,failed,Ph2失敗,GR,39.93,182.9,0.217,0,failed,Y
+Ulcerative Colitis,IL23A,ustekinumab,approved,anti-IL23,VDR,211.05,70.34,2.958,1,approved,Y
+Ulcerative Colitis,IL23A,risankizumab,approved,anti-IL23,VDR,211.05,70.34,2.958,1,approved,Y
+Ulcerative Colitis,IL23A,mirikizumab,approved,anti-IL23,VDR,211.05,70.34,2.958,1,approved,Y
+Ulcerative Colitis,ITGB7,vedolizumab,approved,anti-α4β7,VDR,62.27,17.23,3.416,1,approved,Y
+Ulcerative Colitis,TNF,infliximab,approved,anti-TNF,VDR,36.86,19.49,1.799,1,approved,Y
+Ulcerative Colitis,TNF,adalimumab,approved,anti-TNF,VDR,36.86,19.49,1.799,1,approved,Y
+Ulcerative Colitis,TNF,golimumab,approved,anti-TNF,VDR,36.86,19.49,1.799,1,approved,Y
+Ulcerative Colitis,JAK1,tofacitinib,approved,JAK,GR,0.0,85.48,0.0,1,failed,N
+Ulcerative Colitis,JAK1,upadacitinib,approved,JAK1i,GR,0.0,85.48,0.0,1,failed,N
+Ulcerative Colitis,S1PR1,ozanimod,approved,S1PR1,GR,6.26,29.35,0.206,1,failed,N
+Ulcerative Colitis,S1PR1,etrasimod,approved,S1PR1,GR,6.26,29.35,0.206,1,failed,N
+Ulcerative Colitis,SMAD7,mongersen,failed,Ph3失敗,GR,30.12,45.04,0.654,0,failed,Y
+Ulcerative Colitis,MMP9,andecaliximab,failed,Ph2/3失敗,GR,11.54,71.71,0.159,0,failed,Y
+Ulcerative Colitis,CCR9,vercirnon,failed,Ph3失敗,GR,0.0,12.27,0.0,0,failed,Y
+Ulcerative Colitis,OSMR,vixarelimab,failed,Ph2失敗,GR,39.93,182.9,0.217,0,failed,Y
+Ulcerative Colitis,IL6R,tocilizumab,failed,Ph2失敗,VDR,99.59,82.9,1.187,0,approved,N
+Ulcerative Colitis,IL1B,canakinumab,failed,UC適応なし,GR,7.58,45.09,0.164,0,failed,Y
+Psoriasis,IL23A,ustekinumab,approved,anti-IL23,VDR,211.05,70.34,2.958,1,approved,Y
+Psoriasis,IL23A,guselkumab,approved,anti-IL23,VDR,211.05,70.34,2.958,1,approved,Y
+Psoriasis,IL23A,risankizumab,approved,anti-IL23,VDR,211.05,70.34,2.958,1,approved,Y
+Psoriasis,IL23A,tildrakizumab,approved,anti-IL23,VDR,211.05,70.34,2.958,1,approved,Y
+Psoriasis,TNF,etanercept,approved,anti-TNF,VDR,36.86,19.49,1.799,1,approved,Y
+Psoriasis,TNF,infliximab,approved,anti-TNF,VDR,36.86,19.49,1.799,1,approved,Y
+Psoriasis,TNF,adalimumab,approved,anti-TNF,VDR,36.86,19.49,1.799,1,approved,Y
+Psoriasis,IL17A,secukinumab,approved,anti-IL17A,unknown,0.0,0.0,0.0,1,unknown,N
+Psoriasis,IL17A,ixekizumab,approved,anti-IL17A,unknown,0.0,0.0,0.0,1,unknown,N
+Psoriasis,IL17A,bimekizumab,approved,anti-IL17A/F,unknown,0.0,0.0,0.0,1,unknown,N
+Psoriasis,TYK2,deucravacitinib,approved,TYK2i,GR,20.2,73.07,0.273,1,failed,N
+Psoriasis,IL22,fezakinumab,failed,Ph2 limited,unknown,0.0,0.0,0.0,0,unknown,N
+Psoriasis,MAPK14,p38i,failed,多数失敗,GR,3.69,69.51,0.052,0,failed,Y
+Psoriasis,ICAM1,alicaforsen,failed,Ph3失敗,unknown,0.0,0.0,0.0,0,unknown,N
+Psoriasis,MMP9,MMPi,failed,失敗,GR,11.54,71.71,0.159,0,failed,Y
+RA,TNF,infliximab,approved,anti-TNF,VDR,36.86,19.49,1.799,1,approved,Y
+RA,TNF,adalimumab,approved,anti-TNF,VDR,36.86,19.49,1.799,1,approved,Y
+RA,TNF,etanercept,approved,anti-TNF,VDR,36.86,19.49,1.799,1,approved,Y
+RA,TNF,certolizumab,approved,anti-TNF,VDR,36.86,19.49,1.799,1,approved,Y
+RA,TNF,golimumab,approved,anti-TNF,VDR,36.86,19.49,1.799,1,approved,Y
+RA,IL6R,tocilizumab,approved,anti-IL6R,VDR,99.59,82.9,1.187,1,approved,Y
+RA,IL6R,sarilumab,approved,anti-IL6R,VDR,99.59,82.9,1.187,1,approved,Y
+RA,CD86,abatacept,approved,CTLA4-Ig/CD86,VDR,26.86,0.0,26.86,1,approved,Y
+RA,JAK1,tofacitinib,approved,JAKi,GR,0.0,85.48,0.0,1,failed,N
+RA,JAK1,baricitinib,approved,JAK1/2i,GR,0.0,85.48,0.0,1,failed,N
+RA,JAK1,upadacitinib,approved,JAK1i,GR,0.0,85.48,0.0,1,failed,N
+RA,JAK1,filgotinib,approved,JAK1i,GR,0.0,85.48,0.0,1,failed,N
+RA,IL1B,anakinra,approved,anti-IL1Ra,GR,7.58,45.09,0.164,1,failed,N
+RA,MAPK14,p38i (losmapimod等),failed,Ph3失敗(RA),GR,3.69,69.51,0.052,0,failed,Y
+RA,MMP9,MMPi (marimastat等),failed,Ph3失敗,GR,11.54,71.71,0.159,0,failed,Y
+RA,IL17A,secukinumab,failed,RA Ph2/3否定,unknown,0.0,0.0,0.0,0,unknown,N
+Asthma,IGHE,omalizumab,approved,anti-IgE,VDR,3.22,0.0,3.22,1,approved,Y
+Asthma,IL5,mepolizumab,approved,anti-IL5,GR,5.67,123.29,0.046,1,failed,N
+Asthma,IL5,reslizumab,approved,anti-IL5,GR,5.67,123.29,0.046,1,failed,N
+Asthma,IL5RA,benralizumab,approved,anti-IL5Rα,GR,20.35,61.24,0.327,1,failed,N
+Asthma,IL4R,dupilumab,approved,anti-IL4Rα,GR,24.75,50.92,0.477,1,failed,N
+Asthma,TSLP,tezepelumab,approved,anti-TSLP,VDR,23.96,0.0,23.96,1,approved,Y
+Asthma,IL33,itepekimab,approved,anti-IL33,unknown,0.0,0.0,0.0,1,unknown,N
+Asthma,TNF,golimumab,failed,severe asthma Ph3失敗,VDR,36.86,19.49,1.799,0,approved,N
+Asthma,MAPK14,p38i (various),failed,Ph2/3失敗,GR,3.69,69.51,0.052,0,failed,Y
+Asthma,IL17A,secukinumab,failed,好中球性喘息 無効,unknown,0.0,0.0,0.0,0,unknown,N
+Asthma,IL1B,canakinumab,failed,非好酸球性喘息 無効,GR,7.58,45.09,0.164,0,failed,Y
+Asthma,CXCR2,navarixin,failed,好中球性喘息 Ph2/3失敗,VDR,69.42,8.12,7.612,0,approved,N
+Rhinitis/CRSwNP,IGHE,omalizumab,approved,anti-IgE (アレルギー性鼻炎),VDR,3.22,0.0,3.22,1,approved,Y
+Rhinitis/CRSwNP,IL4R,dupilumab,approved,CRSwNP承認,GR,24.75,50.92,0.477,1,failed,N
+Rhinitis/CRSwNP,IL5,mepolizumab,approved,CRSwNP承認,GR,5.67,123.29,0.046,1,failed,N
+Rhinitis/CRSwNP,TSLP,tezepelumab,approved,CRSwNP承認(2024),VDR,23.96,0.0,23.96,1,approved,Y
+Rhinitis/CRSwNP,CCR3,bertilimumab,failed,CRS Ph2失敗,GR,0.0,24.77,0.0,0,failed,Y
+Rhinitis/CRSwNP,MAPK14,p38i,failed,気道炎症 Ph2/3失敗,GR,3.69,69.51,0.052,0,failed,Y
+Rhinitis/CRSwNP,IL1B,canakinumab,failed,CRSwNP適応なし,GR,7.58,45.09,0.164,0,failed,Y
+Atopic Dermatitis,IL4R,dupilumab,approved,anti-IL4Rα,GR,24.75,50.92,0.477,1,failed,N
+Atopic Dermatitis,IL13,tralokinumab,approved,anti-IL13,GR,3.31,99.09,0.033,1,failed,N
+Atopic Dermatitis,IL13,lebrikizumab,approved,anti-IL13,GR,3.31,99.09,0.033,1,failed,N
+Atopic Dermatitis,JAK1,abrocitinib,approved,JAK1i,GR,0.0,85.48,0.0,1,failed,N
+Atopic Dermatitis,JAK1,upadacitinib,approved,JAK1i,GR,0.0,85.48,0.0,1,failed,N
+Atopic Dermatitis,JAK1,baricitinib,approved,JAK1/2i,GR,0.0,85.48,0.0,1,failed,N
+Atopic Dermatitis,MAPK14,p38i,failed,AD Ph2/3失敗,GR,3.69,69.51,0.052,0,failed,Y
+Atopic Dermatitis,CCR3,anti-CCR3,failed,好酸球性AD Ph2失敗,GR,0.0,24.77,0.0,0,failed,Y
+Atopic Dermatitis,TNFAIP3,NF-κBi,failed,失敗,GR,5.71,42.78,0.13,0,failed,Y

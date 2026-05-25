@@ -1,0 +1,27 @@
+gene,VDR_score,GR_score,VDR_dom,max_phase,best_status,diseases,prediction_type
+MADCAM1,277.19,109.23,True,3.0,failed,"Colitis, Ulcerative, Crohn Disease",Phase3_retry_candidate
+BTK,209.73,65.13,True,3.0,failed,"Arthritis, Rheumatoid, Asthma, Dermatitis, Atopic, Lupus Erythematosus, Systemic, Multiple Sclerosis",Phase3_retry_candidate
+ADORA3,43.73,24.52,True,3.0,failed,"Arthritis, Rheumatoid, Psoriasis",Phase3_retry_candidate
+MIF,25.0,20.4,True,3.0,failed,"Arthritis, Rheumatoid",Phase3_retry_candidate
+PGR,6.14,0.0,True,3.0,failed,Multiple Sclerosis,Phase3_retry_candidate
+PTGDR2,5.28,3.67,True,3.0,failed,"Asthma, Dermatitis, Atopic, Pulmonary Disease, Chronic Obstructive",Phase3_retry_candidate
+CD274,186.2,80.45,True,0.0,untested,,Novel_target_candidate
+PPP3CA,141.59,11.37,True,0.0,untested,,Novel_target_candidate
+CSF3R,137.23,31.13,True,0.0,untested,,Novel_target_candidate
+SPP1,137.09,6.6,True,0.0,untested,,Novel_target_candidate
+VKORC1,120.19,48.52,True,0.0,untested,,Novel_target_candidate
+TP53,117.95,58.06,True,0.0,untested,,Novel_target_candidate
+VEGFA,110.38,11.56,True,0.0,untested,,Novel_target_candidate
+GHR,57.7,0.0,True,0.0,untested,,Novel_target_candidate
+NLRP3,55.77,33.38,True,0.0,untested,,Novel_target_candidate
+HDAC1,53.58,41.17,True,0.0,untested,,Novel_target_candidate
+LAG3,45.93,18.9,True,0.0,untested,,Novel_target_candidate
+FDPS,31.62,28.96,True,0.0,untested,,Novel_target_candidate
+PIK3CB,26.43,23.03,True,0.0,untested,,Novel_target_candidate
+SLC5A2,25.13,17.87,True,0.0,untested,,Novel_target_candidate
+PDE5A,22.77,7.56,True,0.0,untested,,Novel_target_candidate
+CHEK1,21.53,17.93,True,0.0,untested,,Novel_target_candidate
+CA12,20.55,19.07,True,0.0,untested,,Novel_target_candidate
+CA4,19.63,10.22,True,0.0,untested,,Novel_target_candidate
+PPARA,16.37,15.95,True,0.0,untested,,Novel_target_candidate
+ERBB3,16.13,14.69,True,0.0,untested,,Novel_target_candidate

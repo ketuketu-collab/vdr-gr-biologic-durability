@@ -1,0 +1,151 @@
+Gene,VDR,GR,GR_ratio,Pattern,Disease,Drug,Result,Reason,Outcome
+IL23A,211.05,70.34,0.25,Both (VDR↑↑),IBD/乾癬,リサンキズマブ / グセルクマブ,承認済,—,approved
+BTK,209.73,65.13,0.237,Both (VDR↑↑),ITP/天疱瘡,リルザブルチニブ,Phase III,—,ongoing
+CD274,186.2,80.45,0.302,Both,がん/irAE,アテゾリズマブ / ペムブロリズマブ,承認済,—,approved
+OSM,157.73,14.69,0.085,Both (VDR↑↑),UC/CD,izokibep,Phase II,—,ongoing
+NOD2,126.1,34.42,0.214,Both (VDR↑↑),クローン病,（直接標的薬なし—感受性遺伝子）,未達,機能喪失変異が疾患リスク→活性化ではなく補完が必要; VDR制御下の「センサー」を直接標的にする手段がない,ongoing
+VEGFA,110.38,11.56,0.095,Both (VDR↑↑),がん/ILD,ベバシズマブ,承認済,—,approved
+IL6R,99.59,82.9,0.454,Both,RA/SLE,トシリズマブ / サリルマブ,承認済,—,approved
+NFKBIA,97.0,486.59,0.834,Both (GR↑↑),炎症全般,NF-κB阻害薬（全薬失敗）,Phase II失敗,ステロイドのClassic機構（IκBα誘導）と完全重複→上乗せなし; 非特異的NF-κB抑制で感染リスク増大,failed
+CD38,94.96,18.88,0.166,Both (VDR↑↑),腎症/骨髄腫,ダラツムマブ,承認済,—,approved
+CD19,83.95,15.34,0.154,Both (VDR↑↑),SLE/MS,イネビリズマブ,承認済,—,approved
+RIPK2,83.37,70.59,0.458,Both,クローン病,RIPK2阻害薬,Phase II,—,ongoing
+ICAM1,75.17,19.2,0.203,Both (VDR↑↑),クローン病,アリカフォルセン（アンチセンス）,Phase III失敗,寛解率でプラセボと差なし; 局所投与の吸収問題+ステロイドがICAM1発現を制御済み→有効性限定的,failed
+ITGB7,62.27,17.23,0.217,Both (VDR↑↑),UC,ベドリズマブ,承認済,—,approved
+TNFRSF9,61.43,101.64,0.623,Both,がん,ウレルマブ,Phase II失敗,Grade 3肝毒性（免疫関連肝炎）により開発中断; 4-1BB経路の過剰活性化でGRが代償的に抑制—VDR制御外,failed
+NLRP3,55.77,33.38,0.374,Both,多疾患,dapansutrile / inzomelid,Phase II,—,ongoing
+HAVCR2,54.67,56.32,0.507,Both,がん,チムレリマブ,Phase II,—,ongoing
+IL10,48.06,20.09,0.295,Both,IBD,組換えIL-10（フォントリズマブ）,Phase II失敗,CD患者で逆説的悪化（IL-10→Th1→Th2バランス崩壊）; 中和抗体産生+VDR制御範囲外でGR応答が急性炎症を誘導,failed
+LAG3,45.93,18.9,0.292,Both,がん/irAE,レラトリマブ,承認済,—,approved
+ITGAL,44.27,39.26,0.47,Both,MS/乾癬,エファリズマブ,中止/撤退,JCウイルス再活性化によるPML（進行性多巣性白質脳症）; 安全性シグナルで自発的市販後撤退,failed
+IL2RA,42.32,6.3,0.13,Both (VDR↑↑),自己免疫,バシリキシマブ / ダクリズマブ,承認済（一部撤退）,ダクリズマブ撤退: PML・脳炎・肝障害の重篤有害事象（市販後）; 移植領域のバシリキシマブは継続,approved
+STING1,42.16,200.03,0.826,Both (GR↑↑),cGAS-STING疾患,STING阻害薬 / アゴニスト,Phase II,—,ongoing
+OSMR,39.93,182.9,0.821,Both (GR↑↑),UC,抗OSMRβ抗体,Phase II,—,ongoing
+TNF,36.86,19.49,0.346,Both,RA/IBD,インフリキシマブ / アダリムマブ,承認済,—,approved
+IRAK1,36.1,20.84,0.366,Both,SLE/炎症,IRAK1/4阻害薬,Phase I,—,ongoing
+MAPK14,34.95,69.51,0.665,Both,RA/COPD/IBD,ロスマピモド / パマピモド,Phase III失敗,p38MAPKは全細胞に発現→消化器毒性・皮疹が用量制限因子; GRが上位でMAPK14を制御→差別化効果なし,failed
+SMAD7,33.52,45.04,0.573,Both,クローン病,モンゲルセン,Phase III失敗,TUSCANY試験: プラセボ比較で寛解率に有意差なし; TGF-β経路の代償機構（SMAD2/3経路）が活性化し効果相殺,failed
+C5AR1,33.52,55.76,0.625,Both,ANCA腎炎,アバコパン,承認済,—,approved
+IL17RA,28.82,33.51,0.538,Both,乾癬,ブロダルマブ,承認済,—,approved
+CD86,26.86,18.65,0.41,Both,RA/移植,アバタセプト（B7-2）,承認済,—,approved
+SEMA4D,26.16,13.29,0.337,Both,MS/がん,ペピネマブ,Phase II失敗,SIGNAL-MS試験: MS認知機能エンドポイント未達; セマフォリン軸はVDR/GR制御外でバイオマーカー非選択集団での試験,failed
+IRF3,25.72,38.2,0.598,Both,抗ウイルス,（開発中）,Phase I,—,ongoing
+IL4R,24.75,50.92,0.673,Both (GR↑↑),喘息/鼻炎,デュピクセント,承認済,—,approved
+TSLP,23.96,11.23,0.319,Both,喘息,テゼペルマブ,承認済,—,approved
+IL1RL1,23.94,23.28,0.493,Both,喘息/COPD,アステゴリマブ（抗ST2）,Phase III,—,ongoing
+TNFAIP3,22.54,42.78,0.655,Both,炎症全般,NF-κB阻害薬（全薬失敗）,Phase II失敗,GRが既にA20↑で制御→生物製剤の上乗せ効果なし; 全身性NF-κB抑制による感染リスク・敗血症,failed
+TYK2,20.2,73.07,0.783,Both (GR↑↑),IBD/乾癬,デュークラバシチニブ,承認済,—,approved
+CSF2,20.08,203.2,0.91,Both (GR↑↑),RA,オチリマブ（抗GM-CSF）,Phase III失敗,RA試験で一次エンドポイント未達; GR制御下での骨髄系細胞依存性→ステロイドで十分制御可能,failed
+CFB,19.15,49.52,0.721,Both (GR↑↑),PNH/腎炎,イプタコパン,承認済,—,approved
+RIPK1,18.79,171.22,0.901,Both (GR↑↑),ALS/神経炎症,DNL747,Phase II,—,ongoing
+IFNAR1,18.05,43.92,0.709,Both (GR↑↑),SLE,アニフロルマブ,承認済,—,approved
+PTPN22,16.66,9.2,0.356,Both,RA感受性,標的薬開発中,Phase I,—,ongoing
+SIGLEC8,15.57,0.0,0.0,VDR only,好酸球/マスト,リレンテリマブ,承認済,—,approved
+DUSP1,13.3,451.11,0.971,Both (GR↑↑),（ステロイド対照）,（標的薬なし—ステロイドが直接誘導）,対照,—,ongoing
+NLRC4,13.08,44.29,0.772,Both (GR↑↑),炎症性腸疾患,（開発中）,Phase I,—,ongoing
+JAK1,12.81,85.48,0.87,Both (GR↑↑),RA/IBD,ウパダシチニブ,承認済,—,approved
+MMP9,11.54,71.71,0.861,Both (GR↑↑),IBD/がん,アンデカリキシマブ,Phase III失敗,GALAXY-UC試験: 一次エンドポイント未達; MMP9は組織修復にも必須でありVDR/GR制御の下流—標的としての特異性不十分,failed
+TGFB1,11.54,100.91,0.897,Both (GR↑↑),線維症,フレソリムマブ / bintrafusp alfa,Phase II/III失敗,TGF-βは組織修復に必須→阻害で骨折・皮膚線維化の重篤な有害事象; GR制御下での標的選択ミス,failed
+TLR2,11.37,12.71,0.528,Both,感染/炎症,TLR2拮抗薬（OPN-305 etc.）,Phase II失敗,常在菌認識センサーの阻害→感染防御破綻; GR（スコア56）で代替制御可能→有効性不十分,failed
+CXCR3,10.9,243.32,0.957,Both (GR↑↑),IBD/MS,CXCR3拮抗薬,Phase II失敗,Th1細胞動員1経路遮断→Th17/CCR6軸で代償; 効果量不十分でプラセボと差なし,failed
+IL18,10.77,91.56,0.895,Both (GR↑↑),自己炎症,タデキラント,Phase III,—,ongoing
+TOLLIP,10.25,65.4,0.865,Both (GR↑↑),TLR制御,（開発中）,Phase I,—,ongoing
+IL1B,10.2,45.09,0.816,Both (GR↑↑),痛風/CAPS/RA,カナキヌマブ,承認済（RA失敗）,RA領域：GR制御下のため生物製剤の上乗せなし; カナキヌマブ vs メトトレキサート比較試験で劣位確認,approved
+GPR35,9.88,6.34,0.391,Both,IBD,GPR35阻害薬,Phase I,—,ongoing
+CD52,9.65,0.0,0.0,VDR only,MS,アレムツズマブ,承認済,—,approved
+NOD1,9.43,51.12,0.844,Both (GR↑↑),腸管感染免疫,（直接標的薬なし）,未達,直接標的薬なし; NOD1は常在菌DAP認識センサー—阻害が感染防御を破綻させるリスク,ongoing
+CCR2,7.74,8.78,0.531,Both,RA/MS,CCR2拮抗薬（MLN1202 etc.）,Phase II失敗,単球動員の1経路遮断→CCR5/CX3CR1経路で代償; RA/MS領域でGRが炎症性単球の動員を制御—上乗せなし,failed
+CIITA,6.36,128.71,0.953,Both (GR↑↑),自己免疫,（開発中）,Phase I,—,ongoing
+TLR10,13.17,0.0,0.0,VDR only,腸管/気道,HypoacylLPS+VitD（自分たち）,研究段階,—,ongoing
+S1PR1,6.26,29.35,0.824,Both (GR↑↑),MS/UC,オザニモド,承認済,—,approved
+IL31RA,6.13,64.63,0.913,Both (GR↑↑),アトピー,ネモリズマブ,承認済,—,approved
+CD6,6.08,8.62,0.586,Both,RA/GVHD,イトリズマブ,Phase II,—,ongoing
+IL5,6.02,123.29,0.953,Both (GR↑↑),好酸球性疾患,メポリズマブ / ベンラリズマブ,承認済,—,approved
+CXCL10,5.29,21.93,0.806,Both (GR↑↑),IBD,BMS-986325,Phase II,—,ongoing
+IL13,3.31,99.09,0.968,Both (GR↑↑),喘息/アトピー,デュピクセント / トラロキヌマブ,承認済,—,approved
+IGHE,3.22,28.02,0.897,Both (GR↑↑),アレルギー,オマリズマブ（抗IgE）,承認済,—,approved
+IL17A,0.0,0.0,0.5,Neither,乾癬/AS,セクキヌマブ,承認済,—,approved
+TNFSF13B,0.0,0.0,0.5,Neither,SLE,ベリムマブ（BAFF）,承認済,—,approved
+IL36R,0.0,0.0,0.5,Neither,膿疱性乾癬,スペソリマブ,承認済,—,approved
+NLRP1,0.0,2.67,1.0,GR only,炎症性疾患,（開発中）,Phase I,—,ongoing
+IL33,0.0,6.5,1.0,GR only,喘息/COPD,イテペキマブ / アステゴリマブ,承認済,—,approved
+TIGIT,0.0,8.84,1.0,GR only,がん,チラゴルマブ,Phase III失敗,SKYSCRAPER-01試験: アテゾ+チラゴルマブ vs アテゾ単独でOS改善なし; バイオマーカー非選択集団、PD-L1軸との競合,failed
+MS4A1,0.0,8.92,1.0,GR only,RA/MS/腎症,リツキシマブ,承認済,—,approved
+CCR9,0.0,12.27,1.0,GR only,クローン病,ベルシルノン,Phase III失敗,SHIELD-1試験: 寛解率でプラセボと差なし; CCR9非依存的なgut-homing T細胞経路（α4β7/MAdCAM-1）で代償,failed
+IFNG,0.0,22.05,1.0,GR only,クローン病,フォントリズマブ,Phase II失敗,CD患者で逆説的悪化（Th1→Th17/Th2シフト誘導）; IFN-γは急性感染防御に必須でGRが急性制御→慢性期標的として不適,failed
+CTLA4,0.0,27.22,1.0,GR only,RA/がん,アバタセプト / イピリムマブ,承認済,—,approved
+PDGFRB,0.0,30.47,1.0,GR only,ILD/線維症,ニンテダニブ,承認済,—,approved
+IL12B,0.0,73.27,1.0,GR only,乾癬/IBD,ウステキヌマブ（p40）,承認済,—,approved
+PDCD1,0.0,76.52,1.0,GR only,がん/irAE,ペムブロリズマブ / ニボルマブ,承認済,—,approved
+CCR3,0.0,90.53,1.0,GR only,好酸球性疾患,AZD3778 / bertilimumab,Phase II失敗,末梢血好酸球は減少するも組織浸潤・臨床エンドポイント未達; VDR=225が本体でGR=18では急性制御しかできない,failed
+TNFRSF4,0.0,193.04,1.0,GR only,がん/GVHD,タボリキシズマブ（抗OX40）,Phase II失敗,腫瘍微小環境での適応耐性（Treg増加・PD-1軸の代償）; 単剤での抗腫瘍効果不十分,failed
+IL34,0.0,249.35,1.0,GR only,RA/MS,抗IL-34抗体,Phase I/II,—,ongoing
+ALK,125.19,0.0,0.0,VDR dominant,lung cancer,crizotinib/alectinib,approved,,approved
+TNFRSF17,115.46,22.89,0.165,VDR dominant,myeloma,teclistamab/belantamab,approved,,approved
+CSF1R,111.55,61.73,0.356,Both,cGVHD/cancer,axatilimab/pexidartinib,approved,,approved
+TLR8,89.72,10.98,0.109,VDR dominant,autoimmune,no approved biologic,ongoing,,ongoing
+CD209,58.68,9.41,0.138,VDR dominant,HIV/infection,no approved biologic,ongoing,,ongoing
+FCGR3A,53.35,0.0,0.0,VDR dominant,NHL,mogamulizumab/anti-CD16,ongoing,,ongoing
+TLR4,35.3,74.64,0.679,GR dominant,sepsis,eritoran,failed,Inefficacy (Phase 3 sepsis),failed
+TREM2,33.24,0.0,0.0,VDR dominant,Alzheimer's,AL002c,ongoing,,ongoing
+NFE2L2,28.47,15.91,0.358,Both,CKD/lung fibrosis,bardoxolone,failed,"Safety (fluid retention, cardiac events)",failed
+CSF2RA,28.31,0.0,0.0,VDR dominant,RA,mavrilimumab,failed,Inefficacy (Phase 3 RA failed),failed
+FLT3,27.25,0.0,0.0,VDR dominant,AML,midostaurin/quizartinib,approved,,approved
+NLRC5,26.46,8.75,0.249,VDR dominant,autoimmune,no approved biologic,ongoing,,ongoing
+IFNB1,25.34,0.0,0.0,VDR dominant,MS,IFN-β1a/1b,approved,,approved
+NLRP6,24.23,12.92,0.348,Both,IBD/metabolic,no approved biologic,ongoing,,ongoing
+DHX58,23.64,0.0,0.0,VDR dominant,antiviral,no approved biologic,ongoing,,ongoing
+AQP4,23.44,33.4,0.588,Both,NMO,aqaporumab,failed,Inefficacy (Phase 2 NMO),failed
+MBP,22.62,24.05,0.515,Both,MS tolerance,MBP-tolerization failed,failed,Inefficacy (MBP-tolerization trials),failed
+KIT,21.29,5.46,0.204,VDR dominant,GIST,imatinib,approved,,approved
+DHODH,19.67,27.21,0.58,Both,RA/MS,teriflunomide,approved,,approved
+KEAP1,17.93,0.0,0.0,VDR dominant,Friedreich's ataxia,omaveloxolone,approved,,approved
+CD33,17.63,14.4,0.45,Both,AML,gemtuzumab ozogamicin,approved,,approved
+TICAM1,15.81,0.0,0.0,VDR dominant,antiviral,no approved biologic,ongoing,,ongoing
+CCR7,15.81,0.0,0.0,VDR dominant,RA,GSK3858279,ongoing,,ongoing
+CAMP,15.54,10.25,0.397,Both,infection/skin,no approved biologic,ongoing,,ongoing
+TLR5,12.91,23.22,0.643,Both,cancer/radiation,entolimod,ongoing,,ongoing
+MRC1,12.45,0.0,0.0,VDR dominant,infection/fibrosis,no approved biologic,ongoing,,ongoing
+TLR7,11.98,0.0,0.0,VDR dominant,cancer,imiquimod (topical only),ongoing,,ongoing
+IFNAR2,10.64,0.0,0.0,VDR dominant,SLE,rontalizumab,failed,Inefficacy (Phase 2 SLE),failed
+TLR9,9.84,6.83,0.41,Both,cancer,tilsotolimod,ongoing,,ongoing
+IRF7,9.59,0.0,0.0,VDR dominant,cancer/antiviral,no approved biologic,ongoing,,ongoing
+S1PR5,9.31,0.0,0.0,VDR dominant,MS,siponimod,approved,,approved
+NFKB1,9.12,0.0,0.0,VDR dominant,IBD/lymphoma,no approved biologic,ongoing,,ongoing
+CXCR5,8.97,0.0,0.0,VDR dominant,autoimmune,no approved biologic,ongoing,,ongoing
+GATA3,8.65,0.0,0.0,VDR dominant,asthma/AD,no approved biologic,ongoing,,ongoing
+IL21R,8.21,0.0,0.0,VDR dominant,RA,ATR-107,failed,Inefficacy (Phase 2 RA),failed
+S100A8,7.64,0.0,0.0,VDR dominant,RA/cancer,no approved biologic,ongoing,,ongoing
+FGFR3,7.57,0.0,0.0,VDR dominant,bladder cancer,erdafitinib,approved,,approved
+KDR,7.48,0.0,0.0,VDR dominant,gastric/lung cancer,ramucirumab,approved,,approved
+IRAK4,7.37,0.0,0.0,VDR dominant,lymphoma/RA,CA-4948/zimlovisertib,ongoing,,ongoing
+IL21,7.18,10.97,0.604,Both,RA/SLE,NNC0114-0006,failed,Inefficacy (Phase 2 RA),failed
+STAT6,7.0,0.0,0.0,VDR dominant,asthma/AD,no approved biologic,ongoing,,ongoing
+MYD88,6.53,7.71,0.541,Both,lymphoma,no approved biologic,ongoing,,ongoing
+MET,6.52,18.09,0.735,GR dominant,lung cancer,tepotinib/capmatinib,approved,,approved
+IL15,6.0,23.78,0.799,GR dominant,autoimmune,AMG-714,ongoing,,ongoing
+IL15RA,5.93,13.14,0.689,GR dominant,RA/IBD,anti-IL-15 (AMG-714),ongoing,,ongoing
+CD123,4.94,0.0,0.0,VDR dominant,BPDCN,tagraxofusp,approved,,approved
+RORC,4.23,0.0,0.0,VDR dominant,psoriasis/AS,VTP-43742 (small mol),ongoing,,ongoing
+C3,3.71,0.0,0.0,VDR dominant,PNH/C3G,pegcetacoplan,approved,,approved
+IL9,3.57,0.0,0.0,VDR dominant,asthma,enokizumab,failed,Inefficacy (Phase 2 asthma),failed
+CD40,3.22,0.0,0.0,VDR dominant,cancer/autoimmune,APX005M/selicrelumab,ongoing,,ongoing
+ITGB1,3.07,12.51,0.803,GR dominant,solid tumors,volociximab,failed,Inefficacy (Phase 2),failed
+EGFR,2.98,0.0,0.0,VDR dominant,colorectal/lung cancer,cetuximab/panitumumab,approved,,approved
+FCER1A,2.89,0.0,0.0,VDR dominant,allergy,no approved biologic,ongoing,,ongoing
+ERBB2,2.82,0.0,0.0,VDR dominant,breast/gastric cancer,trastuzumab/pertuzumab,approved,,approved
+ITGB2,2.72,0.0,0.0,VDR dominant,psoriasis,efalizumab,failed,Safety (PML/serious CNS infection),failed
+PLP1,0.0,0.0,0.5,Neither,MS,no approved biologic,ongoing,,ongoing
+IL17RB,0.0,0.0,0.5,Neither,asthma,no approved biologic,ongoing,,ongoing
+IL2RG,0.0,0.0,0.5,Neither,SCID,no approved biologic,ongoing,,ongoing
+CYP24A1,0.0,0.0,0.5,Neither,VitD metabolism,no approved biologic,ongoing,,ongoing
+CRLF2,0.0,0.0,0.5,Neither,B-ALL,no approved biologic,ongoing,,ongoing
+SIGIRR,0.0,0.0,0.5,Neither,IBD,no approved biologic,ongoing,,ongoing
+IL25,0.0,0.0,0.5,Neither,asthma/IBD,no approved biologic,ongoing,,ongoing
+TEC,0.0,0.0,0.5,Neither,B-cell malignancy,ibrutinib (BTK/TEC),approved,,approved
+TRAF6,0.0,7.04,1.0,GR dominant,cancer/IBD,no approved biologic,ongoing,,ongoing
+MOG,0.0,0.0,0.5,Neither,NMO,no approved biologic,ongoing,,ongoing
+IL4,0.0,0.0,0.5,Neither,asthma,pitakinra,failed,Inefficacy (Phase 2 asthma),failed
+CLEC7A,0.0,11.23,1.0,GR dominant,fungal infection,no approved biologic,ongoing,,ongoing
+CD40LG,0.0,0.0,0.5,Neither,SLE,dapirolizumab,ongoing,,ongoing
+CD47,0.0,11.94,1.0,GR dominant,myeloid cancer,magrolimab,failed,Inefficacy/safety (Phase 3 failed in MDS/AML),failed

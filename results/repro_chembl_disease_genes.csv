@@ -1,0 +1,272 @@
+gene,n_diseases,diseases,in_tableS4,tableS4_class
+NR3C1,14,"Asthma; Pulmonary Disease, Chronic Obstructive; Rhinitis, Allergic; Arthritis, Rheumatoid; Lupus Erythematosus, Systemic; Spondylitis, Ankylosing; Multiple Sclerosis; Dermatomyositis; Dermatitis, Atopic; Psoriasis; Crohn Disease; Colitis, Ulcerative; Nephrotic Syndrome; Uveitis",False,N/A
+DHFR,11,"Asthma; Arthritis, Rheumatoid; Lupus Erythematosus, Systemic; Spondylitis, Ankylosing; Multiple Sclerosis; Dermatomyositis; Dermatitis, Atopic; Psoriasis; Crohn Disease; Colitis, Ulcerative; Uveitis",False,N/A
+CD86,10,"Arthritis, Rheumatoid; Lupus Erythematosus, Systemic; Spondylitis, Ankylosing; Multiple Sclerosis; Dermatomyositis; Psoriasis; Crohn Disease; Colitis, Ulcerative; Nephrotic Syndrome; Uveitis",True,VDR
+CD80,10,"Arthritis, Rheumatoid; Lupus Erythematosus, Systemic; Spondylitis, Ankylosing; Multiple Sclerosis; Dermatomyositis; Psoriasis; Crohn Disease; Colitis, Ulcerative; Nephrotic Syndrome; Uveitis",False,N/A
+TYK2,9,"Arthritis, Rheumatoid; Lupus Erythematosus, Systemic; Spondylitis, Ankylosing; Dermatomyositis; Dermatitis, Atopic; Psoriasis; Crohn Disease; Colitis, Ulcerative; Uveitis",True,VDR
+JAK1,9,"Arthritis, Rheumatoid; Lupus Erythematosus, Systemic; Spondylitis, Ankylosing; Dermatomyositis; Dermatitis, Atopic; Psoriasis; Crohn Disease; Colitis, Ulcerative; Uveitis",True,VDR
+JAK2,9,"Arthritis, Rheumatoid; Lupus Erythematosus, Systemic; Spondylitis, Ankylosing; Dermatomyositis; Dermatitis, Atopic; Psoriasis; Crohn Disease; Colitis, Ulcerative; Uveitis",False,N/A
+TNF,9,"Asthma; Pulmonary Disease, Chronic Obstructive; Arthritis, Rheumatoid; Spondylitis, Ankylosing; Dermatomyositis; Psoriasis; Crohn Disease; Colitis, Ulcerative; Uveitis",True,VDR
+IL17A,8,"Asthma; Arthritis, Rheumatoid; Spondylitis, Ankylosing; Multiple Sclerosis; Dermatitis, Atopic; Psoriasis; Crohn Disease; Uveitis",True,VDR
+VDR,8,"Asthma; Pulmonary Disease, Chronic Obstructive; Lupus Erythematosus, Systemic; Multiple Sclerosis; Dermatitis, Atopic; Psoriasis; Crohn Disease; Colitis, Ulcerative",False,N/A
+MS4A1,8,"Arthritis, Rheumatoid; Lupus Erythematosus, Systemic; Spondylitis, Ankylosing; Multiple Sclerosis; Dermatomyositis; Crohn Disease; Colitis, Ulcerative; Nephrotic Syndrome",True,VDR
+S1PR1,7,"Lupus Erythematosus, Systemic; Multiple Sclerosis; Dermatomyositis; Dermatitis, Atopic; Psoriasis; Crohn Disease; Colitis, Ulcerative",True,VDR
+JAK3,6,"Arthritis, Rheumatoid; Lupus Erythematosus, Systemic; Spondylitis, Ankylosing; Crohn Disease; Colitis, Ulcerative; Uveitis",False,N/A
+ALOX5,6,"Asthma; Pulmonary Disease, Chronic Obstructive; Arthritis, Rheumatoid; Spondylitis, Ankylosing; Crohn Disease; Colitis, Ulcerative",False,N/A
+HRH2,6,"Pulmonary Disease, Chronic Obstructive; Arthritis, Rheumatoid; Lupus Erythematosus, Systemic; Multiple Sclerosis; Dermatitis, Atopic; Psoriasis",False,N/A
+IL1R1,6,"Asthma; Pulmonary Disease, Chronic Obstructive; Arthritis, Rheumatoid; Multiple Sclerosis; Dermatomyositis; Uveitis",False,N/A
+HRH1,6,"Asthma; Rhinitis, Allergic; Arthritis, Rheumatoid; Lupus Erythematosus, Systemic; Multiple Sclerosis; Dermatitis, Atopic",False,N/A
+HMGCR,6,"Asthma; Pulmonary Disease, Chronic Obstructive; Arthritis, Rheumatoid; Lupus Erythematosus, Systemic; Multiple Sclerosis; Uveitis",False,N/A
+TRPV1,6,"Pulmonary Disease, Chronic Obstructive; Arthritis, Rheumatoid; Lupus Erythematosus, Systemic; Multiple Sclerosis; Dermatitis, Atopic; Crohn Disease",False,N/A
+MAPK14,6,"Asthma; Pulmonary Disease, Chronic Obstructive; Arthritis, Rheumatoid; Spondylitis, Ankylosing; Psoriasis; Crohn Disease",True,GR
+PPIA,6,"Pulmonary Disease, Chronic Obstructive; Arthritis, Rheumatoid; Dermatomyositis; Dermatitis, Atopic; Psoriasis; Uveitis",False,N/A
+KIT,5,"Asthma; Pulmonary Disease, Chronic Obstructive; Arthritis, Rheumatoid; Multiple Sclerosis; Psoriasis",False,N/A
+IL6R,5,"Arthritis, Rheumatoid; Lupus Erythematosus, Systemic; Spondylitis, Ankylosing; Dermatomyositis; Uveitis",True,VDR
+ERG11,5,"Asthma; Pulmonary Disease, Chronic Obstructive; Multiple Sclerosis; Psoriasis; Crohn Disease",False,N/A
+CSF2,5,"Asthma; Arthritis, Rheumatoid; Spondylitis, Ankylosing; Multiple Sclerosis; Psoriasis",True,GR
+IL17RA,5,"Asthma; Arthritis, Rheumatoid; Spondylitis, Ankylosing; Psoriasis; Crohn Disease",True,VDR
+MC2R,5,"Arthritis, Rheumatoid; Multiple Sclerosis; Dermatomyositis; Nephrotic Syndrome; Uveitis",False,N/A
+IL13,5,"Asthma; Pulmonary Disease, Chronic Obstructive; Dermatitis, Atopic; Crohn Disease; Colitis, Ulcerative",True,VDR
+DHODH,5,"Arthritis, Rheumatoid; Lupus Erythematosus, Systemic; Multiple Sclerosis; Colitis, Ulcerative; Uveitis",False,N/A
+TLR9,5,"Arthritis, Rheumatoid; Lupus Erythematosus, Systemic; Dermatomyositis; Psoriasis; Colitis, Ulcerative",False,N/A
+IL1B,4,"Pulmonary Disease, Chronic Obstructive; Arthritis, Rheumatoid; Colitis, Ulcerative; Uveitis",True,GR
+IL4R,4,"Asthma; Pulmonary Disease, Chronic Obstructive; Dermatitis, Atopic; Colitis, Ulcerative",True,VDR
+IGHE,4,"Asthma; Pulmonary Disease, Chronic Obstructive; Lupus Erythematosus, Systemic; Dermatitis, Atopic",True,VDR
+HRH4,4,"Asthma; Arthritis, Rheumatoid; Dermatitis, Atopic; Psoriasis",False,N/A
+FKBP1A,4,"Arthritis, Rheumatoid; Lupus Erythematosus, Systemic; Dermatitis, Atopic; Uveitis",False,N/A
+FGFR3,4,"Asthma; Arthritis, Rheumatoid; Multiple Sclerosis; Psoriasis",False,N/A
+IL6,4,"Asthma; Arthritis, Rheumatoid; Lupus Erythematosus, Systemic; Crohn Disease",False,N/A
+FAAH,4,"Arthritis, Rheumatoid; Lupus Erythematosus, Systemic; Multiple Sclerosis; Crohn Disease",False,N/A
+CD3E,4,"Arthritis, Rheumatoid; Psoriasis; Crohn Disease; Colitis, Ulcerative",False,N/A
+TLR7,4,"Arthritis, Rheumatoid; Lupus Erythematosus, Systemic; Dermatomyositis; Psoriasis",False,N/A
+MMP13,4,"Pulmonary Disease, Chronic Obstructive; Arthritis, Rheumatoid; Crohn Disease; Colitis, Ulcerative",False,N/A
+PTGS2,4,"Arthritis, Rheumatoid; Lupus Erythematosus, Systemic; Spondylitis, Ankylosing; Multiple Sclerosis",False,N/A
+PPAT,4,"Arthritis, Rheumatoid; Lupus Erythematosus, Systemic; Crohn Disease; Colitis, Ulcerative",False,N/A
+SYK,4,"Asthma; Arthritis, Rheumatoid; Lupus Erythematosus, Systemic; Dermatitis, Atopic",False,N/A
+BTK,4,"Arthritis, Rheumatoid; Lupus Erythematosus, Systemic; Multiple Sclerosis; Dermatitis, Atopic",True,VDR
+PPARG,4,"Asthma; Arthritis, Rheumatoid; Crohn Disease; Colitis, Ulcerative",False,N/A
+MMP9,4,"Pulmonary Disease, Chronic Obstructive; Arthritis, Rheumatoid; Crohn Disease; Colitis, Ulcerative",True,GR
+TNFSF13B,4,"Arthritis, Rheumatoid; Lupus Erythematosus, Systemic; Multiple Sclerosis; Nephrotic Syndrome",True,VDR
+TLR8,3,"Lupus Erythematosus, Systemic; Dermatomyositis; Psoriasis",False,N/A
+TNFSF13,3,"Arthritis, Rheumatoid; Lupus Erythematosus, Systemic; Multiple Sclerosis",False,N/A
+TNFSF14,3,"Arthritis, Rheumatoid; Crohn Disease; Colitis, Ulcerative",False,N/A
+SLC6A4,3,"Multiple Sclerosis; Dermatitis, Atopic; Psoriasis",False,N/A
+HTR2A,3,"Asthma; Pulmonary Disease, Chronic Obstructive; Multiple Sclerosis",False,N/A
+HTR2C,3,"Asthma; Pulmonary Disease, Chronic Obstructive; Multiple Sclerosis",False,N/A
+TSLP,3,"Asthma; Pulmonary Disease, Chronic Obstructive; Dermatitis, Atopic",True,VDR
+FGFR2,3,"Asthma; Pulmonary Disease, Chronic Obstructive; Multiple Sclerosis",False,N/A
+IFNG,3,"Arthritis, Rheumatoid; Lupus Erythematosus, Systemic; Psoriasis",True,GR
+SLC6A2,3,"Multiple Sclerosis; Dermatitis, Atopic; Psoriasis",False,N/A
+IL1A,3,"Dermatitis, Atopic; Psoriasis; Colitis, Ulcerative",False,N/A
+SIRT1,3,"Pulmonary Disease, Chronic Obstructive; Psoriasis; Colitis, Ulcerative",False,N/A
+S1PR5,3,"Multiple Sclerosis; Crohn Disease; Colitis, Ulcerative",False,N/A
+PTGDR2,3,"Asthma; Pulmonary Disease, Chronic Obstructive; Dermatitis, Atopic",False,N/A
+PPP3CA,3,"Lupus Erythematosus, Systemic; Psoriasis; Uveitis",False,N/A
+IL22,3,"Arthritis, Rheumatoid; Dermatitis, Atopic; Psoriasis",False,N/A
+IL5RA,3,"Asthma; Pulmonary Disease, Chronic Obstructive; Dermatitis, Atopic",False,N/A
+PIK3CD,3,"Asthma; Pulmonary Disease, Chronic Obstructive; Psoriasis",False,N/A
+PGR,3,"Pulmonary Disease, Chronic Obstructive; Lupus Erythematosus, Systemic; Multiple Sclerosis",False,N/A
+NTRK1,3,"Pulmonary Disease, Chronic Obstructive; Dermatitis, Atopic; Psoriasis",False,N/A
+MMP8,3,"Pulmonary Disease, Chronic Obstructive; Crohn Disease; Colitis, Ulcerative",False,N/A
+KEAP1,3,"Arthritis, Rheumatoid; Multiple Sclerosis; Psoriasis",False,N/A
+MMP7,3,"Pulmonary Disease, Chronic Obstructive; Crohn Disease; Colitis, Ulcerative",False,N/A
+LTB4R,3,"Asthma; Pulmonary Disease, Chronic Obstructive; Arthritis, Rheumatoid",False,N/A
+MMP1,3,"Pulmonary Disease, Chronic Obstructive; Crohn Disease; Colitis, Ulcerative",False,N/A
+ABL1,3,"Asthma; Pulmonary Disease, Chronic Obstructive; Multiple Sclerosis",False,N/A
+CD28,3,"Arthritis, Rheumatoid; Lupus Erythematosus, Systemic; Psoriasis",False,N/A
+CXCL10,3,"Arthritis, Rheumatoid; Crohn Disease; Colitis, Ulcerative",True,VDR
+CYSLTR1,3,"Asthma; Pulmonary Disease, Chronic Obstructive; Rhinitis, Allergic",False,N/A
+CHRM3,3,"Asthma; Pulmonary Disease, Chronic Obstructive; Dermatitis, Atopic",False,N/A
+CD52,3,"Arthritis, Rheumatoid; Multiple Sclerosis; Crohn Disease",True,VDR
+ADRB2,3,"Asthma; Pulmonary Disease, Chronic Obstructive; Multiple Sclerosis",False,N/A
+CSF3R,3,"Lupus Erythematosus, Systemic; Multiple Sclerosis; Crohn Disease",False,N/A
+CD19,3,"Arthritis, Rheumatoid; Lupus Erythematosus, Systemic; Multiple Sclerosis",True,VDR
+CNR1,3,"Multiple Sclerosis; Crohn Disease; Colitis, Ulcerative",False,N/A
+SLC5A2,2,"Crohn Disease; Colitis, Ulcerative",False,N/A
+ACE,2,"Arthritis, Rheumatoid; Lupus Erythematosus, Systemic",False,N/A
+CCR1,2,"Pulmonary Disease, Chronic Obstructive; Arthritis, Rheumatoid",False,N/A
+IL5,2,"Asthma; Pulmonary Disease, Chronic Obstructive",True,VDR
+CHRNA7,2,"Asthma; Pulmonary Disease, Chronic Obstructive",False,N/A
+IL33,2,"Pulmonary Disease, Chronic Obstructive; Dermatitis, Atopic",True,VDR
+ITGB7,2,"Crohn Disease; Colitis, Ulcerative",True,VDR
+IL20,2,"Arthritis, Rheumatoid; Psoriasis",False,N/A
+CNR2,2,"Dermatitis, Atopic; Crohn Disease",False,N/A
+IL18,2,"Pulmonary Disease, Chronic Obstructive; Crohn Disease",True,VDR
+SNAP25,2,Multiple Sclerosis; Psoriasis,False,N/A
+IL17F,2,"Spondylitis, Ankylosing; Psoriasis",False,N/A
+INPP5D,2,"Pulmonary Disease, Chronic Obstructive; Dermatitis, Atopic",False,N/A
+CHRM1,2,"Asthma; Pulmonary Disease, Chronic Obstructive",False,N/A
+CHRM2,2,"Asthma; Pulmonary Disease, Chronic Obstructive",False,N/A
+ESR1,2,"Lupus Erythematosus, Systemic; Multiple Sclerosis",False,N/A
+CCR2,2,"Pulmonary Disease, Chronic Obstructive; Multiple Sclerosis",True,GR
+PDGFRB,2,Asthma; Multiple Sclerosis,True,VDR
+PTGIR,2,"Asthma; Pulmonary Disease, Chronic Obstructive",False,N/A
+CCR5,2,"Arthritis, Rheumatoid; Colitis, Ulcerative",False,N/A
+NR3C2,2,"Colitis, Ulcerative; Nephrotic Syndrome",False,N/A
+CCR9,2,"Crohn Disease; Colitis, Ulcerative",True,GR
+CD14,2,"Psoriasis; Colitis, Ulcerative",False,N/A
+CD38,2,"Lupus Erythematosus, Systemic; Nephrotic Syndrome",True,VDR
+CXCR2,2,"Pulmonary Disease, Chronic Obstructive; Colitis, Ulcerative",False,N/A
+RET,2,"Pulmonary Disease, Chronic Obstructive; Psoriasis",False,N/A
+CD4,2,"Arthritis, Rheumatoid; Psoriasis",False,N/A
+MAPK11,2,"Pulmonary Disease, Chronic Obstructive; Arthritis, Rheumatoid",False,N/A
+MAP2K1,2,"Arthritis, Rheumatoid; Psoriasis",False,N/A
+MADCAM1,2,"Crohn Disease; Colitis, Ulcerative",False,N/A
+CD40LG,2,"Lupus Erythematosus, Systemic; Colitis, Ulcerative",False,N/A
+CD6,2,Asthma; Dermatomyositis,True,VDR
+IL15,2,"Arthritis, Rheumatoid; Psoriasis",False,N/A
+POL,2,Multiple Sclerosis; Psoriasis,False,N/A
+FOLA,2,"Crohn Disease; Colitis, Ulcerative",False,N/A
+FLT3,2,"Arthritis, Rheumatoid; Psoriasis",False,N/A
+TNFSF11,2,"Arthritis, Rheumatoid; Crohn Disease",False,N/A
+GMPS,2,"Arthritis, Rheumatoid; Nephrotic Syndrome",False,N/A
+ADRB1,2,"Asthma; Pulmonary Disease, Chronic Obstructive",False,N/A
+ADH5,2,"Asthma; Pulmonary Disease, Chronic Obstructive",False,N/A
+TNFRSF4,2,"Dermatitis, Atopic; Colitis, Ulcerative",True,VDR
+AHR,2,"Dermatitis, Atopic; Psoriasis",False,N/A
+DRD2,2,Multiple Sclerosis; Psoriasis,False,N/A
+AR,2,"Pulmonary Disease, Chronic Obstructive; Multiple Sclerosis",False,N/A
+TLR2,2,"Psoriasis; Colitis, Ulcerative",True,GR
+TNFSF4,2,"Asthma; Dermatitis, Atopic",False,N/A
+VEGFA,2,"Pulmonary Disease, Chronic Obstructive; Uveitis",True,VDR
+IGF1R,2,Multiple Sclerosis; Crohn Disease,False,N/A
+IFNB1,2,"Lupus Erythematosus, Systemic; Dermatomyositis",False,N/A
+DDC,2,Asthma; Multiple Sclerosis,False,N/A
+IFNAR1,2,"Arthritis, Rheumatoid; Lupus Erythematosus, Systemic",True,VDR
+ICOSLG,2,"Lupus Erythematosus, Systemic; Psoriasis",False,N/A
+TACR1,2,"Pulmonary Disease, Chronic Obstructive; Dermatitis, Atopic",False,N/A
+TRPM8,1,Asthma,False,N/A
+ADORA1,1,Asthma,False,N/A
+TRPA1,1,Asthma,False,N/A
+REN,1,"Colitis, Ulcerative",False,N/A
+RARB,1,Crohn Disease,False,N/A
+RGMA,1,Multiple Sclerosis,False,N/A
+TRAF3IP2,1,"Arthritis, Rheumatoid",False,N/A
+TPO,1,Dermatomyositis,False,N/A
+ADAM17,1,"Arthritis, Rheumatoid",False,N/A
+TXNRD1,1,"Lupus Erythematosus, Systemic",False,N/A
+SPP1,1,"Arthritis, Rheumatoid",False,N/A
+RARA,1,Crohn Disease,False,N/A
+RAF1,1,"Pulmonary Disease, Chronic Obstructive",False,N/A
+PTH1R,1,Psoriasis,False,N/A
+CA2,1,Multiple Sclerosis,False,N/A
+RIPK1,1,"Colitis, Ulcerative",True,GR
+TYMS,1,"Pulmonary Disease, Chronic Obstructive",False,N/A
+PTGER4,1,"Colitis, Ulcerative",False,N/A
+PTGER3,1,"Spondylitis, Ankylosing",False,N/A
+CA4,1,Multiple Sclerosis,False,N/A
+PTGDR,1,Asthma,False,N/A
+ACVR2B,1,"Pulmonary Disease, Chronic Obstructive",False,N/A
+PTAFR,1,"Arthritis, Rheumatoid",False,N/A
+CALCRL,1,Psoriasis,False,N/A
+CASP1,1,Psoriasis,False,N/A
+CCL11,1,"Colitis, Ulcerative",False,N/A
+PTGS1,1,Asthma,False,N/A
+ADORA2A,1,"Pulmonary Disease, Chronic Obstructive",False,N/A
+ROCK2,1,Psoriasis,False,N/A
+SIGLEC8,1,"Dermatitis, Atopic",True,VDR
+BCL2,1,"Lupus Erythematosus, Systemic",False,N/A
+TBXA2R,1,Asthma,False,N/A
+TEK,1,"Pulmonary Disease, Chronic Obstructive",False,N/A
+SLC6A3,1,Multiple Sclerosis,False,N/A
+BRAF,1,"Pulmonary Disease, Chronic Obstructive",False,N/A
+ALR,1,"Pulmonary Disease, Chronic Obstructive",False,N/A
+SLC29A1,1,"Arthritis, Rheumatoid",False,N/A
+ALOX5AP,1,Asthma,False,N/A
+TNFRSF13C,1,Multiple Sclerosis,False,N/A
+SLC18A2,1,Multiple Sclerosis,False,N/A
+SLC12A3,1,Nephrotic Syndrome,False,N/A
+SLC12A1,1,Nephrotic Syndrome,False,N/A
+C5,1,Dermatomyositis,False,N/A
+TNFRSF8,1,"Lupus Erythematosus, Systemic",False,N/A
+RTN4,1,Multiple Sclerosis,False,N/A
+TNFSF12,1,"Arthritis, Rheumatoid",False,N/A
+SERPINC1,1,Nephrotic Syndrome,False,N/A
+SEMA4D,1,Multiple Sclerosis,True,VDR
+SELPLG,1,Psoriasis,False,N/A
+SCN5A,1,Crohn Disease,False,N/A
+SCN4A,1,Crohn Disease,False,N/A
+CA1,1,Multiple Sclerosis,False,N/A
+ADORA3,1,Psoriasis,False,N/A
+S1PR4,1,"Colitis, Ulcerative",False,N/A
+CA12,1,Multiple Sclerosis,False,N/A
+RYR3,1,Multiple Sclerosis,False,N/A
+RYR1,1,Multiple Sclerosis,False,N/A
+TOP2A,1,Multiple Sclerosis,False,N/A
+ERVW-1,1,Multiple Sclerosis,False,N/A
+CD2,1,Psoriasis,False,N/A
+PPARA,1,Multiple Sclerosis,False,N/A
+GPR84,1,"Colitis, Ulcerative",False,N/A
+HDAC2,1,Crohn Disease,False,N/A
+HDAC3,1,Crohn Disease,False,N/A
+HDAC6,1,Crohn Disease,False,N/A
+EGFR,1,Psoriasis,False,N/A
+DRD3,1,Asthma,False,N/A
+HRH3,1,Multiple Sclerosis,False,N/A
+DDR2,1,"Pulmonary Disease, Chronic Obstructive",False,N/A
+HSPA8,1,"Lupus Erythematosus, Systemic",False,N/A
+DDL,1,"Pulmonary Disease, Chronic Obstructive",False,N/A
+ICOS,1,"Lupus Erythematosus, Systemic",False,N/A
+CYP26A1,1,Psoriasis,False,N/A
+IKBKB,1,"Pulmonary Disease, Chronic Obstructive",False,N/A
+CX3CL1,1,Crohn Disease,False,N/A
+CSF1R,1,"Arthritis, Rheumatoid",False,N/A
+IL31RA,1,"Dermatitis, Atopic",True,VDR
+HDAC1,1,Crohn Disease,False,N/A
+GPD2,1,Multiple Sclerosis,False,N/A
+IL4,1,Asthma,False,N/A
+GLUCLX,1,"Dermatitis, Atopic",False,N/A
+ESR2,1,Crohn Disease,False,N/A
+F10,1,Nephrotic Syndrome,False,N/A
+EPOR,1,Multiple Sclerosis,False,N/A
+FCGR2B,1,"Lupus Erythematosus, Systemic",False,N/A
+FDPS,1,"Arthritis, Rheumatoid",False,N/A
+FFAR2,1,"Colitis, Ulcerative",False,N/A
+FGFR1,1,"Pulmonary Disease, Chronic Obstructive",False,N/A
+EPHX2,1,"Pulmonary Disease, Chronic Obstructive",False,N/A
+EPHA2,1,"Pulmonary Disease, Chronic Obstructive",False,N/A
+ELANE,1,"Pulmonary Disease, Chronic Obstructive",False,N/A
+FN1,1,Uveitis,False,N/A
+FRK,1,"Pulmonary Disease, Chronic Obstructive",False,N/A
+GHR,1,Crohn Disease,False,N/A
+GLP1R,1,Asthma,False,N/A
+GLP2R,1,Crohn Disease,False,N/A
+IL3RA,1,"Lupus Erythematosus, Systemic",False,N/A
+CLEC4C,1,"Lupus Erythematosus, Systemic",False,N/A
+PLA2G4A,1,"Arthritis, Rheumatoid",False,N/A
+MET,1,"Pulmonary Disease, Chronic Obstructive",False,N/A
+MMP12,1,"Pulmonary Disease, Chronic Obstructive",False,N/A
+CD22,1,"Lupus Erythematosus, Systemic",False,N/A
+NTRK2,1,Psoriasis,False,N/A
+NTRK3,1,Psoriasis,False,N/A
+OSMR,1,"Colitis, Ulcerative",True,GR
+P2RX3,1,Asthma,False,N/A
+P2RX7,1,"Arthritis, Rheumatoid",False,N/A
+P2RY12,1,"Pulmonary Disease, Chronic Obstructive",False,N/A
+PCSK9,1,Nephrotic Syndrome,False,N/A
+PDCD1,1,"Pulmonary Disease, Chronic Obstructive",True,VDR
+PDE4,1,"Pulmonary Disease, Chronic Obstructive",False,N/A
+PDE5A,1,"Pulmonary Disease, Chronic Obstructive",False,N/A
+PFOR,1,Crohn Disease,False,N/A
+CCR4,1,Asthma,False,N/A
+PIKFYVE,1,Crohn Disease,False,N/A
+MIF,1,"Arthritis, Rheumatoid",False,N/A
+MARCKS,1,"Pulmonary Disease, Chronic Obstructive",False,N/A
+IL9,1,Asthma,False,N/A
+MAPKAPK5,1,"Arthritis, Rheumatoid",False,N/A
+IMPA1,1,Multiple Sclerosis,False,N/A
+IRAK4,1,"Lupus Erythematosus, Systemic",False,N/A
+ITGA2,1,"Colitis, Ulcerative",False,N/A
+ITGA4,1,Multiple Sclerosis,False,N/A
+CFTR,1,"Pulmonary Disease, Chronic Obstructive",False,N/A
+KCNN4,1,Asthma,False,N/A
+LGALS3,1,Psoriasis,False,N/A
+LILRA4,1,"Lupus Erythematosus, Systemic",False,N/A
+LINGO1,1,Multiple Sclerosis,False,N/A
+LTA,1,"Arthritis, Rheumatoid",False,N/A
+M,1,Multiple Sclerosis,False,N/A
+MAP2K2,1,"Arthritis, Rheumatoid",False,N/A
+MAP3K1,1,Psoriasis,False,N/A
+MAP3K8,1,"Colitis, Ulcerative",False,N/A
+CD40,1,Psoriasis,False,N/A
+XDH,1,"Colitis, Ulcerative",False,N/A

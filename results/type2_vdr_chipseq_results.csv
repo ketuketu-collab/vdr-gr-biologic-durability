@@ -1,0 +1,31 @@
+遺伝子,カテゴリ,関連細胞,VDR_THP1,VDR_Epithelial,VDR_AllCells,GR_AllCells,HaCaT_VitD_eRNA,GATA3_score,薬剤状況,VDR_THP1_pattern
+TSLP,Type2-Alarmin,上皮→ILC2,1,1,2,5,0.0725,0,承認済(テゼペルマブ),GR dominant
+IL33,Type2-Alarmin,上皮→ILC2/肥満細胞,0,0,0,6,0.0,0,承認済(イテペキマブ),GR dominant
+IL25,Type2-Alarmin,上皮→ILC2,0,0,0,0,-0.0432,0,Ph2中,Equal
+IL4R,Type2-Effector,Th2/上皮,3,3,8,25,0.0034,0,承認済(デュピクセント),GR dominant
+IL13,Type2-Effector,Th2/ILC2,1,0,2,15,0.0579,0,承認済(デュピクセント/トラロキヌマブ),GR dominant
+IL5,Type2-Effector,Th2/ILC2,1,1,3,27,-0.0317,0,承認済(メポリズマブ),GR dominant
+IL4,Type2-Effector,Th2,0,0,1,16,-0.0432,0,承認済(IL4R経由),GR dominant
+IL31RA,Type2-Effector,皮膚/Th2,1,0,2,25,0.0725,0,承認済(ネモリズマブ),GR dominant
+IGHE,Type2-IgE,B細胞,1,0,1,5,-0.1293,0,承認済(オマリズマブ),GR dominant
+CCR3,Type2-Eosinophil,好酸球,0,0,0,10,0.0,0,Ph2失敗(20年間),GR dominant
+SIGLEC8,Type2-Eosinophil,好酸球,1,0,1,1,0.0,0,承認済(lirentelimab),Equal
+IL1RL1,Type2-Receptor,Th2/ILC2,0,1,2,6,-0.0518,0,Ph2中,GR dominant
+CPA3,Type2-MastCell,肥満細胞,0,0,0,6,0.0,0,未開発,GR dominant
+HDC,Unknown,?,0,0,0,7,0.0432,0,?,GR dominant
+FCER1A,Type2-IgE-Rec,肥満細胞/好酸球,0,0,0,7,0.0,0,未開発,GR dominant
+IL17RB,Type2-ILC2,ILC2,0,6,9,18,-0.0283,0,Ph2中,GR dominant
+HHIP,Type2-Other,上皮,0,1,1,6,0.0,0,未開発,GR dominant
+AREG,Type2-Other,Th2/ILC2,1,4,5,48,0.4243,0,未開発,GR dominant
+EREG,Unknown,?,0,2,2,19,0.0031,0,?,GR dominant
+S100A8,Type2-Alarmin2,上皮/好中球,3,0,3,12,-0.4049,0,未開発,GR dominant
+S100A9,Type2-Alarmin2,上皮/好中球,1,0,1,11,0.0073,0,未開発,GR dominant
+IL23A,Myeloid,マクロファージ,6,5,13,32,0.0118,0,承認済(リサンキズマブ),GR dominant
+TNF,Myeloid,マクロファージ,0,1,1,12,-0.0253,0,承認済(インフリキシマブ),GR dominant
+IL6R,Myeloid,マクロファージ,7,2,13,40,-0.0002,0,承認済(トシリズマブ),GR dominant
+VEGFA,Myeloid,マクロファージ,5,4,12,41,0.8968,0,承認済(ベバシズマブ),GR dominant
+CD274,Myeloid,マクロファージ,5,7,21,20,0.0114,0,承認済(アテゾリズマブ),GR dominant
+IL10,Myeloid,マクロファージ,3,0,3,9,0.0432,0,未承認,GR dominant
+TYK2,Myeloid,マクロファージ,3,1,4,31,0.0298,0,承認済(デュークラバシチニブ),GR dominant
+ITGB7,Myeloid,リンパ球,4,1,5,14,0.0058,0,承認済(ベドリズマブ),GR dominant
+C5AR1,Myeloid,マクロファージ,0,1,1,24,-0.0023,0,承認済(アバコパン),GR dominant

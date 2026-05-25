@@ -1,0 +1,27 @@
+Gene,Chr,Category,VDR peaks (THP-1),VDR max score,VDR dataset,GR peaks (THP-1),GR max score,GR dataset,Binding pattern
+CD274,chr9,Checkpoint,9,186.2,GSE89431,1,39.76,GSE99887,Both
+CTLA4,chr2,Checkpoint,0,0.0,,0,0.0,,Neither
+HAVCR2,chr5,Checkpoint,1,13.86,GSE89431,1,8.56,GSE99887,Both
+LAG3,chr12,Checkpoint,2,45.93,GSE89431,0,0.0,,VDR only
+PDCD1,chr2,Checkpoint,3,26.08,GSE89431,0,0.0,,VDR only
+TIGIT,chr3,Checkpoint,0,0.0,,0,0.0,,Neither
+CAMP,chr3,Downstream/Control,2,15.54,GSE89431,1,10.25,GSE99887,Both
+CYP24A1,chr20,Downstream/Control,0,0.0,,0,0.0,,Neither
+DUSP1,chr5,Downstream/Control,5,13.69,GSE89431,3,127.44,GSE99887,Both
+NFKB1,chr4,Downstream/Control,2,9.12,GSE89431,0,0.0,,VDR only
+NFKBIA,chr14,Downstream/Control,3,14.58,GSE89431,2,20.09,GSE99887,Both
+S100A8,chr1,Downstream/Control,1,7.64,GSE89431,0,0.0,,VDR only
+TNFAIP3,chr6,Downstream/Control,2,5.71,GSE89431,1,126.47,GSE99887,Both
+NLRP3,chr1,NLR,1,10.04,GSE89431,0,0.0,,VDR only
+NOD1,chr7,NLR,3,9.91,GSE89431,0,0.0,,VDR only
+NOD2,chr16,NLR,3,40.57,GSE89431,0,0.0,,VDR only
+TLR1,chr4,TLR,2,13.17,GSE89431,0,0.0,,VDR only
+TLR10,chr4,TLR,2,13.17,GSE89431,0,0.0,,VDR only
+TLR2,chr4,TLR,1,11.37,GSE89431,1,56.14,GSE99887,Both
+TLR3,chr4,TLR,0,0.0,,0,0.0,,Neither
+TLR4,chr9,TLR,2,6.61,GSE89431,1,12.19,GSE99887,Both
+TLR5,chr1,TLR,1,12.91,GSE89431,1,23.22,GSE99887,Both
+TLR6,chr4,TLR,2,8.46,GSE89431,1,12.25,GSE99887,Both
+TLR7,chrX,TLR,2,11.98,GSE89431,0,0.0,,VDR only
+TLR8,chrX,TLR,0,0.0,,0,0.0,,Neither
+TLR9,chr3,TLR,1,5.18,GSE89431,0,0.0,,VDR only

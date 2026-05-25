@@ -1,0 +1,55 @@
+Gene,Category,Chr,VDR_n,VDR_score,GR_n,GR_score,Pattern
+TLR1,TLR,chr4,2,13.17,0,0.0,VDR only
+TLR10,TLR,chr4,2,13.17,0,0.0,VDR only
+TLR2,TLR,chr4,1,11.37,1,56.14,Both
+TLR3,TLR,chr4,0,0.0,0,0.0,Neither
+TLR4,TLR,chr9,2,6.61,1,12.19,Both
+TLR5,TLR,chr1,1,12.91,1,23.22,Both
+TLR6,TLR,chr4,2,8.46,1,12.25,Both
+TLR7,TLR,chrX,2,11.98,0,0.0,VDR only
+TLR8,TLR,chrX,0,0.0,0,0.0,Neither
+TLR9,TLR,chr3,1,5.18,0,0.0,VDR only
+CIITA,NLR,chr16,2,57.04,0,0.0,VDR only
+NLRC4,NLR,chr2,3,49.05,0,0.0,VDR only
+NLRC5,NLR,chr16,2,26.46,1,8.75,Both
+NLRP1,NLR,chr17,0,0.0,0,0.0,Neither
+NLRP3,NLR,chr1,1,10.04,0,0.0,VDR only
+NLRP6,NLR,chr11,3,24.23,1,12.92,Both
+NOD1,NLR,chr7,3,9.91,0,0.0,VDR only
+NOD2,NLR,chr16,3,40.57,0,0.0,VDR only
+DHX58,RLR,chr17,3,23.64,0,0.0,VDR only
+IFIH1,RLR,chr2,0,0.0,0,0.0,Neither
+RIGI,RLR,chr9,0,0.0,0,0.0,Neither
+CGAS,cGAS-STING,chr6,0,0.0,0,0.0,Neither
+IRF3,cGAS-STING,chr19,5,25.72,0,0.0,VDR only
+IRF7,cGAS-STING,chr11,2,9.59,0,0.0,VDR only
+STING1,cGAS-STING,chr5,6,42.16,1,7.36,Both
+CD209,CLR,chr19,5,58.68,1,9.41,Both
+CLEC4E,CLR,chr12,0,0.0,2,14.97,GR only
+CLEC6A,CLR,chr12,0,0.0,0,0.0,Neither
+CLEC7A,CLR,chr12,0,0.0,2,11.23,GR only
+MRC1,CLR,chr10,2,12.45,0,0.0,VDR only
+IRAK1,Adaptor,chrX,3,45.66,0,0.0,VDR only
+IRAK4,Adaptor,chr12,0,0.0,0,0.0,Neither
+MYD88,Adaptor,chr3,2,6.53,3,7.71,Both
+TICAM1,Adaptor,chr19,3,15.81,0,0.0,VDR only
+TRAF6,Adaptor,chr11,0,0.0,1,7.04,GR only
+IFNB1,Effector,chr9,0,0.0,0,0.0,Neither
+IL1B,Effector,chr2,3,7.58,2,24.1,Both
+IL6,Effector,chr7,0,0.0,0,0.0,Neither
+NFKB1,Effector,chr4,2,9.12,0,0.0,VDR only
+NFKBIA,Effector,chr14,3,14.58,2,20.09,Both
+TNF,Effector,chr6,10,155.61,0,0.0,VDR only
+DUSP1,NegReg,chr5,5,13.69,3,127.44,Both
+SIGIRR,NegReg,chr11,0,0.0,0,0.0,Neither
+TNFAIP3,NegReg,chr6,2,5.71,1,126.47,Both
+TOLLIP,NegReg,chr11,1,19.38,0,0.0,VDR only
+CD274,Checkpoint,chr9,9,186.2,1,39.76,Both
+CTLA4,Checkpoint,chr2,0,0.0,0,0.0,Neither
+HAVCR2,Checkpoint,chr5,1,13.86,1,8.56,Both
+LAG3,Checkpoint,chr12,2,45.93,0,0.0,VDR only
+PDCD1,Checkpoint,chr2,3,26.08,0,0.0,VDR only
+TIGIT,Checkpoint,chr3,0,0.0,0,0.0,Neither
+CAMP,VDR_ctrl,chr3,2,15.54,1,10.25,Both
+CYP24A1,VDR_ctrl,chr20,0,0.0,0,0.0,Neither
+S100A8,VDR_ctrl,chr1,1,7.64,0,0.0,VDR only
