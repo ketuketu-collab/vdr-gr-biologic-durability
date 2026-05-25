@@ -177,7 +177,7 @@ ax_b.annotate(
     "Ratio = 0.043\n"
     "★ Pre-registered: FAILURE\n"
     "   osf.io/tnp63  (2026-05-25)\n"
-    "   Validation: ATLAS-UC Nov 2026",
+    "   Validation: ATLAS-UC H1 2027",
     xy=(12.4, 286.0), xytext=(65, 195),
     fontsize=8, color=C_STAR, fontweight="bold",
     arrowprops=dict(arrowstyle="->", color=C_STAR, lw=1.5,
@@ -208,68 +208,77 @@ ax_b.set_ylim(-10, 320)
 ax_b.spines[["top","right"]].set_visible(False)
 
 # ══════════════════════════════════════════════════════════════════════════════
-# Panel c — Induction-to-maintenance trajectories
+# Panel c — Sequential GR→VDR therapeutic paradigm
 # ══════════════════════════════════════════════════════════════════════════════
-ax_c.set_title("c  Induction-to-maintenance trajectory\n   (therapeutic implication)",
+ax_c.set_title("c  Sequential GR→VDR therapeutic paradigm",
                fontsize=12, fontweight="bold", loc="left")
 
-weeks = [0, 8, 12, 24, 44, 52, 60, 104]
+weeks     = [0, 8, 12, 24, 44, 52, 60, 104]
 
-# VDR-dominant (e.g., anti-IL-23): modest induction, sustained high maintenance
-vdr_remission = [0, 22, 25, 35, 43, 44, 44, 45]
+# ① GR-dominant chronic use: decent induction, rapid decline (current failure mode)
+gr_chronic   = [0, 28, 30, 28, 22, 18, 14, 10]
 
-# GR-dominant (e.g., tulisokibart hypothesis): decent induction, rapid decline
-gr_remission  = [0, 28, 30, 28, 22, 18, 14, 10]
+# ② VDR-dominant from start (e.g., anti-IL-23): modest induction, sustained maintenance
+vdr_only     = [0, 22, 25, 35, 43, 44, 44, 45]
 
-# VDR-dominant + VitD supplement (proposed): even higher maintenance
-vdr_vitd = [0, 22, 25, 38, 47, 50, 52, 55]
+# ③ Sequential: GR induction (week 0–12) → switch to VDR maintenance (proposed optimal)
+#    Induction matches GR arm; after switch rises to VDR-dominant level + VitD benefit
+seq_switch   = [0, 28, 30, 36, 46, 50, 52, 53]
 
-ax_c.plot(weeks, vdr_remission, "-o", color=C_VDR, lw=2.5, ms=6,
-          label="VDR-dominant (e.g., anti-IL-23)\n  → sustained maintenance",
-          zorder=3)
-ax_c.plot(weeks, gr_remission,  "--x", color=C_GR, lw=2.5, ms=7,
-          label="GR-dominant (e.g., tulisokibart\n  predicted) → progressive decline",
+# ④ Sequential + VitD at transition (fully optimised)
+seq_vitd     = [0, 28, 31, 40, 50, 54, 56, 57]
+
+ax_c.plot(weeks, gr_chronic,  "--x",  color=C_GR,    lw=2.0, ms=7,
+          label="GR-dominant chronic\n  (current failure mode)",
           zorder=3, markeredgewidth=2)
-ax_c.plot(weeks, vdr_vitd, "-^", color=C_GREEN, lw=2.0, ms=6, ls=(0,(5,2)),
-          label="VDR-dominant + VitD Rx\n  (proposed) → enhanced maintenance",
+ax_c.plot(weeks, vdr_only,    "-o",   color=C_VDR,   lw=2.0, ms=6,
+          label="VDR-dominant from induction\n  (slow onset, durable)",
           zorder=3)
+ax_c.plot(weeks, seq_switch,  "-s",   color="#6A1B9A", lw=2.5, ms=6,
+          label="Sequential: GR induction\n  → switch to VDR at wk 12 ★",
+          zorder=4)
+ax_c.plot(weeks, seq_vitd,    "-^",   color=C_GREEN,  lw=2.0, ms=6,
+          ls=(0,(5,2)),
+          label="Sequential + VitD at switch\n  (proposed optimal)",
+          zorder=4)
 
 # TNF inhibitor reference band
 ax_c.axhline(35, color=C_AMBER, lw=1.0, ls=":", alpha=0.7)
 ax_c.text(106, 35.5, "TNF-i\nbenchmark\n(35%)", ha="right", fontsize=7.5,
           color=C_AMBER)
 
-# Induction vs maintenance phases
-ax_c.axvspan(0, 12, alpha=0.06, color=C_GR)
-ax_c.axvspan(12, 104, alpha=0.04, color=C_VDR)
-ax_c.text(6, 56, "Induction", ha="center", fontsize=8.5, color=C_GR,
-          fontweight="bold")
-ax_c.text(58, 56, "Maintenance", ha="center", fontsize=8.5, color=C_VDR,
-          fontweight="bold")
-ax_c.axvline(12, color="grey", lw=0.8, ls="--", alpha=0.5)
+# Induction vs maintenance phase shading
+ax_c.axvspan(0,  12,  alpha=0.07, color=C_GR,  zorder=0)
+ax_c.axvspan(12, 104, alpha=0.04, color=C_VDR, zorder=0)
+ax_c.text(6,  62, "Induction\n(GR phase)",   ha="center", fontsize=8, color=C_GR,
+          fontweight="bold", va="top")
+ax_c.text(58, 62, "Maintenance\n(VDR phase)", ha="center", fontsize=8, color=C_VDR,
+          fontweight="bold", va="top")
+ax_c.axvline(12, color="grey", lw=1.2, ls="--", alpha=0.6)
 
-# GR→CYP24A1 annotation
-ax_c.annotate("GR activates CYP24A1\n→ VitD depletion\n→ VDR circuit fails",
-              xy=(36, 24), xytext=(50, 8),
-              fontsize=8, color=C_GR,
+# Switch point annotation
+ax_c.annotate("Switch to\nVDR-dominant\n+ VitD Rx",
+              xy=(12, 31), xytext=(18, 18),
+              fontsize=8, color="#6A1B9A", fontweight="bold",
+              arrowprops=dict(arrowstyle="->", color="#6A1B9A", lw=1.2,
+                              connectionstyle="arc3,rad=0.2"))
+
+# GR chronic failure annotation
+ax_c.annotate("GR→CYP24A1→VitD↓\n→ VDR circuit fails",
+              xy=(44, 20), xytext=(55, 9),
+              fontsize=7.5, color=C_GR,
               arrowprops=dict(arrowstyle="->", color=C_GR, lw=0.9))
-
-# VitD supplement annotation
-ax_c.annotate("VitD supplement\nrestores VDR circuit",
-              xy=(44, 47), xytext=(55, 52),
-              fontsize=8, color=C_GREEN,
-              arrowprops=dict(arrowstyle="->", color=C_GREEN, lw=0.9))
 
 ax_c.set_xlabel("Weeks from induction", fontsize=11)
 ax_c.set_ylabel("Estimated remission rate (%)", fontsize=11)
 ax_c.set_xlim(-5, 110)
-ax_c.set_ylim(0, 62)
+ax_c.set_ylim(0, 68)
 ax_c.set_xticks([0, 12, 24, 44, 52, 104])
-ax_c.legend(fontsize=7.5, loc="upper right", framealpha=0.85, edgecolor="grey")
+ax_c.legend(fontsize=7.5, loc="lower right", framealpha=0.88, edgecolor="grey")
 ax_c.spines[["top","right"]].set_visible(False)
 ax_c.text(0.02, -0.14,
-          "Trajectory estimates based on published Phase III maintenance remission data;\n"
-          "VitD Rx arm is hypothetical (proposed intervention).",
+          "Trajectories estimated from published Phase III data; sequential and VitD arms are\n"
+          "hypothetical proposals based on the GR→CYP24A1→VitD depletion mechanism.",
           transform=ax_c.transAxes, fontsize=6.5, color="grey")
 
 # ── Save ───────────────────────────────────────────────────────────────────────
