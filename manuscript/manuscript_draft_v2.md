@@ -229,13 +229,13 @@ All pipeline agents with available Phase II/III data plotted by VDR/GR score. Tu
 
 ## Data Availability
 
-ReMAP2022 data are publicly available at https://remap.univ-amu.fr/. NHANES data are publicly available at https://www.cdc.gov/nchs/nhanes. RNA-seq datasets are available from NCBI GEO under accession numbers GSE189984, GSE93735, and GSE135130. ENCODE ChIP-seq data for BEAS-2B NR3C1 are available at https://www.encodeproject.org (accession ENCSR000AKV). The curated drug-disease dataset, VDR/GR scoring pipeline, and processed clinical data used in this study are available at https://github.com/nagashimah/vdr-gr-biologic [to be deposited upon acceptance]. The OSF pre-registration document is available at https://osf.io/tnp63.
+ReMAP2022 data are publicly available at https://remap.univ-amu.fr/. NHANES data are publicly available at https://www.cdc.gov/nchs/nhanes. RNA-seq datasets are available from NCBI GEO under accession numbers GSE189984, GSE93735, and GSE135130. ENCODE ChIP-seq data for BEAS-2B NR3C1 are available at https://www.encodeproject.org (accession ENCSR000AKV). The curated drug-disease dataset, VDR/GR scoring pipeline, and processed clinical data used in this study are available at https://github.com/ketuketu-collab/vdr-gr-biologic-durability. The OSF pre-registration document is available at https://osf.io/tnp63.
 
 ---
 
 ## Code Availability
 
-All analysis code is written in Python 3.13 and will be deposited in the project GitHub repository upon acceptance. Key scripts: `scripts/01_remap_extended_analysis.py` (ChIP-seq scoring), `longterm_remission_analysis.py` (IBD longitudinal analysis), `scripts/validation_cancer_negative_ctrl.py` (cancer control), `vdre_conservation/04_ortholog_conservation.py` (cross-species analysis).
+All analysis code is written in Python 3.13 and is available at https://github.com/ketuketu-collab/vdr-gr-biologic-durability. Key scripts: `scripts/01_remap_extended_analysis.py` (ChIP-seq scoring), `longterm_remission_analysis.py` (IBD longitudinal analysis), `scripts/validation_cancer_negative_ctrl.py` (cancer control), `vdre_conservation/04_ortholog_conservation.py` (cross-species analysis).
 
 ---
 
