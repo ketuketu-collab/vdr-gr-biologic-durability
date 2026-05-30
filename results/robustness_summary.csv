@@ -1,0 +1,10 @@
+section,metric,raw,corrected,note
+A_depth_confound,VDR_score_vs_nexp_spearman_r,0.459,,p=4.25e-15
+A_depth_confound,GR_score_vs_nexp_spearman_r,0.645,,p=2.69e-41
+A_depth_confound,dominance_flip_fraction,,26%,98/381 genes flip VDR/GR direction
+1_approval,PPV_vdr_dominant,0.85,0.72,matched subset n=66
+1_approval,fisher_p,0.053,1.0,
+1_approval,AUC_vdr_gr_ratio,0.549,0.578,
+2_IBD,spearman_r,0.899,1.0,raw=per-pair n=12 (p=0.00007); corrected=per-gene n=3 (p=0.0000)
+3_TNFSF15,in_381_table,False,,
+3_TNFSF15,n_genes_GR_ge_286,5,,max GR=370.2 (EGFR); claimed TNFSF15 GR=286 absent from file
