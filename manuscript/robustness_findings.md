@@ -62,6 +62,27 @@ Two independent problems:
 - Leave-one-gene-out: dropping **TNF** → r=0.632, **p=0.13 (non-significant)**.
   A single gene controls the result.
 
+## (A2) Scoring provenance — the table is a patchwork of ≥2 incompatible methods
+
+Tracing how `remap_scores_expanded.csv` is built (`expand_steroid_targets.py`)
+revealed the scores are **not** computed by the published Methods:
+
+- The committed generator scores genes as **`10·(n_celltypes) + n_experiments`**
+  within a **±5 kb** window — a pure count, with **no peak-height information**.
+  (This is why "score ∝ experiment count" in section A is near-tautological.)
+- But that integer formula reproduces only **122/381 (VDR)** and **65/381 (GR)**
+  committed rows. The other **274/381 rows carry decimal scores** from an
+  earlier signal-based method that is **not committed** to the repo.
+- The Methods text states yet a **third** definition: "±10 kb … sum of peak
+  signal intensities … pybedtools/BEDTools". This matches neither code path.
+- TNFSF15's pre-registered scores (VDR=12.4 / GR=286.0) are decimals that fit
+  none of the above, so they came from a fourth, ad-hoc computation.
+
+**Consequence:** the 381-gene VDR/GR scores are not on a common scale, no
+committed script regenerates the table, and TNFSF15 cannot be "merged in"
+consistently. A single canonical pipeline must be defined and run over all
+genes at once.
+
 ## (3) "TNFSF15 GR=286, highest in the 381-gene dataset"
 
 - **TNFSF15 is not present** in `remap_scores_expanded.csv` (cited as
@@ -91,3 +112,31 @@ Two independent problems:
    chronic-inflammatory targets" (if true).
 5. Narrow scope to the core claim; move NHANES / cross-species / CYP24A1 to a
    separate paper.
+
+---
+
+## Canonical re-scoring pipeline (addresses fix #1 and #4)
+
+`scripts/score_remap_occupancy.py` defines ONE explicit rule and re-scores every
+gene + TNFSF15 in a single run. For each gene it reports, within ±W of the TSS
+(default ±10 kb, matching the Methods text), both:
+- `*_signal_sum` — sum of peak signalValue (the Methods-stated definition), and
+- `*_signal_per_exp` — depth-normalised (per-experiment) score,
+
+plus `n_exp` / `n_celltype`, and a factual GR rank for TNFSF15 (replacing the
+unverified "highest GR" wording). Output goes to
+`results/remap_scores_canonical.csv` and does **not** overwrite the legacy table.
+
+```bash
+# Requires the two ReMAP2022 hg38 bed.gz files (not in repo; from remap.univ-amu.fr)
+python3 scripts/score_remap_occupancy.py \
+    --vdr-bed /path/remap2022_VDR_all_macs2_hg38.bed.gz \
+    --gr-bed  /path/remap2022_NR3C1_all_macs2_hg38.bed.gz
+```
+
+TNFSF15's TSS (chr9:114,806,039, GRCh38) is seeded in
+`results/gene_tss_hg38.csv` so it is always scored identically to the rest;
+other genes' TSS are fetched from Ensembl REST and cached on first run.
+**Status:** logic validated on synthetic peaks; real numbers require running
+where the ReMAP bed files and network are available (both unavailable in the
+web sandbox — ReMAP/Ensembl are network-blocked here).
