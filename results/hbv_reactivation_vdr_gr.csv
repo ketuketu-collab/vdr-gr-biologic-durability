@@ -1,0 +1,16 @@
+gene,drug,mechanism,hbv_risk,hbv_tier,VDR_score,GR_score,GR_dominant,log2_GR_VDR
+CD38,daratumumab,"anti-CD38, plasma-cell depletion",high,3,31.0,132.0,True,2.0552824355011894
+NR3C1,corticosteroids (high-dose),"GR agonist, broad immunosuppression",high,3,56.91,9.43,False,-2.4730733389699884
+MS4A1,rituximab / obinutuzumab,"anti-CD20, B-cell depletion",high,3,0.0,8.92,True,3.3103401206121505
+CD52,alemtuzumab,"anti-CD52, pan-lymphocyte depletion",high,3,9.65,0.0,False,-3.412781525338476
+JAK1,tofacitinib / upadacitinib,JAK inhibitor,moderate,2,12.81,85.48,True,2.6466532034765993
+IL6R,tocilizumab,anti-IL-6R,moderate,2,99.59,82.9,False,-0.2617441731877548
+ITGA4,natalizumab,anti-alpha4 integrin,moderate,2,42.0,67.0,True,0.6611980865482414
+BTK,ibrutinib,BTK inhibitor (B-cell signalling),moderate,2,209.73,65.13,False,-1.6720189074221024
+JAK2,ruxolitinib / baricitinib,JAK inhibitor,moderate,2,21.27,62.01,True,1.5004792515270733
+JAK3,tofacitinib,JAK inhibitor,moderate,2,10.18,31.66,True,1.5466046027185048
+S1PR1,ozanimod / fingolimod,S1P-receptor modulator (lymphocyte sequestration),moderate,2,6.26,29.35,True,2.063655063147294
+TNF,infliximab / adalimumab,anti-TNF,moderate,2,36.86,19.49,False,-0.8857544266924587
+TYK2,deucravacitinib,selective TYK2 inhibitor,low,1,20.2,73.07,True,1.8048250724133765
+ITGB7,vedolizumab,gut-selective anti-alpha4beta7,low,1,62.27,17.23,False,-1.7952070344757136
+IL17A,secukinumab / ixekizumab,anti-IL-17A,low,1,0.0,0.0,False,0.0
