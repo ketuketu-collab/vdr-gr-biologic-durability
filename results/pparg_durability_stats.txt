@@ -1,0 +1,32 @@
+======================================================================
+PPARγ (NR1C3) durability-axis analysis
+======================================================================
+genes scored: 385   (PPARG_score non-null: 385)
+  VDR_score    median=  10.42  mean=  21.45  max= 277.19
+  GR_score     median=  30.47  mean=  55.59  max= 370.19
+  PPARG_score  median=  11.00  mean=  13.97  max=  88.00
+  NOTE: PPARγ ChIP-seq is sparse/adipocyte-biased; absolute magnitudes
+  are NOT comparable across regulators. Use _z (within-TF) for P1 and
+  rank-based Spearman (P2) for the durability claim.
+
+--- (P1) durable (◎) vs problematic (⚠️/❌)  [within-TF z-score] ---
+  n durable=21  n problematic=15
+  VDR_score    durable_z=+0.07  problematic_z=-0.17  (raw  23.85 vs  15.30)  MWU p=0.2540
+  GR_score     durable_z=-0.32  problematic_z=+0.15  (raw  33.75 vs  65.97)  MWU p=0.0900
+  PPARG_score  durable_z=+0.56  problematic_z=-0.62  (raw  22.00 vs   5.08)  MWU p=0.0233
+
+--- (P2) score vs IBD maintenance remission (Spearman) ---
+  VDR   r=0.166  p=0.4979  (benchmark)
+  PPARγ r=0.673  p=0.001596  (n=19)
+
+--- (P2-IBD) UC+CD only, n=12  (manuscript r=0.899 setting) ---
+  VDR    r=+0.899  p=6.936e-05  (n=12)
+  GR     r=+0.597  p=0.04046  (n=12)
+  PPARγ  r=+0.899  p=6.936e-05  (n=12)
+
+--- (P3) approval discrimination (AUC) ---
+  VDR_score    AUC=0.668  (n=657)
+  PPARG_score  AUC=0.380  (n=657)
+
+Interpretation: if PPARγ separation (P1) and correlation (P2) meet or
+exceed VDR, the GR→VDR→PPARγ monotonic-durability axis is supported.
