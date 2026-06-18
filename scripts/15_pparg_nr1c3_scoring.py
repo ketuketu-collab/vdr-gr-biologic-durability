@@ -151,6 +151,51 @@ def compute_pparg_scores(bed_path, genes):
     return pd.DataFrame(rows)
 
 
+# ── base gene table (augment expanded set with clinical anchor genes) ───────
+def build_base(scores_path):
+    """Union of the expanded-score gene list with clinically essential genes
+    (IL23A, TNFSF15, NOD2, CYP24A1, ...) that are absent from the 381-gene
+    expanded file but carry VDR/GR scores in the longterm remission table on
+    the *same* scoring scale. Without this, IL23A et al. are silently dropped
+    from the durability analyses."""
+    base = pd.read_csv(scores_path)
+    base["gene"] = base["gene"].astype(str).str.upper()
+    add_frames = []
+    # explicit anchors used in the manuscript but absent from the expanded set,
+    # so PPARγ gets scored for them even if they carry no VDR/GR here
+    anchors = pd.DataFrame({"gene": ["IL23A", "TNFSF15", "NOD2", "CYP24A1"]})
+    add_frames.append(anchors)
+    lt = RESULTS / "longterm_remission_corrected.csv"
+    if lt.exists():
+        d = pd.read_csv(lt)
+        gcol = "target_gene" if "target_gene" in d else "gene"
+        a = d[[gcol, "vdr_score", "gr_score"]].rename(
+            columns={gcol: "gene", "vdr_score": "VDR_score", "gr_score": "GR_score"})
+        a["gene"] = a["gene"].astype(str).str.upper()
+        add_frames.append(a)
+    if add_frames:
+        extra = pd.concat(add_frames, ignore_index=True).drop_duplicates("gene")
+        missing = extra[~extra["gene"].isin(base["gene"])]
+        if len(missing):
+            print(f"  augmenting with {len(missing)} clinical genes absent from "
+                  f"{Path(scores_path).name}: {sorted(missing['gene'])}")
+            base = pd.concat([base, missing], ignore_index=True, sort=False)
+    return base.drop_duplicates("gene", keep="first")
+
+
+def add_within_tf_z(df, cols):
+    """Within-regulator z-score so absolute magnitudes are comparable across
+    VDR/GR/PPARγ despite very different ChIP-seq experiment counts (PPARγ is
+    sparse: ~9 experiments vs VDR/GR). Rank-based tests are unaffected; this
+    only makes mean-level (P1) comparisons scale-fair."""
+    for c in cols:
+        if c in df:
+            v = df[c].astype(float)
+            sd = v.std(ddof=0)
+            df[c.replace("_score", "_z")] = (v - v.mean()) / sd if sd else 0.0
+    return df
+
+
 # ── analysis ────────────────────────────────────────────────────────────────
 def run_analysis(scored: pd.DataFrame, out_txt: Path):
     lines = []
@@ -159,14 +204,21 @@ def run_analysis(scored: pd.DataFrame, out_txt: Path):
         print(s)
         lines.append(s)
 
+    add_within_tf_z(scored, ["VDR_score", "GR_score", "PPARG_score"])
+
     log("=" * 70)
     log("PPARγ (NR1C3) durability-axis analysis")
     log("=" * 70)
-    log(f"genes with PPARG_score: {scored['PPARG_score'].notna().sum()}")
+    log(f"genes scored: {len(scored)}   (PPARG_score non-null: "
+        f"{scored['PPARG_score'].notna().sum()})")
     for col in ("VDR_score", "GR_score", "PPARG_score"):
         if col in scored:
             v = scored[col].dropna()
             log(f"  {col:12s} median={v.median():7.2f}  mean={v.mean():7.2f}  max={v.max():7.2f}")
+    n_pp = int(scored["PPARG_experiments"].dropna().sum()) if "PPARG_experiments" in scored else None
+    log("  NOTE: PPARγ ChIP-seq is sparse/adipocyte-biased; absolute magnitudes")
+    log("  are NOT comparable across regulators. Use _z (within-TF) for P1 and")
+    log("  rank-based Spearman (P2) for the durability claim.")
 
     # (P1) durability tiers: durable (◎) vs problematic (⚠️/❌)
     tier_path = RESULTS / "maintenance_logic_classification.csv"
@@ -176,15 +228,16 @@ def run_analysis(scored: pd.DataFrame, out_txt: Path):
         m = tiers.merge(scored, left_on=gcol, right_on="gene", how="left")
         durable = m[m["lt_status"] == "◎"]
         problem = m[m["lt_status"].isin(["⚠️", "❌"])]
-        log("\n--- (P1) durable (◎) vs problematic (⚠️/❌) ---")
+        log("\n--- (P1) durable (◎) vs problematic (⚠️/❌)  [within-TF z-score] ---")
         log(f"  n durable={len(durable)}  n problematic={len(problem)}")
-        for col in ("VDR_score", "GR_score", "PPARG_score"):
-            a = durable[col].dropna()
-            b = problem[col].dropna()
+        for raw, z in (("VDR_score", "VDR_z"), ("GR_score", "GR_z"),
+                       ("PPARG_score", "PPARG_z")):
+            a, b = durable[raw].dropna(), problem[raw].dropna()
+            az, bz = durable[z].dropna(), problem[z].dropna()
             if len(a) >= 2 and len(b) >= 2:
-                u, p = stats.mannwhitneyu(a, b, alternative="two-sided")
-                log(f"  {col:12s} durable={a.mean():6.2f}  problematic={b.mean():6.2f}  "
-                    f"Mann-Whitney p={p:.4f}")
+                _, p = stats.mannwhitneyu(a, b, alternative="two-sided")
+                log(f"  {raw:12s} durable_z={az.mean():+5.2f}  problematic_z={bz.mean():+5.2f}  "
+                    f"(raw {a.mean():6.2f} vs {b.mean():6.2f})  MWU p={p:.4f}")
     else:
         log(f"\n(P1) skipped: {tier_path} not found")
 
@@ -206,6 +259,23 @@ def run_analysis(scored: pd.DataFrame, out_txt: Path):
             log(f"  PPARγ r={r:.3f}  p={p:.4g}  (n={len(sub)})")
         else:
             log("  PPARγ: insufficient overlap for correlation")
+
+        # (P2-IBD) UC+CD only — the apples-to-apples manuscript r=0.899 setting
+        ibd = rem[rem["disease"].isin(["UC", "CD"])].copy()
+        ibd = ibd.merge(scored[["gene", "PPARG_score"]], left_on=gcol,
+                        right_on="gene", how="left")
+        log(f"\n--- (P2-IBD) UC+CD only, n={len(ibd)}  (manuscript r=0.899 setting) ---")
+        for label, col in (("VDR", "vdr_score"), ("GR", "gr_score"),
+                           ("PPARγ", "PPARG_score")):
+            sub = ibd.dropna(subset=[col, "maintenance_remission"])
+            if len(sub) >= 4:
+                r, p = stats.spearmanr(sub[col], sub["maintenance_remission"])
+                log(f"  {label:6s} r={r:+.3f}  p={p:.4g}  (n={len(sub)})")
+            else:
+                log(f"  {label:6s} insufficient overlap (n={len(sub)})")
+        miss = ibd[ibd["PPARG_score"].isna()][gcol].unique()
+        if len(miss):
+            log(f"  (PPARG missing for: {sorted(miss)} — verify these were scored)")
     else:
         log(f"\n(P2) skipped: {rem_path} not found")
 
@@ -255,7 +325,7 @@ def main():
                     help="skip scoring; run analysis on existing --out file")
     args = ap.parse_args()
 
-    base = pd.read_csv(args.scores)
+    base = build_base(args.scores)
     genes = sorted(base["gene"].astype(str).str.upper().unique())
 
     out_path = Path(args.out)
