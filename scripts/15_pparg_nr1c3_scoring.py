@@ -1,0 +1,289 @@
+#!/usr/bin/env python3
+"""
+15_pparg_nr1c3_scoring.py
+=========================
+Add PPARγ (gene PPARG / nuclear receptor NR1C3) ChIP-seq occupancy as a THIRD
+regulator axis alongside VDR and GR, then test the hypothesis that PPARγ sits
+even further toward the chronic-homeostatic / durable pole than VDR.
+
+Scoring convention is IDENTICAL to the VDR/GR pipeline in
+`expand_steroid_targets.py` so the new PPARG_score is directly comparable to the
+existing VDR_score / GR_score columns in results/remap_scores_expanded.csv:
+
+    score = (#distinct base cell types within ±HALF of TSS) * 10
+            + (#distinct ChIP-seq experiments within ±HALF of TSS)
+
+    HALF = 5000  (±5 kb of TSS; matches the existing expanded scores)
+
+TSS coordinates are fetched from the Ensembl REST API (same batch endpoint as
+the original pipeline). The PPARG ReMAP2022 BED is supplied via --pparg-bed or
+the REMAP_PPARG_BED env var; download it from https://remap.univ-amu.fr/
+(per-TF "All peaks" track for PPARG, hg38) e.g.:
+    remap2022_PPARG_all_macs2_hg38.bed.gz
+
+Outputs (under results/):
+    remap_scores_pparg.csv        gene, VDR_score, GR_score, PPARG_score, ...
+    pparg_durability_stats.txt    Mann-Whitney + Spearman + AUC comparison
+
+Usage:
+    python scripts/15_pparg_nr1c3_scoring.py \
+        --pparg-bed /path/to/remap2022_PPARG_all_macs2_hg38.bed.gz
+
+If the BED is not found the script still runs the *analysis* portion on any
+pre-computed remap_scores_pparg.csv, and otherwise prints clear instructions.
+
+Hypothesis under test (HN, 2026-06):
+    GR  →  VDR  →  PPARγ  is a single temporal durability axis.
+    Predictions:
+      (P1) durable (◎) targets score HIGHER on PPARγ than problematic (⚠️/❌),
+           with a separation at least as strong as VDR (Mann-Whitney).
+      (P2) PPARγ score correlates with IBD maintenance remission at least as
+           strongly as VDR (Spearman; VDR benchmark r = 0.899).
+      (P3) adding PPARγ does not collapse the cancer-negative-control specificity.
+"""
+import argparse
+import gzip
+import json
+import os
+import re
+import sys
+import time
+import urllib.request
+from pathlib import Path
+
+import numpy as np
+import pandas as pd
+from scipy import stats
+
+try:
+    from sklearn.metrics import roc_auc_score
+    HAVE_SKLEARN = True
+except Exception:
+    HAVE_SKLEARN = False
+
+# ── paths (override via env) ────────────────────────────────────────────────
+REPO = Path(__file__).resolve().parent.parent
+RESULTS = Path(os.environ.get("VDRGR_RESULTS", REPO / "results"))
+HALF = int(os.environ.get("REMAP_HALF_WINDOW", "5000"))  # ±5 kb, matches pipeline
+ENSEMBL = "https://rest.ensembl.org/lookup/symbol/homo_sapiens"
+
+
+# ── TSS lookup (Ensembl batch) ──────────────────────────────────────────────
+def fetch_tss_batch(genes):
+    data = json.dumps({"symbols": genes}).encode()
+    req = urllib.request.Request(
+        ENSEMBL, data=data,
+        headers={"Content-Type": "application/json", "Accept": "application/json"},
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=60) as r:
+            d = json.loads(r.read())
+    except Exception as e:
+        print(f"  Ensembl error: {e}", file=sys.stderr)
+        return {}
+    tss = {}
+    for gene, info in d.items():
+        if not info:
+            continue
+        chrom = str(info.get("seq_region_name", ""))
+        if re.match(r"^\d+$|^X$|^Y$", chrom):
+            chrom = "chr" + chrom
+            strand = info.get("strand", 1)
+            tss_pos = info["start"] if strand == 1 else info["end"]
+            tss[gene.upper()] = (chrom, tss_pos)
+    return tss
+
+
+def fetch_all_tss(genes):
+    tss_map = {}
+    for i in range(0, len(genes), 50):
+        chunk = genes[i:i + 50]
+        tss_map.update(fetch_tss_batch(chunk))
+        time.sleep(0.5)
+    return tss_map
+
+
+# ── ReMAP BED indexing + scoring (identical convention to VDR/GR) ───────────
+def build_index(bed_gz):
+    idx = {}
+    with gzip.open(bed_gz, "rt") as f:
+        for line in f:
+            p = line.rstrip().split("\t")
+            if len(p) < 4:
+                continue
+            chrom, start, end, name = p[0], int(p[1]), int(p[2]), p[3]
+            parts = name.split(".")
+            gse_id = parts[0] if parts else "unknown"
+            celltype = parts[2] if len(parts) > 2 else "unknown"
+            base_cell = re.sub(r"_[A-Z0-9_]+$", "", celltype, flags=re.IGNORECASE)
+            idx.setdefault(chrom, []).append((start, end, base_cell, gse_id))
+    return idx
+
+
+def score_gene(chrom, tss_pos, idx, n_total):
+    lo, hi = tss_pos - HALF, tss_pos + HALF
+    hits = [e for e in idx.get(chrom, []) if e[1] >= lo and e[0] <= hi]
+    cells = set(h[2] for h in hits)
+    exps = set(h[3] for h in hits)
+    score = len(cells) * 10 + len(exps)
+    repro = len(exps) / n_total if n_total else 0
+    return score, len(cells), len(exps), round(repro, 4)
+
+
+def compute_pparg_scores(bed_path, genes):
+    print(f"Building PPARG ReMAP index from {bed_path} ...")
+    idx = build_index(bed_path)
+    all_exp = {gse for chrom_data in idx.values() for *_, gse in chrom_data}
+    n_total = len(all_exp)
+    print(f"  PPARG experiments (reproducibility denominator): {n_total}")
+
+    print(f"Fetching TSS for {len(genes)} genes from Ensembl ...")
+    tss_map = fetch_all_tss(genes)
+    print(f"  TSS resolved: {len(tss_map)}/{len(genes)}")
+
+    rows = []
+    for gene, (chrom, tss) in tss_map.items():
+        s, c, e, r = score_gene(chrom, tss, idx, n_total)
+        rows.append({
+            "gene": gene, "PPARG_score": round(s, 2),
+            "PPARG_celltypes": c, "PPARG_experiments": e, "PPARG_repro": r,
+        })
+    return pd.DataFrame(rows)
+
+
+# ── analysis ────────────────────────────────────────────────────────────────
+def run_analysis(scored: pd.DataFrame, out_txt: Path):
+    lines = []
+
+    def log(s=""):
+        print(s)
+        lines.append(s)
+
+    log("=" * 70)
+    log("PPARγ (NR1C3) durability-axis analysis")
+    log("=" * 70)
+    log(f"genes with PPARG_score: {scored['PPARG_score'].notna().sum()}")
+    for col in ("VDR_score", "GR_score", "PPARG_score"):
+        if col in scored:
+            v = scored[col].dropna()
+            log(f"  {col:12s} median={v.median():7.2f}  mean={v.mean():7.2f}  max={v.max():7.2f}")
+
+    # (P1) durability tiers: durable (◎) vs problematic (⚠️/❌)
+    tier_path = RESULTS / "maintenance_logic_classification.csv"
+    if tier_path.exists():
+        tiers = pd.read_csv(tier_path)
+        gcol = "gene" if "gene" in tiers else "target_gene"
+        m = tiers.merge(scored, left_on=gcol, right_on="gene", how="left")
+        durable = m[m["lt_status"] == "◎"]
+        problem = m[m["lt_status"].isin(["⚠️", "❌"])]
+        log("\n--- (P1) durable (◎) vs problematic (⚠️/❌) ---")
+        log(f"  n durable={len(durable)}  n problematic={len(problem)}")
+        for col in ("VDR_score", "GR_score", "PPARG_score"):
+            a = durable[col].dropna()
+            b = problem[col].dropna()
+            if len(a) >= 2 and len(b) >= 2:
+                u, p = stats.mannwhitneyu(a, b, alternative="two-sided")
+                log(f"  {col:12s} durable={a.mean():6.2f}  problematic={b.mean():6.2f}  "
+                    f"Mann-Whitney p={p:.4f}")
+    else:
+        log(f"\n(P1) skipped: {tier_path} not found")
+
+    # (P2) PPARγ vs IBD maintenance remission (VDR benchmark r=0.899)
+    rem_path = RESULTS / "longterm_remission_corrected.csv"
+    if rem_path.exists():
+        rem = pd.read_csv(rem_path)
+        gcol = "target_gene" if "target_gene" in rem else "gene"
+        m = rem.merge(scored[["gene", "PPARG_score"]], left_on=gcol,
+                      right_on="gene", how="left")
+        log("\n--- (P2) score vs IBD maintenance remission (Spearman) ---")
+        if "vdr_score" in m:
+            r, p = stats.spearmanr(m["vdr_score"], m["maintenance_remission"],
+                                   nan_policy="omit")
+            log(f"  VDR   r={r:.3f}  p={p:.4g}  (benchmark)")
+        sub = m.dropna(subset=["PPARG_score", "maintenance_remission"])
+        if len(sub) >= 4:
+            r, p = stats.spearmanr(sub["PPARG_score"], sub["maintenance_remission"])
+            log(f"  PPARγ r={r:.3f}  p={p:.4g}  (n={len(sub)})")
+        else:
+            log("  PPARγ: insufficient overlap for correlation")
+    else:
+        log(f"\n(P2) skipped: {rem_path} not found")
+
+    # (P3) approval AUC comparison (VDR vs PPARγ) if approval labels exist
+    appr_path = RESULTS / "gene_disease_phase_expanded.csv"
+    if appr_path.exists() and HAVE_SKLEARN:
+        appr = pd.read_csv(appr_path)
+        statuscol = next((c for c in ("best_status", "mol_status", "status")
+                          if c in appr), None)
+        gcol = next((c for c in ("gene", "target_gene") if c in appr), None)
+        log("\n--- (P3) approval discrimination (AUC) ---")
+        if statuscol and gcol:
+            a = appr[appr[statuscol].isin(["approved", "failed"])].copy()
+            a["y"] = (a[statuscol] == "approved").astype(int)
+            # approval table already carries VDR_score; bring only PPARG_score
+            a = a.merge(scored[["gene", "PPARG_score"]],
+                        left_on=gcol, right_on="gene", how="left",
+                        suffixes=("", "_s"))
+            for col in ("VDR_score", "PPARG_score"):
+                s = a.dropna(subset=[col, "y"])
+                if s["y"].nunique() == 2 and len(s) >= 10:
+                    auc = roc_auc_score(s["y"], s[col])
+                    log(f"  {col:12s} AUC={auc:.3f}  (n={len(s)})")
+                else:
+                    log(f"  {col:12s} insufficient data (n={len(s)})")
+        else:
+            log(f"  skipped: no usable status/gene column in {appr_path.name}")
+    else:
+        log("\n(P3) skipped: approval table or sklearn unavailable")
+
+    log("\nInterpretation: if PPARγ separation (P1) and correlation (P2) meet or")
+    log("exceed VDR, the GR→VDR→PPARγ monotonic-durability axis is supported.")
+    out_txt.write_text("\n".join(lines) + "\n")
+    print(f"\nStats written → {out_txt}")
+
+
+# ── main ────────────────────────────────────────────────────────────────────
+def main():
+    ap = argparse.ArgumentParser(description=__doc__,
+                                 formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--pparg-bed", default=os.environ.get("REMAP_PPARG_BED"),
+                    help="ReMAP2022 PPARG all-peaks BED(.gz), hg38")
+    ap.add_argument("--scores", default=str(RESULTS / "remap_scores_expanded.csv"),
+                    help="existing VDR/GR scores (gene list source)")
+    ap.add_argument("--out", default=str(RESULTS / "remap_scores_pparg.csv"))
+    ap.add_argument("--analysis-only", action="store_true",
+                    help="skip scoring; run analysis on existing --out file")
+    args = ap.parse_args()
+
+    base = pd.read_csv(args.scores)
+    genes = sorted(base["gene"].astype(str).str.upper().unique())
+
+    out_path = Path(args.out)
+    if args.analysis_only or not args.pparg_bed:
+        if out_path.exists():
+            scored = pd.read_csv(out_path)
+        elif not args.pparg_bed:
+            print("ERROR: no --pparg-bed supplied and no pre-computed scores at",
+                  out_path, file=sys.stderr)
+            print("\nDownload the PPARG track from https://remap.univ-amu.fr/ and run:",
+                  file=sys.stderr)
+            print("  python scripts/15_pparg_nr1c3_scoring.py "
+                  "--pparg-bed remap2022_PPARG_all_macs2_hg38.bed.gz", file=sys.stderr)
+            sys.exit(2)
+        else:
+            scored = pd.read_csv(out_path)
+    else:
+        bed = Path(args.pparg_bed)
+        if not bed.exists():
+            print(f"ERROR: PPARG BED not found: {bed}", file=sys.stderr)
+            sys.exit(2)
+        pparg = compute_pparg_scores(bed, genes)
+        scored = base.merge(pparg, on="gene", how="left")
+        scored.to_csv(out_path, index=False)
+        print(f"Scores written → {out_path}  ({scored['PPARG_score'].notna().sum()} genes scored)")
+
+    run_analysis(scored, RESULTS / "pparg_durability_stats.txt")
+
+
+if __name__ == "__main__":
+    main()
