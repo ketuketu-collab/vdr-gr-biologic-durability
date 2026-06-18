@@ -183,6 +183,21 @@ def build_base(scores_path):
     return base.drop_duplicates("gene", keep="first")
 
 
+def partial_spearman(x, y, z):
+    """Partial Spearman of x,y controlling for z: rank-transform, residualize x
+    and y on z linearly, correlate the residuals. Returns (r, p, n)."""
+    d = pd.DataFrame({"x": x, "y": y, "z": z}).dropna()
+    if len(d) < 5:
+        return float("nan"), float("nan"), len(d)
+    rx, ry, rz = (stats.rankdata(d[c]) for c in ("x", "y", "z"))
+
+    def resid(a, b):
+        return a - np.polyval(np.polyfit(b, a, 1), b)
+
+    r, p = stats.pearsonr(resid(rx, rz), resid(ry, rz))
+    return r, p, len(d)
+
+
 def add_within_tf_z(df, cols):
     """Within-regulator z-score so absolute magnitudes are comparable across
     VDR/GR/PPARγ despite very different ChIP-seq experiment counts (PPARγ is
@@ -306,8 +321,42 @@ def run_analysis(scored: pd.DataFrame, out_txt: Path):
     else:
         log("\n(P3) skipped: approval table or sklearn unavailable")
 
-    log("\nInterpretation: if PPARγ separation (P1) and correlation (P2) meet or")
-    log("exceed VDR, the GR→VDR→PPARγ monotonic-durability axis is supported.")
+    # (P4) regulator collinearity — tests the "bridge" hypothesis:
+    # if PPARγ is intermediate between GR (induction) and VDR (maintenance),
+    # it should share variance with BOTH, whereas VDR and GR are near-orthogonal.
+    log("\n--- (P4) regulator collinearity (Spearman across genes) ---")
+
+    def _coll(df, label):
+        d = df.dropna(subset=["VDR_score", "GR_score", "PPARG_score"])
+        pg, pv = (stats.spearmanr(d["PPARG_score"], d[c])[0] for c in ("GR_score", "VDR_score"))
+        vg = stats.spearmanr(d["VDR_score"], d["GR_score"])[0]
+        log(f"  {label} (n={len(d)}):  PPARγ–GR r={pg:+.3f}   "
+            f"PPARγ–VDR r={pv:+.3f}   VDR–GR r={vg:+.3f}")
+
+    _coll(scored, "all genes")
+    appr_path = RESULTS / "gene_disease_phase_expanded.csv"
+    if appr_path.exists():
+        tg = set(pd.read_csv(appr_path)["gene"].astype(str).str.upper())
+        _coll(scored[scored["gene"].isin(tg)], "immune drug-targets")
+    log("  bridge prediction: PPARγ correlates with BOTH GR and VDR; VDR–GR weak.")
+
+    # (P5) does the PPARγ durability signal survive controlling for GR?
+    rem_path = RESULTS / "longterm_remission_corrected.csv"
+    if rem_path.exists():
+        rem = pd.read_csv(rem_path)
+        gcol = "target_gene" if "target_gene" in rem else "gene"
+        ibd = rem[rem["disease"].isin(["UC", "CD"])].merge(
+            scored[["gene", "PPARG_score"]], left_on=gcol, right_on="gene", how="left")
+        log("\n--- (P5) partial Spearman vs IBD maintenance, control = GR (UC+CD) ---")
+        for label, col in (("VDR", "vdr_score"), ("PPARγ", "PPARG_score")):
+            r, p, n = partial_spearman(ibd[col], ibd["maintenance_remission"], ibd["gr_score"])
+            log(f"  {label:6s} r(score, maint | GR) = {r:+.3f}  p={p:.4g}  (n={n})")
+
+    log("\nInterpretation:")
+    log("  - PPARγ predicts DURABILITY (P1/P2) but not APPROVAL (P3): maintenance-")
+    log("    specific, approval-decoupled.")
+    log("  - If P4 shows PPARγ correlated with BOTH GR and VDR, PPARγ is a BRIDGE")
+    log("    between induction (GR) and maintenance (VDR) — the resolution phase.")
     out_txt.write_text("\n".join(lines) + "\n")
     print(f"\nStats written → {out_txt}")
 

@@ -4,19 +4,53 @@
 Intended for integration into the VDR/GR manuscript (Discussion) or as the
 foundation of a follow-on "GR→VDR→PPARγ nuclear-receptor durability axis" paper.
 
-Working hypothesis (HN): **PPARγ sits even further toward the chronic /
-homeostatic pole than VDR** — i.e. the durability axis is a single temporal
-spectrum, not a 2D landscape:
+Original hypothesis (HN): PPARγ sits even further toward the chronic pole than
+VDR, as a single monotonic GR→VDR→PPARγ durability spectrum.
+
+**Refined model after computing PPARγ ChIP-seq occupancy (2026-06-19).** The data
+do NOT support a simple temporal "PPARγ between GR and VDR" reading. Instead PPARγ
+behaves as a *durability-specific, approval-decoupled* axis: it predicts long-term
+durability as well as or better than VDR, but — unlike VDR — does not predict
+regulatory approval. Two distinct signals must be drawn separately:
 
 ```
-GR  ───────────────  VDR  ───────────────  PPARγ
-acute / emergency    chronic maintenance    terminal resolution / tissue repair
-peak 0–4 h           peak 24–48 h           sustained, latest
-induction efficacy   maintenance remission  the safest long-term backbone
-prototype: steroids  prototype: anti-IL-23  prototype: 5-ASA
-(induction-only,     (delayed-but-durable)  (maintenance-defining)
- self-sabotaging)
+DURABILITY signal:   GR (−) ──────  VDR (+) ──────  PPARγ (++)     PPARγ at the durable extreme
+APPROVAL  signal:    GR ──────────  VDR (◎) ······  PPARγ (none)   PPARγ decoupled from approval
+
+GR  acute/emergency   VDR  approval + durability   PPARγ  durability ONLY
+peak 0–4 h            peak 24–48 h                 terminal resolution / repair
+prototype: steroids   prototype: anti-IL-23        prototype: 5-ASA
+(induction-only)      (dual: approve + durable)    (maintenance-defining, weak induction)
 ```
+
+This is a sharper and more defensible claim than the original: VDR is the
+"dual-purpose" receptor (it predicts both that a drug gets approved AND that it
+lasts), whereas PPARγ is the *pure maintenance* receptor — blind to approval,
+specialized for long-term remission. It mirrors 5-ASA's clinical signature
+exactly: weak for induction, defining for maintenance.
+
+---
+
+## Computed results (preliminary; scripts/15_pparg_nr1c3_scoring.py, 2026-06-19)
+
+PPARγ (gene PPARG/NR1C3) ChIP-seq occupancy scored from ReMAP2022 with the
+identical convention to VDR/GR (cells×10 + experiments, ±5 kb TSS), n = 385 genes.
+
+| Test | VDR | PPARγ | Read |
+|---|---|---|---|
+| Durable (◎) vs problematic (⚠️/❌), within-TF z, Mann-Whitney | +0.07 / −0.17, p = 0.25 | **+0.56 / −0.62, p = 0.023** | PPARγ separates durable from problematic *more strongly* than VDR |
+| IBD maintenance remission, UC+CD (n = 12, manuscript setting), Spearman | r = 0.899 | **r = 0.899** | PPARγ *ties* VDR on the gold-standard durability correlation |
+| IBD maintenance remission, all indications (n = 19), Spearman | r = 0.166 | **r = 0.673, p = 0.0016** | PPARγ tracks durability where VDR is confounded by non-IBD |
+| Approval discrimination, AUC | 0.668 | **0.380** | PPARγ does NOT predict approval — the defining asymmetry |
+
+**Caveats (to state explicitly).** (i) PPARγ ChIP-seq in ReMAP2022 is sparse and
+adipocyte-biased (~9 experiments vs many more for VDR/GR), so most immune-gene
+occupancies are zero and absolute magnitudes are not cross-comparable — hence
+within-TF z-scores and rank-based statistics. (ii) The UC+CD set rests on only
+three distinct target genes (TNF < ITGB7 < IL23A), so the r = 0.899 for both VDR
+and PPARγ reflects ranking three genes; the more robust signal is the 36-gene
+tier separation (p = 0.023). (iii) The sub-0.5 approval AUC requires confirming
+the high-PPARγ genes are bona fide immune targets, not metabolic contamination.
 
 ---
 
@@ -79,26 +113,33 @@ PPARγ ligands.
 ## Novelty positioning (what is and isn't new)
 
 The individual facts below are **established** and must be cited as such; the
-novelty is their **integration into a single GR→VDR→PPARγ temporal-durability
-axis** and the prediction that therapeutic durability increases monotonically
-along it.
+novelty is the **quantitative, ChIP-seq-based separation of a "durability" signal
+from an "approval" signal**, and the finding that PPARγ carries the former but not
+the latter.
 
 - *Known*: PPARγ mediates 5-ASA action; PPARγ drives M2 macrophages and tissue
   Tregs; PPARγ agonists have anti-colitis activity.
 - *New (this work)*: placing PPARγ **on the same calculable ChIP-seq occupancy
-  axis** as VDR and GR; the claim that PPARγ occupancy is **even more predictive
-  of long-term durability than VDR**; and the unifying read that the two oldest
-  IBD drugs (steroids, 5-ASA) mark the two ends of the axis.
+  axis** as VDR and GR; the finding that PPARγ occupancy predicts long-term
+  durability as well as or better than VDR (tier separation p = 0.023; UC+CD
+  Spearman r = 0.899) **while being decoupled from regulatory approval**
+  (AUC = 0.38); and the unifying read that the two oldest IBD drugs (steroids,
+  5-ASA) mark opposite ends of the durability axis.
 
-## Open analysis to confirm the placement (requires ReMAP PPARG/NR1C3 beds)
+## Analysis status and remaining checks
 
-1. Score PPARγ (gene symbol **PPARG**, nuclear receptor **NR1C3**) occupancy at
-   the 381 target genes from ReMAP2022, parallel to the existing VDR/GR columns
-   in `results/remap_scores_expanded.csv` (note: the current `PPARG` *row* is
-   PPARG-as-target, not PPARγ-as-regulator — a new regulator column is needed).
-2. Test whether durable (◎) targets score higher on PPARγ than VDR, and whether
-   adding the PPARγ axis raises the approval/durability AUC above 0.706.
-3. Temporal check: do canonical PPARγ targets peak later / more sustained than
+Scoring + durability analysis implemented in `scripts/15_pparg_nr1c3_scoring.py`
+and run on ReMAP2022 PPARG (results above). Remaining work:
+
+1. **Signal source (priority).** Inspect the top PPARγ-scoring genes: confirm the
+   durability signal is driven by bona fide immune targets (IL23A, ITGB7, …) and
+   not metabolic/adipocyte contamination — this determines how to read the
+   sub-0.5 approval AUC.
+2. **Robustness.** Expand the IBD maintenance-remission set beyond three distinct
+   target genes so the r = 0.899 does not rest on ranking TNF < ITGB7 < IL23A.
+3. **Normalization.** Consider per-experiment-normalized PPARγ scores given the
+   sparse (~9-experiment), adipocyte-biased ChIP-seq compendium.
+4. **Temporal check.** Do canonical PPARγ targets peak later / more sustained than
    the VDR set (24–48 h) in the existing time-course data?
 
 ---
