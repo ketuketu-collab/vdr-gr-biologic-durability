@@ -7,27 +7,35 @@ foundation of a follow-on "GR→VDR→PPARγ nuclear-receptor durability axis" p
 Original hypothesis (HN): PPARγ sits even further toward the chronic pole than
 VDR, as a single monotonic GR→VDR→PPARγ durability spectrum.
 
-**Refined model after computing PPARγ ChIP-seq occupancy (2026-06-19).** The data
-do NOT support a simple temporal "PPARγ between GR and VDR" reading. Instead PPARγ
-behaves as a *durability-specific, approval-decoupled* axis: it predicts long-term
-durability as well as or better than VDR, but — unlike VDR — does not predict
-regulatory approval. Two distinct signals must be drawn separately:
+**Refined model after computing PPARγ ChIP-seq occupancy + collinearity (2026-06-19).**
+The data place PPARγ as a *resolution-phase bridge* between GR (induction/acute) and
+VDR (maintenance/chronic) — an intermediate position, NOT a "beyond-VDR" extension.
+Three lines converge: (a) PPARγ occupancy correlates roughly equally with GR
+(r = 0.34) and VDR (r = 0.36) across genes — equidistant, the signature of an
+intermediate axis (P4); (b) its durability signal is independent of GR (partial
+Spearman vs IBD maintenance, controlling for GR, r = 0.84, p < 0.001; P5); yet
+(c) it does not predict regulatory approval (AUC = 0.38; P3). PPARγ thus reads the
+*transition* — high on the durable maintenance anchors yet sharing chromatin
+territory with the acute/GR program, with no relation to whether a drug is approved.
 
 ```
-DURABILITY signal:   GR (−) ──────  VDR (+) ──────  PPARγ (++)     PPARγ at the durable extreme
-APPROVAL  signal:    GR ──────────  VDR (◎) ······  PPARγ (none)   PPARγ decoupled from approval
-
-GR  acute/emergency   VDR  approval + durability   PPARγ  durability ONLY
-peak 0–4 h            peak 24–48 h                 terminal resolution / repair
-prototype: steroids   prototype: anti-IL-23        prototype: 5-ASA
-(induction-only)      (dual: approve + durable)    (maintenance-defining, weak induction)
+                GR  ─────────────  PPARγ  ─────────────  VDR
+phase           induction/acute    RESOLUTION / bridge    maintenance/chronic
+target peak     0–4 h              ~8–12 h? (to test)     24–48 h
+prototype drug  corticosteroids    5-ASA                  anti-IL-23
+clinical role   induction only     induction→maintenance  maintenance backbone
+                (self-limiting)    hand-off               (durable)
+ligand          cortisol           15d-PGJ2 / 15-HETE     calcitriol (1,25-D3)
+                (systemic hormone) (LOCAL, made during    (systemic hormone)
+                                    resolution)
 ```
 
-This is a sharper and more defensible claim than the original: VDR is the
-"dual-purpose" receptor (it predicts both that a drug gets approved AND that it
-lasts), whereas PPARγ is the *pure maintenance* receptor — blind to approval,
-specialized for long-term remission. It mirrors 5-ASA's clinical signature
-exactly: weak for induction, defining for maintenance.
+This is sharper and more defensible than the original monotonic spectrum: PPARγ
+is the molecular marker of the induction→maintenance *switch phase* already
+embedded in IBD practice (steroid induction → 5-ASA/biologic maintenance). It
+mirrors 5-ASA's clinical signature exactly — weak for induction, defining for
+maintenance — and gives the manuscript's pre-existing "switch-phase VitD" proposal
+a receptor.
 
 ---
 
@@ -42,6 +50,13 @@ identical convention to VDR/GR (cells×10 + experiments, ±5 kb TSS), n = 385 ge
 | IBD maintenance remission, UC+CD (n = 12, manuscript setting), Spearman | r = 0.899 | **r = 0.899** | PPARγ *ties* VDR on the gold-standard durability correlation |
 | IBD maintenance remission, all indications (n = 19), Spearman | r = 0.166 | **r = 0.673, p = 0.0016** | PPARγ tracks durability where VDR is confounded by non-IBD |
 | Approval discrimination, AUC | 0.668 | **0.380** | PPARγ does NOT predict approval — the defining asymmetry |
+| Collinearity across genes (P4), Spearman | PPARγ–VDR = 0.36 | PPARγ–GR = 0.34 | PPARγ is *equidistant* from GR and VDR → intermediate/bridge, not VDR-aligned |
+| Durability vs GR control (P5), partial Spearman | 0.842, p < 0.001 | **0.842, p < 0.001** | PPARγ durability signal is independent of GR (not a GR-territory artifact) |
+
+The top PPARγ-occupied genes are bona fide immune/inflammation targets (IL23A = 55,
+CD52, TRAF3IP2/Act1, ADAM17, ALOX5AP, CD22, CD274, NFE2L2) — not metabolic/adipocyte
+genes — but most also carry high GR occupancy, consistent with PPARγ sharing the
+acute-inflammatory chromatin territory while peaking on durable maintenance anchors.
 
 **Caveats (to state explicitly).** (i) PPARγ ChIP-seq in ReMAP2022 is sparse and
 adipocyte-biased (~9 experiments vs many more for VDR/GR), so most immune-gene
@@ -49,8 +64,10 @@ occupancies are zero and absolute magnitudes are not cross-comparable — hence
 within-TF z-scores and rank-based statistics. (ii) The UC+CD set rests on only
 three distinct target genes (TNF < ITGB7 < IL23A), so the r = 0.899 for both VDR
 and PPARγ reflects ranking three genes; the more robust signal is the 36-gene
-tier separation (p = 0.023). (iii) The sub-0.5 approval AUC requires confirming
-the high-PPARγ genes are bona fide immune targets, not metabolic contamination.
+tier separation (p = 0.023). (iii) Collinearities are modest (0.28–0.43) and
+VDR–GR (0.43) is not itself weak, so the "bridge" is a tendency, not a dramatic
+effect — the decisive, occupancy-independent test is **temporal**: do PPARγ
+targets peak between GR (0–4 h) and VDR (24–48 h)? (see scripts/16).
 
 ---
 
