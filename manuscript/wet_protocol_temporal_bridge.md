@@ -81,8 +81,8 @@ the primary ordering claim.
 
 ## 4. Materials
 
-**Cells.** THP-1 (ATCC TIB-202) for MVE; human monocyte-derived macrophages
-(MDM) from buffy coat / leukapheresis (Ficoll → CD14+ selection) for the paper.
+**Cells.** THP-1 (ATCC TIB-202) — pilot + main RNA-seq; human monocyte-derived
+macrophages (MDM) from buffy coat (Ficoll → CD14+ selection) — qPCR confirmation only.
 
 **Stimuli / ligands.**
 - LPS, E. coli O111:B4 (100 ng/mL)
@@ -115,18 +115,28 @@ BRB-seq); reverse-transcription + qPCR mastermix + primers (panel §6).
 
 ## 5. Methods
 
+**Cell-model strategy.** **THP-1 is the primary workhorse** for both the pilot and
+the main RNA-seq run — cheap, reproducible, no donor variability, and consistent
+with the lab's prior THP-1 dataset (GSE135130). All three programs are functional
+in THP-1 (GR→GILZ, VDR→CYP24A1 via endogenous CYP27B1, PPARγ→CD36). Primary MDM is
+demoted to a focused **confirmation** (qPCR only, key genes, ≥3 donors) to secure
+translational credibility without a second full RNA-seq. Caveat: THP-1 M2/resolution
+(PPARγ) can be blunted vs primary — the Phase-0 pilot checks this and, if weak,
+raises IL-4 or switches to efferocytosis.
+
 **5.1 Cell preparation.**
-- *THP-1:* differentiate with PMA 25–50 ng/mL ×48–72 h; wash; rest 24 h in
-  PMA-free medium before stimulation.
-- *MDM:* PBMC by Ficoll; CD14+ monocytes (beads); differentiate with M-CSF
-  50 ng/mL ×6–7 d. Use ≥3 independent donors as biological replicates.
+- *THP-1 (main):* differentiate with PMA 25–50 ng/mL ×48–72 h; wash; **rest 24–48 h**
+  in PMA-free medium before stimulation (let PMA/PKC effects subside — critical).
+- *MDM (confirmation only):* PBMC by Ficoll; CD14+ monocytes (beads); differentiate
+  with M-CSF 50 ng/mL ×6–7 d; ≥3 donors; qPCR of GILZ/CD36/ALOX15/CYP24A1.
 
-**5.2 Seeding.** 0.5–1×10⁶ macrophages/well (12-well), rest overnight, serum
-conditions held constant across all wells/timepoints.
+**5.2 Seeding.** 0.5–1×10⁶ macrophages/well (12-well), rest overnight, serum lot
+held constant across all wells/timepoints/arms.
 
-**5.3 Stimulation.** Apply t0 cocktail per arm (§3). At t6 add resolution trigger
-(IL-4 or apoptotic PMN) to Arm 1. Stagger start times so all timepoints harvest
-together (recommended) — i.e. plate a separate well per timepoint.
+**5.3 Stimulation.** Apply t0 stimulus per arm (§3): Arm 1 LPS only; Arm 2 LPS+Dex;
+Arm 3 LPS then IL-4 (or apoptotic PMN) at t6; Arm 4 LPS+VitD. Plate a separate well
+per timepoint; stagger start times so all timepoints harvest together. Match
+vehicle (ethanol/DMSO) concentration across all arms (Dex/VitD/rosi stocks).
 
 **5.4 Harvest.** At each timepoint aspirate, lyse directly in column-kit lysis
 buffer (or TRIzol), snap-freeze, −80 °C. The 0 h sample = pre-stimulation.
@@ -169,9 +179,10 @@ normalize to geometric mean of GAPDH/ACTB/B2M; ΔΔCt vs 0 h.
 | Phase | Weeks |
 |---|---|
 | **Phase 0 — qPCR pilot (THP-1, §2): ordering + condition lock** | 1–3 |
-| Main course + harvest (MDM, ≥3 donors; 4 arms ×7 tp) | 4–8 |
-| RNA QC + library + sequencing (84 samples) | 9–11 |
-| Analysis + figure | 12–13 |
+| Main course + harvest (THP-1; 4 arms ×7 tp ×3) | 4–6 |
+| RNA QC + library + sequencing (84 samples) | 7–9 |
+| Analysis + figure | 10–11 |
+| MDM confirmation (qPCR, ≥3 donors, key genes) | parallel 6–10 |
 
 ---
 
@@ -211,14 +222,15 @@ pilot ¥5–10万 → main ¥66万 ≈ ~¥75万 ($5k).**
 
 Same stimulus×time template, swap the biological system → one figure/arm at
 marginal cost:
-1. THP-1 — MVE/assay dev.
-2. Primary MDM — main in-vitro figure.
+1. **THP-1 — main RNA-seq** (pilot + full ordering; this protocol).
+2. **Primary MDM — qPCR confirmation** (key genes, ≥3 donors; translational check).
 3. IBD vs control colonic **organoids** — epithelial bridge; impaired in IBD?
 4. Patient **biopsies** (active / resolving / stable remission) — PPARγ peaks at
    the transition in vivo? (endoscopy access.)
 5. Macrophage-**PPARγ KO mouse** (LysM-Cre × Pparg^fl) — causal: remove the bridge
    → resolution + durable remission fail.
-Arms 1–4 = dry+wet package for the standalone mechanism paper; arm 5 = causal capstone.
+Arms 1–2 = core dry+wet package for the standalone mechanism paper; 3–4 extend
+translation; arm 5 = causal capstone.
 
 ---
 
