@@ -106,14 +106,45 @@ def peak_hour(row, tcols, hours):
     return hours[int(np.nanargmax(vals))]
 
 
+def write_demo_matrix(path):
+    """Synthetic gene × timepoint matrix where GR peaks early, PPARγ mid, VDR late.
+    Serves as a pipeline sanity-check and a CSV format template for real data."""
+    hours = [0, 2, 4, 8, 12, 24, 48]
+    peaks = {  # module gene → (peak hour, amplitude)
+        "TSC22D3": 2, "FKBP5": 3, "DUSP1": 4, "ZBTB16": 2,        # GR early
+        "CD36": 8, "MRC1": 12, "ANGPTL4": 10, "MERTK": 8,
+        "ALOX15": 12, "PPARG": 10,                                 # PPARγ mid
+        "CYP24A1": 48, "CAMP": 24, "NOD2": 24, "TLR10": 48,        # VDR late
+    }
+    rng = np.random.default_rng(0)
+    rows = []
+    for g, pk in peaks.items():
+        vals = [round(float(np.exp(-((h - pk) ** 2) / (2 * 6.0 ** 2))
+                            + rng.normal(0, 0.03)), 3) for h in hours]
+        rows.append({"gene": g, **dict(zip([f"{h}h" for h in hours], vals))})
+    df = pd.DataFrame(rows)
+    Path(path).parent.mkdir(parents=True, exist_ok=True)
+    df.to_csv(path, index=False)
+    return str(path)
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--matrix", required=True, help="gene × timepoint expression CSV")
+    ap.add_argument("--matrix", help="gene × timepoint expression CSV")
     ap.add_argument("--gene-col", default=None, help="gene-symbol column (default: first)")
     ap.add_argument("--timepoints", default=None, help="comma hours, e.g. 0,2,4,8,12,24,48")
     ap.add_argument("--out", default=str(RESULTS / "temporal_bridge_peaks.csv"))
+    ap.add_argument("--demo", action="store_true",
+                    help="generate a synthetic matrix (GR early/PPARγ mid/VDR late) and run "
+                         "— sanity-checks the pipeline and writes a CSV format template")
     args = ap.parse_args()
+
+    if args.demo:
+        args.matrix = write_demo_matrix(RESULTS / "temporal_bridge_demo_matrix.csv")
+        print(f"[demo] synthetic matrix → {args.matrix}\n")
+    elif not args.matrix:
+        sys.exit("provide --matrix <file.csv> (no angle brackets), or --demo to see a worked example")
 
     df, gcol, tcols, hours = load_matrix(args.matrix, args.gene_col, args.timepoints)
     print(f"timepoints (h): {hours}")
