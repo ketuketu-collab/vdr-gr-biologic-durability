@@ -1,17 +1,16 @@
 # Protocol — Temporal Bridge of Nuclear-Receptor Programs (GR → PPARγ → VDR)
 
-**Bench protocol v2 (finalized design) — 2026-06-19, H. Nagashima**
+**Bench protocol v3 (finalized design) — 2026-06-19, H. Nagashima**
 Reusable stimulus×time-course template. Companion analysis: `scripts/16_temporal_bridge.py`.
 Hand to wet-lab collaborator / core facility; concentrations are validated
-starting points to optimize in pilot.
+starting points, locked by the Phase-0 pilot (§2).
 
 ---
 
 ## 1. Objective, hypothesis, endpoint
 
-**Objective.** Test, in one biological context, whether nuclear-receptor target
-programs fire in temporal order during an inflammation→resolution→maintenance
-course of human macrophages.
+**Objective.** Test whether nuclear-receptor target programs fire in temporal
+order on a common inflammatory background in human macrophages.
 
 **Hypothesis.** GR targets peak early (acute), PPARγ targets in the middle
 (resolution/bridge), VDR targets late (maintenance).
@@ -22,47 +21,61 @@ course of human macrophages.
 later than GR and earlier than VDR (directional Mann-Whitney) + Kruskal-Wallis
 across modules p < 0.05. Target windows: GR 0–4 h, PPARγ 8–12 h, VDR 24–48 h.
 
-**Design logic.** All three ligands are supplied at t0 (GR and VDR ligands are
-absent in vitro and must be added; the PPARγ ligand is generated endogenously by
-the resolution program). Because ligand availability is therefore simultaneous,
-an observed GR<PPARγ<VDR ordering reflects the **intrinsic kinetics** of each
-program, not staggered ligand delivery — the strongest form of the argument.
+**Design logic (corrected).** Each receptor is engaged by its OWN ligand in a
+SEPARATE arm (no co-administration — a DEX+VitD+IL-4 cocktail confounds attribution
+and DEX would suppress the resolution program). All arms share a constant LPS
+inflammatory background (PPARγ resolution requires prior inflammation; IBD is an
+inflamed state), so LPS is a fixed backdrop, NOT a crossed factor. Each ligand arm
+is read against the LPS-only arm (the ±ligand contrast). Ordering then reflects the
+intrinsic kinetics of each program. LPS-independence of GR/VDR kinetics is
+established in the literature and is cited rather than re-proven (optional no-LPS
+qPCR spot-check only if a reviewer insists).
 
 ---
 
-## 2. Experimental scheme
+## 2. Phase 0 — pilot (do this FIRST; ~¥5–10万, 2–3 wk)
 
-```
- Macrophages (THP-1 → MDM)              harvest at 0 / 2 / 4 / 8 / 12 / 24 / 48 h
- │
- t0 ── LPS 100 ng/mL                (inflammation)
-     + Dexamethasone 100 nM         (GR ligand → GILZ/FKBP5 early)
-     + 25-OH-vitamin D3 100 nM      (→ CYP27B1 → calcitriol → CYP24A1 late)
- t6 ── IL-4 20 ng/mL  OR  apoptotic PMN (efferocytosis)
-                                    (resolution → endogenous 15-HETE → PPARγ mid)
-```
+De-risk the ¥66万 RNA-seq run. THP-1 macrophages (cheap, no donor variability),
+RT-qPCR only, reduced timepoints **0 / 4 / 8 / 24 / 48 h**, n = 3, minimal panel
+(GR: GILZ, FKBP5 · PPARγ: CD36, ALOX15 · VDR: CYP24A1, CAMP · ref: GAPDH, ACTB).
 
----
+Same 4 arms as the main run (§3). Go/no-go + optimization gates:
 
-## 3. Conditions & sample count
-
-**Main RNA-seq (3'-tag) — combined course, sample-efficient (read all 3 modules):**
-
-| Arm | t0 | t6 | n (×7 tp ×3 rep) |
-|---|---|---|---|
-| 1 Bridge course | LPS + Dex + 25-D3 | + IL-4 (resolution) | 21 |
-| 2 Inflammation control | LPS only | — | 21 |
-| **Total** | | | **42** |
-
-**Deconvolution (RT-qPCR only — cheap, confirms module attribution):**
-
-| Single-ligand arm | stimulus | read-out module |
+| Question | Read-out | Decision |
 |---|---|---|
-| GR | Dexamethasone 100 nM | GILZ/FKBP5/DUSP1 |
-| VDR | 1,25-D3 10 nM (or 25-D3 + LPS) | CYP24A1/CAMP/NOD2 |
-| PPARγ | Rosiglitazone 1 µM (positive control) | CD36/MRC1/ALOX15 |
+| Does the ordering appear? | GILZ early, CD36/ALOX15 mid, CYP24A1 late | GO to RNA-seq if yes |
+| Does DEX blunt resolution? | IL-4 arm CD36/ALOX15 induction ± DEX | pick DEX dose (10 vs 100 nM) / transient DEX |
+| Does 25-OH-D3 work (CYP27B1)? | CYP24A1 induction with 25-D3 vs 1,25-D3 | switch to 1,25-D3 (10 nM) if weak |
+| Best resolution trigger? | CD36/MERTK/ALOX15 kinetics, IL-4 vs efferocytosis | start IL-4; efferocytosis if needed |
+| Timepoints well placed? | are peaks captured / saturating? | refine to 7–9 tp for main run |
+| RNA quality / primers OK? | RIN, qPCR efficiencies | lock assay |
 
-Each single-ligand arm: 0/2/4/8/12/24/48 h × n3, qPCR panel only.
+Only after the pilot locks conditions do you commit to the main RNA-seq.
+
+---
+
+## 3. Main experiment — conditions & sample count
+
+**Single-ligand arms on a constant LPS background (3'-tag RNA-seq):**
+
+| Arm | t0 | t6 | reads out | n (×7 tp ×3) |
+|---|---|---|---|---|
+| 1 LPS + vehicle | LPS 100 ng/mL | — | baseline (= ±ligand control) | 21 |
+| 2 LPS + DEX | LPS + Dex | — | GR module (GILZ/FKBP5) | 21 |
+| 3 LPS → IL-4 | LPS | + IL-4 | PPARγ module (CD36/ALOX15) | 21 |
+| 4 LPS + VitD | LPS + 25-D3 (or 1,25-D3) | — | VDR module (CYP24A1/CAMP) | 21 |
+| **Total** | | | | **84** |
+
+Timepoints 0 / 2 / 4 / 8 / 12 / 24 / 48 h (refine in pilot). Each ligand arm vs
+Arm 1 = the ±ligand contrast on a fixed inflamed background.
+
+*Not included (by design):* a ±LPS factorial (would double to 168 — unnecessary,
+LPS is a fixed backdrop) and no-LPS single-ligand RNA-seq arms (GR/VDR ligand-driven
+kinetics are established; cite, optional qPCR spot-check).
+
+*Optional integration figure (secondary, confounded — label as such):* a single
+LPS+DEX+VitD+IL-4 combined course to show the bridge "in one context"; not used for
+the primary ordering claim.
 
 ---
 
@@ -106,7 +119,7 @@ buffer (or TRIzol), snap-freeze, −80 °C. The 0 h sample = pre-stimulation.
 **5.5 RNA QC.** Quantify (Qubit), integrity (Bioanalyzer/TapeStation); require
 RIN ≥ 8 for 3'-tag input.
 
-**5.6 Library & sequencing.** 3'-tag library with UMIs; pool 42 samples; single-end
+**5.6 Library & sequencing.** 3'-tag library with UMIs; pool 84 samples; single-end
 75–100 bp; **~5 M reads/sample** (≥3 M usable). NextSeq/NovaSeq.
 
 **5.7 qPCR deconvolution.** Reverse-transcribe; SYBR/TaqMan for panel genes;
@@ -140,10 +153,10 @@ normalize to geometric mean of GAPDH/ACTB/B2M; ΔΔCt vs 0 h.
 
 | Phase | Weeks |
 |---|---|
-| qPCR pilot (THP-1, ordering sanity) | 1–3 |
-| Main course + harvest (MDM, ≥3 donors) | 4–7 |
-| RNA QC + library + sequencing | 8–10 |
-| Analysis + figure | 11–12 |
+| **Phase 0 — qPCR pilot (THP-1, §2): ordering + condition lock** | 1–3 |
+| Main course + harvest (MDM, ≥3 donors; 4 arms ×7 tp) | 4–8 |
+| RNA QC + library + sequencing (84 samples) | 9–11 |
+| Analysis + figure | 12–13 |
 
 ---
 
@@ -151,15 +164,16 @@ normalize to geometric mean of GAPDH/ACTB/B2M; ΔΔCt vs 0 h.
 
 Per-sample all-in: 3'-tag ≈ ¥6,000; full mRNA-seq ≈ ¥20,000. Reagents ≈ ¥150k.
 
-| Scenario | n | 3'-tag | full |
+| Phase | n | 3'-tag | full |
 |---|---|---|---|
-| MVE (1 arm) | 21 | ¥276k | ¥570k |
-| **Standard (this protocol, 2 arm)** | **42** | **¥402k (~$2.7k)** | ¥990k |
-| Robust (2 arm ×4 rep) | 56 | ¥486k | ¥1.27M |
+| Phase 0 pilot (qPCR only, THP-1) | — | **¥5–10万** | — |
+| **Main run — 4 arms (LPS bg) ×7 tp ×3** | **84** | **¥654k (~$4.4k)** | ¥1.83M |
+| Robust (×4 rep) | 112 | ¥822k | ¥2.39M |
 
 Platform: **3'-tag/BRB-seq** — gene-level counts suffice for peak timing, ½ the
-cost of full mRNA-seq, all panel genes (incl. CYP24A1) fully quantified.
-qPCR deconvolution arms ≈ ¥5–10万.
+cost of full mRNA-seq, all panel genes (incl. CYP24A1) fully quantified. A ±LPS
+factorial (168) is deliberately avoided. **Total to a publishable temporal figure:
+pilot ¥5–10万 → main ¥66万 ≈ ~¥75万 ($5k).**
 
 ---
 
