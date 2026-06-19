@@ -93,8 +93,23 @@ the primary ordering claim.
 - (efferocytosis option) apoptotic human neutrophils, 5:1 PMN:macrophage
 - PMA (25–50 ng/mL, THP-1 differentiation), M-CSF (50 ng/mL, MDM)
 
-**Kits.** RNA extraction column kit; 3' RNA-seq library kit with UMIs (Lexogen
-QuantSeq 3' FWD or BRB-seq); qPCR mastermix + primers (panel §6).
+**RNA extraction.** Column or magnetic-bead total-RNA kit with **on-column/in-line
+DNase** (genomic-DNA removal is essential for 3'-tag + qPCR). Macrophages are
+RNase-rich → a TRIzol/guanidinium-compatible kit is robust:
+- Zymo **Direct-zol** (TRIzol lysate → column; good for macrophages), or
+  Qiagen **RNeasy** (Mini, or **96-well plate** for the 84–112-sample run), or
+  Macherey-Nagel NucleoSpin RNA.
+- High throughput: 96-well plate or magnetic-bead (e.g. Zymo Quick-RNA 96 /
+  KingFisher) to process all timepoints in one batch and minimize handling drift.
+- Target ~¥400–700/sample → 84 samples ≈ ¥35k–60k (within the ¥150k reagent line);
+  add pilot (~40 qPCR samples).
+- Require **RIN ≥ 8** (TapeStation/Bioanalyzer) for 3'-tag input.
+- *Cost-saver:* some 3'-tag kits (BRB-seq) accept **crude cell lysate**, skipping
+  column purification — confirm with the core facility; can remove the extraction
+  step for the RNA-seq arm (keep purification for qPCR/QC).
+
+**Other kits.** 3' RNA-seq library kit with UMIs (Lexogen QuantSeq 3' FWD or
+BRB-seq); reverse-transcription + qPCR mastermix + primers (panel §6).
 
 ---
 
