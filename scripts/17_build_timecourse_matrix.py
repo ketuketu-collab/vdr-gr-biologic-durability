@@ -53,6 +53,16 @@ def _pick(cols, candidates):
     return None
 
 
+def _read_table(path, **kw):
+    """Read CSV/TSV/Excel by extension (xlsx needs openpyxl)."""
+    p = str(path).lower()
+    if p.endswith((".xlsx", ".xls")):
+        return pd.read_excel(path, **kw)
+    if p.endswith((".tsv", ".txt")):
+        return pd.read_csv(path, sep="\t", **kw)
+    return pd.read_csv(path, **kw)
+
+
 def _module_genes():
     import importlib.util
     spec = importlib.util.spec_from_file_location("m16", REPO / "scripts" / "16_temporal_bridge.py")
@@ -88,28 +98,44 @@ def from_deseq(specs):
     return mat
 
 
-def from_counts(counts_path, design_path):
-    counts = pd.read_csv(counts_path, index_col=0)
-    design = pd.read_csv(design_path)
+def from_counts(counts_path, design_path, treatment=None, control=None):
+    counts = _read_table(counts_path, index_col=0)
+    design = _read_table(design_path)
     if not {"sample", "hour"}.issubset(design.columns):
-        sys.exit("--design needs columns: sample,hour")
+        sys.exit("--design needs columns: sample,hour (+ optional condition)")
     design["sample"] = design["sample"].astype(str)
     missing = [s for s in design["sample"] if s not in counts.columns]
     if missing:
         sys.exit(f"design samples not in counts columns: {missing[:5]}...")
     hours = sorted(design["hour"].unique())
-    base_h = hours[0]
-    mean_by_h = {}
-    for h in hours:
-        cols = design.loc[design["hour"] == h, "sample"].tolist()
-        mean_by_h[h] = counts[cols].mean(axis=1)
-    base = mean_by_h[base_h]
-    out = {f"{base_h:g}h": np.zeros(len(counts))}
-    for h in hours:
-        out[f"{h:g}h"] = np.log2((mean_by_h[h] + 1) / (base + 1))
+
+    def mean_cols(sel):
+        cols = sel["sample"].tolist()
+        return counts[cols].mean(axis=1) if cols else None
+
+    out = {}
+    if treatment and control:
+        # per-hour log2FC(treatment / control) — the stimulus-induced trajectory
+        if "condition" not in design.columns:
+            sys.exit("--treatment/--control require a 'condition' column in --design")
+        for h in hours:
+            t = mean_cols(design[(design.hour == h) & (design.condition == treatment)])
+            c = mean_cols(design[(design.hour == h) & (design.condition == control)])
+            if t is None or c is None:
+                continue
+            out[f"{h:g}h"] = np.log2((t + 1) / (c + 1))
+    else:
+        # log2FC vs earliest hour (single-arm trajectory)
+        base = mean_cols(design[design.hour == hours[0]])
+        out[f"{hours[0]:g}h"] = np.zeros(len(counts))
+        for h in hours:
+            out[f"{h:g}h"] = np.log2((mean_cols(design[design.hour == h]) + 1) / (base + 1))
+
     mat = pd.DataFrame(out, index=counts.index)
     mat.index = mat.index.astype(str).str.upper()
-    return mat.reset_index().rename(columns={"index": "gene", counts.index.name or "index": "gene"})
+    mat = mat.reset_index()
+    mat.columns = ["gene"] + list(mat.columns[1:])
+    return mat
 
 
 def from_long(path):
@@ -128,8 +154,10 @@ def main():
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--deseq", nargs="+", metavar="FILE=HOUR",
                     help="per-timepoint DESeq2 result files mapped to hours")
-    ap.add_argument("--counts", help="wide normalized-count matrix (genes × samples)")
-    ap.add_argument("--design", help="sample,hour table for --counts")
+    ap.add_argument("--counts", help="wide normalized-count matrix, CSV/TSV/XLSX (genes × samples)")
+    ap.add_argument("--design", help="sample,hour(,condition) table for --counts")
+    ap.add_argument("--treatment", help="condition label for stimulus (log2FC vs --control per hour)")
+    ap.add_argument("--control", help="condition label for vehicle/control")
     ap.add_argument("--long", help="long table gene,hour,value")
     ap.add_argument("--genes-only", action="store_true",
                     help="keep only GR/PPARγ/VDR module genes")
@@ -139,7 +167,7 @@ def main():
     if args.deseq:
         mat = from_deseq(args.deseq)
     elif args.counts and args.design:
-        mat = from_counts(args.counts, args.design)
+        mat = from_counts(args.counts, args.design, args.treatment, args.control)
     elif args.long:
         mat = from_long(args.long)
     else:
