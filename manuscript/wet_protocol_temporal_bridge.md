@@ -1,144 +1,200 @@
-# Wet Protocol — Temporal Bridge of Nuclear-Receptor Programs (GR → PPARγ → VDR)
+# Protocol — Temporal Bridge of Nuclear-Receptor Programs (GR → PPARγ → VDR)
 
-**Draft design v1 — 2026-06-19 (HN)**
-Reusable experimental template. A single stimulus×time-course design that, once
-fixed, transfers to organoid / patient-biopsy / mouse-KO arms (each adds one
-figure at marginal cost). Companion analysis: `scripts/16_temporal_bridge.py`.
-
----
-
-## 1. Hypothesis & success criterion
-
-**Hypothesis.** During an inflammation→resolution course, nuclear-receptor target
-programs fire in temporal order: GR (acute) → PPARγ (resolution/bridge) → VDR
-(maintenance). PPARγ marks the induction→maintenance hand-off.
-
-**Primary readout.** Per-gene expression peak time, aggregated per module.
-**Success.** median peak hour GR < PPARγ < VDR, with PPARγ significantly later
-than GR and earlier than VDR (directional Mann-Whitney; Kruskal-Wallis across
-modules). Target window: GR 0–4 h, PPARγ ~8–12 h, VDR 24–48 h.
+**Bench protocol v2 (finalized design) — 2026-06-19, H. Nagashima**
+Reusable stimulus×time-course template. Companion analysis: `scripts/16_temporal_bridge.py`.
+Hand to wet-lab collaborator / core facility; concentrations are validated
+starting points to optimize in pilot.
 
 ---
 
-## 2. The design hinge — making all three programs fire in ONE course
+## 1. Objective, hypothesis, endpoint
 
-Each receptor needs its ligand, so a naïve LPS course will NOT light up GR/VDR.
-The key design choice is to let each ligand be **available or generated in its
-natural temporal window**:
+**Objective.** Test, in one biological context, whether nuclear-receptor target
+programs fire in temporal order during an inflammation→resolution→maintenance
+course of human macrophages.
 
-**Primary design (physiological resolution course).**
-Human macrophages stimulated to inflame then resolve, in medium that permits
-endogenous/local ligand generation:
-- **Acute/GR:** LPS (or zymosan) ± low-dose dexamethasone (10 nM) at t0 → GR
-  immediate-early targets (GILZ/FKBP5/DUSP1) peak 0–4 h.
-- **Resolution/PPARγ:** drive resolution by efferocytosis (add apoptotic
-  neutrophils/PMN at ~6 h) or IL-4 (20 ng/mL) → endogenous 15-LOX/15d-PGJ₂
-  generation activates PPARγ; M2/efferocytosis targets (CD36/MRC1/MERTK/ALOX15)
-  peak ~8–12 h.
-- **Maintenance/VDR:** supplement **25-hydroxyvitamin D₃ (100 nM)** in the medium;
-  activated macrophages express CYP27B1 and convert it locally to calcitriol,
-  so VDR targets (CYP24A1/CAMP/NOD2) rise late, 24–48 h. (This local-conversion
-  step is genuine macrophage biology and is the elegant part of the design.)
+**Hypothesis.** GR targets peak early (acute), PPARγ targets in the middle
+(resolution/bridge), VDR targets late (maintenance).
 
-**Validation arms (simpler, stimulus-specific — confirm each module separately).**
-- GR module: dexamethasone ± LPS time course (cf. GSE93735).
-- VDR module: 1,25-D₃ (or 25-D₃ + activation) time course (cf. GSE189984).
-- These establish per-module kinetics under a clean single ligand; the primary
-  course establishes the ordering within one biological context.
+**Primary endpoint.** Per-gene expression peak time, aggregated per module.
 
-> Pitfall to state explicitly: if modules are read across different stimuli/cell
-> types, ordering is suggestive, not within-stimulus proof. The primary design
-> exists precisely to avoid that. Refine exact concentrations/timing with the wet
-> collaborator.
+**Success criterion.** median peak hour **GR < PPARγ < VDR**, PPARγ significantly
+later than GR and earlier than VDR (directional Mann-Whitney) + Kruskal-Wallis
+across modules p < 0.05. Target windows: GR 0–4 h, PPARγ 8–12 h, VDR 24–48 h.
+
+**Design logic.** All three ligands are supplied at t0 (GR and VDR ligands are
+absent in vitro and must be added; the PPARγ ligand is generated endogenously by
+the resolution program). Because ligand availability is therefore simultaneous,
+an observed GR<PPARγ<VDR ordering reflects the **intrinsic kinetics** of each
+program, not staggered ligand delivery — the strongest form of the argument.
 
 ---
 
-## 3. Sampling plan
+## 2. Experimental scheme
 
-| Axis | Choice |
-|---|---|
-| Cell model | THP-1-derived macrophages (PMA-differentiated) for MVE → primary human MDM (buffy coat, n≥3 donors) for the paper figure |
-| Timepoints | 0, 2, 4, 8, 12, 24, 48 h (9-point 0/1/2/4/6/8/12/24/48 h if peak-time CIs wanted) |
-| Replicates | n = 3 (biological); n = 4 for the robust tier |
-| Arms | ± resolution stimulus (2) for the primary course |
+```
+ Macrophages (THP-1 → MDM)              harvest at 0 / 2 / 4 / 8 / 12 / 24 / 48 h
+ │
+ t0 ── LPS 100 ng/mL                (inflammation)
+     + Dexamethasone 100 nM         (GR ligand → GILZ/FKBP5 early)
+     + 25-OH-vitamin D3 100 nM      (→ CYP27B1 → calcitriol → CYP24A1 late)
+ t6 ── IL-4 20 ng/mL  OR  apoptotic PMN (efferocytosis)
+                                    (resolution → endogenous 15-HETE → PPARγ mid)
+```
 
 ---
 
-## 4. Sample count & cost (ballpark, JPY; ¥150/$)
+## 3. Conditions & sample count
 
-Per-sample all-in: 3'-tag/BRB-seq ≈ ¥6,000; full mRNA-seq ≈ ¥20,000.
-Reagents (cells, culture, RNA extraction) ≈ ¥150,000.
+**Main RNA-seq (3'-tag) — combined course, sample-efficient (read all 3 modules):**
 
-| Scenario | n | 3'-tag total | full mRNA-seq |
+| Arm | t0 | t6 | n (×7 tp ×3 rep) |
 |---|---|---|---|
-| A — MVE (1 arm ×7 tp ×3) | 21 | **¥276k ($1.8k)** | ¥570k ($3.8k) |
-| B — standard (2 arm ×7 tp ×3) | 42 | **¥402k ($2.7k)** | ¥990k ($6.6k) |
-| C — robust (2 arm ×7 tp ×4) | 56 | ¥486k ($3.2k) | ¥1.27M ($8.5k) |
+| 1 Bridge course | LPS + Dex + 25-D3 | + IL-4 (resolution) | 21 |
+| 2 Inflammation control | LPS only | — | 21 |
+| **Total** | | | **42** |
 
-**Platform: 3'-tag RNA-seq (BRB-seq/QuantSeq).** Time courses only need gene-level
-counts → 5M reads/sample suffices, cheap multiplexed library prep. Half the cost
-of full mRNA-seq with negligible information loss for this question.
+**Deconvolution (RT-qPCR only — cheap, confirms module attribution):**
 
-**Recommended route:** ① RT-qPCR pilot (~25 genes, ¥5–10万, 2 wk) to confirm the
-ordering → ② Scenario B 3'-tag RNA-seq (¥40万) for the publication figure.
-**~¥45–50万 (~$3k) buys one temporal-bridge figure.**
+| Single-ligand arm | stimulus | read-out module |
+|---|---|---|
+| GR | Dexamethasone 100 nM | GILZ/FKBP5/DUSP1 |
+| VDR | 1,25-D3 10 nM (or 25-D3 + LPS) | CYP24A1/CAMP/NOD2 |
+| PPARγ | Rosiglitazone 1 µM (positive control) | CD36/MRC1/ALOX15 |
+
+Each single-ligand arm: 0/2/4/8/12/24/48 h × n3, qPCR panel only.
 
 ---
 
-## 5. Gene modules / qPCR panel (also hard-coded in scripts/16)
+## 4. Materials
+
+**Cells.** THP-1 (ATCC TIB-202) for MVE; human monocyte-derived macrophages
+(MDM) from buffy coat / leukapheresis (Ficoll → CD14+ selection) for the paper.
+
+**Stimuli / ligands.**
+- LPS, E. coli O111:B4 (100 ng/mL)
+- Dexamethasone (100 nM; pilot 10–100 nM)
+- 25-hydroxyvitamin D3 (100 nM) — local CYP27B1 activation; or 1,25-D3 (10 nM)
+- Recombinant human IL-4 (20 ng/mL)
+- Rosiglitazone (1 µM; PPARγ positive control)
+- (efferocytosis option) apoptotic human neutrophils, 5:1 PMN:macrophage
+- PMA (25–50 ng/mL, THP-1 differentiation), M-CSF (50 ng/mL, MDM)
+
+**Kits.** RNA extraction column kit; 3' RNA-seq library kit with UMIs (Lexogen
+QuantSeq 3' FWD or BRB-seq); qPCR mastermix + primers (panel §6).
+
+---
+
+## 5. Methods
+
+**5.1 Cell preparation.**
+- *THP-1:* differentiate with PMA 25–50 ng/mL ×48–72 h; wash; rest 24 h in
+  PMA-free medium before stimulation.
+- *MDM:* PBMC by Ficoll; CD14+ monocytes (beads); differentiate with M-CSF
+  50 ng/mL ×6–7 d. Use ≥3 independent donors as biological replicates.
+
+**5.2 Seeding.** 0.5–1×10⁶ macrophages/well (12-well), rest overnight, serum
+conditions held constant across all wells/timepoints.
+
+**5.3 Stimulation.** Apply t0 cocktail per arm (§3). At t6 add resolution trigger
+(IL-4 or apoptotic PMN) to Arm 1. Stagger start times so all timepoints harvest
+together (recommended) — i.e. plate a separate well per timepoint.
+
+**5.4 Harvest.** At each timepoint aspirate, lyse directly in column-kit lysis
+buffer (or TRIzol), snap-freeze, −80 °C. The 0 h sample = pre-stimulation.
+
+**5.5 RNA QC.** Quantify (Qubit), integrity (Bioanalyzer/TapeStation); require
+RIN ≥ 8 for 3'-tag input.
+
+**5.6 Library & sequencing.** 3'-tag library with UMIs; pool 42 samples; single-end
+75–100 bp; **~5 M reads/sample** (≥3 M usable). NextSeq/NovaSeq.
+
+**5.7 qPCR deconvolution.** Reverse-transcribe; SYBR/TaqMan for panel genes;
+normalize to geometric mean of GAPDH/ACTB/B2M; ΔΔCt vs 0 h.
+
+---
+
+## 6. Gene modules / qPCR panel (also in scripts/16)
 
 - **GR (acute):** TSC22D3 (GILZ), FKBP5, DUSP1, ZBTB16, PER1, KLF13, TXNIP, DDIT4
 - **PPARγ (bridge):** CD36, MRC1/CD206, ANGPTL4, FABP4, MERTK, ALOX15, CD163,
-  PPARG, LPL, PLIN2 — note ALOX15 doubles as the enzyme making the endogenous
-  PPARγ ligand (15-HETE/15d-PGJ₂), a feed-forward marker of the bridge
+  PPARG, LPL, PLIN2  *(ALOX15 = enzyme making the endogenous PPARγ ligand → bridge feed-forward marker)*
 - **VDR (maintenance):** CYP24A1, CAMP, NOD2, TLR10, DEFB4A, IL37, CD14
-- Housekeeping for qPCR: GAPDH, ACTB, B2M (geometric mean)
+- **Reference:** GAPDH, ACTB, B2M
 
 ---
 
-## 6. Analysis & statistics
+## 7. Analysis & statistics
 
-- Quantify (3'-tag) → gene × timepoint count matrix → CPM/log2FC vs 0 h.
-- `python scripts/16_temporal_bridge.py --matrix counts_timecourse.csv` →
-  per-gene peak hour, module medians, directional Mann-Whitney, Kruskal-Wallis,
-  peak-time figure.
-- Optional: model each gene with a smooth/impulse fit (e.g. ImpulseDE2) for a
-  continuous peak-time estimate + CI rather than discrete argmax.
-- Power: n = 3 × 7 tp is ample for module-level ordering; the peak-time argmax is
-  robust to per-gene noise because it aggregates 7–12 genes per module.
-
----
-
-## 7. Reusability roadmap (the multi-paper value)
-
-The same stimulus×time template, swapping only the biological system, yields a
-figure per arm at marginal cost:
-
-1. **Cell line (THP-1)** — MVE / assay development.
-2. **Primary human MDM** — main in-vitro figure.
-3. **Patient-derived colonic organoids** (IBD vs control) — translational; does
-   the bridge operate in epithelium and is it impaired in IBD?
-4. **Patient biopsies** (active vs resolving vs stable remission) — does PPARγ
-   peak at the resolution/transition phase in vivo? (HN has endoscopy access.)
-5. **Mouse macrophage-PPARγ KO** (LysM-Cre × Pparg^fl) — causal: does removing
-   the bridge abolish resolution and durable remission?
-
-Arms 1–4 are the dry+wet package for the standalone mechanism paper; arm 5 is the
-causal capstone / follow-on.
+1. 3'-tag reads → UMI-collapsed gene counts → CPM, log2FC vs 0 h.
+2. `python scripts/16_temporal_bridge.py --matrix counts_timecourse.csv` →
+   per-gene peak hour, module medians, directional Mann-Whitney, Kruskal-Wallis,
+   peak-time figure.
+3. Optional continuous peak-time + CI via impulse/spline fit (e.g. ImpulseDE2).
+4. **Power.** 7 timepoints × n3 is ample for module-level ordering; argmax
+   peak-time aggregates 7–12 genes/module, robust to per-gene noise.
 
 ---
 
-## 8. Key materials (indicative)
+## 8. Timeline (indicative)
 
-LPS (E. coli O111:B4), dexamethasone, recombinant IL-4, 25-OH-vitamin D₃,
-PMA (for THP-1), Ficoll/CD14 beads (MDM isolation), apoptotic PMN (efferocytosis),
-RNA extraction kit, 3'-tag library kit (Lexogen QuantSeq / BRB-seq), qPCR
-mastermix + primers for the panel above.
+| Phase | Weeks |
+|---|---|
+| qPCR pilot (THP-1, ordering sanity) | 1–3 |
+| Main course + harvest (MDM, ≥3 donors) | 4–7 |
+| RNA QC + library + sequencing | 8–10 |
+| Analysis + figure | 11–12 |
 
 ---
 
-## 9. Pre-registration
+## 9. Budget (ballpark, JPY; ¥150/$)
 
-Consistent with the lab's OSF practice (osf.io/tnp63), pre-register the primary
-hypothesis (GR < PPARγ < VDR median peak ordering), the module gene lists, the
-success criterion, and the analysis script before sequencing.
+Per-sample all-in: 3'-tag ≈ ¥6,000; full mRNA-seq ≈ ¥20,000. Reagents ≈ ¥150k.
+
+| Scenario | n | 3'-tag | full |
+|---|---|---|---|
+| MVE (1 arm) | 21 | ¥276k | ¥570k |
+| **Standard (this protocol, 2 arm)** | **42** | **¥402k (~$2.7k)** | ¥990k |
+| Robust (2 arm ×4 rep) | 56 | ¥486k | ¥1.27M |
+
+Platform: **3'-tag/BRB-seq** — gene-level counts suffice for peak timing, ½ the
+cost of full mRNA-seq, all panel genes (incl. CYP24A1) fully quantified.
+qPCR deconvolution arms ≈ ¥5–10万.
+
+---
+
+## 10. Risks & optimization (pilot first)
+
+- **Dex blunts inflammation/resolution.** Dex is anti-inflammatory; high doses may
+  suppress LPS/IL-4 programs. Pilot 10 vs 100 nM; consider transient Dex (wash at
+  4 h) or a Dex-as-separate-arm design if the combined course is dominated.
+- **VDR ligand.** If macrophage CYP27B1 conversion of 25-D3 is weak in vitro, use
+  1,25-D3 (10 nM) directly for the VDR arm.
+- **Resolution trigger.** IL-4 is simpler/reproducible; efferocytosis is more
+  physiological but variable — start with IL-4.
+- **3' bias / RNA quality.** Require RIN ≥ 8; for future FFPE biopsy arms switch to
+  an FFPE-compatible 3' kit or RNA-capture.
+- **Donor variability (MDM).** Use ≥3 donors; block by donor in the model.
+
+---
+
+## 11. Reusability roadmap (multi-paper value)
+
+Same stimulus×time template, swap the biological system → one figure/arm at
+marginal cost:
+1. THP-1 — MVE/assay dev.
+2. Primary MDM — main in-vitro figure.
+3. IBD vs control colonic **organoids** — epithelial bridge; impaired in IBD?
+4. Patient **biopsies** (active / resolving / stable remission) — PPARγ peaks at
+   the transition in vivo? (endoscopy access.)
+5. Macrophage-**PPARγ KO mouse** (LysM-Cre × Pparg^fl) — causal: remove the bridge
+   → resolution + durable remission fail.
+Arms 1–4 = dry+wet package for the standalone mechanism paper; arm 5 = causal capstone.
+
+---
+
+## 12. Pre-registration
+
+Per lab OSF practice (osf.io/tnp63): pre-register the primary hypothesis
+(GR < PPARγ < VDR median peak ordering), module gene lists, success criterion,
+and `scripts/16` analysis BEFORE sequencing.
