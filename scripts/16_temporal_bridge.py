@@ -53,6 +53,9 @@ REPO = Path(__file__).resolve().parent.parent
 RESULTS = Path(os.environ.get("VDRGR_RESULTS", REPO / "results"))
 
 # ── gene modules (resolution-focused) ───────────────────────────────────────
+# NR4A: orphan immediate-early nuclear receptors (ligand-INDEPENDENT) — the
+# fastest NR wave; transcriptionally induced + active within <1 h, ahead of GR.
+NR4A_IEG = ["NR4A1", "NR4A2", "NR4A3"]
 # GR: classic immediate-early glucocorticoid targets (acute)
 GR_EARLY = ["TSC22D3", "FKBP5", "DUSP1", "ZBTB16", "PER1", "KLF13", "TXNIP", "DDIT4"]
 # PPARγ: M2 / efferocytosis / resolution (bridge) — incl. ALOX15 (makes the
@@ -62,7 +65,9 @@ PPARG_BRIDGE = ["CD36", "MRC1", "ANGPTL4", "FABP4", "MERTK", "ALOX15",
 # VDR: canonical late vitamin-D targets (maintenance)
 VDR_LATE = ["CYP24A1", "CAMP", "NOD2", "TLR10", "DEFB4A", "IL37", "CD14"]
 
-MODULES = {"GR (acute)": GR_EARLY,
+# insertion order = the predicted temporal order (earliest → latest)
+MODULES = {"NR4A (immediate)": NR4A_IEG,
+           "GR (acute)": GR_EARLY,
            "PPARγ (bridge)": PPARG_BRIDGE,
            "VDR (maintenance)": VDR_LATE}
 
@@ -110,7 +115,8 @@ def write_demo_matrix(path):
     """Synthetic gene × timepoint matrix where GR peaks early, PPARγ mid, VDR late.
     Serves as a pipeline sanity-check and a CSV format template for real data."""
     hours = [0, 2, 4, 8, 12, 24, 48]
-    peaks = {  # module gene → (peak hour, amplitude)
+    peaks = {  # module gene → peak hour
+        "NR4A1": 1, "NR4A2": 1, "NR4A3": 2,                       # NR4A immediate
         "TSC22D3": 2, "FKBP5": 3, "DUSP1": 4, "ZBTB16": 2,        # GR early
         "CD36": 8, "MRC1": 12, "ANGPTL4": 10, "MERTK": 8,
         "ALOX15": 12, "PPARG": 10,                                 # PPARγ mid
@@ -169,27 +175,31 @@ def main():
         else:
             lines.append(f"  {m:20s} n=0  (no module genes found in matrix)")
 
-    gr, pg, vd = (found[k] for k in ("GR (acute)", "PPARγ (bridge)", "VDR (maintenance)"))
-    lines.append("\nBridge ordering (median peak hours):")
-    if len(gr) and len(pg) and len(vd):
-        mgr, mpg, mvd = gr.median(), pg.median(), vd.median()
-        ok = mgr <= mpg <= mvd
-        lines.append(f"  GR {mgr:.1f}  ≤?  PPARγ {mpg:.1f}  ≤?  VDR {mvd:.1f}   "
-                     f"→ {'SUPPORTED' if ok else 'NOT supported'}")
-        if len(gr) >= 3 and len(pg) >= 3:
-            lines.append(f"  PPARγ vs GR  later? Mann-Whitney p="
-                         f"{stats.mannwhitneyu(pg, gr, alternative='greater').pvalue:.4f}")
-        if len(pg) >= 3 and len(vd) >= 3:
-            lines.append(f"  PPARγ vs VDR earlier? Mann-Whitney p="
-                         f"{stats.mannwhitneyu(pg, vd, alternative='less').pvalue:.4f}")
-        if len(gr) >= 3 and len(pg) >= 3 and len(vd) >= 3:
-            kw = stats.kruskal(gr, pg, vd)
+    # ordering test, general over the MODULES insertion order (earliest → latest)
+    order = [m for m in MODULES if len(found[m])]
+    lines.append("\nTemporal ordering (median peak hours, predicted earliest → latest):")
+    if len(order) >= 2:
+        meds = {m: found[m].median() for m in order}
+        chain = "  " + "  ≤?  ".join(f"{m.split()[0]} {meds[m]:.1f}" for m in order)
+        mono = all(meds[order[i]] <= meds[order[i + 1]] for i in range(len(order) - 1))
+        lines.append(chain + f"   → {'SUPPORTED' if mono else 'NOT supported'}")
+        # consecutive directional Mann-Whitney (earlier module < later module)
+        for i in range(len(order) - 1):
+            a, b = found[order[i]], found[order[i + 1]]
+            if len(a) >= 3 and len(b) >= 3:
+                p = stats.mannwhitneyu(a, b, alternative="less").pvalue
+                lines.append(f"  {order[i].split()[0]} earlier than {order[i+1].split()[0]}? "
+                             f"Mann-Whitney p={p:.4f}")
+        groups = [found[m] for m in order if len(found[m]) >= 3]
+        if len(groups) >= 3:
+            kw = stats.kruskal(*groups)
             lines.append(f"  Kruskal-Wallis across modules: H={kw.statistic:.2f}, p={kw.pvalue:.4f}")
     else:
         lines.append("  insufficient module coverage for ordering test")
 
-    lines.append("\nCaveat: if GR/PPARγ/VDR modules come from different stimuli or")
-    lines.append("cell types, peak ordering is suggestive, not within-stimulus proof.")
+    lines.append("\nCaveat: if modules come from different stimuli or cell types,")
+    lines.append("peak ordering is suggestive, not within-stimulus proof. NR4A/GR")
+    lines.append("are ligand-uninformative unless their stimulus is present.")
     txt = "\n".join(lines)
     print("\n" + txt)
     (RESULTS / "temporal_bridge_stats.txt").write_text(txt + "\n")
@@ -200,8 +210,8 @@ def main():
         matplotlib.use("Agg")
         import matplotlib.pyplot as plt
         fig, ax = plt.subplots(figsize=(7, 4.5))
-        colors = {"GR (acute)": "#8E44AD", "PPARγ (bridge)": "#2E8B57",
-                  "VDR (maintenance)": "#E67E22"}
+        colors = {"NR4A (immediate)": "#C0392B", "GR (acute)": "#8E44AD",
+                  "PPARγ (bridge)": "#2E8B57", "VDR (maintenance)": "#E67E22"}
         for i, m in enumerate(MODULES):
             ph = found[m]
             if not len(ph):
