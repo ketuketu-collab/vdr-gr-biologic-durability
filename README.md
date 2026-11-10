@@ -39,6 +39,28 @@ manuscript/       Manuscript and preregistration
   osf_preregistration.md          OSF preregistration document
 ```
 
+## Stratified ATAC motif analysis (GRE vs DR3)
+
+`run_stratified.py` stratifies THP-1 ATAC-seq peaks by LPS response (gained / lost / shared)
+and by distance to the nearest TSS (promoter ≤1 kb / proximal ≤10 kb / distal), then tests
+GRE (JASPAR MA0113.3, NR3C1) and DR3 (MA0074.1, RXRA::VDR) motif enrichment in gained and lost
+peaks against shared peaks of the same stratum (Fisher's exact test, plus a GC-stratified
+Cochran–Mantel–Haenszel test; BH-FDR).
+
+```bash
+python3 run_stratified.py \
+  --unstim THP1_ATAC_untreated_peaks.narrowPeak \
+  --stim   THP1_ATAC_LPS_peaks.narrowPeak \
+  --genome hg38.fa \
+  --gre MA0113.3.meme --dr3 MA0074.1.meme \
+  --tss gencode_tss.bed \
+  --out results_stratified
+```
+
+Outputs: `peaks_annotated.tsv.gz`, `stratum_counts.tsv`, `enrichment.tsv`, `cooccurrence.tsv`,
+`run_params.json`. Thresholds (`--half-width`, `--promoter-bp`, `--proximal-bp`, `--motif-p`,
+`--min-overlap-frac`, `--gc-bins`) are listed in `python3 run_stratified.py -h`.
+
 ## Data Sources
 
 - ChIP-seq: [ReMAP2022](https://remap.univ-amu.fr/) (hg38)
