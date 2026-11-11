@@ -1,0 +1,368 @@
+gene,mouse,global_ko_call,driver,cell_type,is_global_driver,n_genotypes,inducible,lethal,premature_death,lethal_terms,pmids,dies
+ABAT,Abat,lethal,CD4,T細胞(CD4+CD8+期以降),False,1,False,False,False,,36192601,False
+ABL1,Abl1,lethal_partial,MYH6,心筋,False,1,False,True,False,"neonatal lethality, complete penetrance",20080568,True
+ABL1,Abl1,lethal_partial,NES,神経前駆,False,1,False,False,False,,31237944,False
+ACVR2B,Acvr2b,lethal,MYL1,,False,1,False,False,False,,22869749,False
+ADAM17,Adam17,lethal,LYZ2,骨髄系(マクロファージ/好中球),False,1,False,False,False,,17709479,False
+ADAM17,Adam17,lethal,MX1,血球系/肝(誘導),False,1,False,False,False,,17709479,False
+ADAM17,Adam17,lethal,NKX2-5,心臓前駆,False,1,False,False,False,,24142516,False
+ADAM17,Adam17,lethal,SOX9,Sox9+,False,2,False,False,True,premature death,19201862;25902485,True
+ADAM17,Adam17,lethal,TEK,内皮+血球系,False,1,False,True,False,"postnatal lethality, incomplete penetrance",23354118,True
+ADH5,Adh5,viable,ALB,肝細胞,False,1,False,False,False,,21385828,False
+ADORA2A,Adora2a,viable,CAMK2A,前脳神経細胞,False,2,False,False,False,,15602504;15602504|16280580,False
+ADRB2,Adrb2,viable,COL1A1,線維芽/骨芽,False,1,False,False,False,,19103808,False
+AHR,Ahr,lethal_partial,ALB,肝細胞,False,1,False,False,False,,16301529,False
+AHR,Ahr,lethal_partial,NES,神経前駆,False,1,False,False,False,,31606043,False
+AHR,Ahr,lethal_partial,SIX3,,False,1,False,False,False,,29726989,False
+AHR,Ahr,lethal_partial,TEK,内皮+血球系,False,1,False,False,False,,16301529,False
+AR,Ar,viable,ACTA1,,False,1,False,False,False,,33870126,False
+AR,Ar,viable,ACTB,,True,1,False,False,False,,12370412;14676301,False
+ATR,Atr,lethal,CAG,,True,1,False,False,False,,22266795,False
+ATR,Atr,lethal,EMX1,,False,1,False,False,False,,22266795,False
+ATR,Atr,lethal,NES,神経前駆,False,1,False,True,False,"postnatal lethality, complete penetrance",22266795,True
+ATR,Atr,lethal,UBC,,True,1,True,False,False,,18371340,False
+BCL2,Bcl2,lethal_partial,LYZ2,骨髄系(マクロファージ/好中球),False,1,False,False,False,,18988889,False
+BRAF,Braf,lethal,CAG,,True,1,False,True,False,"postnatal lethality, complete penetrance",26472072,True
+BRAF,Braf,lethal,CAMK2A,前脳神経細胞,False,1,False,False,False,,16342120,False
+BRAF,Braf,lethal,MEOX2,,True,1,False,True,False,"lethality at weaning, complete penetrance",16432225,True
+BRAF,Braf,lethal,NES,神経前駆,False,4,False,True,True,"lethality at weaning, incomplete penetrance;postnatal lethality, incomplete penetrance;premature death",17396120;23505473,True
+BRAF,Braf,lethal,TEK,内皮+血球系,False,1,False,False,False,,16432225,False
+CALCRL,Calcrl,lethal,TEK,内皮+血球系,False,1,False,True,False,"lethality throughout fetal growth and development, complete penetrance",18097475,True
+CCN2,Ccn2,lethal,BGLAP,骨芽細胞,False,1,False,False,False,,20534727,False
+CCN2,Ccn2,lethal,PRRX1,四肢間葉,False,1,False,False,False,,20534727,False
+CCR2,Ccr2,viable,LYZ2,骨髄系(マクロファージ/好中球),False,1,False,False,False,,22577176,False
+CD28,Cd28,viable,FOXP3,Treg,False,1,False,False,False,,23281398,False
+CD28,Cd28,viable,GT(ROSA)26SOR,,True,1,True,False,False,,23065717,False
+CD4,Cd4,viable,LCK,T細胞(胸腺),False,3,False,False,False,,11748274,False
+CD4,Cd4,viable,TNFRSF4,活性化T/Treg,False,1,False,False,False,,19668367,False
+CD40LG,Cd40lg,viable,TEK,内皮+血球系,False,1,False,False,False,,24030045,False
+CD40LG,Cd40lg,viable,VAV1,全血球系,False,1,False,False,False,,24030045,False
+CDK1,Cdk1,lethal,ALB,肝細胞,False,1,False,False,False,,22355113,False
+CDK1,Cdk1,lethal,CAG,,True,1,False,False,False,,22355113,False
+CDK1,Cdk1,lethal,CRYAA,,False,1,False,False,False,,25139855,False
+CDK5,Cdk5,lethal,NEFH,,False,1,False,False,False,,15067135,False
+CDK5,Cdk5,lethal,PRNP,,False,1,False,False,False,,17529984,False
+CHEK1,Chek1,lethal,MMTV,乳腺など(MMTV),False,1,False,False,False,,20473325,False
+CHEK1,Chek1,lethal,TYR,メラノサイト,False,2,False,False,False,,23557358,False
+CHEK1,Chek1,lethal,WAP,乳腺,False,1,False,False,False,,15261141,False
+CHRM1,Chrm1,viable,EMX1,,False,1,False,False,False,,20080609,False
+CHRM1,Chrm1,viable,GRIK4,,False,1,False,False,False,,20080609,False
+CHRM3,Chrm3,viable,ALB,肝細胞,False,1,False,False,False,,19752163,False
+CHRM3,Chrm3,viable,INS2,膵β細胞,False,1,False,False,False,,16753580,False
+CHRNA7,Chrna7,viable,GFAP,アストロサイト,False,1,False,False,False,,24879866,False
+CNR1,Cnr1,lethal,CAMK2A,前脳神経細胞,False,2,False,False,False,,14526074;16908411;19607846,False
+CNR1,Cnr1,lethal,DLX5A,,False,2,False,False,False,,16908411;17525344,False
+CNR1,Cnr1,lethal,NEUROD6,,False,1,False,False,False,,16908411;19607846;21050275,False
+CNR1,Cnr1,lethal,PHOX2B,,False,1,False,False,False,,22836266,False
+CTLA4,Ctla4,viable,FOXP3,Treg,False,1,False,False,True,premature death,18845758,True
+CXCR2,Cxcr2,viable,MX1,血球系/肝(誘導),False,1,False,False,False,,23650205,False
+CXCR4,Cxcr4,lethal,CD19,B細胞,False,3,False,False,False,,15189736;15520246;21124917,False
+CXCR4,Cxcr4,lethal,FABP4,脂肪/マクロファージ,False,1,False,False,False,,25016030,False
+CXCR4,Cxcr4,lethal,LCK,T細胞(胸腺),False,1,False,False,False,,20939892,False
+CXCR4,Cxcr4,lethal,LYZ2,骨髄系(マクロファージ/好中球),False,1,False,False,False,,25016030,False
+CXCR4,Cxcr4,lethal,MYH6,心筋,False,1,False,False,True,premature death,31071921,True
+CXCR4,Cxcr4,lethal,TEK,内皮+血球系,False,1,False,False,False,,23395391,False
+DDC,Ddc,lethal,GGT1,,False,2,False,False,True,premature death,21701066,True
+DLL4,Dll4,lethal,FOXN1,,False,2,False,False,False,,18824583;18824585,False
+DLL4,Dll4,lethal,GT(ROSA)26SOR,,True,1,True,False,False,,23918385,False
+DNMT1,Dnmt1,lethal,CD79A,B細胞,False,1,False,False,False,,16940357,False
+DNMT3A,Dnmt3a,lethal,ALPL,,False,1,False,False,False,,15215868,False
+DNMT3A,Dnmt3a,lethal,NES,神経前駆,False,1,False,False,True,premature death,17477386,True
+DRD2,Drd2,viable,DRD1A,,False,1,False,False,False,,22745501,False
+DRD2,Drd2,viable,EN1,,False,1,False,False,False,,22745501,False
+DRD2,Drd2,viable,GFAP,アストロサイト,False,1,False,False,False,,23242137,False
+DRD2,Drd2,viable,NES,神経前駆,False,1,False,False,False,,23536095,False
+DRD2,Drd2,viable,PRL,,False,1,False,False,False,,23536095,False
+DRD2,Drd2,viable,SLC6A3,ドパミン神経,False,1,False,False,False,,21743470,False
+EDNRA,Ednra,lethal,AQP2,,False,2,False,False,False,,15928212;16868309,False
+EDNRA,Ednra,lethal,MYH6,心筋,False,1,False,False,False,,14585980,False
+EDNRA,Ednra,lethal,WNT1,神経堤,False,1,False,False,False,,19185569,False
+EGFR,Egfr,lethal,ALB1,肝細胞,False,1,False,False,False,,17940036,False
+EGFR,Egfr,lethal,EIIA,,True,1,False,False,False,,19115345,False
+EGFR,Egfr,lethal,KRT14,表皮基底,False,2,False,False,False,,18830272;19115345,False
+EGFR,Egfr,lethal,MX1,血球系/肝(誘導),False,1,False,False,False,,17940036,False
+EGFR,Egfr,lethal,SOX9,Sox9+,False,1,False,False,False,,25902485,False
+ENG,Eng,lethal,GT(ROSA)26SOR,,True,1,True,False,False,,24520391;24520391|25082229;25082229,False
+ENG,Eng,lethal,TAGLN,平滑筋,False,1,False,False,True,premature death,24520391,True
+ENG,Eng,lethal,TAL1,,False,1,False,False,False,,25082229,False
+EPHX2,Ephx2,viable,GFAP,アストロサイト,False,1,False,False,False,,24446488,False
+EPHX2,Ephx2,viable,PDGFRA,,False,1,False,False,False,,24446488,False
+EPOR,Epor,lethal,GFAP,アストロサイト,False,1,False,False,False,,16436614,False
+ERBB2,Erbb2,lethal,CKMM,骨格筋/心筋,False,1,False,False,False,,11984589,False
+ERBB2,Erbb2,lethal,EGR2,,False,2,False,False,True,premature death,10704452;23792428,True
+ERBB2,Erbb2,lethal,MPZ,シュワン細胞,False,1,False,False,False,,12526770,False
+ERBB2,Erbb2,lethal,MYF5,,False,1,False,False,False,,19369542,False
+ERBB2,Erbb2,lethal,MYL2,心室筋,False,2,False,True,True,"postnatal lethality, incomplete penetrance;premature death",11984589;12072561,True
+ERBB2,Erbb2,lethal,NES,神経前駆,False,1,False,False,True,premature death,12526770,True
+ERBB3,Erbb3,lethal,DHH,,False,1,False,False,False,,24493648,False
+ERBB3,Erbb3,lethal,EIIA,,True,1,False,True,False,"embryonic lethality during organogenesis, incomplete penetrance",16991114,True
+ERBB3,Erbb3,lethal,MMTV,乳腺など(MMTV),False,1,False,False,False,,16991114,False
+ERBB3,Erbb3,lethal,SOX2,,True,1,False,True,False,"preweaning lethality, complete penetrance",19690388,True
+ERBB3,Erbb3,lethal,VIL1,腸上皮,False,1,False,False,False,,19690388,False
+ESR1,Esr1,viable,ACTB,,True,1,False,False,False,,18755802;18953638,False
+ESR1,Esr1,viable,CAMK2A,前脳神経細胞,False,1,False,False,False,,17046690,False
+ESR1,Esr1,viable,CGA,,False,2,False,False,False,,17947360;19439729,False
+ESR1,Esr1,viable,CTSK,,False,1,False,False,False,,17803905,False
+ESR1,Esr1,viable,CYP17A1,,False,1,False,False,False,,19423761,False
+ESR1,Esr1,viable,KISS1,,False,1,False,False,False,,21149719,False
+ESR1,Esr1,viable,LYZ2,骨髄系(マクロファージ/好中球),False,1,False,False,False,,20053716,False
+ESR1,Esr1,viable,MMTV,乳腺など(MMTV),False,1,False,False,False,,17785410,False
+ESR1,Esr1,viable,WAP,乳腺,False,1,False,False,False,,17785410,False
+ESR2,Esr2,viable,KRT14,表皮基底,False,1,False,False,False,,20733032,False
+ESR2,Esr2,viable,LYZ2,骨髄系(マクロファージ/好中球),False,1,False,False,False,,20733032,False
+FCGRT,Fcgrt,viable,TEK,内皮+血球系,False,1,False,False,False,,19188594,False
+FDPS,Fdps,no_ko_data,MYH6,心筋,False,1,False,False,True,premature death,34467534,True
+FGFR1,Fgfr1,lethal,EN1,,False,1,False,False,False,,12682014,False
+FGFR1,Fgfr1,lethal,FOXG1,,False,2,False,True,False,"neonatal lethality, complete penetrance",12194867,True
+FGFR1,Fgfr1,lethal,GFAP,アストロサイト,False,1,False,False,False,,16715082,False
+FGFR1,Fgfr1,lethal,KRT5,表皮基底,False,1,False,False,False,,20308431,False
+FGFR1,Fgfr1,lethal,NES,神経前駆,False,1,False,False,False,,16715082,False
+FGFR1,Fgfr1,lethal,SHH,Shh+,False,2,False,False,False,,16120640,False
+FGFR1,Fgfr1,lethal,T,,False,2,False,True,False,"neonatal lethality, complete penetrance",16120640,True
+FGFR1,Fgfr1,lethal,WNT1,神経堤,False,6,False,True,False,neonatal lethality,12514106;12682014;23754280;26341559,True
+FGFR2,Fgfr2,lethal,GFAP,アストロサイト,False,1,False,False,False,,16715082,False
+FGFR2,Fgfr2,lethal,KRT5,表皮基底,False,2,False,False,False,,17304214;20308431,False
+FGFR2,Fgfr2,lethal,MNX1,,False,1,False,False,False,,17418794,False
+FGFR2,Fgfr2,lethal,SFTPC,肺胞II型上皮,False,1,False,False,False,,19618463,False
+FGFR2,Fgfr2,lethal,TWIST2,,False,1,False,False,False,,12756187,False
+FKBP1A,Fkbp1a,lethal_partial,CKMM,骨格筋/心筋,False,2,False,False,False,,15289441;21803290,False
+FKBP1A,Fkbp1a,lethal_partial,MYH6,心筋,False,1,False,False,False,,21372286,False
+FKBP1A,Fkbp1a,lethal_partial,NKX2-5,心臓前駆,False,1,False,True,False,"lethality throughout fetal growth and development, complete penetrance",23571217,True
+FKBP1A,Fkbp1a,lethal_partial,TEK,内皮+血球系,False,1,False,False,True,premature death,23571217,True
+FKBP1A,Fkbp1a,lethal_partial,WNT1,神経堤,False,1,False,False,True,premature death,23571217,True
+FLT1,Flt1,lethal,GT(ROSA)26SOR,,True,1,True,False,False,,22753193,False
+FLT4,Flt4,lethal,KRT19,,False,1,False,True,False,"embryonic lethality during organogenesis, complete penetrance",18519586,True
+FN1,Fn1,lethal,MX1,血球系/肝(誘導),False,2,False,False,False,,11231631;12606706;21320502,False
+GHR,Ghr,lethal_partial,ALB,肝細胞,False,1,False,False,False,,19460757,False
+GHR,Ghr,lethal_partial,FABP4,脂肪/マクロファージ,False,1,False,False,False,,23349524,False
+GHR,Ghr,lethal_partial,INS2,膵β細胞,False,2,False,False,False,,21555853;31806625,False
+GLP1R,Glp1r,viable,CMV,,True,1,False,False,False,,23434938,False
+GLP2R,Glp2r,viable,POMC1,,False,1,False,False,False,,22829581,False
+GRIA1,Gria1,viable,PVALB,,False,1,False,False,False,,17296559,False
+GRIA1,Gria1,viable,SLC6A3,ドパミン神経,False,1,False,False,False,,18701074,False
+GRIA2,Gria2,lethal,CAMK2A,前脳神経細胞,False,3,False,False,False,,16216087;16914668;20927382,False
+GRIA2,Gria2,lethal,GNRH1,,False,1,False,False,False,,16099814,False
+GRIA2,Gria2,lethal,SLC6A3,ドパミン神経,False,1,False,False,False,,18701074,False
+HDAC1,Hdac1,lethal,KRT14,表皮基底,False,1,False,False,False,,23792463,False
+HDAC1,Hdac1,lethal,MYH6,心筋,False,1,False,False,False,,17639084,False
+HDAC1,Hdac1,lethal,WNT1,神経堤,False,1,False,False,False,,19605684,False
+HDAC2,Hdac2,lethal,MYH6,心筋,False,1,False,False,False,,17639084,False
+HDAC2,Hdac2,lethal,WNT1,神経堤,False,1,False,False,False,,19605684,False
+HDAC3,Hdac3,lethal,ALB,肝細胞,False,1,False,False,False,,18354499,False
+HDAC3,Hdac3,lethal,CAG,,True,1,False,False,False,,18406327,False
+HDAC3,Hdac3,lethal,FABP4,脂肪/マクロファージ,False,1,False,True,True,"postnatal lethality, incomplete penetrance;premature death",23192980,True
+HDAC3,Hdac3,lethal,MX1,血球系/肝(誘導),False,1,False,False,False,,18354499,False
+HDAC3,Hdac3,lethal,MYH6,心筋,False,1,False,False,True,premature death,18830415,True
+HDAC3,Hdac3,lethal,PGR,,False,1,False,False,False,,30626716,False
+HDAC3,Hdac3,lethal,RETN,,False,1,False,False,False,,23192980,False
+HDAC8,Hdac8,lethal,DDX4,,True,1,False,False,False,,30620721,False
+HGF,Hgf,lethal,MX1,血球系/肝(誘導),False,1,False,False,False,,15383179,False
+HGF,Hgf,lethal,PAX2,,False,1,False,False,False,,32152201,False
+HMGCR,Hmgcr,lethal,ALB1,肝細胞,False,1,False,True,True,"postnatal lethality, incomplete penetrance;premature death",22701022,True
+HTR2C,Htr2c,viable,POMC,,False,1,False,False,False,,24177424,False
+HTR2C,Htr2c,viable,POMC1,,False,1,False,False,False,,24177424,False
+IFNAR1,Ifnar1,viable,CD19,B細胞,False,1,False,False,False,,16455962,False
+IGF1R,Igf1r,lethal,BGLAP,骨芽細胞,False,1,False,False,False,,12215457,False
+IGF1R,Igf1r,lethal,CAMK2A,前脳神経細胞,False,1,False,False,False,,12930811,False
+IGF1R,Igf1r,lethal,CKMM,骨格筋/心筋,False,1,False,False,False,,17189427,False
+IGF1R,Igf1r,lethal,FABP4,脂肪/マクロファージ,False,1,False,False,False,,18443199,False
+IGF1R,Igf1r,lethal,INS2,膵β細胞,False,1,False,False,False,,17416680,False
+IGF1R,Igf1r,lethal,NKX2,,False,1,False,False,False,,27861515,False
+IGF1R,Igf1r,lethal,SCGB1A1,気道クラブ細胞,False,1,False,False,False,,27861515,False
+IGF1R,Igf1r,lethal,UBC,,True,2,True,False,False,,25238791;28207927;28655914,False
+IKBKB,Ikbkb,lethal,ALB1,肝細胞,False,1,False,False,False,,17292824,False
+IKBKB,Ikbkb,lethal,CD19,B細胞,False,3,False,False,False,,12235208;12707341,False
+IKBKB,Ikbkb,lethal,CD4,T細胞(CD4+CD8+期以降),False,3,False,False,False,,14499113,False
+IKBKB,Ikbkb,lethal,CKMM,骨格筋/心筋,False,1,False,False,False,,18299349,False
+IKBKB,Ikbkb,lethal,GT(ROSA)26SOR,,True,1,True,False,False,,20231695,False
+IKBKB,Ikbkb,lethal,KRT14,表皮基底,False,1,False,False,False,,24211183,False
+IKBKB,Ikbkb,lethal,LCK,T細胞(胸腺),False,1,False,False,False,,14499113,False
+IKBKB,Ikbkb,lethal,LYZ2,骨髄系(マクロファージ/好中球),False,2,False,False,False,,12202685;20231695,False
+IKBKB,Ikbkb,lethal,VIL,腸上皮,False,2,False,False,False,,12692538;14983030,False
+IL1R1,Il1r1,viable,LYZ2,骨髄系(マクロファージ/好中球),False,1,False,False,False,,25698726,False
+IL1R1,Il1r1,viable,TEK,内皮+血球系,False,1,False,False,False,,25698726,False
+IL4R,Il4ra,viable,LYZ2,骨髄系(マクロファージ/好中球),False,2,False,False,True,premature death,15142530;22101429,True
+IL6,Il6,viable,GFAP,アストロサイト,False,1,False,True,False,"preweaning lethality, incomplete penetrance",23085146,True
+IL6R,Il6ra,viable,ALB,肝細胞,False,1,False,False,False,,20483735,False
+IL6R,Il6ra,viable,ALB1,肝細胞,False,1,False,False,False,,20816090;22467660,False
+IL6R,Il6ra,viable,GFAP,アストロサイト,False,1,False,True,False,"preweaning lethality, incomplete penetrance",23085146,True
+IL6R,Il6ra,viable,LYZ2,骨髄系(マクロファージ/好中球),False,1,False,False,False,,22467660,False
+INPP5D,Inpp5d,viable,CD4,T細胞(CD4+CD8+期以降),False,1,False,False,False,,17585010,False
+INPP5D,Inpp5d,viable,CD79A,B細胞,False,1,False,False,True,premature death,22078222,True
+INPP5D,Inpp5d,viable,LYZ2,骨髄系(マクロファージ/好中球),False,1,False,False,False,,12874264,False
+INPP5D,Inpp5d,viable,MX1,血球系/肝(誘導),False,2,False,False,False,,17312133,False
+ITGA2,Itga2,viable,PF4,巨核球/血小板,False,1,False,False,False,,23359821,False
+ITGA4,Itga4,lethal,MX1,血球系/肝(誘導),False,1,False,False,False,,14645544,False
+JAK1,Jak1,lethal,MMTV,乳腺など(MMTV),False,1,False,False,False,,27044867,False
+JAK1,Jak1,lethal,WAP,乳腺,False,1,False,False,False,,27044867,False
+JAK2,Jak2,lethal,GNRH1,,False,1,False,False,False,,21209203,False
+JAK2,Jak2,lethal,MMTV,乳腺など(MMTV),False,1,False,False,False,,15169911,False
+JAK2,Jak2,lethal,MX1,血球系/肝(誘導),False,1,False,False,False,,22144185,False
+JAK2,Jak2,lethal,WAP,乳腺,False,1,False,False,False,,15169911,False
+KDR,Kdr,lethal,CAG,,True,1,False,False,False,,21505259,False
+KDR,Kdr,lethal,COL2A1,軟骨,False,1,False,False,False,,20010698,False
+KDR,Kdr,lethal,KRT14,表皮基底,False,1,False,False,False,,19668192,False
+KDR,Kdr,lethal,NFATC1,,False,2,False,True,False,"lethality throughout fetal growth and development, complete penetrance",23178125,True
+KEAP1,Keap1,no_ko_data,SCGB1A1,気道クラブ細胞,False,1,False,False,False,,19520915,False
+LCK,Lck,viable,TNFRSF4,活性化T/Treg,False,1,False,False,False,,19668367,False
+MAP2K1,Map2k1,lethal,NES,神経前駆,False,1,False,False,False,,19219045,False
+MAP2K1,Map2k1,lethal,SOX2,,True,1,False,False,False,,19219045,False
+MAP3K8,Map3k8,viable,COL6A1,,False,1,False,False,False,,23064365,False
+MAPK14,Mapk14,lethal,COL2A1,軟骨,False,1,False,False,False,,23776632,False
+MAPK14,Mapk14,lethal,MYH6,心筋,False,1,False,False,False,,15572667,False
+MAPK14,Mapk14,lethal,MYL7,心房筋,False,1,False,False,False,,15870258,False
+MAPK14,Mapk14,lethal,POLR2A,,True,2,True,False,True,premature death,17468755,True
+MAPK14,Mapk14,lethal,SLC6A3,ドパミン神経,False,1,False,False,False,,26377476,False
+MET,Met,lethal,ALB,肝細胞,False,1,False,False,False,,15070743,False
+MET,Met,lethal,MX1,血球系/肝(誘導),False,1,False,False,False,,15249655,False
+MET,Met,lethal,NES,神経前駆,False,2,False,False,False,,21813676;38438594,False
+MET,Met,lethal,PDX1,膵,False,1,False,False,False,,22427375,False
+MET,Met,lethal,SFTPC,肺胞II型上皮,False,1,True,False,False,,29999500,False
+MMP13,Mmp13,viable,COL1A1,線維芽/骨芽,False,1,False,False,False,,15539485,False
+MMP13,Mmp13,viable,COL2A1,軟骨,False,1,False,False,False,,15539485,False
+MTOR,Mtor,lethal,ACTA1,,False,1,False,False,True,premature death,20008564,True
+MTOR,Mtor,lethal,CD4,T細胞(CD4+CD8+期以降),False,1,False,False,False,,19538929,False
+MTOR,Mtor,lethal,CNP,,False,1,False,False,False,,22302821,False
+MTOR,Mtor,lethal,MYH6,心筋,False,1,True,False,True,premature death,20644257,True
+MTOR,Mtor,lethal,NPHS2,,False,1,False,False,False,,22193387,False
+NAMPT,Nampt,lethal,CD2,T/NK細胞,False,1,False,False,False,,18802071,False
+NAMPT,Nampt,lethal,OPN1LW,,False,1,False,False,False,,27681422,False
+NAMPT,Nampt,lethal,RHO,,False,1,False,False,False,,27681422,False
+NFE2L2,Nfe2l2,viable,SCGB1A1,気道クラブ細胞,False,1,False,False,False,,21659655,False
+NPR1,Npr1,viable,MYH6,心筋,False,1,False,False,False,,12727932,False
+NPR1,Npr1,viable,TAGLN,平滑筋,False,1,False,False,False,,11997476,False
+NPR1,Npr1,viable,TEK,内皮+血球系,False,1,False,False,False,,25775533,False
+NR1H4,Nr1h4,viable,ALB1,肝細胞,False,1,False,False,False,,17720959,False
+NR1H4,Nr1h4,viable,VIL1,腸上皮,False,1,False,False,False,,17720959,False
+NR3C1,Nr3c1,lethal,ALB1,肝細胞,False,1,False,False,False,,17504935,False
+NR3C1,Nr3c1,lethal,CAMK2A,前脳神経細胞,False,3,False,False,False,,15623560;17683525;23637179,False
+NR3C1,Nr3c1,lethal,DRD1A,,False,1,False,False,False,,19234455,False
+NR3C1,Nr3c1,lethal,LCK,T細胞(胸腺),False,3,False,False,False,,12949501;18523311;22653054,False
+NR3C1,Nr3c1,lethal,LYZ2,骨髄系(マクロファージ/好中球),False,1,False,False,False,,23637179,False
+NR3C1,Nr3c1,lethal,MYH6,心筋,False,1,False,False,True,premature death,24082121,True
+NR3C1,Nr3c1,lethal,NES,神経前駆,False,2,False,False,False,,10471508;19234455,False
+NR3C1,Nr3c1,lethal,RUNX2,,False,1,False,False,False,,20519123,False
+NR3C1,Nr3c1,lethal,SIM1,,False,1,False,True,False,"lethality, complete penetrance",22232675,True
+NR3C1,Nr3c1,lethal,WAP,乳腺,False,1,False,False,False,,15471946,False
+NR3C2,Nr3c2,lethal,ACTA2,平滑筋,False,1,False,False,False,,22922412,False
+NR3C2,Nr3c2,lethal,AQP2,,False,1,False,False,False,,21383102,False
+NR3C2,Nr3c2,lethal,CAMK2A,前脳神経細胞,False,2,False,False,False,,16361444;16368758,False
+NTRK1,Ntrk1,lethal,DLX5A,,False,1,False,False,False,,22442072,False
+NTRK2,Ntrk2,lethal,AVIL,,False,1,False,False,False,,23224557,False
+NTRK2,Ntrk2,lethal,CAMK2A,前脳神経細胞,False,2,False,False,False,,10571233;12367511,False
+NTRK2,Ntrk2,lethal,COL2A1,軟骨,False,1,False,True,False,"postnatal lethality, incomplete penetrance",23776632,True
+NTRK2,Ntrk2,lethal,NES,神経前駆,False,1,False,False,True,premature death,15372074,True
+NTRK2,Ntrk2,lethal,SYN1,神経細胞,False,1,False,False,False,,15233915,False
+OPRD1,Oprd1,viable,SCN10A,,False,1,False,False,False,,21295407,False
+OPRM1,Oprm1,viable,SCN10A,,False,1,False,False,False,,24069332,False
+PCSK9,Pcsk9,viable,ALB,肝細胞,False,1,False,False,False,,18666258,False
+PDGFRB,Pdgfrb,lethal,NES,神経前駆,False,3,False,False,False,,16805849;25803852,False
+PDGFRB,Pdgfrb,lethal,WNT1,神経堤,False,1,False,False,False,,17499702,False
+PDPK1,Pdpk1,lethal,ALB1,肝細胞,False,1,False,False,False,,16581004,False
+PDPK1,Pdpk1,lethal,CD4,T細胞(CD4+CD8+期以降),False,1,False,False,False,,20944007,False
+PDPK1,Pdpk1,lethal,CKMM,骨格筋/心筋,False,1,False,False,True,premature death,12970179,True
+PDPK1,Pdpk1,lethal,INS2,膵β細胞,False,1,False,False,True,premature death,16642023,True
+PDPK1,Pdpk1,lethal,POMC1,,False,1,False,False,False,,18396135,False
+PDPK1,Pdpk1,lethal,TNFRSF4,活性化T/Treg,False,1,False,False,True,premature death,26099023,True
+PDPK1,Pdpk1,lethal,ZP3,,True,1,False,False,False,,20930845,False
+PGR,Pgr,viable,CDH5,内皮,False,1,False,False,False,,24485460,False
+PIK3CB,Pik3cb,lethal,MYH6,心筋,False,1,True,False,False,,19597047,False
+PIK3CB,Pik3cb,lethal,PF4,巨核球/血小板,False,1,False,False,False,,20065293,False
+PIK3CD,Pik3cd,viable,CD19,B細胞,False,1,False,False,False,,20826752,False
+PIK3CD,Pik3cd,viable,CD4,T細胞(CD4+CD8+期以降),False,1,False,False,False,,20826752,False
+PIK3CD,Pik3cd,viable,TNFRSF4,活性化T/Treg,False,1,False,False,False,,20826752,False
+PIKFYVE,Pikfyve,lethal,CKM,,False,1,False,False,False,,23673157,False
+PIKFYVE,Pikfyve,lethal,LYZ2,骨髄系(マクロファージ/好中球),False,1,False,False,False,,28533230,False
+PIKFYVE,Pikfyve,lethal,TYR,メラノサイト,False,2,False,False,False,,29584722,False
+PIKFYVE,Pikfyve,lethal,VIL1,腸上皮,False,1,False,True,True,"premature death;prenatal lethality, incomplete penetrance",23322734,True
+PPARG,Pparg,lethal,AQP2,,False,1,False,False,False,,15956187,False
+PPARG,Pparg,lethal,CAMK2A,前脳神経細胞,False,1,False,False,False,,19439596,False
+PPARG,Pparg,lethal,CD4,T細胞(CD4+CD8+期以降),False,1,False,False,False,,19737866,False
+PPARG,Pparg,lethal,FABP4,脂肪/マクロファージ,False,2,False,False,False,,14660788;15070754,False
+PPARG,Pparg,lethal,INS2,膵β細胞,False,1,False,False,False,,14517292,False
+PPARG,Pparg,lethal,KRT1,,False,1,False,False,False,,19052558,False
+PPARG,Pparg,lethal,KRT10,,False,1,False,False,False,,16751185,False
+PPARG,Pparg,lethal,KRT14,表皮基底,False,1,False,False,False,,16751185,False
+PPARG,Pparg,lethal,LHB,,False,1,False,False,False,,21076077,False
+PPARG,Pparg,lethal,LYZ2,骨髄系(マクロファージ/好中球),False,1,False,False,False,,21135166,False
+PPARG,Pparg,lethal,MMTV,乳腺など(MMTV),False,1,False,False,False,,11884400,False
+PPARG,Pparg,lethal,MX1,血球系/肝(誘導),False,1,False,False,False,,11909955,False
+PPARG,Pparg,lethal,TAGLN,平滑筋,False,1,False,False,False,,18382765,False
+PPARG,Pparg,lethal,TEK,内皮+血球系,False,2,False,False,False,,17652179;18059282;18059282|20519122;19666848;19801450;20519122,False
+PPARG,Pparg,lethal,UCP1,,False,1,False,False,False,,31435015,False
+PTGER2,Ptger2,viable,ITGAM,,False,1,False,False,False,,24089506,False
+PTGER3,Ptger3,viable,NES,神経前駆,False,1,False,False,False,,17676060,False
+PTGER4,Ptger4,lethal,MYH6,心筋,False,1,False,False,False,,20008274,False
+PTGS2,Ptgs2,lethal_partial,MYH6,心筋,False,1,True,False,False,,19376970,False
+PTGS2,Ptgs2,lethal_partial,NES,神経前駆,False,1,False,False,False,,19127021,False
+PTH1R,Pth1r,lethal,BGLAP2,,False,2,False,False,False,,12050144;15951842,False
+PTH1R,Pth1r,lethal,COL2A1,軟骨,False,1,False,False,False,,12050144,False
+PTH1R,Pth1r,lethal,DMP1,,False,1,False,False,False,,21220409,False
+PTK2,Ptk2,lethal,KRT14,表皮基底,False,1,False,False,False,,15601818,False
+PTK2,Ptk2,lethal,KRT5,表皮基底,False,1,False,False,False,,16247468,False
+PTK2,Ptk2,lethal,MYL2,心室筋,False,1,False,False,False,,16374517,False
+PTK2,Ptk2,lethal,NES,神経前駆,False,1,False,False,False,,18279360,False
+PTK2,Ptk2,lethal,TEK,内皮+血球系,False,3,False,True,False,"embryonic lethality during organogenesis, complete penetrance;lethality throughout fetal growth and development, incomplete penetrance",15967814;16391003;20530207,True
+RAF1,Raf1,lethal,MEOX2,,True,1,False,True,False,"prenatal lethality, complete penetrance",16432225,True
+RAF1,Raf1,lethal,MX1,血球系/肝(誘導),False,1,False,False,False,,11157055,False
+RAF1,Raf1,lethal,MYH6,心筋,False,1,False,False,False,,15467832,False
+RAF1,Raf1,lethal,POLR2A,,True,1,True,False,False,,21514245,False
+RET,Ret,lethal,CAG,,True,2,False,False,False,,18414682;20392943,False
+RET,Ret,lethal,MNX1,,False,1,False,False,False,,18305247,False
+RET,Ret,lethal,NES,神経前駆,False,1,False,False,False,,16600854,False
+RET,Ret,lethal,NKX6-2,,False,1,False,False,False,,18216204,False
+RET,Ret,lethal,SLC6A3,ドパミン神経,False,1,False,False,False,,22841315,False
+RET,Ret,lethal,WNT1,神経堤,False,1,False,True,False,"postnatal lethality, incomplete penetrance",17553423,True
+ROCK2,Rock2,lethal_partial,MYH6,心筋,False,1,False,False,False,,23271052,False
+ROCK2,Rock2,lethal_partial,TAGLN,平滑筋,False,1,False,True,False,"embryonic lethality, complete penetrance",24135024,True
+S1PR1,S1pr1,lethal,CDH5,内皮,False,1,False,False,False,,22975327,False
+S1PR1,S1pr1,lethal,GFAP,アストロサイト,False,1,False,False,False,,21177428,False
+S1PR1,S1pr1,lethal,NES,神経前駆,False,1,False,False,False,,21177428,False
+S1PR1,S1pr1,lethal,TEK,内皮+血球系,False,1,False,True,False,"lethality throughout fetal growth and development, complete penetrance",12869509;15138255,True
+SIRT1,Sirt1,lethal,ALB1,肝細胞,False,1,False,False,False,,21103071,False
+SIRT1,Sirt1,lethal,NES,神経前駆,False,1,False,False,False,,20008932,False
+SLC18A2,Slc18a2,lethal,SLC6A4,,False,1,False,True,False,"postnatal lethality, incomplete penetrance",21814181,True
+SLC29A1,Slc29a1,viable,EPOR,,False,1,False,False,False,,28169986,False
+SLC6A3,Slc6a3,viable,ALDH1A1,,False,1,True,False,False,,31365862,False
+SYK,Syk,lethal,CR2,成熟B細胞,False,1,False,False,False,,23955076,False
+SYK,Syk,lethal,LYZ2,骨髄系(マクロファージ/好中球),False,1,False,False,False,,19797524,False
+SYK,Syk,lethal,PF4,巨核球/血小板,False,1,False,False,False,,22186994,False
+SYK,Syk,lethal,VAV1,全血球系,False,1,False,False,False,,22186994,False
+TBXA2R,Tbxa2r,viable,NES,神経前駆,False,1,False,False,False,,21984570,False
+TBXA2R,Tbxa2r,viable,TAGLN,平滑筋,False,1,False,False,False,,21984570,False
+TNF,Tnf,viable,CD4,T細胞(CD4+CD8+期以降),False,1,False,False,False,,15664162,False
+TNF,Tnf,viable,LYZ2,骨髄系(マクロファージ/好中球),False,1,False,False,False,,15664162,False
+TNFRSF13C,Tnfrsf13c,viable,MX1,血球系/肝(誘導),False,1,False,False,False,,21228330,False
+TNFSF11,Tnfsf11,viable,BGLAP,骨芽細胞,False,1,False,False,False,,21909103,False
+TNFSF11,Tnfsf11,viable,COL10A1,,False,1,False,False,False,,21909103,False
+TNFSF11,Tnfsf11,viable,DMP1,,False,2,False,False,False,,21909103;21909105,False
+TNFSF11,Tnfsf11,viable,PRRX1,四肢間葉,False,1,False,False,False,,21909103,False
+TP53,Trp53,lethal,CD79A,B細胞,False,2,False,False,False,,34406363,False
+TP53,Trp53,lethal,CDH16,,False,1,False,False,False,,22678923;22678923|24930886,False
+TP53,Trp53,lethal,GFAP,アストロサイト,False,4,False,False,True,premature death,10783170;18948956;19477430,True
+TP53,Trp53,lethal,GT(ROSA)26SOR,,True,4,True,False,False,,17251932;21565614;31794893,False
+TP53,Trp53,lethal,INS2,膵β細胞,False,1,False,True,False,"postnatal lethality, incomplete penetrance",24332968,True
+TP53,Trp53,lethal,KRT14,表皮基底,False,2,False,False,False,,17097565;17097565|17626182;17510390;17626182,False
+TP53,Trp53,lethal,KRT5,表皮基底,False,1,False,False,True,premature death,24979267,True
+TP53,Trp53,lethal,LCK,T細胞(胸腺),False,1,False,False,False,,19767771,False
+TP53,Trp53,lethal,MMTV,乳腺など(MMTV),False,5,False,False,False,,15150107;20473325;20676140;25330770,False
+TP53,Trp53,lethal,MYF6,,False,1,False,False,False,,15489287,False
+TP53,Trp53,lethal,NES,神経前駆,False,1,False,False,False,,16260494,False
+TP53,Trp53,lethal,TEK,内皮+血球系,False,3,False,False,False,,25565005,False
+TP53,Trp53,lethal,WAP,乳腺,False,2,False,False,False,,15150107;21282721,False
+TRAF3IP2,Traf3ip2,viable,CD19,B細胞,False,1,False,False,False,,15485634,False
+TSLP,Tslp,viable,KRT14,表皮基底,False,2,False,False,False,,18650845,False
+TXNRD1,Txnrd1,lethal,NES,神経前駆,False,1,False,False,False,,18350150,False
+VDR,Vdr,viable,COL1A1,線維芽/骨芽,False,1,False,False,False,,23389957,False
+VDR,Vdr,viable,COL2A1,軟骨,False,1,False,False,False,,17099775,False
+VDR,Vdr,viable,MYL2,心室筋,False,1,False,False,False,,21947295,False
+VEGFA,Vegfa,lethal,CSF1R,マクロファージ/単球,False,1,False,False,False,,21654748,False
+VEGFA,Vegfa,lethal,LYZ2,骨髄系(マクロファージ/好中球),False,2,False,False,False,,12628185;22577176,False
+VEGFA,Vegfa,lethal,MX1,血球系/肝(誘導),False,1,False,True,False,"postnatal lethality, incomplete penetrance",10021335,True
+VEGFA,Vegfa,lethal,NES,神経前駆,False,1,False,True,False,"neonatal lethality, complete penetrance",14550787,True
+VEGFA,Vegfa,lethal,NPHS1,,False,1,False,True,False,"perinatal lethality, complete penetrance",12618525,True
+VEGFA,Vegfa,lethal,PRRX1,四肢間葉,False,1,False,False,False,,19261698,False
+VEGFA,Vegfa,lethal,SFTPC,肺胞II型上皮,False,1,False,False,False,,20167862,False
+VEGFA,Vegfa,lethal,TNNT2,,False,1,False,True,False,"lethality throughout fetal growth and development, complete penetrance",23178125,True
+VEGFA,Vegfa,lethal,WNT1,神経堤,False,1,False,False,False,,25759071,False
+VKORC1,Vkorc1,lethal,BGLAP,骨芽細胞,False,1,False,False,False,,25753038,False
