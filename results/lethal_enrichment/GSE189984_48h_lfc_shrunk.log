@@ -1,0 +1,46 @@
+[情報] オルソログ 1:1 のみ使用: 17092/24584 対応
+[情報] 判定が複数ある遺伝子 49 個を lethal > subviable > viable の優先順位でまとめました。
+背景集合: 5046 遺伝子 (IMPC 判定済み 8698 との積集合; subviable=exclude)
+  うち lethal ラベル: 1777
+  subviable（背景中）: 527
+  発現量の中央値: lethal 183 / その他 113 (MW p=1.32e-36)
+
+=== 主結果: 順位検定（カットオフなし） ===
+  [Mann-Whitney 解析解・層別なし]
+    n_lethal: 1777
+    n_other: 3269
+    median_lfc_lethal: 0.0134240529716598
+    median_lfc_other: -0.0033800304239237
+    rank_biserial_r: 0.05620455660884205
+    p_lethal_down: 0.9995211915747939
+    p_lethal_up: 0.00047884296780408643
+  [置換検定 10000 回・発現量 20 層で層別]
+    rank-biserial r: 0.0562  null 平均: 0.0012  差: 0.0550
+    p(lethal が下側): 0.99930  p(上側): 0.00080
+    running ES: -0.2884  null 平均: -0.2864  p_down: 0.41306  p_up: 0.58704
+
+=== subviable の扱いによる感度（Mann-Whitney） ===
+subviable_mode  n_lethal  n_other  rank_biserial_r  p_lethal_down  p_lethal_up
+       exclude      1777     3269         0.056205       0.999521     0.000479
+         other      1777     3796         0.052386       0.999202     0.000798
+        lethal      2304     3269         0.049952       0.999265     0.000735
+
+=== 感度解析: hypergeometric（p_perm は層別置換） ===
+direction  cutoff  n_selected  n_lethal_in_selected  expected_lethal  fold_enrichment  p_hypergeom  expected_lethal_perm  fold_enrichment_perm   p_perm
+     down    0.10        1427                   394           502.53            0.784     1.000000                497.25                 0.792 1.000000
+       up    0.10        1531                   509           539.16            0.944     0.975534                534.54                 0.952 0.955704
+     down    0.25         624                   107           219.75            0.487     1.000000                215.94                 0.496 1.000000
+       up    0.25         708                   208           249.33            0.834     0.999835                249.30                 0.834 0.999900
+     down    0.50         281                    30            98.96            0.303     1.000000                 92.75                 0.323 1.000000
+       up    0.50         341                    83           120.09            0.691     0.999997                115.19                 0.721 0.999900
+     down    1.00         117                    12            41.20            0.291     1.000000                 36.90                 0.325 1.000000
+       up    1.00         162                    35            57.05            0.613     0.999954                 50.35                 0.695 0.997900
+
+=== down vs up の非対称性（Fisher / p_perm は層別置換） ===
+ cutoff  down_lethal  down_other  up_lethal  up_other  odds_ratio_down_vs_up  p_fisher  diff_frac_down_minus_up  null_mean_diff   p_perm
+   0.10          394        1033        509      1022               0.765824  0.999623                -0.056359       -0.000684 0.999000
+   0.25          107         517        208       500               0.497508  1.000000                -0.122311       -0.006057 1.000000
+   0.50           30         251         83       258               0.371526  0.999998                -0.136640       -0.007723 0.999600
+   1.00           12         105         35       127               0.414694  0.996761                -0.113485        0.004563 0.985601
+
+出力先: results/lethal_enrichment/GSE189984_48h_lfc_shrunk/

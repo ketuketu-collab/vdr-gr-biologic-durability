@@ -29,3 +29,6 @@ logs/*.log
 !manuscript/*.md
 !results/figures/*.pdf
 !results/figures/*.png
+results/lethal_enrichment/inputs/impc_viability_mgi_symbols.csv
+results/lethal_enrichment/inputs/ortho_human_entrez_to_mouse.csv
+__pycache__/

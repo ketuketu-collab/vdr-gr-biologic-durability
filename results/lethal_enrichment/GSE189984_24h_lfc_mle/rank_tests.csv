@@ -1,0 +1,4 @@
+test,stratification,n_lethal,n_other,median_lfc_lethal,median_lfc_other,rank_biserial_r,p_lethal_down,p_lethal_up,null_mean_r,r_minus_null,ES,null_mean_ES,p_down,p_up
+mann_whitney_analytic,none,1777.0,3270.0,0.0116848949963925,-0.0037320511928893,0.03149348023246401,0.9678953395962624,0.03210611607597887,,,,,,
+rank_biserial_permutation,発現量 20 層で層別,,,,,0.03149348023246401,0.99000099990001,0.0100989901009899,-0.0059946074458034114,0.037488087678267425,,,,
+running_ES_permutation,発現量 20 層で層別,,,,,,,,,,-0.1258505769413103,0.21255053101479415,0.9996000399960004,0.0004999500049995
